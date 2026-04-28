@@ -562,14 +562,6 @@
 </nav>
 
 <script>
-const KPIS = [
-  { name: "Fed Funds Rate", val: "3.50-3.75%", delta: "Hold expected", dir: "flat" },
-  { name: "10Y Treasury",   val: "4.21%",      delta: "−3 bps",        dir: "down" },
-  { name: "CPI YoY",        val: "2.9%",       delta: "+0.1 pp",       dir: "up"   },
-  { name: "Unemployment",   val: "4.2%",       delta: "Steady",        dir: "flat" },
-  { name: "S&P 500",        val: "6,852",      delta: "+0.29%",        dir: "up"   },
-  { name: "Bitcoin",        val: "$77.9K",     delta: "−1.0%",         dir: "down" },
-];
 
 const TOPICS = [
   { key: "Banking",            icon: "🏦", bg: "var(--p-mint)"   },
@@ -583,147 +575,11 @@ const TOPICS = [
   { key: "Stocks",             icon: "📉", bg: "var(--p-lemon)"  },
 ];
 
-const VOICES = [
-  { name: "Jerome Powell", role: "Fed Chair (outgoing)", initials: "JP", bg: "var(--p-cream)",
-    quote: "The committee is well-positioned to respond to future events; rate decisions remain data-dependent.",
-    source: "FOMC, March 2026",
-    url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm" },
-  { name: "Jamie Dimon", role: "CEO, JPMorgan Chase", initials: "JD", bg: "var(--p-sky)",
-    quote: "M&A is reopening, but unevenly. Well-capitalized firms transacting through complexity will define this cycle.",
-    source: "JPM Insights",
-    url: "https://www.jpmorgan.com/investment-banking/mergers-and-acquisitions-market-outlook" },
-  { name: "Anu Aiyengar", role: "Global Head of M&A, JPM", initials: "AA", bg: "var(--p-sage)",
-    quote: "71 deals north of $10B in 2025. Scale matters because companies need control, tech, and AI levers in a risky world.",
-    source: "CNBC Squawk Box",
-    url: "https://www.jpmorgan.com/investment-banking/mergers-and-acquisitions-market-outlook" },
-  { name: "Cathal Deasy", role: "Co-Head of IB, Barclays", initials: "CD", bg: "var(--p-mint)",
-    quote: "2026 is a conviction cycle, not a volume cycle. Clients are focusing on fewer, bigger deals.",
-    source: "Barclays Investment Bank",
-    url: "https://www.ib.barclays/our-insights/the-profile-of-mergers-and-acquisitions-in-2026.html" },
-  { name: "Andrew Lo", role: "Professor, MIT Sloan", initials: "AL", bg: "var(--p-lilac)",
-    quote: "AI in finance is definitely not business as usual. Designing accountable systems is the most important challenge.",
-    source: "MIT Sloan",
-    url: "https://mitsloan.mit.edu/ideas-made-to-matter/here-are-ai-developments-finance-pros-should-be-tracking" },
-  { name: "Firoz Tarapore", role: "CEO, Dubai Aerospace", initials: "FT", bg: "var(--p-sand)",
-    quote: "Blackstone's scaled, flexible capital provides a strong foundation to grow our third-party fleet management franchise.",
-    source: "DAE/BXCI announcement",
-    url: "https://www.blackstone.com/news/press/dae-and-blackstone-credit-insurance-announce-multi-billion-dollar-global-aviation-leasing-investment-program/" },
-  { name: "James Kelly", role: "Head of Aviation Finance, KPMG", initials: "JK", bg: "var(--p-peach)",
-    quote: "Industry continues to thrive on strong demand, improving supply, and real appetite for aviation in financing markets.",
-    source: "KPMG Aviation Leaders 2026",
-    url: "https://kpmg.com/ie/en/insights/aviation/aviation-leaders-report-2026.html" },
-  { name: "Ryan Lee", role: "Chief Analyst, Bitget Research", initials: "RL", bg: "var(--p-blush)",
-    quote: "This rally has a firmer base than retail-driven cycles. Institutional ETF demand is absorbing macro volatility.",
-    source: "crypto.news",
-    url: "https://crypto.news/bitget-research-bitcoin-outlook-april-2026/" },
-];
-
-const NEWS = [
-  { id: "n1",  date: "2026-04-27", topic: "Macroeconomics", importance: "critical",
-    title: "Fed expected to hold rates steady at Powell's likely final FOMC meeting",
-    summary: "April 28-29 meeting widely expected to keep rates unchanged. Kevin Warsh awaits Senate confirmation as successor.",
-    source: "CNBC", url: "https://www.cnbc.com/2026/04/24/fed-likely-to-hold-rates-steady-april-consumer-impact.html" },
-  { id: "n2",  date: "2026-04-27", topic: "Cryptocurrency", importance: "high",
-    title: "Bitcoin holds near $78K, Ethereum tests $2,400 ahead of Fed and peace talks",
-    summary: "BTC opened around $78,670 and briefly cleared $79K. Markets watching fresh Iran peace proposal and the FOMC decision.",
-    source: "Yahoo Finance", url: "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-price-today-monday-april-27-2026-prices-hold-ahead-of-potential-peace-talks-and-fed-meeting-114927492.html" },
-  { id: "n3",  date: "2026-04-27", topic: "Valuation", importance: "high",
-    title: "HawkEye 360 targets $2.42B valuation in NYSE IPO under ticker 'HAWK'",
-    summary: "Space-analytics firm aims to raise up to $416M offering 16M shares at $24-$26. Goldman, Morgan Stanley, RBC, Jefferies leading.",
-    source: "Reuters", url: "https://finance.yahoo.com/news/space-analytics-firm-hawkeye-targets-110833744.html" },
-  { id: "n4",  date: "2026-04-27", topic: "Stocks", importance: "critical",
-    title: "Mag 7 earnings week: Microsoft, Apple, Alphabet, Amazon, Meta all report",
-    summary: "Q1 Mag 7 earnings expected to grow ~20% on ~22% higher revenue. Capex guidance, AI monetization, and cloud growth in focus.",
-    source: "Yahoo Finance / Zacks", url: "https://finance.yahoo.com/markets/stocks/articles/mag-7-earnings-spotlight-expect-233000927.html" },
-  { id: "n5",  date: "2026-04-27", topic: "Investment Banking", importance: "normal",
-    title: "Forvia sells auto-interiors business to Apollo Funds in $2.1B deal",
-    summary: "Latest in a busy Monday for M&A; follows Sun Pharma's $11.75B move for Organon and Porsche's planned exit from Bugatti and Rimac.",
-    source: "Intellizence", url: "https://intellizence.com/insights/merger-and-acquisition/largest-merger-acquisition-deals/" },
-  { id: "n6",  date: "2026-04-27", topic: "Investment Banking", importance: "normal",
-    title: "Capstone Partners: Consumer M&A rebound delayed, gradual 2026 recovery expected",
-    summary: "Consumer industry deals fell 18.9% YoY in 2025; median EV/EBITDA dropped to 9.2x, the lowest in a decade of tracking.",
-    source: "PR Newswire", url: "http://www.prnewswire.com/news-releases/capstone-partners-reports-consumer-ma-market-rebound-delayed-gradual-improvement-expected-in-2026-302752192.html" },
-  { id: "n7",  date: "2026-04-26", topic: "Investment Banking", importance: "critical",
-    title: "Sun Pharma to acquire Organon for $11.75B in major pharma deal",
-    summary: "India's Sun Pharma announces $11.75B agreement for U.S. healthcare firm Organon — one of the largest cross-border deals of the month.",
-    source: "Intellizence", url: "https://intellizence.com/insights/merger-and-acquisition/largest-merger-acquisition-deals/" },
-  { id: "n8",  date: "2026-04-26", topic: "Cryptocurrency", importance: "normal",
-    title: "Strategy adds 3,273 BTC for $255M between April 20-26",
-    summary: "Saylor's Strategy lifts holdings to 818,334 BTC. BTC's first weekly close above 21-week MA since October signals constructive setup.",
-    source: "Cointelegraph", url: "https://cointelegraph.com/" },
-  { id: "n9",  date: "2026-04-25", topic: "Investment Banking", importance: "high",
-    title: "Porsche to sell stakes in Bugatti JV and Rimac",
-    summary: "German automaker divests positions as part of portfolio sharpening — illustrating the activist-driven 'corporate clarity' theme of 2026.",
-    source: "Intellizence", url: "https://intellizence.com/insights/merger-and-acquisition/largest-merger-acquisition-deals/" },
-  { id: "n10", date: "2026-04-25", topic: "AI", importance: "normal",
-    title: "Goldman, JPMorgan show Wall Street's split on quantum computing race",
-    summary: "Bloomberg reports global finance is divided over how aggressively to deploy nascent quantum tech for trading and risk.",
-    source: "Bloomberg", url: "https://www.bloomberg.com/ai" },
-  { id: "n11", date: "2026-04-24", topic: "Banking", importance: "high",
-    title: "Bank M&A: deal-approval timelines now ~4 months, shortest since 1990",
-    summary: "FT analysis: average post-announcement closing for $500M+ bank deals fell to ~4 months in 2025 from ~10 under prior administration.",
-    source: "Harvard Law CorpGov", url: "https://corpgov.law.harvard.edu/2026/04/24/financial-institutions-ma-key-trends-and-outlook-2/" },
-  { id: "n12", date: "2026-04-24", topic: "AI", importance: "high",
-    title: "EY: 49% of consumers worldwide now use AI for savings/investment decisions",
-    summary: "Survey of 18,000+ across 23 countries — 21% used AI agents for product recommendations. Adyen also bought Talon.One for €750M.",
-    source: "FinTech Global", url: "https://fintech.global/2026/04/24/ai-adoption-in-financial-services-accelerates-globally/" },
-  { id: "n13", date: "2026-04-24", topic: "Macroeconomics", importance: "normal",
-    title: "DOJ drops criminal investigation into Fed Chair Jerome Powell",
-    summary: "Decision clears a potential obstacle to Senate confirmation of Kevin Warsh as the next Fed chair. Powell's term ends May 15.",
-    source: "CNBC", url: "https://www.cnbc.com/2026/04/24/fed-likely-to-hold-rates-steady-april-consumer-impact.html" },
-  { id: "n14", date: "2026-04-23", topic: "AI", importance: "high",
-    title: "Cohere to acquire Germany's Aleph Alpha in sovereign-AI play",
-    summary: "Canadian model developer Cohere strikes a deal for European AI lab Aleph Alpha, deepening its EU enterprise and government footprint.",
-    source: "Intellizence", url: "https://intellizence.com/insights/merger-and-acquisition/largest-merger-acquisition-deals/" },
-  { id: "n15", date: "2026-04-15", topic: "AI", importance: "high",
-    title: "PwC study: 20% of companies capture 74% of AI's economic value",
-    summary: "Survey of 1,217 senior executives across 25 sectors. Top performers use AI for growth, not just cost-cutting.",
-    source: "PwC", url: "https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-performance-study.html" },
-  { id: "n16", date: "2026-04-15", topic: "Valuation", importance: "normal",
-    title: "Capstone: middle-market M&A valuations resilient despite macro disruption",
-    summary: "Confidence builds entering 2026 even as PE dealmaking fell 22.9% YoY in 2025. Aging portfolios should accelerate exits.",
-    source: "Capstone Partners", url: "https://www.stocktitan.net/news/HBAN/capstone-partners-reports-consumer-m-a-market-rebound-delayed-sk3o0ko9a6tn.html" },
-  { id: "n17", date: "2026-04-14", topic: "AI", importance: "critical",
-    title: "OpenAI acquires personal-finance startup Hiro Finance",
-    summary: "Strategic acqui-hire brings Hiro's financial-reasoning team to OpenAI. Hiro app sunsets April 20. Signals OpenAI's vertical pivot.",
-    source: "TechCrunch", url: "https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/" },
-  { id: "n18", date: "2026-04-10", topic: "Banking", importance: "critical",
-    title: "Treasury Sec. Bessent and Fed's Powell summon Wall Street CEOs over AI cyber risk",
-    summary: "Per Bloomberg Law, leaders convened at the Financial Services Forum to assess defenses against risks tied to Anthropic's Mythos and similar models.",
-    source: "Bloomberg Law", url: "https://www.llrx.com/2026/04/ai-in-finance-and-banking-april-15-2026/" },
-  { id: "n19", date: "2026-04-10", topic: "Aviation Finance", importance: "critical",
-    title: "DAE & Blackstone Credit launch Equator aviation leasing program targeting $1.6B/yr",
-    summary: "Long-term partnership investing in commercial aircraft on lease. DAE's AIS unit manages assets; BXCI provides flexible capital across the cycle.",
-    source: "Blackstone", url: "https://www.blackstone.com/news/press/dae-and-blackstone-credit-insurance-announce-multi-billion-dollar-global-aviation-leasing-investment-program/" },
-  { id: "n20", date: "2026-04-08", topic: "Aviation Finance", importance: "critical",
-    title: "Sumitomo, SMBC, Apollo & Brookfield close acquisition of Air Lease Corp",
-    summary: "Major aviation-leasing transaction. Combined platform serves 100+ airlines across 50+ countries with 490+ modern aircraft.",
-    source: "Sumisho Air Lease", url: "https://airleasecorp.com/" },
-  { id: "n21", date: "2026-04-01", topic: "Macroeconomics", importance: "normal",
-    title: "St. Louis Fed: economic outlook highly uncertain but baseline growth near potential",
-    summary: "President Musalem: GDP near potential, unemployment steady, core inflation easing toward 2% later in 2026.",
-    source: "St. Louis Fed", url: "https://www.stlouisfed.org/from-the-president/remarks/2026/economic-outlook-monetary-policy-aei" },
-  { id: "n22", date: "2026-03-17", topic: "Aviation Finance", importance: "normal",
-    title: "Boeing: 2026-2030 financing volumes forecast materially higher than prior cycles",
-    summary: "Lessor delivery financing remains ample. ABS market upgraded to green signal. India set to diversify beyond lessors into bank debt and ECA covers.",
-    source: "Boeing", url: "https://www.boeing.com/commercial/market/current-aircraft-financing-market" },
-  { id: "n23", date: "2026-02-25", topic: "Aviation Finance", importance: "normal",
-    title: "KPMG Aviation Leaders 2026: net profit forecast $41B; ABS market may hit records",
-    summary: "Aviation ABS issuance hit $10B in 2025 and could reach record levels in 2026. Passenger traffic projected +4.9%; widebody lease rates strengthening.",
-    source: "KPMG", url: "https://kpmg.com/ie/en/insights/aviation/aviation-leaders-report-2026.html" },
-  { id: "n24", date: "2026-01-27", topic: "Investment Banking", importance: "high",
-    title: "PwC: 2026 M&A entering K-shaped phase as megadeals concentrate at the top",
-    summary: "Tech led 2025 megadeals with 26 announced, banking 13, manufacturing 11. Improving rate visibility supports activity for well-prepared buyers.",
-    source: "PwC", url: "https://www.pwc.com/gx/en/services/deals/trends.html" },
-  { id: "n25", date: "2026-01-26", topic: "Valuation", importance: "high",
-    title: "2026 IPO pipeline: SpaceX, OpenAI, Anthropic, Kraken among potential blockbusters",
-    summary: "SpaceX targets ~$1.5T for mid-2026 debut; OpenAI valued at $840B; Anthropic at $380B. Combined raises could exceed $100B.",
-    source: "Crunchbase", url: "https://news.crunchbase.com/public/crunchbase-predicts-15-companies-ipo-ai-fintech-defense-forecast-2026/" },
-  { id: "n26", date: "2026-01-15", topic: "Corporate Finance", importance: "normal",
-    title: "Cleary Gottlieb: 2026 IPO momentum builds globally on rate easing, regulatory reform",
-    summary: "2025 saw $143.3B raised across 1,014 IPOs (+21% YoY). Banamex IPO anticipated H2 2026; active pipelines in defense, industrials, financials, tech.",
-    source: "Cleary Gottlieb", url: "https://www.clearygottlieb.com/news-and-insights/publication-listing/global-ipo-market-trends-2025-review-and-2026-outlook" },
-];
+// Loaded from data.json by loadData() at startup.
+let KPIS = [];
+let VOICES = [];
+let NEWS = [];
+let GENERATED_AT = null;
 
 const IMP = { critical: "🔥", high: "⚡", normal: "📌" };
 const TOPIC_BG = TOPICS.reduce((m,t) => (m[t.key] = t.bg, m), {});
@@ -931,6 +787,7 @@ function renderFeed() {
     document.getElementById("empty-msg").textContent =
       state.view === "pinned" ? "No pinned articles yet. Tap ★ on any story to pin it." :
       state.view === "saved"  ? "No saved articles yet. Tap 🔖 on any story to save it." :
+      NEWS.length === 0       ? "Loading… or no news available yet. The site refreshes every morning." :
       "No stories match this filter.";
     return;
   }
@@ -1032,7 +889,7 @@ function renderTitle() {
 
 function setView(v) {
   if (v === "about") {
-    alert("Finance Hub\n\nA daily-briefing finance news aggregator.\n\n• Pin (★) and Save (🔖) articles — stored on this device\n• Topic filters via the colored tiles\n• KPIs in the Economic Insight Center (manually updated)\n• Voices: latest commentary from finance leaders\n\nAll articles link to original sources.");
+    alert("Finance Hub\n\nA daily-briefing finance news aggregator.\n\n• Pin (★) and Save (🔖) articles — stored on this device\n• Topic filters via the colored tiles\n• KPIs in the Economic Insight Center (auto-refreshed)\n• Voices: latest commentary from finance leaders\n\nAll articles link to original sources.");
     return;
   }
   state.view = v;
@@ -1056,7 +913,51 @@ function renderAll() {
   renderTabbar();
 }
 
-renderAll();
+async function loadData() {
+  // Cache-bust so users always get the latest commit's data.json
+  const url = "data.json?ts=" + Date.now();
+  try {
+    const r = await fetch(url, { cache: "no-store" });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    const data = await r.json();
+    KPIS = data.kpis || [];
+    VOICES = data.voices || [];
+    NEWS = data.news || [];
+    GENERATED_AT = data.generated_at || null;
+  } catch (e) {
+    console.warn("Could not load data.json:", e);
+    KPIS = [];
+    VOICES = [];
+    NEWS = [];
+  }
+
+  // Update hero headline + subtitle
+  const heroHead = document.getElementById("hero-headline");
+  const heroSub = document.getElementById("hero-sub");
+
+  if (NEWS.length > 0) {
+    // Pick the most recent critical story; fall back to most recent overall
+    const sorted = NEWS.slice().sort((a, b) => (b.published || b.date).localeCompare(a.published || a.date));
+    const top = sorted.find(n => n.importance === "critical") || sorted[0];
+    if (top) heroHead.textContent = top.title.length > 70 ? top.title.slice(0, 67) + "…" : top.title;
+  } else {
+    heroHead.textContent = "Loading latest market briefing…";
+  }
+
+  if (GENERATED_AT) {
+    try {
+      const d = new Date(GENERATED_AT);
+      const opts = { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" };
+      heroSub.textContent = "Last refreshed " + d.toLocaleDateString("en-US", opts);
+    } catch (e) {}
+  } else {
+    heroSub.textContent = "Awaiting first refresh — check back soon";
+  }
+
+  renderAll();
+}
+
+loadData();
 </script>
 </body>
 </html>
