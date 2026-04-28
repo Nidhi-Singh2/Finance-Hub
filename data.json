@@ -1,0 +1,120 @@
+{
+  "generated_at": "2026-04-28T15:39:37.285021+00:00",
+  "kpis": [
+    {
+      "name": "S&P 500",
+      "val": "6,852",
+      "delta": "+0.29%",
+      "dir": "up"
+    },
+    {
+      "name": "Nasdaq",
+      "val": "23,510",
+      "delta": "+0.45%",
+      "dir": "up"
+    },
+    {
+      "name": "10Y Treasury",
+      "val": "4.21%",
+      "delta": "-0.03%",
+      "dir": "down"
+    },
+    {
+      "name": "Dollar Index",
+      "val": "104.12",
+      "delta": "+0.10%",
+      "dir": "up"
+    },
+    {
+      "name": "Bitcoin",
+      "val": "$77.9K",
+      "delta": "-1.0%",
+      "dir": "down"
+    },
+    {
+      "name": "Ethereum",
+      "val": "$2,400",
+      "delta": "+0.5%",
+      "dir": "up"
+    }
+  ],
+  "voices": [
+    {
+      "name": "Jerome Powell",
+      "role": "Fed Chair",
+      "initials": "JP",
+      "bg": "var(--p-cream)",
+      "quote": "The committee will remain patient on rate moves,",
+      "source": "Reuters",
+      "url": "https://example.com/a1",
+      "date": "2026-04-27"
+    },
+    {
+      "name": "Jamie Dimon",
+      "role": "CEO, JPMorgan Chase",
+      "initials": "JD",
+      "bg": "var(--p-sky)",
+      "quote": "Well-capitalized firms transacting through complexity will define this cycle,",
+      "source": "JPMorgan",
+      "url": "https://example.com/a6",
+      "date": "2026-04-25"
+    }
+  ],
+  "news": [
+    {
+      "title": "Powell signals Fed will hold rates steady at April meeting",
+      "summary": "\"The committee will remain patient on rate moves,\" Powell said.",
+      "url": "https://example.com/a1",
+      "source": "Reuters",
+      "published": "2026-04-27T14:00:00+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_fdfd1a691e",
+      "date": "2026-04-27"
+    },
+    {
+      "title": "Bitcoin holds near $78,000 ahead of FOMC decision",
+      "summary": "BTC opened at $78,670. Strategy added 3,273 BTC last week.",
+      "url": "https://example.com/a3",
+      "source": "CoinDesk",
+      "published": "2026-04-27T09:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "critical",
+      "id": "a_cc2523761f",
+      "date": "2026-04-27"
+    },
+    {
+      "title": "Sun Pharma agrees to buy Organon in $11.75 billion deal",
+      "summary": "India's Sun Pharma announced an acquisition of US healthcare firm Organon.",
+      "url": "https://example.com/a2",
+      "source": "Bloomberg",
+      "published": "2026-04-26T10:00:00+00:00",
+      "topic": "Investment Banking",
+      "importance": "critical",
+      "id": "a_3541fdb38c",
+      "date": "2026-04-26"
+    },
+    {
+      "title": "Dimon: M&A reopening but unevenly across sectors",
+      "summary": "\"Well-capitalized firms transacting through complexity will define this cycle,\" Dimon told investors at the JPMorgan investor day.",
+      "url": "https://example.com/a6",
+      "source": "JPMorgan",
+      "published": "2026-04-25T15:00:00+00:00",
+      "topic": "Investment Banking",
+      "importance": "normal",
+      "id": "a_b6eb1ade03",
+      "date": "2026-04-25"
+    },
+    {
+      "title": "DAE and Blackstone launch Equator aviation leasing platform",
+      "summary": "Dubai Aerospace and Blackstone Credit announced a multi-billion aircraft leasing partnership.",
+      "url": "https://example.com/a5",
+      "source": "Blackstone",
+      "published": "2026-04-10T08:00:00+00:00",
+      "topic": "Aviation Finance",
+      "importance": "high",
+      "id": "a_7c75e69f76",
+      "date": "2026-04-10"
+    }
+  ]
+}
