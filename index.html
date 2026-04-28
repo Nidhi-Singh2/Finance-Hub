@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="theme-color" content="#f4f1ea" />
+<title>Finance Hub</title>
+<meta name="description" content="A curated daily briefing of the most important developments in finance." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%88%3C/text%3E%3C/svg%3E" />
+<style>
+  :root {
+    --bg: #f4f1ea;
+    --surface: #ffffff;
+    --surface-2: #faf7f0;
+    --border: #ebe6dc;
+    --border-strong: #d9d2c2;
+    --text: #1a2e2a;
+    --text-dim: #5e6e6a;
+    --text-faint: #8a9591;
+    --accent: #1f4d44;
+    --accent-2: #2a6b5e;
+    --accent-light: #c5dfd6;
+    --critical: #c44b5e;
+    --warn: #d49434;
+    --info: #4a7da8;
+
+    --p-mint: #d8ebe2;
+    --p-cream: #efe4d3;
+    --p-sage: #d6e6d8;
+    --p-sand: #ebe1cf;
+    --p-sky: #d8e4ef;
+    --p-blush: #ecdcd9;
+    --p-lilac: #e1ddec;
+    --p-peach: #f0dcc8;
+    --p-lemon: #ece6c9;
+
+    --radius: 18px;
+    --radius-sm: 12px;
+    --radius-lg: 24px;
+    --shadow: 0 1px 2px rgba(0,0,0,.04), 0 4px 12px rgba(26,46,42,.06);
+    --shadow-lg: 0 2px 4px rgba(0,0,0,.04), 0 8px 24px rgba(26,46,42,.08);
+    --maxw: 440px;
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.45;
+    padding-bottom: calc(78px + env(safe-area-inset-bottom));
+    overscroll-behavior-y: none;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  button { font-family: inherit; cursor: pointer; border: none; background: none; color: inherit; }
+
+  .topbar {
+    max-width: var(--maxw);
+    margin: 0 auto;
+    padding: calc(14px + env(safe-area-inset-top)) 20px 8px;
+    display: flex;
+    align-items: center;
+  }
+  .topbar h1 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin: 0;
+  }
+  .topbar .icons {
+    margin-left: auto;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+  }
+  .icon-btn {
+    width: 36px; height: 36px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    color: var(--text);
+    position: relative;
+  }
+  .icon-btn:hover { background: var(--surface); }
+  .icon-btn .badge {
+    position: absolute;
+    top: 4px; right: 6px;
+    width: 8px; height: 8px;
+    background: var(--critical);
+    border-radius: 50%;
+    border: 2px solid var(--bg);
+  }
+  .avatar {
+    width: 32px; height: 32px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #c5dfd6, #a8c8be);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px; font-weight: 600;
+    color: var(--accent);
+  }
+
+  .shortcuts {
+    max-width: var(--maxw);
+    margin: 12px auto 0;
+    padding: 0 20px 4px;
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x proximity;
+  }
+  .shortcuts::-webkit-scrollbar { display: none; }
+  .shortcut {
+    flex: 0 0 auto;
+    width: 68px;
+    text-align: center;
+    scroll-snap-align: start;
+  }
+  .shortcut .tile {
+    width: 56px; height: 56px;
+    border-radius: var(--radius-sm);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 24px;
+    margin: 0 auto 6px;
+    transition: transform .15s ease;
+  }
+  .shortcut:hover .tile { transform: scale(1.05); }
+  .shortcut.active .tile {
+    box-shadow: 0 0 0 2px var(--accent);
+  }
+  .shortcut .label {
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--text-dim);
+    line-height: 1.2;
+    display: block;
+  }
+  .shortcut.add .tile {
+    background: var(--text);
+    color: white;
+  }
+
+  main {
+    max-width: var(--maxw);
+    margin: 0 auto;
+    padding: 16px 20px 0;
+  }
+
+  .hero {
+    background: var(--surface);
+    border-radius: var(--radius);
+    padding: 18px 18px 16px;
+    box-shadow: var(--shadow);
+    margin-bottom: 16px;
+  }
+  .hero-head {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 4px;
+  }
+  .hero-head .label {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text);
+  }
+  .hero-head .chev { color: var(--text-faint); font-size: 14px; }
+  .hero-head .live {
+    margin-left: auto;
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--accent);
+    background: var(--accent-light);
+    padding: 3px 8px;
+    border-radius: 999px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .hero h2 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin: 4px 0 2px;
+    color: var(--text);
+  }
+  .hero .sublabel {
+    font-size: 13px;
+    color: var(--text-dim);
+    margin-bottom: 14px;
+  }
+  .kpi-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .kpi {
+    background: var(--surface-2);
+    border-radius: var(--radius-sm);
+    padding: 12px;
+    min-height: 78px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .kpi .name {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    line-height: 1.2;
+  }
+  .kpi .val {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: -0.01em;
+    margin-top: 4px;
+  }
+  .kpi .delta {
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: 4px;
+  }
+  .kpi .delta.up   { color: #1f7a5a; }
+  .kpi .delta.down { color: #c44b5e; }
+  .kpi .delta.flat { color: var(--text-faint); }
+
+  .actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+  .action { text-align: center; }
+  .action .circle {
+    width: 56px; height: 56px;
+    border-radius: 50%;
+    background: var(--accent);
+    color: white;
+    display: flex; align-items: center; justify-content: center;
+    margin: 0 auto 8px;
+    font-size: 22px;
+    font-weight: 600;
+    transition: transform .15s ease, background .15s ease;
+  }
+  .action.outline .circle {
+    background: var(--surface);
+    color: var(--accent);
+    border: 1.5px solid var(--accent);
+  }
+  .action:hover .circle { transform: scale(1.05); }
+  .action.active .circle {
+    background: var(--text);
+    color: white;
+    border-color: var(--text);
+  }
+  .action .lbl {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text);
+  }
+
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    margin: 0 0 12px;
+  }
+  .section-head h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: -0.01em;
+  }
+  .section-head .see-all {
+    margin-left: auto;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--accent);
+  }
+
+  .voices {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    margin: 0 -20px 24px;
+    padding: 4px 20px 8px;
+  }
+  .voices::-webkit-scrollbar { display: none; }
+  .voice {
+    flex: 0 0 220px;
+    background: var(--surface);
+    border-radius: var(--radius);
+    padding: 14px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    transition: transform .15s ease;
+  }
+  .voice:hover { transform: translateY(-2px); }
+  .voice-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .voice-avatar {
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--accent);
+    flex-shrink: 0;
+  }
+  .voice-meta { min-width: 0; flex: 1; }
+  .voice-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text);
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .voice-role {
+    font-size: 11px;
+    color: var(--text-faint);
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .voice-quote {
+    font-size: 13px;
+    color: var(--text);
+    line-height: 1.4;
+    margin: 0 0 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .voice-source {
+    font-size: 11px;
+    color: var(--text-faint);
+    margin-top: auto;
+  }
+
+  .feed-card {
+    background: var(--surface);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    margin-bottom: 16px;
+  }
+  .date-header {
+    padding: 14px 16px 6px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-faint);
+    border-bottom: 1px solid var(--border);
+  }
+  .date-header .day {
+    color: var(--text);
+    font-weight: 700;
+    text-transform: none;
+    font-size: 14px;
+    letter-spacing: -0.01em;
+    margin-right: 6px;
+  }
+
+  .item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--border);
+    position: relative;
+  }
+  .item:last-child { border-bottom: none; }
+  .item.pinned {
+    background: linear-gradient(to right, rgba(197,223,214,.35), transparent 60%);
+  }
+  .item-icon {
+    width: 40px; height: 40px;
+    border-radius: var(--radius-sm);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  .item-body { flex: 1; min-width: 0; }
+  .item-title-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 2px;
+  }
+  .item-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text);
+    line-height: 1.35;
+    flex: 1;
+    min-width: 0;
+  }
+  .item-title a { color: inherit; }
+  .item-title a:hover { color: var(--accent); }
+  .imp {
+    font-size: 12px;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .item-summary {
+    font-size: 12.5px;
+    color: var(--text-dim);
+    line-height: 1.4;
+    margin: 4px 0 6px;
+  }
+  .item-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    color: var(--text-faint);
+  }
+  .item-meta .topic-tag {
+    font-weight: 600;
+    color: var(--accent);
+  }
+  .item-meta .dot { color: var(--text-faint); }
+  .item-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-left: 4px;
+  }
+  .a-btn {
+    width: 28px; height: 28px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px;
+    color: var(--text-faint);
+    transition: all .15s ease;
+  }
+  .a-btn:hover {
+    background: var(--surface-2);
+    color: var(--text);
+  }
+  .a-btn.on { color: var(--accent); }
+  .a-btn.pin.on { color: #d49434; }
+
+  .empty {
+    text-align: center;
+    padding: 50px 20px;
+    color: var(--text-faint);
+    font-size: 14px;
+  }
+  .empty .big { font-size: 36px; margin-bottom: 10px; display: block; }
+
+  .tabbar {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: rgba(255,255,255,.92);
+    backdrop-filter: saturate(160%) blur(14px);
+    -webkit-backdrop-filter: saturate(160%) blur(14px);
+    border-top: 1px solid var(--border);
+    padding: 8px 0 calc(8px + env(safe-area-inset-bottom));
+    z-index: 50;
+  }
+  .tabbar-inner {
+    max-width: var(--maxw);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .tab {
+    text-align: center;
+    padding: 6px 4px;
+    color: var(--text-faint);
+    transition: color .15s ease;
+  }
+  .tab .ti {
+    font-size: 18px;
+    margin-bottom: 2px;
+    display: block;
+  }
+  .tab .tlbl {
+    font-size: 10px;
+    font-weight: 500;
+  }
+  .tab.active { color: var(--accent); }
+
+  @media (max-width: 380px) {
+    .topbar h1 { font-size: 24px; }
+    .hero h2 { font-size: 26px; }
+    .kpi .val { font-size: 16px; }
+    .kpi .name { font-size: 10px; }
+    .voice { flex: 0 0 200px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <h1 id="page-title">Finance Hub</h1>
+  <div class="icons">
+    <button class="icon-btn" aria-label="View">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+    </button>
+    <button class="icon-btn" aria-label="Search">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+    </button>
+    <button class="icon-btn" aria-label="Notifications">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>
+      <span class="badge"></span>
+    </button>
+    <div class="avatar">UT</div>
+  </div>
+</div>
+
+<div class="shortcuts" id="shortcuts"></div>
+
+<main>
+  <section class="hero">
+    <div class="hero-head">
+      <span class="label">Economic Insight Center <span class="chev">›</span></span>
+      <span class="live">Snapshot</span>
+    </div>
+    <h2 id="hero-headline">Markets steady, Fed in focus</h2>
+    <div class="sublabel" id="hero-sub">Pre-FOMC quiet. Powell's likely final meeting Apr 28-29.</div>
+    <div class="kpi-grid" id="kpi-grid"></div>
+  </section>
+
+  <div class="actions" id="actions"></div>
+
+  <div class="section-head" id="voices-head">
+    <h3>Voices</h3>
+    <a href="#" class="see-all" onclick="setView('voices');return false;">See all</a>
+  </div>
+  <div class="voices" id="voices"></div>
+
+  <div class="section-head" id="feed-head">
+    <h3 id="feed-title">Latest News</h3>
+    <span class="see-all" id="feed-meta">All</span>
+  </div>
+  <div id="feed"></div>
+  <div class="empty" id="empty" style="display:none;">
+    <span class="big">📭</span>
+    <div id="empty-msg">Nothing here yet.</div>
+  </div>
+</main>
+
+<nav class="tabbar">
+  <div class="tabbar-inner" id="tabbar"></div>
+</nav>
+
+<script>
+const KPIS = [
+  { name: "Fed Funds Rate", val: "3.50-3.75%", delta: "Hold expected", dir: "flat" },
+  { name: "10Y Treasury",   val: "4.21%",      delta: "−3 bps",        dir: "down" },
+  { name: "CPI YoY",        val: "2.9%",       delta: "+0.1 pp",       dir: "up"   },
+  { name: "Unemployment",   val: "4.2%",       delta: "Steady",        dir: "flat" },
+  { name: "S&P 500",        val: "6,852",      delta: "+0.29%",        dir: "up"   },
+  { name: "Bitcoin",        val: "$77.9K",     delta: "−1.0%",         dir: "down" },
+];
+
+const TOPICS = [
+  { key: "Banking",            icon: "🏦", bg: "var(--p-mint)"   },
+  { key: "Macroeconomics",     icon: "📊", bg: "var(--p-cream)"  },
+  { key: "Aviation Finance",   icon: "✈️", bg: "var(--p-sage)"   },
+  { key: "Investment Banking", icon: "💼", bg: "var(--p-sand)"   },
+  { key: "AI",                 icon: "🤖", bg: "var(--p-sky)"    },
+  { key: "Cryptocurrency",     icon: "₿",  bg: "var(--p-peach)"  },
+  { key: "Valuation",          icon: "📈", bg: "var(--p-lilac)"  },
+  { key: "Corporate Finance",  icon: "🏢", bg: "var(--p-blush)"  },
+  { key: "Stocks",             icon: "📉", bg: "var(--p-lemon)"  },
+];
+
+const VOICES = [
+  { name: "Jerome Powell", role: "Fed Chair (outgoing)", initials: "JP", bg: "var(--p-cream)",
+    quote: "The committee is well-positioned to respond to future events; rate decisions remain data-dependent.",
+    source: "FOMC, March 2026",
+    url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm" },
+  { name: "Jamie Dimon", role: "CEO, JPMorgan Chase", initials: "JD", bg: "var(--p-sky)",
+    quote: "M&A is reopening, but unevenly. Well-capitalized firms transacting through complexity will define this cycle.",
+    source: "JPM Insights",
+    url: "https://www.jpmorgan.com/investment-banking/mergers-and-acquisitions-market-outlook" },
+  { name: "Anu Aiyengar", role: "Global Head of M&A, JPM", initials: "AA", bg: "var(--p-sage)",
+    quote: "71 deals north of $10B in 2025. Scale matters because companies need control, tech, and AI levers in a risky world.",
+    source: "CNBC Squawk Box",
+    url: "https://www.jpmorgan.com/investment-banking/mergers-and-acquisitions-market-outlook" },
+  { name: "Cathal Deasy", role: "Co-Head of IB, Barclays", initials: "CD", bg: "var(--p-mint)",
+    quote: "2026 is a conviction cycle, not a volume cycle. Clients are focusing on fewer, bigger deals.",
+    source: "Barclays Investment Bank",
+    url: "https://www.ib.barclays/our-insights/the-profile-of-mergers-and-acquisitions-in-2026.html" },
+  { name: "Andrew Lo", role: "Professor, MIT Sloan", initials: "AL", bg: "var(--p-lilac)",
+    quote: "AI in finance is definitely not business as usual. Designing accountable systems is the most important challenge.",
+    source: "MIT Sloan",
+    url: "https://mitsloan.mit.edu/ideas-made-to-matter/here-are-ai-developments-finance-pros-should-be-tracking" },
+  { name: "Firoz Tarapore", role: "CEO, Dubai Aerospace", initials: "FT", bg: "var(--p-sand)",
+    quote: "Blackstone's scaled, flexible capital provides a strong foundation to grow our third-party fleet management franchise.",
+    source: "DAE/BXCI announcement",
+    url: "https://www.blackstone.com/news/press/dae-and-blackstone-credit-insurance-announce-multi-billion-dollar-global-aviation-leasing-investment-program/" },
+  { name: "James Kelly", role: "Head of Aviation Finance, KPMG", initials: "JK", bg: "var(--p-peach)",
+    quote: "Industry continues to thrive on strong demand, improving supply, and real appetite for aviation in financing markets.",
+    source: "KPMG Aviation Leaders 2026",
+    url: "https://kpmg.com/ie/en/insights/aviation/aviation-leaders-report-2026.html" },
+  { name: "Ryan Lee", role: "Chief Analyst, Bitget Research", initials: "RL", bg: "var(--p-blush)",
+    quote: "This rally has a firmer base than retail-driven cycles. Institutional ETF demand is absorbing macro volatility.",
+    source: "crypto.news",
+    url: "https://crypto.news/bitget-research-bitcoin-outlook-april-2026/" },
+];
+
+const NEWS = [
+  { id: "n1",  date: "2026-04-27", topic: "Macroeconomics", importance: "critical",
+    title: "Fed expected to hold rates steady at Powell's likely final FOMC meeting",
+    summary: "April 28-29 meeting widely expected to keep rates unchanged. Kevin Warsh awaits Senate confirmation as successor.",
+    source: "CNBC", url: "https://www.cnbc.com/2026/04/24/fed-likely-to-hold-rates-steady-april-consumer-impact.html" },
+  { id: "n2",  date: "2026-04-27", topic: "Cryptocurrency", importance: "high",
+    title: "Bitcoin holds near $78K, Ethereum tests $2,400 ahead of Fed and peace talks",
+    summary: "BTC opened around $78,670 and briefly cleared $79K. Markets watching fresh Iran peace proposal and the FOMC decision.",
+    source: "Yahoo Finance", url: "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-price-today-monday-april-27-2026-prices-hold-ahead-of-potential-peace-talks-and-fed-meeting-114927492.html" },
+  { id: "n3",  date: "2026-04-27", topic: "Valuation", importance: "high",
+    title: "HawkEye 360 targets $2.42B valuation in NYSE IPO under ticker 'HAWK'",
+    summary: "Space-analytics firm aims to raise up to $416M offering 16M shares at $24-$26. Goldman, Morgan Stanley, RBC, Jefferies leading.",
+    source: "Reuters", url: "https://finance.yahoo.com/news/space-analytics-firm-hawkeye-targets-110833744.html" },
+  { id: "n4",  date: "2026-04-27", topic: "Stocks", importance: "critical",
+    title: "Mag 7 earnings week: Microsoft, Apple, Alphabet, Amazon, Meta all report",
+    summary: "Q1 Mag 7 earnings expected to grow ~20% on ~22% higher revenue. Capex guidance, AI monetization, and cloud growth in focus.",
+    source: "Yahoo Finance / Zacks", url: "https://finance.yahoo.com/markets/stocks/articles/mag-7-earnings-spotlight-expect-233000927.html" },
+  { id: "n5",  date: "2026-04-27", topic: "Investment Banking", importance: "normal",
+    title: "Forvia sells auto-interiors business to Apollo Funds in $2.1B deal",
+    summary: "Latest in a busy Monday for M&A; follows Sun Pharma's $11.75B move for Organon and Porsche's planned exit from Bugatti and Rimac.",
+    source: "Intellizence", url: "https://intellizence.com/insights/merger-and-acquisition/largest-merger-acquisition-deals/" },
+  { id: "n6",  date: "2026-04-27", topic: "Investment Banking", importance: "normal",
+    title: "Capstone Partners: Consumer M&A rebound delayed, gradual 2026 recovery expected",
+    summary: "Consumer industry deals fell 18.9% YoY in 2025; median EV/EBITDA dropped to 9.2x, the lowest in a decade of tracking.",
+    source: "PR Newswire", url: "http://www.prnewswire.com/news-releases/capstone-partners-reports-consumer-ma-market-rebound-delayed-gradual-improvement-expected-in-2026-302752192.html" },
+  { id: "n7",  date: "2026-04-26", topic: "Investment Banking", importance: "critical",
+    title: "Sun Pharma to acquire Organon for $11.75B in major pharma deal",
+    summary: "India's Sun Pharma announces $11.75B agreement for U.S. healthcare firm Organon — one of the largest cross-border deals of the month.",
+    source: "Intellizence", url: "https://intellizence.com/insights/merger-and-acquisition/largest-merger-acquisition-deals/" },
+  { id: "n8",  date: "2026-04-26", topic: "Cryptocurrency", importance: "normal",
+    title: "Strategy adds 3,273 BTC for $255M between April 20-26",
+    summary: "Saylor's Strategy lifts holdings to 818,334 BTC. BTC's first weekly close above 21-week MA since October signals constructive setup.",
+    source: "Cointelegraph", url: "https://cointelegraph.com/" },
+  { id: "n9",  date: "2026-04-25", topic: "Investment Banking", importance: "high",
+    title: "Porsche to sell stakes in Bugatti JV and Rimac",
+    summary: "German automaker divests positions as part of portfolio sharpening — illustrating the activist-driven 'corporate clarity' theme of 2026.",
+    source: "Intellizence", url: "https://intellizence.com/insights/merger-and-acquisition/largest-merger-acquisition-deals/" },
+  { id: "n10", date: "2026-04-25", topic: "AI", importance: "normal",
+    title: "Goldman, JPMorgan show Wall Street's split on quantum computing race",
+    summary: "Bloomberg reports global finance is divided over how aggressively to deploy nascent quantum tech for trading and risk.",
+    source: "Bloomberg", url: "https://www.bloomberg.com/ai" },
+  { id: "n11", date: "2026-04-24", topic: "Banking", importance: "high",
+    title: "Bank M&A: deal-approval timelines now ~4 months, shortest since 1990",
+    summary: "FT analysis: average post-announcement closing for $500M+ bank deals fell to ~4 months in 2025 from ~10 under prior administration.",
+    source: "Harvard Law CorpGov", url: "https://corpgov.law.harvard.edu/2026/04/24/financial-institutions-ma-key-trends-and-outlook-2/" },
+  { id: "n12", date: "2026-04-24", topic: "AI", importance: "high",
+    title: "EY: 49% of consumers worldwide now use AI for savings/investment decisions",
+    summary: "Survey of 18,000+ across 23 countries — 21% used AI agents for product recommendations. Adyen also bought Talon.One for €750M.",
+    source: "FinTech Global", url: "https://fintech.global/2026/04/24/ai-adoption-in-financial-services-accelerates-globally/" },
+  { id: "n13", date: "2026-04-24", topic: "Macroeconomics", importance: "normal",
+    title: "DOJ drops criminal investigation into Fed Chair Jerome Powell",
+    summary: "Decision clears a potential obstacle to Senate confirmation of Kevin Warsh as the next Fed chair. Powell's term ends May 15.",
+    source: "CNBC", url: "https://www.cnbc.com/2026/04/24/fed-likely-to-hold-rates-steady-april-consumer-impact.html" },
+  { id: "n14", date: "2026-04-23", topic: "AI", importance: "high",
+    title: "Cohere to acquire Germany's Aleph Alpha in sovereign-AI play",
+    summary: "Canadian model developer Cohere strikes a deal for European AI lab Aleph Alpha, deepening its EU enterprise and government footprint.",
+    source: "Intellizence", url: "https://intellizence.com/insights/merger-and-acquisition/largest-merger-acquisition-deals/" },
+  { id: "n15", date: "2026-04-15", topic: "AI", importance: "high",
+    title: "PwC study: 20% of companies capture 74% of AI's economic value",
+    summary: "Survey of 1,217 senior executives across 25 sectors. Top performers use AI for growth, not just cost-cutting.",
+    source: "PwC", url: "https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-performance-study.html" },
+  { id: "n16", date: "2026-04-15", topic: "Valuation", importance: "normal",
+    title: "Capstone: middle-market M&A valuations resilient despite macro disruption",
+    summary: "Confidence builds entering 2026 even as PE dealmaking fell 22.9% YoY in 2025. Aging portfolios should accelerate exits.",
+    source: "Capstone Partners", url: "https://www.stocktitan.net/news/HBAN/capstone-partners-reports-consumer-m-a-market-rebound-delayed-sk3o0ko9a6tn.html" },
+  { id: "n17", date: "2026-04-14", topic: "AI", importance: "critical",
+    title: "OpenAI acquires personal-finance startup Hiro Finance",
+    summary: "Strategic acqui-hire brings Hiro's financial-reasoning team to OpenAI. Hiro app sunsets April 20. Signals OpenAI's vertical pivot.",
+    source: "TechCrunch", url: "https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/" },
+  { id: "n18", date: "2026-04-10", topic: "Banking", importance: "critical",
+    title: "Treasury Sec. Bessent and Fed's Powell summon Wall Street CEOs over AI cyber risk",
+    summary: "Per Bloomberg Law, leaders convened at the Financial Services Forum to assess defenses against risks tied to Anthropic's Mythos and similar models.",
+    source: "Bloomberg Law", url: "https://www.llrx.com/2026/04/ai-in-finance-and-banking-april-15-2026/" },
+  { id: "n19", date: "2026-04-10", topic: "Aviation Finance", importance: "critical",
+    title: "DAE & Blackstone Credit launch Equator aviation leasing program targeting $1.6B/yr",
+    summary: "Long-term partnership investing in commercial aircraft on lease. DAE's AIS unit manages assets; BXCI provides flexible capital across the cycle.",
+    source: "Blackstone", url: "https://www.blackstone.com/news/press/dae-and-blackstone-credit-insurance-announce-multi-billion-dollar-global-aviation-leasing-investment-program/" },
+  { id: "n20", date: "2026-04-08", topic: "Aviation Finance", importance: "critical",
+    title: "Sumitomo, SMBC, Apollo & Brookfield close acquisition of Air Lease Corp",
+    summary: "Major aviation-leasing transaction. Combined platform serves 100+ airlines across 50+ countries with 490+ modern aircraft.",
+    source: "Sumisho Air Lease", url: "https://airleasecorp.com/" },
+  { id: "n21", date: "2026-04-01", topic: "Macroeconomics", importance: "normal",
+    title: "St. Louis Fed: economic outlook highly uncertain but baseline growth near potential",
+    summary: "President Musalem: GDP near potential, unemployment steady, core inflation easing toward 2% later in 2026.",
+    source: "St. Louis Fed", url: "https://www.stlouisfed.org/from-the-president/remarks/2026/economic-outlook-monetary-policy-aei" },
+  { id: "n22", date: "2026-03-17", topic: "Aviation Finance", importance: "normal",
+    title: "Boeing: 2026-2030 financing volumes forecast materially higher than prior cycles",
+    summary: "Lessor delivery financing remains ample. ABS market upgraded to green signal. India set to diversify beyond lessors into bank debt and ECA covers.",
+    source: "Boeing", url: "https://www.boeing.com/commercial/market/current-aircraft-financing-market" },
+  { id: "n23", date: "2026-02-25", topic: "Aviation Finance", importance: "normal",
+    title: "KPMG Aviation Leaders 2026: net profit forecast $41B; ABS market may hit records",
+    summary: "Aviation ABS issuance hit $10B in 2025 and could reach record levels in 2026. Passenger traffic projected +4.9%; widebody lease rates strengthening.",
+    source: "KPMG", url: "https://kpmg.com/ie/en/insights/aviation/aviation-leaders-report-2026.html" },
+  { id: "n24", date: "2026-01-27", topic: "Investment Banking", importance: "high",
+    title: "PwC: 2026 M&A entering K-shaped phase as megadeals concentrate at the top",
+    summary: "Tech led 2025 megadeals with 26 announced, banking 13, manufacturing 11. Improving rate visibility supports activity for well-prepared buyers.",
+    source: "PwC", url: "https://www.pwc.com/gx/en/services/deals/trends.html" },
+  { id: "n25", date: "2026-01-26", topic: "Valuation", importance: "high",
+    title: "2026 IPO pipeline: SpaceX, OpenAI, Anthropic, Kraken among potential blockbusters",
+    summary: "SpaceX targets ~$1.5T for mid-2026 debut; OpenAI valued at $840B; Anthropic at $380B. Combined raises could exceed $100B.",
+    source: "Crunchbase", url: "https://news.crunchbase.com/public/crunchbase-predicts-15-companies-ipo-ai-fintech-defense-forecast-2026/" },
+  { id: "n26", date: "2026-01-15", topic: "Corporate Finance", importance: "normal",
+    title: "Cleary Gottlieb: 2026 IPO momentum builds globally on rate easing, regulatory reform",
+    summary: "2025 saw $143.3B raised across 1,014 IPOs (+21% YoY). Banamex IPO anticipated H2 2026; active pipelines in defense, industrials, financials, tech.",
+    source: "Cleary Gottlieb", url: "https://www.clearygottlieb.com/news-and-insights/publication-listing/global-ipo-market-trends-2025-review-and-2026-outlook" },
+];
+
+const IMP = { critical: "🔥", high: "⚡", normal: "📌" };
+const TOPIC_BG = TOPICS.reduce((m,t) => (m[t.key] = t.bg, m), {});
+const TOPIC_ICON = TOPICS.reduce((m,t) => (m[t.key] = t.icon, m), {});
+
+const LS_PIN = "fp.pinned";
+const LS_BOOK = "fp.bookmarks";
+
+function lsGet(key) {
+  try { return JSON.parse(localStorage.getItem(key) || "[]"); }
+  catch (e) { return []; }
+}
+function lsSet(key, arr) {
+  try { localStorage.setItem(key, JSON.stringify(arr)); } catch (e) {}
+}
+
+const state = {
+  view: "home",
+  topic: null,
+  pinned: new Set(lsGet(LS_PIN)),
+  bookmarks: new Set(lsGet(LS_BOOK)),
+};
+
+function togglePin(id) {
+  if (state.pinned.has(id)) state.pinned.delete(id);
+  else state.pinned.add(id);
+  lsSet(LS_PIN, [...state.pinned]);
+  renderFeed();
+}
+function toggleBook(id) {
+  if (state.bookmarks.has(id)) state.bookmarks.delete(id);
+  else state.bookmarks.add(id);
+  lsSet(LS_BOOK, [...state.bookmarks]);
+  renderFeed();
+}
+
+function fmtDate(iso) {
+  const d = new Date(iso + "T12:00:00");
+  return d.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" });
+}
+function shortDay(iso) {
+  const d = new Date(iso + "T12:00:00");
+  return d.toLocaleDateString("en-US", { weekday: "short" });
+}
+
+function renderShortcuts() {
+  const wrap = document.getElementById("shortcuts");
+  wrap.innerHTML = "";
+  TOPICS.forEach(t => {
+    const el = document.createElement("button");
+    el.className = "shortcut" + (state.topic === t.key ? " active" : "");
+    el.innerHTML = `
+      <div class="tile" style="background:${t.bg}">${t.icon}</div>
+      <span class="label">${t.key.split(" ")[0]}</span>
+    `;
+    el.addEventListener("click", () => {
+      state.topic = state.topic === t.key ? null : t.key;
+      state.view = "home";
+      renderAll();
+    });
+    wrap.appendChild(el);
+  });
+  const add = document.createElement("button");
+  add.className = "shortcut add";
+  add.innerHTML = `<div class="tile">+</div><span class="label">All</span>`;
+  add.addEventListener("click", () => {
+    state.topic = null;
+    state.view = "home";
+    renderAll();
+  });
+  wrap.appendChild(add);
+}
+
+function renderKPIs() {
+  const grid = document.getElementById("kpi-grid");
+  grid.innerHTML = "";
+  KPIS.forEach(k => {
+    const el = document.createElement("div");
+    el.className = "kpi";
+    const arrow = k.dir === "up" ? "▲" : k.dir === "down" ? "▼" : "—";
+    el.innerHTML = `
+      <div>
+        <div class="name">${k.name}</div>
+        <div class="val">${k.val}</div>
+      </div>
+      <div class="delta ${k.dir}">${arrow} ${k.delta}</div>
+    `;
+    grid.appendChild(el);
+  });
+}
+
+function renderActions() {
+  const wrap = document.getElementById("actions");
+  const items = [
+    { key: "home",   label: "All",     glyph: "≡",  filled: true  },
+    { key: "pinned", label: "Pinned",  glyph: "★", filled: false },
+    { key: "saved",  label: "Saved",   glyph: "🔖", filled: false },
+    { key: "voices", label: "Voices",  glyph: "💬", filled: false },
+  ];
+  wrap.innerHTML = "";
+  items.forEach(it => {
+    const el = document.createElement("button");
+    el.className = "action" + (it.filled ? "" : " outline") + (state.view === it.key ? " active" : "");
+    el.innerHTML = `<div class="circle">${it.glyph}</div><div class="lbl">${it.label}</div>`;
+    el.addEventListener("click", () => setView(it.key));
+    wrap.appendChild(el);
+  });
+}
+
+function renderVoices() {
+  const wrap = document.getElementById("voices");
+  wrap.innerHTML = "";
+  VOICES.forEach(v => {
+    const a = document.createElement("a");
+    a.className = "voice";
+    a.href = v.url;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    a.innerHTML = `
+      <div class="voice-top">
+        <div class="voice-avatar" style="background:${v.bg}">${v.initials}</div>
+        <div class="voice-meta">
+          <div class="voice-name">${v.name}</div>
+          <div class="voice-role">${v.role}</div>
+        </div>
+      </div>
+      <p class="voice-quote">${v.quote}</p>
+      <div class="voice-source">${v.source} ↗</div>
+    `;
+    wrap.appendChild(a);
+  });
+}
+
+function renderFeed() {
+  const root = document.getElementById("feed");
+  const empty = document.getElementById("empty");
+  const titleEl = document.getElementById("feed-title");
+  const metaEl = document.getElementById("feed-meta");
+  root.innerHTML = "";
+
+  // ---- Dedicated Voices view: list all voice cards full-width ----
+  if (state.view === "voices") {
+    titleEl.textContent = "All Voices";
+    metaEl.textContent = `${VOICES.length} entries`;
+    empty.style.display = "none";
+
+    const card = document.createElement("div");
+    card.className = "feed-card";
+    card.innerHTML = `<div class="date-header"><span class="day">💬 Commentary</span></div>`;
+
+    VOICES.forEach(v => {
+      const a = document.createElement("a");
+      a.href = v.url;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.className = "item";
+      a.style.textDecoration = "none";
+      a.style.color = "inherit";
+      a.innerHTML = `
+        <div class="item-icon" style="background:${v.bg}; font-size:14px; font-weight:700; color:var(--accent);">${v.initials}</div>
+        <div class="item-body">
+          <div class="item-title-row">
+            <div class="item-title">${v.name}</div>
+          </div>
+          <div class="item-summary" style="font-style:italic; color:var(--text);">"${v.quote}"</div>
+          <div class="item-meta">
+            <span class="topic-tag">${v.role}</span>
+            <span class="dot">·</span>
+            <span>${v.source}</span>
+          </div>
+        </div>
+        <div class="item-actions">
+          <span class="a-btn" title="Open">↗</span>
+        </div>
+      `;
+      card.appendChild(a);
+    });
+    root.appendChild(card);
+    return;
+  }
+
+  let pool = NEWS.slice();
+
+  if (state.view === "pinned") {
+    pool = pool.filter(n => state.pinned.has(n.id));
+    titleEl.textContent = "Pinned";
+    metaEl.textContent = `${pool.length} pinned`;
+  } else if (state.view === "saved") {
+    pool = pool.filter(n => state.bookmarks.has(n.id));
+    titleEl.textContent = "Saved for Later";
+    metaEl.textContent = `${pool.length} saved`;
+  } else {
+    titleEl.textContent = state.topic ? state.topic : "Latest News";
+    metaEl.textContent = state.topic ? "Filtered" : "All";
+  }
+
+  if (state.topic && state.view === "home") {
+    pool = pool.filter(n => n.topic === state.topic);
+  }
+
+  pool.sort((a, b) => b.date.localeCompare(a.date));
+
+  if (pool.length === 0) {
+    empty.style.display = "block";
+    document.getElementById("empty-msg").textContent =
+      state.view === "pinned" ? "No pinned articles yet. Tap ★ on any story to pin it." :
+      state.view === "saved"  ? "No saved articles yet. Tap 🔖 on any story to save it." :
+      "No stories match this filter.";
+    return;
+  }
+  empty.style.display = "none";
+
+  // Pinned-at-top behavior on home view
+  if (state.view === "home") {
+    const pinnedItems = pool.filter(n => state.pinned.has(n.id));
+    if (pinnedItems.length) {
+      const card = document.createElement("div");
+      card.className = "feed-card";
+      card.innerHTML = `<div class="date-header"><span class="day">★ Pinned</span></div>`;
+      pinnedItems.forEach(n => card.appendChild(renderItem(n)));
+      root.appendChild(card);
+      pool = pool.filter(n => !state.pinned.has(n.id));
+    }
+  }
+
+  // Group remaining by date
+  const groups = {};
+  pool.forEach(n => {
+    if (!groups[n.date]) groups[n.date] = [];
+    groups[n.date].push(n);
+  });
+  const dates = Object.keys(groups).sort((a,b) => b.localeCompare(a));
+
+  dates.forEach(d => {
+    const card = document.createElement("div");
+    card.className = "feed-card";
+    card.innerHTML = `<div class="date-header"><span class="day">${shortDay(d)}</span>${fmtDate(d)}</div>`;
+    groups[d].forEach(n => card.appendChild(renderItem(n)));
+    root.appendChild(card);
+  });
+}
+
+function renderItem(n) {
+  const el = document.createElement("div");
+  const isPinned = state.pinned.has(n.id);
+  const isBooked = state.bookmarks.has(n.id);
+  el.className = "item" + (isPinned ? " pinned" : "");
+  const bg = TOPIC_BG[n.topic] || "var(--p-cream)";
+  const ic = TOPIC_ICON[n.topic] || "📰";
+
+  el.innerHTML = `
+    <div class="item-icon" style="background:${bg}">${ic}</div>
+    <div class="item-body">
+      <div class="item-title-row">
+        <div class="item-title"><a href="${n.url}" target="_blank" rel="noopener noreferrer">${n.title}</a></div>
+        <span class="imp" title="${n.importance}">${IMP[n.importance] || ""}</span>
+      </div>
+      <div class="item-summary">${n.summary}</div>
+      <div class="item-meta">
+        <span class="topic-tag">${n.topic}</span>
+        <span class="dot">·</span>
+        <span>${n.source}</span>
+      </div>
+    </div>
+    <div class="item-actions">
+      <button class="a-btn pin ${isPinned ? "on" : ""}" title="Pin" data-id="${n.id}" data-act="pin">${isPinned ? "★" : "☆"}</button>
+      <button class="a-btn ${isBooked ? "on" : ""}" title="Save for later" data-id="${n.id}" data-act="book">${isBooked ? "🔖" : "📑"}</button>
+    </div>
+  `;
+  el.querySelectorAll(".a-btn").forEach(btn => {
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const id = btn.getAttribute("data-id");
+      const act = btn.getAttribute("data-act");
+      if (act === "pin") togglePin(id);
+      else toggleBook(id);
+    });
+  });
+  return el;
+}
+
+function renderTabbar() {
+  const wrap = document.getElementById("tabbar");
+  const tabs = [
+    { key: "home",    label: "Home",    icon: "⌂"  },
+    { key: "pinned",  label: "Pinned",  icon: "★" },
+    { key: "saved",   label: "Saved",   icon: "🔖" },
+    { key: "voices",  label: "Voices",  icon: "💬" },
+    { key: "about",   label: "About",   icon: "ⓘ"  },
+  ];
+  wrap.innerHTML = "";
+  tabs.forEach(t => {
+    const el = document.createElement("button");
+    el.className = "tab" + (state.view === t.key ? " active" : "");
+    el.innerHTML = `<span class="ti">${t.icon}</span><span class="tlbl">${t.label}</span>`;
+    el.addEventListener("click", () => setView(t.key));
+    wrap.appendChild(el);
+  });
+}
+
+function renderTitle() {
+  // Page header is always the brand name; section context lives in feed-title
+  document.getElementById("page-title").textContent = "Finance Hub";
+}
+
+function setView(v) {
+  if (v === "about") {
+    alert("Finance Hub\n\nA daily-briefing finance news aggregator.\n\n• Pin (★) and Save (🔖) articles — stored on this device\n• Topic filters via the colored tiles\n• KPIs in the Economic Insight Center (manually updated)\n• Voices: latest commentary from finance leaders\n\nAll articles link to original sources.");
+    return;
+  }
+  state.view = v;
+  if (v !== "home") state.topic = null;
+  renderAll();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function renderAll() {
+  // Toggle strip-vs-full visibility for the Voices view
+  const onVoices = state.view === "voices";
+  document.getElementById("voices-head").style.display = onVoices ? "none" : "flex";
+  document.getElementById("voices").style.display = onVoices ? "none" : "flex";
+
+  renderTitle();
+  renderShortcuts();
+  renderKPIs();
+  renderActions();
+  renderVoices();
+  renderFeed();
+  renderTabbar();
+}
+
+renderAll();
+</script>
+</body>
+</html>
