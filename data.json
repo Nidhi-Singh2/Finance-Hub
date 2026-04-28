@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T20:30:27.788381+00:00",
+  "generated_at": "2026-04-28T20:40:17.910921+00:00",
   "kpis": [
     {
       "name": "S&P 500",
@@ -7,7 +7,7 @@
       "delta": "+0.01%",
       "dir": "up",
       "stale": false,
-      "as_of": "2026-04-28T20:30:25.468042+00:00"
+      "as_of": "2026-04-28T20:40:15.256685+00:00"
     },
     {
       "name": "Nasdaq",
@@ -15,39 +15,39 @@
       "delta": "+0.15%",
       "dir": "up",
       "stale": false,
-      "as_of": "2026-04-28T20:30:26.206950+00:00"
+      "as_of": "2026-04-28T20:40:16.198508+00:00"
     },
     {
       "name": "10Y Treasury",
-      "val": "—",
-      "delta": "—",
-      "dir": "flat",
+      "val": "4.35%",
+      "delta": "−0.05%",
+      "dir": "down",
       "stale": false,
-      "as_of": "2026-04-28T20:30:26.984337+00:00"
+      "as_of": "2026-04-28T20:40:16.897361+00:00"
     },
     {
       "name": "Dollar Index",
-      "val": "98.47",
-      "delta": "+0.18%",
+      "val": "98.46",
+      "delta": "+0.17%",
       "dir": "up",
       "stale": false,
-      "as_of": "2026-04-28T20:30:27.573257+00:00"
+      "as_of": "2026-04-28T20:40:17.755868+00:00"
     },
     {
       "name": "Bitcoin",
-      "val": "$76.3K",
+      "val": "$76.4K",
       "delta": "−0.83%",
       "dir": "down",
       "stale": false,
-      "as_of": "2026-04-28T20:30:27.788355+00:00"
+      "as_of": "2026-04-28T20:40:17.910891+00:00"
     },
     {
       "name": "Ethereum",
       "val": "$2,297",
-      "delta": "+0.19%",
+      "delta": "+0.14%",
       "dir": "up",
       "stale": false,
-      "as_of": "2026-04-28T20:30:27.788371+00:00"
+      "as_of": "2026-04-28T20:40:17.910910+00:00"
     }
   ],
   "voices": [
@@ -83,6 +83,28 @@
     }
   ],
   "news": [
+    {
+      "title": "This bank CEO let his AI clone handle an earnings call — now he's signing an OpenAI deal",
+      "summary": "It's part of Customers Bank CEO Sam Sidhu's effort to get ahead in the industry's race to transform itself using AI agents as a new digital workforce",
+      "url": "https://www.cnbc.com/2026/04/27/openai-partners-with-customers-bank-in-push-to-automate-finance.html",
+      "source": "CNBC Finance",
+      "published": "2026-04-28T20:35:57+00:00",
+      "topic": "AI",
+      "importance": "high",
+      "id": "a_5e5d001b5d",
+      "date": "2026-04-28"
+    },
+    {
+      "title": "Elon Musk takes the stand in OpenAI trial: Live updates",
+      "summary": "Elon Musk sued OpenAI, Sam Altman and Greg Brockman in 2024, claiming they reneged on their promise to keep the artificial intelligence lab a nonprofit.",
+      "url": "https://www.cnbc.com/2026/04/28/openai-trial-elon-musk-sam-altman-live-updates.html",
+      "source": "CNBC Top",
+      "published": "2026-04-28T20:35:27+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_e6cc7abc91",
+      "date": "2026-04-28"
+    },
     {
       "title": "Robinhood stock shrugs off a 47% crash in crypto revenue thanks to a massive surge in event betting",
       "summary": "",
@@ -128,14 +150,14 @@
       "date": "2026-04-28"
     },
     {
-      "title": "Elon Musk takes the stand in OpenAI trial: Live updates",
-      "summary": "Elon Musk sued OpenAI, Sam Altman and Greg Brockman in 2024, claiming they reneged on their promise to keep the artificial intelligence lab a nonprofit.",
-      "url": "https://www.cnbc.com/2026/04/28/openai-trial-elon-musk-sam-altman-live-updates.html",
-      "source": "CNBC Top",
-      "published": "2026-04-28T19:59:03+00:00",
-      "topic": "AI",
+      "title": "Bitcoin Coinbase Premium turns negative as BTC price drops, weekly losses top $829M",
+      "summary": "Bitcoin price followed weakening US spot market demand as the Coinbase Premium Index turned negative for the first time in three weeks.",
+      "url": "https://cointelegraph.com/markets/bitcoin-coinbase-premium-flashes-red-in-three-weeks-as-weekly-losses-top-793m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-04-28T19:56:21+00:00",
+      "topic": "Cryptocurrency",
       "importance": "normal",
-      "id": "a_e6cc7abc91",
+      "id": "a_607ec816b4",
       "date": "2026-04-28"
     },
     {
@@ -158,6 +180,17 @@
       "topic": "AI",
       "importance": "normal",
       "id": "a_7b31540478",
+      "date": "2026-04-28"
+    },
+    {
+      "title": "RedStone launches settlement layer to address RWA liquidity gap in DeFi lending",
+      "summary": "A new system targets the mismatch between fast DeFi liquidations and slow asset redemptions, a key barrier to the use of tokenized assets in lending markets.",
+      "url": "https://cointelegraph.com/news/redstone-settlement-layer-rwa-liquidity-gap-defi-lending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-04-28T19:42:43+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_037a414326",
       "date": "2026-04-28"
     },
     {
@@ -323,17 +356,6 @@
       "topic": "Cryptocurrency",
       "importance": "normal",
       "id": "a_9f525a08df",
-      "date": "2026-04-28"
-    },
-    {
-      "title": "59% of Americans live paycheck to paycheck — these high-yield savings accounts can help you break the cycle",
-      "summary": "Living paycheck to paycheck? Here are the best high-yield saving accounts with above-average interest rates.",
-      "url": "https://www.cnbc.com/select/best-high-yield-savings-accounts-for-living-paycheck-to-paycheck/",
-      "source": "CNBC Top",
-      "published": "2026-04-28T16:05:27+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_518c0334b4",
       "date": "2026-04-28"
     },
     {
@@ -711,25 +733,14 @@
       "date": "2026-04-28"
     },
     {
-      "title": "Paystand launches Bitcoin-based stablecoin USDb for enterprise payments",
-      "summary": "The US dollar-backed token will roll out across Paystand’s network, which the company says has processed more than $20 billion in business payments.",
-      "url": "https://cointelegraph.com/news/paystand-launches-bitcoin-based-stablecoin-usdb-for-enterprise-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Bybit Pay enters South Africa through MoneyBadger integration",
+      "summary": "The integration enables crypto payments at more than 650,000 merchants, with transactions settled for businesses in South African rand.",
+      "url": "https://cointelegraph.com/news/bybit-pay-launches-in-south-africa-with-moneybadger-integration?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published": "2026-04-28T07:00:00+00:00",
       "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_431152f46c",
-      "date": "2026-04-28"
-    },
-    {
-      "title": "Three Bitcoin charts say BTC price may rally toward $82K",
-      "summary": "Bitcoin’s ascending channel setup and rising stablecoin inflows suggest improving liquidity conditions could support a push toward higher price levels.",
-      "url": "https://cointelegraph.com/markets/three-bitcoin-charts-signaling-btc-price-rebound-to-82k-and-above?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-04-28T06:57:26+00:00",
-      "topic": "Cryptocurrency",
       "importance": "normal",
-      "id": "a_1b1ef9da69",
+      "id": "a_2ed97c8b92",
       "date": "2026-04-28"
     },
     {
@@ -752,17 +763,6 @@
       "topic": "Stocks",
       "importance": "normal",
       "id": "a_f1044ca9b6",
-      "date": "2026-04-27"
-    },
-    {
-      "title": "This bank CEO let his AI clone handle an earnings call — now he's signing an OpenAI deal",
-      "summary": "It's part of Customers Bank CEO Sam Sidhu's effort to get ahead in the industry's race to transform itself using AI agents as a new digital workforce",
-      "url": "https://www.cnbc.com/2026/04/27/openai-partners-with-customers-bank-in-push-to-automate-finance.html",
-      "source": "CNBC Finance",
-      "published": "2026-04-27T18:45:54+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_5e5d001b5d",
       "date": "2026-04-27"
     },
     {
@@ -832,6 +832,50 @@
       "date": "2026-04-27"
     },
     {
+      "title": "FedEx's Q4 2026 Earnings: What to Expect",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fedexs-q4-2026-earnings-expect-115605097.html",
+      "source": "Yahoo Finance",
+      "published": "2026-04-27T11:56:05+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_dc3937c90c",
+      "date": "2026-04-27"
+    },
+    {
+      "title": "SpaceX and OpenAI IPOs: 1 warning to not overlook",
+      "summary": "",
+      "url": "https://finance.yahoo.com/news/spacex-and-openai-ipos-1-warning-to-not-overlook-115551526.html",
+      "source": "Yahoo Finance",
+      "published": "2026-04-27T11:55:51+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_ddaf7e783a",
+      "date": "2026-04-27"
+    },
+    {
+      "title": "Baladna works with World Bank financing arm in Syria dairy project",
+      "summary": "",
+      "url": "https://finance.yahoo.com/economy/policy/articles/baladna-works-world-bank-financing-115320465.html",
+      "source": "Yahoo Finance",
+      "published": "2026-04-27T11:53:20+00:00",
+      "topic": "Banking",
+      "importance": "normal",
+      "id": "a_0779f0d451",
+      "date": "2026-04-27"
+    },
+    {
+      "title": "Is Marvell Stock a Buy After Alphabet and Nvidia Deals?",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-stock-buy-alphabet-nvidia-115000399.html",
+      "source": "Yahoo Finance",
+      "published": "2026-04-27T11:50:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_a98995aba4",
+      "date": "2026-04-27"
+    },
+    {
       "title": "Bitcoin and ethereum price today, Monday, April 27, 2026: Prices hold ahead of potential peace talks and Fed meeting",
       "summary": "",
       "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-price-today-monday-april-27-2026-prices-hold-ahead-of-potential-peace-talks-and-fed-meeting-114927492.html",
@@ -854,25 +898,14 @@
       "date": "2026-04-27"
     },
     {
-      "title": "Verizon Q1 2026 earnings: first spring subscriber gains since 2013",
+      "title": "Meta Platforms Earnings Preview: What to Watch in Q1 2026 Report",
       "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/verizon-q1-2026-earnings-first-113801760.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-earnings-preview-watch-114500578.html",
       "source": "Yahoo Finance",
-      "published": "2026-04-27T11:38:01+00:00",
+      "published": "2026-04-27T11:45:00+00:00",
       "topic": "Stocks",
       "importance": "high",
-      "id": "a_b728855600",
-      "date": "2026-04-27"
-    },
-    {
-      "title": "Bank of America Securities Reiterates Buy Rating on Capital One Financial (COF) Stock",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-securities-reiterates-buy-113309097.html",
-      "source": "Yahoo Finance",
-      "published": "2026-04-27T11:33:09+00:00",
-      "topic": "Banking",
-      "importance": "normal",
-      "id": "a_d0b950fb92",
+      "id": "a_5ddf5b1dec",
       "date": "2026-04-27"
     },
     {
@@ -909,17 +942,6 @@
       "date": "2026-04-27"
     },
     {
-      "title": "Oracle’s Quarterly Earnings Preview: What You Need to Know",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-quarterly-earnings-preview-know-112335282.html",
-      "source": "Yahoo Finance",
-      "published": "2026-04-27T11:23:35+00:00",
-      "topic": "Stocks",
-      "importance": "high",
-      "id": "a_ab1a67604d",
-      "date": "2026-04-27"
-    },
-    {
       "title": "To buy this Bay Area home, you’ll need Anthropic equity",
       "summary": "Someone’s offering an unusual deal for a 13-acre property in Mill Valley, just north of San Francisco.",
       "url": "https://techcrunch.com/2026/04/26/to-buy-this-bay-area-home-youll-need-anthropic-equity/",
@@ -939,28 +961,6 @@
       "topic": "AI",
       "importance": "normal",
       "id": "a_9ebc0033f4",
-      "date": "2026-04-25"
-    },
-    {
-      "title": "OpenAI CEO apologizes to Tumbler Ridge community",
-      "summary": "In a letter to the residents of Tumbler Ridge, Canada, OpenAI CEO Sam Altman said he is “deeply sorry” that his company failed to alert law enforcement about the suspect in a recent mass shooting.",
-      "url": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
-      "source": "TechCrunch AI",
-      "published": "2026-04-25T17:17:56+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_de174d0fc4",
-      "date": "2026-04-25"
-    },
-    {
-      "title": "Why Cohere is merging with Aleph Alpha",
-      "summary": "Canadian AI startup Cohere is taking over Germany-based Aleph Alpha with support from Schwarz Group. With the blessing of their governments, the companies intend to offer a sovereign alternative to enterprises in an AI landscape dominated by American players.",
-      "url": "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/",
-      "source": "TechCrunch AI",
-      "published": "2026-04-25T16:00:00+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_6c20f7373e",
       "date": "2026-04-25"
     }
   ]
