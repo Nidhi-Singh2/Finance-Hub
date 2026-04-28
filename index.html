@@ -226,6 +226,24 @@
   .kpi .delta.up   { color: #1f7a5a; }
   .kpi .delta.down { color: #c44b5e; }
   .kpi .delta.flat { color: var(--text-faint); }
+  .kpi.stale {
+    background: repeating-linear-gradient(
+      135deg,
+      var(--surface-2),
+      var(--surface-2) 8px,
+      #f3eee2 8px,
+      #f3eee2 10px
+    );
+  }
+  .kpi.stale .stale-tag {
+    font-size: 9px;
+    font-weight: 600;
+    color: var(--warn);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 2px;
+    display: block;
+  }
 
   .actions {
     display: grid;
@@ -658,14 +676,27 @@ function renderKPIs() {
   grid.innerHTML = "";
   KPIS.forEach(k => {
     const el = document.createElement("div");
-    el.className = "kpi";
+    el.className = "kpi" + (k.stale ? " stale" : "");
     const arrow = k.dir === "up" ? "▲" : k.dir === "down" ? "▼" : "—";
+    let staleNote = "";
+    if (k.stale && k.as_of) {
+      try {
+        const d = new Date(k.as_of);
+        const opts = { month: "short", day: "numeric" };
+        staleNote = `<span class="stale-tag">As of ${d.toLocaleDateString("en-US", opts)}</span>`;
+      } catch (e) {
+        staleNote = `<span class="stale-tag">Stale</span>`;
+      }
+    }
     el.innerHTML = `
       <div>
         <div class="name">${k.name}</div>
         <div class="val">${k.val}</div>
       </div>
-      <div class="delta ${k.dir}">${arrow} ${k.delta}</div>
+      <div>
+        <div class="delta ${k.dir}">${arrow} ${k.delta}</div>
+        ${staleNote}
+      </div>
     `;
     grid.appendChild(el);
   });
@@ -889,7 +920,7 @@ function renderTitle() {
 
 function setView(v) {
   if (v === "about") {
-    alert("Finance Hub\n\nA daily-briefing finance news aggregator.\n\n• Pin (★) and Save (🔖) articles — stored on this device\n• Topic filters via the colored tiles\n• KPIs in the Economic Insight Center (auto-refreshed)\n• Voices: latest commentary from finance leaders\n\nAll articles link to original sources.");
+    alert("Finance Hub\n\nA daily-briefing finance news aggregator.\n\n• Pin (★) and Save (🔖) articles — stored on this device\n• Topic filters via the colored tiles\n• KPIs in the Economic Insight Center (manually updated)\n• Voices: latest commentary from finance leaders\n\nAll articles link to original sources.");
     return;
   }
   state.view = v;
