@@ -1,0 +1,44 @@
+name: Refresh Finance Hub
+
+on:
+  schedule:
+    # 6:00 AM Central (CDT/CST) = 11:00 UTC during DST, 12:00 UTC standard time.
+    # Cron always interprets as UTC, so we run at 11:00 UTC year-round (slight drift in winter).
+    - cron: '0 11 * * *'
+  # Allow manual triggering from the Actions tab
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install feedparser requests
+
+      - name: Run refresh script
+        run: python scripts/refresh.py
+
+      - name: Commit updated data.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: daily refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
