@@ -1,44 +1,66 @@
 {
-  "generated_at": "2026-04-28T20:21:33.211549+00:00",
+  "generated_at": "2026-04-28T20:30:27.788381+00:00",
   "kpis": [
     {
       "name": "S&P 500",
-      "val": "—",
-      "delta": "—",
-      "dir": "flat"
+      "val": "7,139",
+      "delta": "+0.01%",
+      "dir": "up",
+      "stale": false,
+      "as_of": "2026-04-28T20:30:25.468042+00:00"
     },
     {
       "name": "Nasdaq",
-      "val": "—",
-      "delta": "—",
-      "dir": "flat"
+      "val": "27,029",
+      "delta": "+0.15%",
+      "dir": "up",
+      "stale": false,
+      "as_of": "2026-04-28T20:30:26.206950+00:00"
     },
     {
       "name": "10Y Treasury",
       "val": "—",
       "delta": "—",
-      "dir": "flat"
+      "dir": "flat",
+      "stale": false,
+      "as_of": "2026-04-28T20:30:26.984337+00:00"
     },
     {
       "name": "Dollar Index",
-      "val": "—",
-      "delta": "—",
-      "dir": "flat"
+      "val": "98.47",
+      "delta": "+0.18%",
+      "dir": "up",
+      "stale": false,
+      "as_of": "2026-04-28T20:30:27.573257+00:00"
     },
     {
       "name": "Bitcoin",
       "val": "$76.3K",
-      "delta": "−0.76%",
-      "dir": "down"
+      "delta": "−0.83%",
+      "dir": "down",
+      "stale": false,
+      "as_of": "2026-04-28T20:30:27.788355+00:00"
     },
     {
       "name": "Ethereum",
-      "val": "$2,299",
-      "delta": "+0.32%",
-      "dir": "up"
+      "val": "$2,297",
+      "delta": "+0.19%",
+      "dir": "up",
+      "stale": false,
+      "as_of": "2026-04-28T20:30:27.788371+00:00"
     }
   ],
   "voices": [
+    {
+      "name": "Jerome Powell",
+      "role": "Fed Chair",
+      "initials": "JP",
+      "bg": "var(--p-cream)",
+      "quote": "In what could be Jerome Powell's final meeting as Fed chair, he and his fellow policymakers are likely to continue their cautious approach.",
+      "source": "CNBC Top",
+      "url": "https://www.cnbc.com/2026/04/28/fed-meeting-preview-april-2026.html",
+      "date": "2026-04-28"
+    },
     {
       "name": "Jamie Dimon",
       "role": "CEO, JPMorgan Chase",
@@ -61,6 +83,28 @@
     }
   ],
   "news": [
+    {
+      "title": "Robinhood stock shrugs off a 47% crash in crypto revenue thanks to a massive surge in event betting",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/04/28/robinhood-stock-shrugs-off-a-47-crash-in-crypto-revenue-thanks-to-a-massive-surge-in-event-betting",
+      "source": "CoinDesk",
+      "published": "2026-04-28T20:28:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "critical",
+      "id": "a_8724b0a8df",
+      "date": "2026-04-28"
+    },
+    {
+      "title": "Here's everything to expect when the Fed issues its latest interest rate decision Wednesday",
+      "summary": "In what could be Jerome Powell's final meeting as Fed chair, he and his fellow policymakers are likely to continue their cautious approach.",
+      "url": "https://www.cnbc.com/2026/04/28/fed-meeting-preview-april-2026.html",
+      "source": "CNBC Top",
+      "published": "2026-04-28T20:15:32+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_d8fbe7d957",
+      "date": "2026-04-28"
+    },
     {
       "title": "Starbucks raises full-year outlook after earnings, revenue top estimates",
       "summary": "Starbucks' global same-store sales, which only includes cafes open at least a year, increased 6.2%, fueled by more visits to its locations.",
@@ -436,17 +480,6 @@
       "date": "2026-04-28"
     },
     {
-      "title": "Spotify stock plummets after earnings beat expectations as guidance disappoints",
-      "summary": "The Swedish audiostreamer's soft guidance overshadowed an earnings beat.",
-      "url": "https://www.cnbc.com/2026/04/28/spotify-stock-spot-earnings-beat-guidance.html",
-      "source": "CNBC Top",
-      "published": "2026-04-28T14:00:46+00:00",
-      "topic": "Stocks",
-      "importance": "high",
-      "id": "a_e7371809f5",
-      "date": "2026-04-28"
-    },
-    {
       "title": "New wallet offers way to tackle Bitcoin’s quantum risk without a fork",
       "summary": "",
       "url": "https://www.coindesk.com/tech/2026/04/28/emb-2-pm-utc-new-wallet-offers-way-to-tackle-bitcoin-s-quantum-risk-without-a-fork",
@@ -711,17 +744,6 @@
       "date": "2026-04-28"
     },
     {
-      "title": "Bitcoin loses $77,000, ether, solana slide as Hormuz standoff lifts oil to 3-week high",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/04/28/bitcoin-loses-usd77-000-ether-solana-slide-as-hormuz-standoff-lifts-oil-to-3-week-high",
-      "source": "CoinDesk",
-      "published": "2026-04-28T05:23:25+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_8bfea9af86",
-      "date": "2026-04-28"
-    },
-    {
       "title": "Investors usually 'sell in May and go away.' Why that may not work this year",
       "summary": "The maxim may not hold up this year, as a stock market at all-time highs exhibits signs of further momentum.",
       "url": "https://www.cnbc.com/2026/04/27/investors-usually-sell-in-may-and-go-away-why-that-may-not-work-this-year.html",
@@ -810,6 +832,39 @@
       "date": "2026-04-27"
     },
     {
+      "title": "Bitcoin and ethereum price today, Monday, April 27, 2026: Prices hold ahead of potential peace talks and Fed meeting",
+      "summary": "",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-price-today-monday-april-27-2026-prices-hold-ahead-of-potential-peace-talks-and-fed-meeting-114927492.html",
+      "source": "Yahoo Finance",
+      "published": "2026-04-27T11:49:27+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_ca94ca418f",
+      "date": "2026-04-27"
+    },
+    {
+      "title": "Laughing Water Capital Sold PAR Technology Corp (PAR) Due to Valuation Concerns",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/laughing-water-capital-sold-par-114517856.html",
+      "source": "Yahoo Finance",
+      "published": "2026-04-27T11:45:17+00:00",
+      "topic": "Valuation",
+      "importance": "normal",
+      "id": "a_fbca232fa6",
+      "date": "2026-04-27"
+    },
+    {
+      "title": "Verizon Q1 2026 earnings: first spring subscriber gains since 2013",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/verizon-q1-2026-earnings-first-113801760.html",
+      "source": "Yahoo Finance",
+      "published": "2026-04-27T11:38:01+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_b728855600",
+      "date": "2026-04-27"
+    },
+    {
       "title": "Bank of America Securities Reiterates Buy Rating on Capital One Financial (COF) Stock",
       "summary": "",
       "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-securities-reiterates-buy-113309097.html",
@@ -854,39 +909,6 @@
       "date": "2026-04-27"
     },
     {
-      "title": "S&P 500 and Nasdaq close at fresh records as tech leads quiet advance",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-steadies-iran-tensions-113000833.html",
-      "source": "Yahoo Finance",
-      "published": "2026-04-27T11:30:00+00:00",
-      "topic": "Stocks",
-      "importance": "normal",
-      "id": "a_026db20cd9",
-      "date": "2026-04-27"
-    },
-    {
-      "title": "India’s central bank revokes Paytm Payments Bank permit",
-      "summary": "",
-      "url": "https://finance.yahoo.com/economy/policy/articles/india-central-bank-revokes-paytm-112914924.html",
-      "source": "Yahoo Finance",
-      "published": "2026-04-27T11:29:14+00:00",
-      "topic": "Banking",
-      "importance": "normal",
-      "id": "a_2ed25fa2e5",
-      "date": "2026-04-27"
-    },
-    {
-      "title": "What to Expect From Sandisk's Next Quarterly Earnings Report",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/expect-sandisks-next-quarterly-earnings-112521810.html",
-      "source": "Yahoo Finance",
-      "published": "2026-04-27T11:25:21+00:00",
-      "topic": "Stocks",
-      "importance": "high",
-      "id": "a_d00f9ce81e",
-      "date": "2026-04-27"
-    },
-    {
       "title": "Oracle’s Quarterly Earnings Preview: What You Need to Know",
       "summary": "",
       "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-quarterly-earnings-preview-know-112335282.html",
@@ -895,28 +917,6 @@
       "topic": "Stocks",
       "importance": "high",
       "id": "a_ab1a67604d",
-      "date": "2026-04-27"
-    },
-    {
-      "title": "J. M. Smucker’s Quarterly Earnings Preview: What You Need to Know",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/j-m-smucker-quarterly-earnings-112102281.html",
-      "source": "Yahoo Finance",
-      "published": "2026-04-27T11:21:02+00:00",
-      "topic": "Stocks",
-      "importance": "high",
-      "id": "a_af4586b9f6",
-      "date": "2026-04-27"
-    },
-    {
-      "title": "Ciena Earnings Preview: What to Expect",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ciena-earnings-preview-expect-111828690.html",
-      "source": "Yahoo Finance",
-      "published": "2026-04-27T11:18:28+00:00",
-      "topic": "Stocks",
-      "importance": "high",
-      "id": "a_088f717db8",
       "date": "2026-04-27"
     },
     {
@@ -939,6 +939,28 @@
       "topic": "AI",
       "importance": "normal",
       "id": "a_9ebc0033f4",
+      "date": "2026-04-25"
+    },
+    {
+      "title": "OpenAI CEO apologizes to Tumbler Ridge community",
+      "summary": "In a letter to the residents of Tumbler Ridge, Canada, OpenAI CEO Sam Altman said he is “deeply sorry” that his company failed to alert law enforcement about the suspect in a recent mass shooting.",
+      "url": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
+      "source": "TechCrunch AI",
+      "published": "2026-04-25T17:17:56+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_de174d0fc4",
+      "date": "2026-04-25"
+    },
+    {
+      "title": "Why Cohere is merging with Aleph Alpha",
+      "summary": "Canadian AI startup Cohere is taking over Germany-based Aleph Alpha with support from Schwarz Group. With the blessing of their governments, the companies intend to offer a sovereign alternative to enterprises in an AI landscape dominated by American players.",
+      "url": "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/",
+      "source": "TechCrunch AI",
+      "published": "2026-04-25T16:00:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_6c20f7373e",
       "date": "2026-04-25"
     }
   ]
