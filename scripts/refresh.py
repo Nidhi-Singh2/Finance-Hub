@@ -99,15 +99,6 @@ HIGH_KEYWORDS = [
     "outlook", "forecast", "miss", "beat", "warns", "outlook cut",
 ]
 
-# Macro KPIs — Yahoo Finance unofficial endpoints (no key required)
-# Symbols: ^GSPC = S&P 500, ^TNX = 10Y Treasury yield (x10), DX-Y.NYB = DXY
-KPI_SYMBOLS = {
-    "S&P 500":      "^GSPC",
-    "10Y Treasury": "^TNX",
-    "Nasdaq":       "^IXIC",
-    "Dollar Index": "DX-Y.NYB",
-}
-
 # CoinGecko — free, no key. Bitcoin price + 24h change.
 CG_URL = "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum&vs_currencies=usd&include_24hr_change=true"
 
@@ -329,112 +320,175 @@ def fmt_num(x, big=False):
         return f"{x:,.0f}"
     return f"{x:,.2f}"
 
-def fetch_yahoo_quote(symbol):
+
+def fetch_stooq(symbol):
     """
-    Hits Yahoo Finance's public quote endpoint. No API key.
-    Returns (price, change_pct) or (None, None) on failure.
+    Stooq publishes free, no-auth CSV quotes. Reliable from CI runners.
+    Returns (price, change_pct) or (None, None).
+
+    Symbol examples:
+      ^spx   -> S&P 500
+      ^ndx   -> Nasdaq 100
+      ^dji   -> Dow Jones
+      10usy.b -> US 10Y Treasury yield
+      dx.f   -> Dollar Index futures (continuous)
+
+    The CSV format is: Symbol,Date,Time,Open,High,Low,Close,Volume
     """
-    url = f"https://query1.finance.yahoo.com/v7/finance/quote?symbols={symbol}"
+    url = f"https://stooq.com/q/l/?s={symbol}&f=sd2t2ohlcv&h&e=csv"
     try:
-        r = requests.get(url, timeout=10, headers={
+        r = requests.get(url, timeout=15, headers={
             "User-Agent": "Mozilla/5.0 (FinanceHub)",
-            "Accept": "application/json",
         })
         r.raise_for_status()
-        data = r.json()
-        results = data.get("quoteResponse", {}).get("result", [])
-        if not results:
+        lines = r.text.strip().splitlines()
+        if len(lines) < 2:
             return None, None
-        q = results[0]
-        return q.get("regularMarketPrice"), q.get("regularMarketChangePercent")
+        # Header: Symbol,Date,Time,Open,High,Low,Close,Volume
+        cols = lines[1].split(",")
+        if len(cols) < 7:
+            return None, None
+        try:
+            open_p = float(cols[3])
+            close_p = float(cols[6])
+        except ValueError:
+            return None, None
+        if close_p == 0 or open_p == 0:
+            return None, None
+        change_pct = (close_p - open_p) / open_p * 100.0
+        return close_p, change_pct
     except Exception as e:
-        print(f"[warn] yahoo {symbol}: {e}")
+        print(f"[warn] stooq {symbol}: {e}")
         return None, None
+
 
 def fetch_coingecko():
     try:
         r = requests.get(CG_URL, timeout=10)
         r.raise_for_status()
-        data = r.json()
-        return data
+        return r.json()
     except Exception as e:
         print(f"[warn] coingecko: {e}")
         return {}
 
+
+def load_previous_kpis():
+    """Read the prior data.json so we can fall back to its values if a fetch fails."""
+    prev_path = Path(__file__).resolve().parent.parent / "data.json"
+    if not prev_path.exists():
+        return {}, None
+    try:
+        prev = json.loads(prev_path.read_text())
+        prev_map = {k.get("name"): k for k in prev.get("kpis", []) if k.get("name")}
+        prev_gen = prev.get("generated_at")
+        return prev_map, prev_gen
+    except Exception as e:
+        print(f"[warn] could not read previous data.json: {e}")
+        return {}, None
+
+
+def kpi_with_fallback(name, fresh_val, fresh_delta, fresh_dir, prev_map, prev_gen):
+    """
+    Return a KPI dict. If fresh_val is None, look up the previous run's value
+    and tag it as 'stale' so the UI can mark it visually.
+    """
+    if fresh_val is not None:
+        return {
+            "name": name,
+            "val":  fresh_val,
+            "delta": fresh_delta,
+            "dir":  fresh_dir,
+            "stale": False,
+            "as_of": now_utc().isoformat(),
+        }
+    # Fall back to previous run, if available
+    prev = prev_map.get(name)
+    if prev and prev.get("val") not in (None, "—"):
+        out = dict(prev)
+        out["stale"] = True
+        # Preserve as_of from previous run; fill in if missing
+        if not out.get("as_of"):
+            out["as_of"] = prev_gen or now_utc().isoformat()
+        return out
+    # Nothing fresh, nothing prior
+    return {
+        "name": name,
+        "val": "—",
+        "delta": "—",
+        "dir": "flat",
+        "stale": False,
+        "as_of": now_utc().isoformat(),
+    }
+
+
 def build_kpis():
+    prev_map, prev_gen = load_previous_kpis()
     kpis = []
 
-    # S&P 500
-    px, ch = fetch_yahoo_quote("^GSPC")
-    kpis.append({
-        "name": "S&P 500",
-        "val":  fmt_num(px, big=True) if px else "—",
-        "delta": fmt_pct(ch),
-        "dir":  "up" if (ch or 0) > 0 else "down" if (ch or 0) < 0 else "flat",
-    })
+    # ---- S&P 500 (Stooq: ^spx) ----
+    px, ch = fetch_stooq("^spx")
+    val = fmt_num(px, big=True) if px is not None else None
+    kpis.append(kpi_with_fallback(
+        "S&P 500", val, fmt_pct(ch) if px is not None else None,
+        "up" if (ch or 0) > 0 else "down" if (ch or 0) < 0 else "flat",
+        prev_map, prev_gen,
+    ))
 
-    # Nasdaq
-    px, ch = fetch_yahoo_quote("^IXIC")
-    kpis.append({
-        "name": "Nasdaq",
-        "val":  fmt_num(px, big=True) if px else "—",
-        "delta": fmt_pct(ch),
-        "dir":  "up" if (ch or 0) > 0 else "down" if (ch or 0) < 0 else "flat",
-    })
+    # ---- Nasdaq 100 (Stooq: ^ndx) ----
+    px, ch = fetch_stooq("^ndx")
+    val = fmt_num(px, big=True) if px is not None else None
+    kpis.append(kpi_with_fallback(
+        "Nasdaq", val, fmt_pct(ch) if px is not None else None,
+        "up" if (ch or 0) > 0 else "down" if (ch or 0) < 0 else "flat",
+        prev_map, prev_gen,
+    ))
 
-    # 10Y Treasury (Yahoo's ^TNX is yield * 1, e.g. 4.21 means 4.21%)
-    px, ch = fetch_yahoo_quote("^TNX")
-    if px is not None:
-        kpis.append({
-            "name": "10Y Treasury",
-            "val":  f"{px:.2f}%",
-            "delta": f"{'+' if (ch or 0) >= 0 else '−'}{abs(ch or 0):.2f}%",
-            "dir":  "up" if (ch or 0) > 0 else "down" if (ch or 0) < 0 else "flat",
-        })
-    else:
-        kpis.append({"name": "10Y Treasury", "val": "—", "delta": "—", "dir": "flat"})
+    # ---- 10Y Treasury yield (Stooq: 10usy.b) ----
+    px, ch = fetch_stooq("10usy.b")
+    val = f"{px:.2f}%" if px is not None else None
+    delta = (f"{'+' if (ch or 0) >= 0 else '−'}{abs(ch or 0):.2f}%") if px is not None else None
+    kpis.append(kpi_with_fallback(
+        "10Y Treasury", val, delta,
+        "up" if (ch or 0) > 0 else "down" if (ch or 0) < 0 else "flat",
+        prev_map, prev_gen,
+    ))
 
-    # Dollar Index
-    px, ch = fetch_yahoo_quote("DX-Y.NYB")
-    kpis.append({
-        "name": "Dollar Index",
-        "val":  fmt_num(px) if px else "—",
-        "delta": fmt_pct(ch),
-        "dir":  "up" if (ch or 0) > 0 else "down" if (ch or 0) < 0 else "flat",
-    })
+    # ---- Dollar Index (Stooq: dx.f continuous future) ----
+    px, ch = fetch_stooq("dx.f")
+    val = fmt_num(px) if px is not None else None
+    kpis.append(kpi_with_fallback(
+        "Dollar Index", val, fmt_pct(ch) if px is not None else None,
+        "up" if (ch or 0) > 0 else "down" if (ch or 0) < 0 else "flat",
+        prev_map, prev_gen,
+    ))
 
-    # Bitcoin (CoinGecko)
+    # ---- Bitcoin (CoinGecko) ----
     cg = fetch_coingecko()
     btc = cg.get("bitcoin", {})
     btc_p = btc.get("usd")
     btc_c = btc.get("usd_24h_change")
     if btc_p is not None:
-        if btc_p >= 1000:
-            val = f"${btc_p/1000:.1f}K"
-        else:
-            val = f"${btc_p:,.0f}"
-        kpis.append({
-            "name": "Bitcoin",
-            "val":  val,
-            "delta": fmt_pct(btc_c),
-            "dir":  "up" if (btc_c or 0) > 0 else "down" if (btc_c or 0) < 0 else "flat",
-        })
+        val = f"${btc_p/1000:.1f}K" if btc_p >= 1000 else f"${btc_p:,.0f}"
+        kpis.append(kpi_with_fallback(
+            "Bitcoin", val, fmt_pct(btc_c),
+            "up" if (btc_c or 0) > 0 else "down" if (btc_c or 0) < 0 else "flat",
+            prev_map, prev_gen,
+        ))
     else:
-        kpis.append({"name": "Bitcoin", "val": "—", "delta": "—", "dir": "flat"})
+        kpis.append(kpi_with_fallback("Bitcoin", None, None, "flat", prev_map, prev_gen))
 
-    # Ethereum
+    # ---- Ethereum (CoinGecko) ----
     eth = cg.get("ethereum", {})
     eth_p = eth.get("usd")
     eth_c = eth.get("usd_24h_change")
     if eth_p is not None:
-        kpis.append({
-            "name": "Ethereum",
-            "val":  f"${eth_p:,.0f}",
-            "delta": fmt_pct(eth_c),
-            "dir":  "up" if (eth_c or 0) > 0 else "down" if (eth_c or 0) < 0 else "flat",
-        })
+        kpis.append(kpi_with_fallback(
+            "Ethereum", f"${eth_p:,.0f}", fmt_pct(eth_c),
+            "up" if (eth_c or 0) > 0 else "down" if (eth_c or 0) < 0 else "flat",
+            prev_map, prev_gen,
+        ))
     else:
-        kpis.append({"name": "Ethereum", "val": "—", "delta": "—", "dir": "flat"})
+        kpis.append(kpi_with_fallback("Ethereum", None, None, "flat", prev_map, prev_gen))
 
     return kpis
 
