@@ -321,6 +321,41 @@ def fmt_num(x, big=False):
     return f"{x:,.2f}"
 
 
+def fetch_fred_10y():
+    """
+    FRED daily 10-year Treasury yield (DGS10). Public CSV download, no key.
+    Returns (latest_yield, change_from_prior_day) or (None, None).
+    """
+    url = "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10"
+    try:
+        r = requests.get(url, timeout=15, headers={
+            "User-Agent": "Mozilla/5.0 (FinanceHub)",
+        })
+        r.raise_for_status()
+        lines = r.text.strip().splitlines()
+        if len(lines) < 3:
+            return None, None
+        # Format: DATE,DGS10
+        # Latest first non-"." value from the bottom; FRED uses "." for missing.
+        rows = [l.split(",") for l in lines[1:] if "," in l]
+        valid = []
+        for row in rows:
+            if len(row) >= 2 and row[1] not in (".", "", "NaN"):
+                try:
+                    valid.append((row[0], float(row[1])))
+                except ValueError:
+                    continue
+        if len(valid) < 1:
+            return None, None
+        latest = valid[-1][1]
+        prior = valid[-2][1] if len(valid) >= 2 else None
+        change = (latest - prior) if prior is not None else 0.0
+        return latest, change
+    except Exception as e:
+        print(f"[warn] fred 10y: {e}")
+        return None, None
+
+
 def fetch_stooq(symbol):
     """
     Stooq publishes free, no-auth CSV quotes. Reliable from CI runners.
@@ -443,14 +478,31 @@ def build_kpis():
         prev_map, prev_gen,
     ))
 
-    # ---- 10Y Treasury yield (Stooq: 10usy.b) ----
-    px, ch = fetch_stooq("10usy.b")
-    val = f"{px:.2f}%" if px is not None else None
-    delta = (f"{'+' if (ch or 0) >= 0 else '−'}{abs(ch or 0):.2f}%") if px is not None else None
+    # ---- 10Y Treasury yield ----
+    # Primary: Stooq (10yusy.b). Fallback: FRED DGS10.
+    px, ch = fetch_stooq("10yusy.b")
+    if px is None:
+        px, ch_abs = fetch_fred_10y()
+        # FRED returns absolute change in yield (e.g. -0.03 = -3 bps)
+        # Convert to a "delta string" the UI displays
+        if px is not None:
+            val = f"{px:.2f}%"
+            if ch_abs is None:
+                ch_abs = 0.0
+            sign = "+" if ch_abs >= 0 else "−"
+            delta = f"{sign}{abs(ch_abs):.2f} pp"
+            direction = "up" if ch_abs > 0 else "down" if ch_abs < 0 else "flat"
+        else:
+            val, delta, direction = None, None, "flat"
+    else:
+        val = f"{px:.2f}%"
+        # Stooq's intraday change is a % of the open value; treat similarly.
+        sign = "+" if (ch or 0) >= 0 else "−"
+        delta = f"{sign}{abs(ch or 0):.2f}%"
+        direction = "up" if (ch or 0) > 0 else "down" if (ch or 0) < 0 else "flat"
+
     kpis.append(kpi_with_fallback(
-        "10Y Treasury", val, delta,
-        "up" if (ch or 0) > 0 else "down" if (ch or 0) < 0 else "flat",
-        prev_map, prev_gen,
+        "10Y Treasury", val, delta, direction, prev_map, prev_gen,
     ))
 
     # ---- Dollar Index (Stooq: dx.f continuous future) ----
