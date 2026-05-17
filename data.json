@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T11:54:47.441916+00:00",
+  "generated_at": "2026-05-17T12:01:09.742086+00:00",
   "kpis": [
     {
       "name": "S&P 500",
@@ -7,7 +7,7 @@
       "delta": "−0.49%",
       "dir": "down",
       "stale": false,
-      "as_of": "2026-05-16T11:54:45.150240+00:00"
+      "as_of": "2026-05-17T12:01:07.885259+00:00"
     },
     {
       "name": "Nasdaq",
@@ -15,7 +15,7 @@
       "delta": "−0.23%",
       "dir": "down",
       "stale": false,
-      "as_of": "2026-05-16T11:54:45.917965+00:00"
+      "as_of": "2026-05-17T12:01:08.400100+00:00"
     },
     {
       "name": "10Y Treasury",
@@ -23,7 +23,7 @@
       "delta": "+1.82%",
       "dir": "up",
       "stale": false,
-      "as_of": "2026-05-16T11:54:46.792723+00:00"
+      "as_of": "2026-05-17T12:01:09.018644+00:00"
     },
     {
       "name": "Dollar Index",
@@ -31,23 +31,23 @@
       "delta": "+0.38%",
       "dir": "up",
       "stale": false,
-      "as_of": "2026-05-16T11:54:47.367388+00:00"
+      "as_of": "2026-05-17T12:01:09.700005+00:00"
     },
     {
       "name": "Bitcoin",
-      "val": "$78.1K",
-      "delta": "−3.22%",
-      "dir": "down",
+      "val": "$78.4K",
+      "delta": "+0.42%",
+      "dir": "up",
       "stale": false,
-      "as_of": "2026-05-16T11:54:47.441887+00:00"
+      "as_of": "2026-05-17T12:01:09.742064+00:00"
     },
     {
       "name": "Ethereum",
-      "val": "$2,176",
-      "delta": "−3.71%",
-      "dir": "down",
+      "val": "$2,191",
+      "delta": "+0.67%",
+      "dir": "up",
       "stale": false,
-      "as_of": "2026-05-16T11:54:47.441904+00:00"
+      "as_of": "2026-05-17T12:01:09.742076+00:00"
     }
   ],
   "voices": [
@@ -62,43 +62,517 @@
       "date": "2026-05-15"
     },
     {
-      "name": "Warren Buffett",
-      "role": "CEO, Berkshire Hathaway",
-      "initials": "WB",
-      "bg": "var(--p-peach)",
-      "quote": "The value of Soros Fund Management’s equity holdings increased during the first quarter in a down market, as it boosted stakes in Nvidia and Apple.",
-      "source": "MarketWatch Top",
-      "url": "https://www.marketwatch.com/story/george-soross-fund-buys-berkshire-hathaway-stock-now-that-buffett-is-gone-48a247e3?mod=mw_rss_topstories",
-      "date": "2026-05-15"
-    },
-    {
       "name": "Bill Ackman",
       "role": "CEO, Pershing Square",
       "initials": "BA",
       "bg": "var(--p-lemon)",
       "quote": "Bill Ackman's Pershing Square Capital Management has built a position in Microsoft, the billionaire hedge fund manager said Friday in a post on X.",
-      "source": "CNBC Top",
+      "source": "CNBC Finance",
       "url": "https://www.cnbc.com/2026/05/15/bill-ackman-says-he-built-microsoft-position-in-first-quarter.html",
       "date": "2026-05-16"
     }
   ],
   "news": [
     {
-      "title": "XRP beat bitcoin gains as CLARITY Act advanced, but a real bullrun still needs Congress",
+      "title": "DeFi's new front: VerifiedX bets bitcoin's next chapter is programmable, private",
+      "summary": "",
+      "url": "https://www.coindesk.com/tech/2026/05/17/defi-s-new-front-verifiedx-bets-bitcoin-s-next-chapter-is-programmable-private",
+      "source": "CoinDesk",
+      "published": "2026-05-17T12:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_d572375f6c",
+      "date": "2026-05-17"
+    },
+    {
+      "title": "Japan's SBI Securities, Rakuten Securities plan to offer crypto investment trusts",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/05/17/japan-s-sbi-securities-rakuten-securities-plan-to-offer-crypto-investment-trusts",
+      "source": "CoinDesk",
+      "published": "2026-05-17T11:41:31+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_e2f581357f",
+      "date": "2026-05-17"
+    },
+    {
+      "title": "SBI, Rakuten, Nomura line up to launch crypto investment trusts: Report",
+      "summary": "Japan’s biggest brokerages are racing to bring crypto investment trusts to retail investors, as regulators move to formally allow crypto-holding funds by 2028.",
+      "url": "https://cointelegraph.com/news/sbi-rakuten-nomura-line-up-to-launch-crypto-investment-trusts-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-05-17T10:51:22+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_6d2704a1e4",
+      "date": "2026-05-17"
+    },
+    {
+      "title": "Bitcoin slides below $79K on macro fears: Can fixed-income outflows save it?",
+      "summary": "While macro pain and Iran war uncertainty drag Bitcoin below $79K, fixed-income market outflows could trigger a medium-term Bitcoin rebound.",
+      "url": "https://cointelegraph.com/markets/bitcoin-slides-below-79k-macro-fears-can-fixed-income-outflows-save-it?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-05-17T08:50:02+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_de3c49df0e",
+      "date": "2026-05-17"
+    },
+    {
+      "title": "Italy’s largest bank more than doubles crypto holdings to $235M in Q1: Report",
+      "summary": "Intesa Sanpaolo grew its crypto holdings from $100 million to $235 million in Q1 2026, making first-time moves into Ethereum and XRP while nearly exiting Solana entirely.",
+      "url": "https://cointelegraph.com/news/italys-largest-bank-more-than-doubles-crypto-holdings-to-235m-in-q1-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-05-17T08:31:02+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_07e4ff2125",
+      "date": "2026-05-17"
+    },
+    {
+      "title": "A Russian stablecoin built to dodge sanctions says it can survive even if they're lifted",
+      "summary": "",
+      "url": "https://www.coindesk.com/policy/2026/05/24/a-russian-stablecoin-built-to-dodge-sanctions-says-it-can-survive-even-if-they-re-lifted",
+      "source": "CoinDesk",
+      "published": "2026-05-17T08:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_b16e07961d",
+      "date": "2026-05-17"
+    },
+    {
+      "title": "Michael Saylor floated Bitcoin sales idea to avoid 'impairing' the asset",
+      "summary": "Strategy executive chairman Michael Saylor said that continuing to use the “never sell” Bitcoin mantra could ultimately undermine the very asset his company is built around.",
+      "url": "https://cointelegraph.com/news/strategy-mstr-michael-saylor-bitcoin-sell-statement-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-05-17T05:27:23+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_8154d46b8f",
+      "date": "2026-05-17"
+    },
+    {
+      "title": "US CLARITY Act will be a ‘boon for domestic innovation’: A16z",
+      "summary": "A16z crypto said that when US legal frameworks strike a balance between innovation and consumer protection, the impact tends to ripple through into global markets.",
+      "url": "https://cointelegraph.com/news/us-clarity-act-will-be-a-boon-for-domestic-innovation-a16z?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-05-17T01:09:05+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_0937cb6c47",
+      "date": "2026-05-17"
+    },
+    {
+      "title": "The haves and have nots of the AI gold rush",
+      "summary": "The vibes around the current AI boom aren't great, even in the tech industry.",
+      "url": "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/",
+      "source": "TechCrunch AI",
+      "published": "2026-05-16T20:17:16+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_375ffc4cec",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Strategy to repurchase $1.5B of 2029 convertible notes",
+      "summary": "The notes carry a 0% coupon, but can be converted into equity in the company if holders choose to redeem their notes for shares.",
+      "url": "https://cointelegraph.com/news/strategy-repurchase-15b-2029-convertible-notes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-05-16T19:03:08+00:00",
+      "topic": "Corporate Finance",
+      "importance": "normal",
+      "id": "a_0aae59c62e",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Research repository ArXiv will ban authors for a year if they let AI do all the work",
+      "summary": "ArXiv is doing more to crack down on the careless use of large language models in scientific papers.",
+      "url": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/",
+      "source": "TechCrunch AI",
+      "published": "2026-05-16T18:54:28+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_9e9cc24dd1",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Inflation will likely be higher for longer. Your retirement plan isn’t built for that.",
+      "summary": "Official CPI masks double-digit spikes in healthcare, insurance and energy. Meanwhile, an outdated strategy quietly drains your portfolio.",
+      "url": "https://www.marketwatch.com/story/why-3-8-inflation-actually-feels-like-an-8-hit-to-your-retirement-savings-9e0ba615?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-05-16T17:57:00+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_a7c0204528",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "China signals tariff cuts, advances in farm market access after Trump-Xi summit",
+      "summary": "Beijing and the U.S. have agreed to expand agricultural trade through tariff reductions, China's commerce ministry said.",
+      "url": "https://www.cnbc.com/2026/05/16/china-signals-tariff-cuts-advances-in-farm-market-access-after-trump-xi-summit.html",
+      "source": "CNBC Top",
+      "published": "2026-05-16T17:43:18+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_acc7378ae8",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "April’s inflation spike leaves Warsh and the Fed zero excuses not to raise rates",
+      "summary": "Bond markets won’t wait for the central bank to combat inflation.",
+      "url": "https://www.marketwatch.com/story/warsh-faces-rate-pressure-as-aprils-inflation-spike-leaves-the-fed-with-zero-excuses-9610ddb6?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-05-16T17:38:00+00:00",
+      "topic": "Banking",
+      "importance": "high",
+      "id": "a_a7496b0b72",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "AI investment ‘advice’ is 50% more likely to pump you up — and trip you into costly blunders",
+      "summary": "AI fuels impulsive actions — a human ‘defense coach’ is your best bet to win the market’s ‘loser’s game.’",
+      "url": "https://www.marketwatch.com/story/ai-investment-advice-is-50-more-likely-to-pump-you-up-and-trip-you-into-costly-blunders-1fcdd3d1?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-05-16T17:28:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_3b6aaae234",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Bitcoin analysis sees 'bear trap' as BTC price passes two-week lows under $78K",
+      "summary": "Bitcoin fell below $78,000 for the first time since the start of May, but traders refused to give up hope of a BTC price rebound coming next.",
+      "url": "https://cointelegraph.com/markets/bitcoin-analysis-bear-trap-btc-price-passes-two-week-lows-under-78k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-05-16T17:07:39+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_18c3b52367",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "For better or worse, investors are living through Trump’s stock market. Here's why",
+      "summary": "President Donald Trump has been considered the ultimate stock market president, overseeing an expansion to record highs as well as major declines.",
+      "url": "https://www.cnbc.com/2026/05/16/for-better-or-worse-investors-are-living-through-trumps-stock-market-heres-why.html",
+      "source": "CNBC Top",
+      "published": "2026-05-16T17:00:41+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_74fc2fb4a8",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "OpenAI co-founder Greg Brockman takes charge of product strategy",
+      "summary": "OpenAI's latest shakeup comes as the company reportedly plans to combine ChatGPT and its programming product Codex.",
+      "url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
+      "source": "TechCrunch AI",
+      "published": "2026-05-16T15:33:33+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_e540f52d19",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Here’s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-05-16T15:30:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_8dded07b07",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Jump Crypto’s ‘Firedancer’ is taking a slow and steady approach to its long-awaited Solana infrastructure rollout",
+      "summary": "",
+      "url": "https://www.coindesk.com/tech/2026/05/16/jump-crypto-s-firedancer-is-taking-a-slow-and-steady-approach-to-its-long-awaited-solana-infrastructure-rollout",
+      "source": "CoinDesk",
+      "published": "2026-05-16T15:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_e2c49c123f",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "OpenAI partners with Malta to give all citizens free ChatGPT Plus access",
+      "summary": "In a world-first deal, OpenAI and Malta will give all citizens free ChatGPT Plus for a year after they complete a government-backed AI literacy course.",
+      "url": "https://cointelegraph.com/news/openai-partners-with-malta-to-give-all-citizens-free-chatgpt-plus-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-05-16T14:12:55+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_a558f58fea",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Crypto users are choosing juicy yields over protection, putting billions at risk of hacks",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/05/16/crypto-users-are-choosing-juicy-yields-over-protection-putting-billions-at-risk-of-hacks",
+      "source": "CoinDesk",
+      "published": "2026-05-16T14:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_3be63c1a74",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Kevin Warsh comes into the Fed facing a big 'family fight' over cutting interest rates",
+      "summary": "With inflation spiking and Treasury yields surging, Warsh is likely to confront a Federal Open Market Committee in no mood to ease.",
+      "url": "https://www.cnbc.com/2026/05/16/kevin-warsh-comes-into-the-fed-facing-a-big-family-fight-over-cutting-interest-rates.html",
+      "source": "CNBC Top",
+      "published": "2026-05-16T13:41:29+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_b033d61360",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Stocks like Nvidia have accelerating 'momentum,' Goldman Sachs says",
+      "summary": "The firm says stocks like Nvidia are firing on all cylinders.",
+      "url": "https://www.cnbc.com/2026/05/16/stocks-like-nvidia-have-momentum-goldman-.html",
+      "source": "CNBC Top",
+      "published": "2026-05-16T13:31:12+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_672563fc3f",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Global oil stockpiles could hit record lows if Strait of Hormuz remains closed",
+      "summary": "The world's oil stockpiles could approach all-time lows by the end of May due to the Strait of Hormuz closure, according to UBS.",
+      "url": "https://www.cnbc.com/2026/05/16/oil-inventory-stockpile-iran-war-strait-hormuz.html",
+      "source": "CNBC Top",
+      "published": "2026-05-16T13:25:00+00:00",
+      "topic": "Banking",
+      "importance": "normal",
+      "id": "a_b0b6b439a4",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Cisco is the most overbought stock in the S&P 500. Here are the others.",
+      "summary": "Cisco was the most overbought stock in the S&P 500 this week, meaning its shares could be due for a pullback, according to a CNBC Pro screener.",
+      "url": "https://www.cnbc.com/2026/05/16/cisco-is-the-most-overbought-stock-in-the-sp-500-here-are-the-others.html",
+      "source": "CNBC Top",
+      "published": "2026-05-16T13:17:24+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_a02174839c",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "The $293 million KelpDAO hack shows why DeFi is finally being forced to grow up",
+      "summary": "",
+      "url": "https://www.coindesk.com/tech/2026/05/16/the-usd293-million-kelpdao-hack-shows-why-defi-is-finally-being-forced-to-grow-up",
+      "source": "CoinDesk",
+      "published": "2026-05-16T13:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_a8c91b7bd1",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Cerebras' blockbuster IPO boosts hype for SpaceX and OpenAI, but crowds out smaller players",
+      "summary": "After Cerebras popped in its market debut, all attention turns to SpaceX, OpenAI and Anthropic, which are already among the most valuable U.S. tech companies.",
+      "url": "https://www.cnbc.com/2026/05/16/cerebras-blockbuster-ipo-boosts-hype-for-spacex-openai-anthropic.html",
+      "source": "CNBC Top",
+      "published": "2026-05-16T12:00:01+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_ccbc8d4f88",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "XRP beat bitcoin gains as Clarity Act advanced, but a real bullrun still needs Congress",
       "summary": "",
       "url": "https://www.coindesk.com/markets/2026/05/15/xrp-beat-bitcoin-gains-as-clarity-act-advanced-but-a-real-bullrun-still-needs-congress",
       "source": "CoinDesk",
       "published": "2026-05-16T11:30:00+00:00",
       "topic": "Cryptocurrency",
       "importance": "high",
-      "id": "a_f9610c264e",
+      "id": "a_169b97025a",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Lincoln National (LNC) – Among the 10 Best Dividend Stocks with 5%+ Yields and Growing Cash Flows",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lincoln-national-lnc-among-10-110609359.html",
+      "source": "Yahoo Finance",
+      "published": "2026-05-16T11:06:09+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_b319232da4",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "goeasy Q1 Earnings Call Highlights",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/goeasy-q1-earnings-call-highlights-110406755.html",
+      "source": "Yahoo Finance",
+      "published": "2026-05-16T11:04:06+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_69a85381d6",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Hydro One Q1 Earnings Call Highlights",
+      "summary": "",
+      "url": "https://finance.yahoo.com/sectors/energy/articles/hydro-one-q1-earnings-call-110406757.html",
+      "source": "Yahoo Finance",
+      "published": "2026-05-16T11:04:06+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_860a333800",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Finning International Q1 Earnings Call Highlights",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/finning-international-q1-earnings-call-110405756.html",
+      "source": "Yahoo Finance",
+      "published": "2026-05-16T11:04:05+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_1e20531ed5",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "NanoXplore Q3 Earnings Call Highlights",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nanoxplore-q3-earnings-call-highlights-110405375.html",
+      "source": "Yahoo Finance",
+      "published": "2026-05-16T11:04:05+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_7c7acec151",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Is Energy Transfer (ET) One of the Best Dividend Stocks with 5%+ Yields and Growing Cash Flows?",
+      "summary": "",
+      "url": "https://finance.yahoo.com/sectors/energy/articles/energy-transfer-et-one-best-110358730.html",
+      "source": "Yahoo Finance",
+      "published": "2026-05-16T11:03:58+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_6758cf95a6",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Stronger-Than-Expected Results Lead Goldman Sachs to Raise Target on Enterprise Products Partners (EPD)",
+      "summary": "",
+      "url": "https://finance.yahoo.com/news/stronger-expected-results-lead-goldman-110141168.html",
+      "source": "Yahoo Finance",
+      "published": "2026-05-16T11:01:41+00:00",
+      "topic": "Investment Banking",
+      "importance": "high",
+      "id": "a_909490d83f",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Iranian leader warns of 'brand new' financial crisis hitting America — mocks 5% Treasury yield and $39T debt",
+      "summary": "",
+      "url": "https://finance.yahoo.com/economy/policy/articles/iranian-leader-warns-brand-financial-110000904.html",
+      "source": "Yahoo Finance",
+      "published": "2026-05-16T11:00:00+00:00",
+      "topic": "Macroeconomics",
+      "importance": "high",
+      "id": "a_2b416ed27e",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Barclays Sees Increasingly Constructive Environment for MPLX",
+      "summary": "",
+      "url": "https://finance.yahoo.com/sectors/energy/articles/barclays-sees-increasingly-constructive-environment-105931834.html",
+      "source": "Yahoo Finance",
+      "published": "2026-05-16T10:59:31+00:00",
+      "topic": "Banking",
+      "importance": "normal",
+      "id": "a_d3db95884c",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Barclays Adjusts Lumentum (LITE) Target After Q3 Results",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/barclays-adjusts-lumentum-lite-target-104518045.html",
+      "source": "Yahoo Finance",
+      "published": "2026-05-16T10:45:18+00:00",
+      "topic": "Banking",
+      "importance": "normal",
+      "id": "a_a91dd1536b",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Is Advanced Micro Devices (AMD) the Best Stock To Profit from AI?",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-amd-best-104514378.html",
+      "source": "Yahoo Finance",
+      "published": "2026-05-16T10:45:14+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_84cb9d1c46",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Micron Technology (MU): Top 10 Stock to Benefit From AI",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-technology-mu-top-10-104511274.html",
+      "source": "Yahoo Finance",
+      "published": "2026-05-16T10:45:11+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_b3102332f9",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Wells Fargo Raises NVIDIA (NVDA) Price Target – Here’s Why",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-raises-nvidia-nvda-104510957.html",
+      "source": "Yahoo Finance",
+      "published": "2026-05-16T10:45:10+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_7edf4c392e",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Here is why Amazon (AMZN) Is Among the Top Stocks to Benefit From AI",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-amazon-amzn-among-top-104506397.html",
+      "source": "Yahoo Finance",
+      "published": "2026-05-16T10:45:06+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_f67f6fd88b",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "5 Undervalued Aerospace and Defense Stocks to Buy",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/5-undervalued-aerospace-defense-stocks-104047707.html",
+      "source": "Yahoo Finance",
+      "published": "2026-05-16T10:40:47+00:00",
+      "topic": "Investment Banking",
+      "importance": "normal",
+      "id": "a_97f9c75291",
+      "date": "2026-05-16"
+    },
+    {
+      "title": "Wells Fargo Sees Higher EBITDA Potential for Western Midstream Partners (WES)",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-sees-higher-ebitda-102158753.html",
+      "source": "Yahoo Finance",
+      "published": "2026-05-16T10:21:58+00:00",
+      "topic": "Banking",
+      "importance": "normal",
+      "id": "a_ebcf8b1120",
       "date": "2026-05-16"
     },
     {
       "title": "Bill Ackman built Microsoft stake in first quarter during sell-off, betting on AI and cloud growth",
       "summary": "Bill Ackman's Pershing Square Capital Management has built a position in Microsoft, the billionaire hedge fund manager said Friday in a post on X.",
       "url": "https://www.cnbc.com/2026/05/15/bill-ackman-says-he-built-microsoft-position-in-first-quarter.html",
-      "source": "CNBC Top",
+      "source": "CNBC Finance",
       "published": "2026-05-16T09:54:15+00:00",
       "topic": "AI",
       "importance": "normal",
@@ -139,14 +613,14 @@
       "date": "2026-05-16"
     },
     {
-      "title": "Bhutan ‘doesn’t recall’ selling any bitcoin, disputing widely-tracked $1 billion BTC drawdown",
+      "title": "Bhutan ‘doesn’t recall’ selling any bitcoin, disputing widely tracked $1 billion BTC drawdown",
       "summary": "",
       "url": "https://www.coindesk.com/markets/2026/05/16/bhutan-doesn-t-recall-selling-any-bitcoin-disputing-widely-tracked-usd1-billion-btc-drawdown",
       "source": "CoinDesk",
       "published": "2026-05-16T02:30:00+00:00",
       "topic": "Cryptocurrency",
       "importance": "high",
-      "id": "a_d2f286dc47",
+      "id": "a_5fab09aa94",
       "date": "2026-05-16"
     },
     {
@@ -183,17 +657,6 @@
       "date": "2026-05-15"
     },
     {
-      "title": "This hedge fund just dumped the ‘big three’ airline stocks, as the industry faces soaring fuel costs",
-      "summary": "Appaloosa sold off its entire positions in Delta, American and United, while loading up on shares of Amazon and Uber.",
-      "url": "https://www.marketwatch.com/story/this-hedge-fund-just-dumped-the-big-three-airline-stocks-as-the-industry-faces-soaring-fuel-costs-4ae4f9ba?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-05-15T21:48:00+00:00",
-      "topic": "Aviation Finance",
-      "importance": "normal",
-      "id": "a_c08ad1a9fa",
-      "date": "2026-05-15"
-    },
-    {
       "title": "ICE, CME press US regulators to 'rein in' Hyperliquid energy trading: Report",
       "summary": "The Hyperliquid decentralized exchange allows anyone who stakes 500,000 HYPE tokens, valued at roughly $22.2 million, to deploy new markets.",
       "url": "https://cointelegraph.com/news/ice-cme-press-us-regulators-rein-hyperliquid-dex?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -202,17 +665,6 @@
       "topic": "Valuation",
       "importance": "normal",
       "id": "a_24d8fc7361",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "George Soros’s fund buys Berkshire Hathaway stock — now that Buffett is gone",
-      "summary": "The value of Soros Fund Management’s equity holdings increased during the first quarter in a down market, as it boosted stakes in Nvidia and Apple.",
-      "url": "https://www.marketwatch.com/story/george-soross-fund-buys-berkshire-hathaway-stock-now-that-buffett-is-gone-48a247e3?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-05-15T21:29:00+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_35d4a88e3a",
       "date": "2026-05-15"
     },
     {
@@ -235,39 +687,6 @@
       "topic": "Macroeconomics",
       "importance": "normal",
       "id": "a_1a443de5ea",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "Stocks and bonds get swept up in a selloff, as Trump’s China visit fails to pry open the Strait of Hormuz",
-      "summary": "Fears of a 2022-style inflation problem are bubbling back up, but there’s also hope for a Trump pivot on the Iran conflict.",
-      "url": "https://www.marketwatch.com/story/stocks-tumble-bond-rout-deepens-as-trumps-china-visit-fails-to-reopen-strait-of-hormuz-8501c294?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-05-15T20:57:00+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_945247efc0",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "Dow loses more than 500 points Friday as tech slumps and yields spike: Live updates",
-      "summary": "Stocks fell on Friday, bogged down by losses in technology stocks and a rise in U.S. Treasury yields.",
-      "url": "https://www.cnbc.com/2026/05/14/stock-market-today-live-updates.html",
-      "source": "CNBC Top",
-      "published": "2026-05-15T20:36:37+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_ecdea826e5",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "This ‘safe haven’ bond is projected to pay 5.1% this year — with almost no risk",
-      "summary": "The April 2032 inflation-protected U.S. TIPS bond looks like a pretty good deal.",
-      "url": "https://www.marketwatch.com/story/this-safe-haven-bond-is-projected-to-pay-5-1-this-year-with-almost-no-risk-ae3fb8fe?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-05-15T20:36:00+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_1f6b06ac96",
       "date": "2026-05-15"
     },
     {
@@ -304,17 +723,6 @@
       "date": "2026-05-15"
     },
     {
-      "title": "What you need to know about Nvidia competitor Cerebras after wild IPO",
-      "summary": "Nvidia competitor Cerebras made a stunning debut on Wall Street Thursday, signaling unstoppable demand for AI chips. Here's how its chips compete with Nvidia's.",
-      "url": "https://www.cnbc.com/2026/05/15/nvidia-cerebras-stock-price-ipo.html",
-      "source": "CNBC Top",
-      "published": "2026-05-15T20:05:55+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_4e84060ba5",
-      "date": "2026-05-15"
-    },
-    {
       "title": "SpaceX targets June 11 IPO pricing, picks Nasdaq for historic market debut",
       "summary": "",
       "url": "https://www.coindesk.com/markets/2026/05/15/spacex-targets-june-11-ipo-pricing-picks-nasdaq-for-historic-market-debut",
@@ -340,7 +748,7 @@
       "title": "Stephen Miran exits the Fed. How he set the stage for Kevin Warsh.",
       "summary": "The outgoing Fed governor shares big ideas with the incoming chair.",
       "url": "https://www.cnbc.com/2026/05/15/stephen-miran-exits-the-fed-how-he-set-the-stage-for-kevin-warsh.html",
-      "source": "CNBC Top",
+      "source": "CNBC Finance",
       "published": "2026-05-15T19:00:19+00:00",
       "topic": "Macroeconomics",
       "importance": "normal",
@@ -351,22 +759,11 @@
       "title": "Traders now see next Fed interest rate move as a hike following inflation surge",
       "summary": "The fed funds futures market is pricing in an increase as soon as December.",
       "url": "https://www.cnbc.com/2026/05/15/traders-now-see-next-fed-interest-rate-move-as-a-hike-following-inflation-surge.html",
-      "source": "CNBC Top",
+      "source": "CNBC Economy",
       "published": "2026-05-15T18:55:25+00:00",
       "topic": "Macroeconomics",
       "importance": "normal",
       "id": "a_5a5d31a920",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "Can the S&P 500 hold on for a 7th weekly gain? Plus, Friday's best and worst stocks",
-      "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "url": "https://www.cnbc.com/2026/05/15/can-the-sp-500-hold-on-for-a-7th-weekly-gain-plus-fridays-best-and-worst-stocks.html",
-      "source": "CNBC Top",
-      "published": "2026-05-15T18:31:27+00:00",
-      "topic": "Stocks",
-      "importance": "normal",
-      "id": "a_e505804ccd",
       "date": "2026-05-15"
     },
     {
@@ -422,17 +819,6 @@
       "topic": "AI",
       "importance": "high",
       "id": "a_9d4456b906",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "AI data centers employ very few people: What the numbers how",
-      "summary": "",
-      "url": "https://finance.yahoo.com/sectors/technology/articles/ai-data-centers-employ-very-165832949.html",
-      "source": "Yahoo Finance",
-      "published": "2026-05-15T16:58:32+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_25a72e5760",
       "date": "2026-05-15"
     },
     {
@@ -524,17 +910,6 @@
       "date": "2026-05-15"
     },
     {
-      "title": "Here’s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-05-15T14:12:49+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_8dded07b07",
-      "date": "2026-05-15"
-    },
-    {
       "title": "Kraken parent Payward cuts 150 staff, streamlining business ahead of planned IPO",
       "summary": "",
       "url": "https://www.coindesk.com/business/2026/05/14/kraken-parent-payward-cuts-150-staff-streamlining-business-ahead-of-planned-ipo",
@@ -568,17 +943,6 @@
       "date": "2026-05-15"
     },
     {
-      "title": "Polish lawmakers back revised crypto bill after repeated vetoes",
-      "summary": "Polish lawmakers approve a Ministry of Finance-backed crypto bill to implement the EU MiCA framework in a 241–200 vote after repeated vetoes.",
-      "url": "https://cointelegraph.com/news/poland-approves-government-crypto-bill-eu-mica?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-05-15T13:36:14+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_526149ca14",
-      "date": "2026-05-15"
-    },
-    {
       "title": "XRP gives back gains after Senate crypto bill sparks 5% rally",
       "summary": "",
       "url": "https://www.coindesk.com/markets/2026/05/15/xrp-gives-back-gains-after-senate-crypto-bill-sparks-5-rally",
@@ -588,380 +952,6 @@
       "importance": "normal",
       "id": "a_7929ff8443",
       "date": "2026-05-15"
-    },
-    {
-      "title": "Bitcoin stalls above $80K despite CLARITY Act pass: What will trigger a breakout?",
-      "summary": "Bitcoin’s break above $82,000 and a return of strong institutional demand are prerequisites to confirm a trend change for BTC price.",
-      "url": "https://cointelegraph.com/markets/bitcoin-stalls-80k-despite-clarity-act-pass-what-will-trigger-breakout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-05-15T12:49:42+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_c6a3bc0893",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "Strategy to repurchase $1.5 billion of 2029 convertible bonds using cash or bitcoin sales",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/05/15/strategy-to-repurchase-usd1-5-billion-of-2029-convertible-bonds-using-cash-or-bitcoin-sales",
-      "source": "CoinDesk",
-      "published": "2026-05-15T12:38:03+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_e703909d91",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "South Korea plans July rules for tokenized securities",
-      "summary": "South Korea's FSC is preparing detailed rules for tokenized securities before a legal framework for blockchain-based securities takes effect in February 2027.",
-      "url": "https://cointelegraph.com/news/south-korea-announce-tokenized-securities-laws-july?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-05-15T12:23:47+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_11d7cc95e0",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "Osaurus brings both local and cloud AI models to your Mac",
-      "summary": "Osaurus￼ combines local and cloud AI models in a Mac app that keeps users’ memory, files, and tools on their own hardware.",
-      "url": "https://techcrunch.com/2026/05/15/osaurus-brings-both-local-and-cloud-ai-models-to-your-mac/",
-      "source": "TechCrunch AI",
-      "published": "2026-05-15T12:19:48+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_abfd5149aa",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "Winklevoss’ Gemini jumps 25% on $100 million bitcoin infusion despite deepening losses",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/05/15/winklevoss-gemini-jumps-20-on-usd100-million-bitcoin-infusion-despite-deepening-losses",
-      "source": "CoinDesk",
-      "published": "2026-05-15T12:12:14+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_3e8fce731e",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "Bitcoin risks ‘next downtrend’ as traders diverge on fate of $82K resistance",
-      "summary": "Bitcoin traders split between a \"massive catch-up\" with stocks and the start of its \"next downtrend\" as BTC price action failed to flip $82,000 to support.",
-      "url": "https://cointelegraph.com/markets/bitcoin-risks-next-downtrend-traders-diverge-fate-82k-resistance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-05-15T11:49:05+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_882f504615",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "THORChain pauses trading after suspected $10M exploit",
-      "summary": "THORChain paused trading after ZachXBT flagged a suspected $10 million exploit spanning Bitcoin, Ethereum, BNB Chain and Base.",
-      "url": "https://cointelegraph.com/news/thorchain-halts-trading-zachxbt-flags-10m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-05-15T11:36:40+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_e0c1a5829c",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "Crypto’s regulatory tailwind runs into a potential rates reset",
-      "summary": "",
-      "url": "https://www.coindesk.com/daybook-us/2026/05/15/crypto-s-regulatory-tailwind-runs-into-a-potential-rates-reset",
-      "source": "CoinDesk",
-      "published": "2026-05-15T11:30:23+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_b5264e16bb",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "Wall Street is starting to notice one of crypto’s smartest AI bets",
-      "summary": "",
-      "url": "https://www.coindesk.com/tech/2026/05/15/wall-street-is-starting-to-notice-one-of-crypto-s-smartest-ai-bets",
-      "source": "CoinDesk",
-      "published": "2026-05-15T11:30:00+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_aa6eacb1f3",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "Why is Hyperliquid's HYPE token price up 23% in one day?",
-      "summary": "Fresh US ETF launches and Coinbase’s Hyperliquid deal helped fuel HYPE’s rally this week, but technicals warn of a possible pullback.",
-      "url": "https://cointelegraph.com/markets/why-is-hyperliquid-hype-price-up-23-percent-in-a-day?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-05-15T11:07:24+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_2afcf67f77",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "OKX reportedly eyes Coinone stake in South Korea push",
-      "summary": "OKX is reportedly seeking a 20% stake in South Korean crypto exchange Coinone as foreign and domestic firms compete for market access.",
-      "url": "https://cointelegraph.com/news/okx-reportedly-eyeing-south-korea-move-with-coinone-stake?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-05-15T11:03:01+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_eed3bcaea0",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "Hyperliquid leads 24-hour gains as altcoins pace bitcoin",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/05/15/hyperliquid-leads-24-hour-gains-as-altcoins-pace-bitcoin",
-      "source": "CoinDesk",
-      "published": "2026-05-15T10:58:19+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_574621749c",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "S&P Futures Plunge as Inflation Fears Push Bond Yields Higher",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/p-futures-plunge-inflation-fears-103658426.html",
-      "source": "Yahoo Finance",
-      "published": "2026-05-15T10:36:58+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_c6c9522a30",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "Hana Bank to acquire $670 million stake in Upbit operator Dunamu",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/05/15/hana-bank-to-acquire-usd670-million-stake-in-upbit-operator-dunamu",
-      "source": "CoinDesk",
-      "published": "2026-05-15T10:24:37+00:00",
-      "topic": "Banking",
-      "importance": "normal",
-      "id": "a_adcf0c41c8",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "Exclusive-At Samsung, the global AI boom spurred a looming strike and deep divisions",
-      "summary": "",
-      "url": "https://finance.yahoo.com/sectors/technology/articles/exclusive-samsung-global-ai-boom-101410248.html",
-      "source": "Yahoo Finance",
-      "published": "2026-05-15T10:14:10+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_4c4bffb260",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "The stock market rally has history on its side — and one big dot-com caveat: Chart of the Day",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/article/the-stock-market-rally-has-history-on-its-side--and-one-big-dot-com-caveat-chart-of-the-day-100000031.html",
-      "source": "Yahoo Finance",
-      "published": "2026-05-15T10:00:00+00:00",
-      "topic": "Stocks",
-      "importance": "normal",
-      "id": "a_8f89078f09",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "Best high-yield savings interest rates today, May 15, 2026: Up to 4.10% APY return",
-      "summary": "",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-friday-may-15-2026-100000148.html",
-      "source": "Yahoo Finance",
-      "published": "2026-05-15T10:00:00+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_4a46370d9b",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "Mortgage and refinance interest rates today, May 15, 2026: 30- and 20-year move lower, 15-year rises",
-      "summary": "",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-refinance-interest-rates-today-friday-may-15-2026-100000533.html",
-      "source": "Yahoo Finance",
-      "published": "2026-05-15T10:00:00+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_431b46e409",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "IREN closes $3 billion convertible notes deal amid AI infrastructure expansion",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/05/15/iren-closes-usd3-billion-convertible-notes-deal-amid-ai-infrastructure-expansion",
-      "source": "CoinDesk",
-      "published": "2026-05-15T09:58:30+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_40b13d84a5",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "Nvidia CEO tells college grads that electricians, plumbers and iron workers have a leg up – and there's no degree needed",
-      "summary": "",
-      "url": "https://finance.yahoo.com/sectors/technology/articles/nvidia-ceo-tells-college-grads-that-electricians-plumbers-and-iron-workers-have-a-leg-up--and-theres-no-degree-needed-094500507.html",
-      "source": "Yahoo Finance",
-      "published": "2026-05-15T09:45:00+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_767f86197b",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "Toast Inc. (TOST) Reveals Growth Plans After Earnings",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/toast-inc-tost-reveals-growth-092908519.html",
-      "source": "Yahoo Finance",
-      "published": "2026-05-15T09:29:08+00:00",
-      "topic": "Stocks",
-      "importance": "high",
-      "id": "a_2e32d0d3c1",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "Analysts Raise Aon Plc (AON) Target Price After Earnings Beat",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/analysts-raise-aon-plc-aon-092906253.html",
-      "source": "Yahoo Finance",
-      "published": "2026-05-15T09:29:06+00:00",
-      "topic": "Stocks",
-      "importance": "high",
-      "id": "a_5eaa1e367b",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "The Progressive Corporation (PGR) Is One Of The Best 52-Week Low Stocks To Buy Right Now",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/progressive-corporation-pgr-one-best-092902791.html",
-      "source": "Yahoo Finance",
-      "published": "2026-05-15T09:29:02+00:00",
-      "topic": "Investment Banking",
-      "importance": "normal",
-      "id": "a_e732907860",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "Builders FirstSource (BLDR) Downtrend Continues After Poor Earnings",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/builders-firstsource-bldr-downtrend-continues-092901467.html",
-      "source": "Yahoo Finance",
-      "published": "2026-05-15T09:29:01+00:00",
-      "topic": "Stocks",
-      "importance": "high",
-      "id": "a_ff4383d9ad",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "Strategy’s STRC stock logs record $1.5 billion trading volume, funds 11,707 bitcoin purchase",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/05/15/strategy-s-strc-stock-logs-record-usd1-5-billion-trading-volume-funds-11-707-bitcoin-purchase",
-      "source": "CoinDesk",
-      "published": "2026-05-15T09:21:45+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_bf482f1c59",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "Hana Financial to acquire 6.55% stake in Upbit operator Dunamu for $668M",
-      "summary": "The purchase makes Hana Financial the fourth-largest shareholder in Dunamu, following several crypto-related deals in the last two months, as it dives deeper into the digital assets sector.",
-      "url": "https://cointelegraph.com/news/hana-financial-dunamu-upbit-stake-acquisition-crypto-investment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-05-15T09:16:37+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_e9722e1b60",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "The U.S. stock market is getting close to dot-com bubble peak valuations",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/05/15/the-u-s-stock-market-is-getting-close-to-dot-com-bubble-peak-valuations",
-      "source": "CoinDesk",
-      "published": "2026-05-15T08:19:48+00:00",
-      "topic": "Stocks",
-      "importance": "normal",
-      "id": "a_7d4ac746b6",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "Fed Governor Miran submits resignation, throws support behind Warsh as new chair",
-      "summary": "Miran served as a contrarian voice on the rate-setting Federal Open Market Committee.",
-      "url": "https://www.cnbc.com/2026/05/14/fed-governor-miran-submits-resignation-throws-support-behind-warsh-as-new-chair.html",
-      "source": "CNBC Finance",
-      "published": "2026-05-14T21:47:36+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_9e993afd3b",
-      "date": "2026-05-14"
-    },
-    {
-      "title": "Elon Musk’s SpaceXAI has been bleeding staff since its merger",
-      "summary": "More than 50 employees have reportedly left Elon Musk’s newly merged SpaceXAI since February, raising questions about burnout, leadership changes, talent poaching, and whether liquidity events weakened retention incentives.",
-      "url": "https://techcrunch.com/2026/05/14/elon-musks-spacexai-has-been-bleeding-staff-since-its-merger/",
-      "source": "TechCrunch AI",
-      "published": "2026-05-14T21:30:44+00:00",
-      "topic": "Investment Banking",
-      "importance": "normal",
-      "id": "a_de9749d233",
-      "date": "2026-05-14"
-    },
-    {
-      "title": "OpenAI says Codex is coming to your phone",
-      "summary": "The update gives users enhanced flexibility over how they can manage their workflows.",
-      "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
-      "source": "TechCrunch AI",
-      "published": "2026-05-14T20:58:55+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_d48e889834",
-      "date": "2026-05-14"
-    },
-    {
-      "title": "What happens when AI starts building itself?",
-      "summary": "Richard Socher's new $650 million startup wants to build an AI that can research and improve itself indefinitely — and he insists it will actually ship products.",
-      "url": "https://techcrunch.com/2026/05/14/what-happens-when-ai-starts-building-itself/",
-      "source": "TechCrunch AI",
-      "published": "2026-05-14T19:57:20+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_16883c7360",
-      "date": "2026-05-14"
-    },
-    {
-      "title": "Bond market believes Fed behind the curve on inflation as Warsh takes over",
-      "summary": "Bond traders are hoping that the central bank's easing bias is replaced with a skewed view toward tightening.",
-      "url": "https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html",
-      "source": "CNBC Economy",
-      "published": "2026-05-14T19:26:20+00:00",
-      "topic": "Banking",
-      "importance": "normal",
-      "id": "a_2be5911e0b",
-      "date": "2026-05-14"
-    },
-    {
-      "title": "OpenAI is reportedly preparing legal action against Apple; it wouldn’t be the first partner to feel burned",
-      "summary": "OpenAI is so frustrated with Apple over a ChatGPT integration that failed to deliver the subscribers and prominence it expected that the company is now actively exploring legal action against the iPhone maker.",
-      "url": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
-      "source": "TechCrunch AI",
-      "published": "2026-05-14T19:12:03+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_b29225e6aa",
-      "date": "2026-05-14"
-    },
-    {
-      "title": "Clawdmeter turns your Claude Code usage stats into a tiny desktop dashboard",
-      "summary": "A new open source gadget called Clawdmeter turns Claude Code usage stats into a tiny desktop dashboard for AI coding power users.",
-      "url": "https://techcrunch.com/2026/05/14/clawdmeter-turns-your-claude-code-usage-stats-into-a-tiny-desktop-dashboard/",
-      "source": "TechCrunch AI",
-      "published": "2026-05-14T19:05:01+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_13dfd5935d",
-      "date": "2026-05-14"
     }
   ]
 }
