@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T12:07:31.349782+00:00",
+  "generated_at": "2026-06-07T12:23:07.480808+00:00",
   "kpis": [
     {
       "name": "S&P 500",
@@ -35,54 +35,340 @@
     },
     {
       "name": "Bitcoin",
-      "val": "$60.9K",
-      "delta": "−1.82%",
-      "dir": "down",
+      "val": "$62.1K",
+      "delta": "+1.98%",
+      "dir": "up",
       "stale": false,
-      "as_of": "2026-06-06T12:07:31.349754+00:00"
+      "as_of": "2026-06-07T12:23:07.480782+00:00"
     },
     {
       "name": "Ethereum",
-      "val": "$1,560",
-      "delta": "−6.14%",
-      "dir": "down",
+      "val": "$1,613",
+      "delta": "+3.59%",
+      "dir": "up",
       "stale": false,
-      "as_of": "2026-06-06T12:07:31.349773+00:00"
+      "as_of": "2026-06-07T12:23:07.480800+00:00"
     }
   ],
-  "voices": [],
+  "voices": [
+    {
+      "name": "Warren Buffett",
+      "role": "CEO, Berkshire Hathaway",
+      "initials": "WB",
+      "bg": "var(--p-peach)",
+      "quote": "Warren Buffett tells CNBC's Becky Quick new Berkshire Hathaway CEO Greg Abel has \"launched\" with his first major deal.",
+      "source": "CNBC Top",
+      "url": "https://www.cnbc.com/2026/06/06/abel-goes-his-own-way-with-new-berkshire-investments-including-billions-for-ai.html",
+      "date": "2026-06-06"
+    }
+  ],
   "news": [
     {
-      "title": "Apple’s WWDC will be a make-or-break moment for the company’s fledgling AI strategy",
-      "summary": "At Monday’s keynote, Apple will get a second chance to show users it can make Siri smarter and more contextually aware.",
-      "url": "https://www.marketwatch.com/story/apples-wwdc-will-be-a-make-or-break-moment-for-the-companys-fledgling-ai-strategy-42086cc1?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-06-06T11:30:00+00:00",
+      "title": "Nvidia, SK to detail cooperation plan as Huang flags prolonged chip shortage",
+      "summary": "A SK Hynix spokesperson said group Chairman Chey Tae-won and Nvidia CEO Jensen Huang plan to brief the media on Monday morning, confirming a report by Newsis.",
+      "url": "https://www.cnbc.com/2026/06/07/nvidia-sk-to-detail-cooperation-plan-amid-prolonged-chip-shortage.html",
+      "source": "CNBC Top",
+      "published": "2026-06-07T12:07:49+00:00",
       "topic": "AI",
       "importance": "normal",
-      "id": "a_60a71c3e2f",
-      "date": "2026-06-06"
+      "id": "a_a9e07c8a10",
+      "date": "2026-06-07"
     },
     {
-      "title": "The key to the upcoming Fed meeting? How Warsh reacts to all the hints of a rate hike.",
-      "summary": "The new Fed chair might make swift changes to how the central bank communicates.",
-      "url": "https://www.marketwatch.com/story/the-key-to-the-upcoming-fed-meeting-how-warsh-reacts-to-all-the-hints-of-a-rate-hike-3cbdce15?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-06-06T11:00:00+00:00",
-      "topic": "Banking",
-      "importance": "normal",
-      "id": "a_84b56d54ec",
-      "date": "2026-06-06"
-    },
-    {
-      "title": "Russia's Sechin says U.S. companies benefit from the closure of the Strait of Hormuz",
-      "summary": "The closures of the Strait has rattled global markets, sending oil prices to multi-year highs, stoking global inflation and undermining economic growth.",
-      "url": "https://www.cnbc.com/2026/06/06/russias-sechin-says-us-companies-benefit-from-the-closure-of-the-strait-of-hormuz.html",
+      "title": "Bouygues-led consortium signs $23.44 billion deal to buy SFR from Altice France",
+      "summary": "If approved by regulators, the Bouygues-led acquisition would rank among the biggest European telecoms deals in recent years.",
+      "url": "https://www.cnbc.com/2026/06/06/bouygues-led-consortium-signs-23point44-billion-deal-to-buy-sfr-from-altice-france.html",
       "source": "CNBC Top",
-      "published": "2026-06-06T10:58:51+00:00",
+      "published": "2026-06-07T02:13:42+00:00",
+      "topic": "Investment Banking",
+      "importance": "critical",
+      "id": "a_e626699e9d",
+      "date": "2026-06-07"
+    },
+    {
+      "title": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
+      "summary": "Even with Lockdown Mode, ChatGPT could be still vulnerable to prompt injections, but the goal is to reduce the likelihood that sensitive data gets shared in the process.",
+      "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+      "source": "TechCrunch AI",
+      "published": "2026-06-06T20:32:24+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_6d978cb5bc",
+      "date": "2026-06-06"
+    },
+    {
+      "title": "Bitcoin, ether eye worst weekly rout since FTX collapse as cryptos shed $390 billion",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/06/06/bitcoin-ether-eye-worst-weekly-rout-since-ftx-collapse-as-cryptos-shed-usd390-billion",
+      "source": "CoinDesk",
+      "published": "2026-06-06T19:58:54+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "critical",
+      "id": "a_2020f9d5d9",
+      "date": "2026-06-06"
+    },
+    {
+      "title": "Most robo-advisers will never profit from Wall Street’s AI-generated stock picks",
+      "summary": "Retail robo-advisors excel at tax-loss harvesting and portfolio discipline, but market-beating returns aren’t part of the package.",
+      "url": "https://www.marketwatch.com/story/wall-street-keeps-its-ai-stock-picking-secrets-heres-what-robo-advisers-actually-do-93871e31?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-06-06T18:50:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_fdae1179eb",
+      "date": "2026-06-06"
+    },
+    {
+      "title": "White House AI policy adviser Krishnan to leave position",
+      "summary": "Krishnan has been involved in Trump administration efforts to create a national framework for regulating AI developments.",
+      "url": "https://www.cnbc.com/2026/06/06/white-house-ai-policy-adviser-krishnan-to-leave-position.html",
+      "source": "CNBC Top",
+      "published": "2026-06-06T18:03:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_1151c152ed",
+      "date": "2026-06-06"
+    },
+    {
+      "title": "Sriram Krishnan is leaving his role as White House AI advisor",
+      "summary": "Krishnan is reportedly starting a new institution to continue shaping Trump's AI policy.",
+      "url": "https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/",
+      "source": "TechCrunch AI",
+      "published": "2026-06-06T17:42:15+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_05b6ecbec1",
+      "date": "2026-06-06"
+    },
+    {
+      "title": "South Korea is the ultimate backdoor tech play — but stock investors now face a looming threat",
+      "summary": "Samsung and SK Hynix are key to soaring South Korean stock market, but a rate hike could trigger a 15% market correction.",
+      "url": "https://www.marketwatch.com/story/south-korea-is-the-ultimate-backdoor-tech-play-but-stock-investors-now-face-a-looming-threat-25065699?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-06-06T17:33:00+00:00",
       "topic": "Macroeconomics",
       "importance": "normal",
-      "id": "a_317d9ed797",
+      "id": "a_646d470558",
+      "date": "2026-06-06"
+    },
+    {
+      "title": "Wall Street hated these 15 stocks. Then their earnings proved the analysts wrong.",
+      "summary": "Earnings beats mean a lot more when it happens to stocks the market gave up on.",
+      "url": "https://www.marketwatch.com/story/wall-street-hated-these-15-stocks-then-their-earnings-proved-the-analysts-wrong-fceb1c96?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-06-06T17:20:00+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_65411639f4",
+      "date": "2026-06-06"
+    },
+    {
+      "title": "Here are 3 forces that drove a whirlwind week for the stock market",
+      "summary": "An avalanche of selling on Friday crushed stocks. It was a dramatic reversal from record highs earlier in the week.",
+      "url": "https://www.cnbc.com/2026/06/06/here-are-3-forces-that-drove-a-whirlwind-week-for-the-stock-market.html",
+      "source": "CNBC Top",
+      "published": "2026-06-06T16:38:29+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_36a8b2ef90",
+      "date": "2026-06-06"
+    },
+    {
+      "title": "The Trump administration might take an equity stake in OpenAI",
+      "summary": "President Donald Trump said he's discussing deals \"where the American people can benefit from the success of AI.\"",
+      "url": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
+      "source": "TechCrunch AI",
+      "published": "2026-06-06T16:17:21+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_abc4d326d8",
+      "date": "2026-06-06"
+    },
+    {
+      "title": "Bitcoin most oversold since 2020 crash: Can BTC rebound to $70K next?",
+      "summary": "Bitcoin’s latest oversold RSI mirrors 2020 and February 2026 setups that preceded 50% and 30% rebounds, putting $70K back in focus.",
+      "url": "https://cointelegraph.com/markets/bitcoin-most-oversold-since-2020-crash-can-btc-rebound-to-70k-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-06T16:06:54+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "critical",
+      "id": "a_77d3fdffe4",
+      "date": "2026-06-06"
+    },
+    {
+      "title": "America’s largest banks are building a new digital currency network to stop a massive deposit drain",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/06/06/america-s-largest-banks-are-building-a-new-digital-currency-network-to-stop-a-massive-deposit-drain",
+      "source": "CoinDesk",
+      "published": "2026-06-06T15:59:00+00:00",
+      "topic": "Banking",
+      "importance": "normal",
+      "id": "a_40670c3268",
+      "date": "2026-06-06"
+    },
+    {
+      "title": "A crypto pioneer who turned a $20 million family stake into a billion-dollar fund doubles down on bitcoin",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/06/06/a-crypto-pioneer-who-turned-a-usd20-million-family-stake-into-a-billion-dollar-fund-doubles-down-on-bitcoin",
+      "source": "CoinDesk",
+      "published": "2026-06-06T15:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "high",
+      "id": "a_4c7b7d3f06",
+      "date": "2026-06-06"
+    },
+    {
+      "title": "Satoshi-era bitcoin at center of $285 billion lawsuit moves after 14 years",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/06/06/satoshi-era-bitcoin-at-center-of-usd285-billion-lawsuit-moves-after-14-years",
+      "source": "CoinDesk",
+      "published": "2026-06-06T13:30:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "high",
+      "id": "a_365293245e",
+      "date": "2026-06-06"
+    },
+    {
+      "title": "Bitcoin is cratering, but a new Wall Street crypto hype is on the rise",
+      "summary": "As bitcoin dropped to its lowest price since 2024, investors flock to a new type of crypto investment linked to the hyperliquid platforms, HYPE ETFs.",
+      "url": "https://www.cnbc.com/2026/06/06/bitcoin-price-crash-crypto-hype-hyperliquid-etfs.html",
+      "source": "CNBC Top",
+      "published": "2026-06-06T13:28:42+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_250ffdffec",
+      "date": "2026-06-06"
+    },
+    {
+      "title": "SpaceX, targeting a $1.77 trillion valuation, just got a 100% property tax exemption for a planned factory in Texas",
+      "summary": "",
+      "url": "https://finance.yahoo.com/economy/policy/articles/spacex-targeting-1-77-trillion-131000248.html",
+      "source": "Yahoo Finance",
+      "published": "2026-06-06T13:10:00+00:00",
+      "topic": "Valuation",
+      "importance": "critical",
+      "id": "a_80375734fb",
+      "date": "2026-06-06"
+    },
+    {
+      "title": "Michael Saylor’s rallying cry: Bitcoin needs four forces to win",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/06/06/michael-saylor-s-rallying-cry-bitcoin-needs-four-forces-to-win",
+      "source": "CoinDesk",
+      "published": "2026-06-06T13:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_c922e0ed62",
+      "date": "2026-06-06"
+    },
+    {
+      "title": "Wall Street's 'fear gauge' punches back as the 'crash up' in chip stocks finally reverses",
+      "summary": "The monster rally in semiconductor stocks hit a wall on Friday, and the VIX at last caught up with other volatility metrics.",
+      "url": "https://www.cnbc.com/2026/06/06/wall-streets-fear-gauge-punches-back-as-the-crash-up-in-chip-stocks-finally-reverses.html",
+      "source": "CNBC Top",
+      "published": "2026-06-06T12:58:29+00:00",
+      "topic": "Stocks",
+      "importance": "critical",
+      "id": "a_f06a1f5862",
+      "date": "2026-06-06"
+    },
+    {
+      "title": "Experts say Google's $84 billion AI gamble could leave investors waiting a decade for a payoff",
+      "summary": "",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/experts-googles-84-billion-ai-124000060.html",
+      "source": "Yahoo Finance",
+      "published": "2026-06-06T12:40:00+00:00",
+      "topic": "AI",
+      "importance": "high",
+      "id": "a_f03185b3c2",
+      "date": "2026-06-06"
+    },
+    {
+      "title": "Bank of America says these 'compelling' stocks are going higher",
+      "summary": "Bank of America named a slew of stocks that are too attractive to ignore.",
+      "url": "https://www.cnbc.com/2026/06/06/five-stocks-to-buy-now-per-bank-of-america.html",
+      "source": "CNBC Top",
+      "published": "2026-06-06T12:33:38+00:00",
+      "topic": "Banking",
+      "importance": "normal",
+      "id": "a_b245747618",
+      "date": "2026-06-06"
+    },
+    {
+      "title": "Abel goes his own way with new Berkshire investments, including billions for AI",
+      "summary": "Warren Buffett tells CNBC's Becky Quick new Berkshire Hathaway CEO Greg Abel has \"launched\" with his first major deal.",
+      "url": "https://www.cnbc.com/2026/06/06/abel-goes-his-own-way-with-new-berkshire-investments-including-billions-for-ai.html",
+      "source": "CNBC Top",
+      "published": "2026-06-06T12:31:02+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_37c086eedb",
+      "date": "2026-06-06"
+    },
+    {
+      "title": "The next NVIDIA? These 3 stocks below $50 are poised to win the next AI boom (and they’re still flying under the radar)",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/next-nvidia-3-stocks-below-120500020.html",
+      "source": "Yahoo Finance",
+      "published": "2026-06-06T12:05:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_efb3c03296",
+      "date": "2026-06-06"
+    },
+    {
+      "title": "Lawmakers invest in tech, AI, and crypto as new rules for the industries are on their agenda",
+      "summary": "",
+      "url": "https://finance.yahoo.com/sectors/technology/article/lawmakers-invest-in-tech-ai-and-crypto-as-new-rules-for-the-industries-are-on-their-agenda-114556895.html",
+      "source": "Yahoo Finance",
+      "published": "2026-06-06T11:45:56+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_2bf33fb235",
+      "date": "2026-06-06"
+    },
+    {
+      "title": "SpaceX's IPO dream runs into Wall Street's oldest test: Chart of the Day",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/article/spacexs-ipo-dream-runs-into-wall-streets-oldest-test-chart-of-the-day-114542191.html",
+      "source": "Yahoo Finance",
+      "published": "2026-06-06T11:45:42+00:00",
+      "topic": "Valuation",
+      "importance": "normal",
+      "id": "a_addf14f227",
+      "date": "2026-06-06"
+    },
+    {
+      "title": "Prediction: The SpaceX IPO Will Be the Greatest Fleecing of Retail Investors We've Ever Witnessed",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-spacex-ipo-greatest-fleecing-105600752.html",
+      "source": "Yahoo Finance",
+      "published": "2026-06-06T10:56:00+00:00",
+      "topic": "Valuation",
+      "importance": "normal",
+      "id": "a_74b716a8b2",
+      "date": "2026-06-06"
+    },
+    {
+      "title": "Best high-yield savings interest rates today, Saturday, June 6, 2026: Earn up to 4.1% APY",
+      "summary": "",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-saturday-june-6-2026-100000094.html",
+      "source": "Yahoo Finance",
+      "published": "2026-06-06T10:00:00+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_708e330604",
+      "date": "2026-06-06"
+    },
+    {
+      "title": "Mortgage and refinance interest rates today, Saturday, June 6, 2026: Fixed rates on the rise",
+      "summary": "",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-refinance-interest-rates-today-saturday-june-6-2026-100000796.html",
+      "source": "Yahoo Finance",
+      "published": "2026-06-06T10:00:00+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_c5fb6e7cd7",
       "date": "2026-06-06"
     },
     {
@@ -119,39 +405,6 @@
       "date": "2026-06-06"
     },
     {
-      "title": "Amazon unveils latest warehouse robot as tech giants continue AI layoffs",
-      "summary": "\"Our experience of robots is that it's actually driven up employment rather than the reverse,\" Amazon executive John Boumphrey told CNBC.",
-      "url": "https://www.cnbc.com/2026/06/05/amazon-robot-proteus-warehouse-ai-layoffs.html",
-      "source": "CNBC Top",
-      "published": "2026-06-05T22:53:20+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_030d8a5ec6",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "S&P 500 sees $1.8 trillion wipeout, Nasdaq tallies biggest point drop on record: What investors need to know about Friday’s selloff",
-      "summary": "A remarkable two-month sprint higher for major stock-market indexes encountered its first major hiccup on Friday as the Nasdaq Composite plummeted more than 1,121 points — the biggest one day point drop on record, according to Dow Jones Market Data.",
-      "url": "https://www.marketwatch.com/story/s-p-500-sees-1-8-trillion-wipeout-nasdaq-tallies-biggest-point-drop-on-record-heres-what-investors-need-to-know-about-fridays-selloff-4eb7b490?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-06-05T22:27:00+00:00",
-      "topic": "Stocks",
-      "importance": "critical",
-      "id": "a_cf68513f81",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "AstraZeneca CEO says AI is reshaping drug development — and helping boost the odds of success",
-      "summary": "AstraZeneca CEO Pascal Soriot said AI is helping the company develop medicines faster and make smarter decisions throughout the research process.",
-      "url": "https://www.cnbc.com/2026/06/05/astrazeneca-ceo-says-ai-is-reshaping-drug-development-and-helping-boost-the-odds-of-success.html",
-      "source": "CNBC Top",
-      "published": "2026-06-05T22:26:16+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_657cdac1c3",
-      "date": "2026-06-05"
-    },
-    {
       "title": "ETH falls to 13-month low on Zcash bug news and Bitcoin drop to sub-$60K: Is $1.4K next?",
       "summary": "ETH price crashed below $1,600 as a vulnerability in Zcash emerged and Bitcoin sold off below $60,000 for the first time in months.",
       "url": "https://cointelegraph.com/markets/eth-falls-to-13-month-low-on-zcash-bug-news-and-bitcoin-drop-to-sub-60k-is-14k-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -160,72 +413,6 @@
       "topic": "Cryptocurrency",
       "importance": "normal",
       "id": "a_38a11b1293",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "Bitcoin is suffering from an ‘attention’ deficit, as momentum traders have moved on",
-      "summary": "“The AI trade is sucking the blood out of crypto,” one analyst notes.",
-      "url": "https://www.marketwatch.com/story/bitcoin-is-suffering-from-an-attention-deficit-as-momentum-traders-have-moved-on-17d2c140?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-06-05T21:58:00+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_707183c428",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "Marvell Technology and Flex to join S&P 500 index, replacing Pool and Campbell's",
-      "summary": "The move highlights the growing importance of the technology sector to the stock market.",
-      "url": "https://www.cnbc.com/2026/06/05/marvell-technology-flex-sp-500-campbells-pool.html",
-      "source": "CNBC Top",
-      "published": "2026-06-05T21:36:23+00:00",
-      "topic": "Stocks",
-      "importance": "normal",
-      "id": "a_e85a558c8e",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "Trump administration, OpenAI discussing possible government stake in the AI startup",
-      "summary": "OpenAI CEO Sam Altman first shared the idea with the Trump administration in 2025, according to a source.",
-      "url": "https://www.cnbc.com/2026/06/05/trump-open-ai-altman-stake.html",
-      "source": "CNBC Top",
-      "published": "2026-06-05T21:12:29+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_5c0b953dd2",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "SpaceX is set to be a 'seminal event' for the stock market next week. Here's what's ahead",
-      "summary": "What the first of several trillion-dollar companies going public will mean for a stock market that's already at all-time highs.",
-      "url": "https://www.cnbc.com/2026/06/05/spacex-is-set-to-be-a-seminal-event-for-the-stock-market-next-week-heres-whats-ahead.html",
-      "source": "CNBC Top",
-      "published": "2026-06-05T21:05:21+00:00",
-      "topic": "Valuation",
-      "importance": "critical",
-      "id": "a_2b6f5b9ee8",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "Google to pay SpaceX $920 million a month for compute capacity at xAI data centers",
-      "summary": "Ahead of a planned IPO, SpaceX inked a deal to rent compute capacity to Google for $920 million per month for 32 months.",
-      "url": "https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html",
-      "source": "CNBC Top",
-      "published": "2026-06-05T21:01:53+00:00",
-      "topic": "Valuation",
-      "importance": "normal",
-      "id": "a_8093c28a1d",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "Bitcoin cracks $60,000, sinking to lowest level since October 2024",
-      "summary": "The weeklong sell-off was exacerbated after a stronger-than-expected May jobs report Friday sent yields higher and pressured risk assets.",
-      "url": "https://www.cnbc.com/2026/06/05/bitcoin-dismal-week-price-below-all-time-high-crypto-investors.html",
-      "source": "CNBC Top",
-      "published": "2026-06-05T20:59:16+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_3b0f3e187b",
       "date": "2026-06-05"
     },
     {
@@ -240,17 +427,6 @@
       "date": "2026-06-05"
     },
     {
-      "title": "A sell-off like Friday's is ‘rarely the top’ of a rally, says Wharton’s Jeremy Siegel",
-      "summary": "The artificial intelligence-driven rally is different from previous market bubbles, according to Siegel, who likened it to the Industrial Revolution.",
-      "url": "https://www.cnbc.com/2026/06/05/fridays-sell-off-is-rarely-the-top-of-a-rally-says-whartons-jeremy-siegel.html",
-      "source": "CNBC Top",
-      "published": "2026-06-05T20:50:02+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_9db578214d",
-      "date": "2026-06-05"
-    },
-    {
       "title": "Crypto tax proposals weighed ahead of Tuesday House hearing",
       "summary": "Among the issues US lawmakers are expected to discuss in a digital asset taxation hearing are “de minimis” reporting exceptions for crypto transactions.",
       "url": "https://cointelegraph.com/news/crypto-tax-bills-house-ways-means-hearing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -262,17 +438,6 @@
       "date": "2026-06-05"
     },
     {
-      "title": "Mythos rejuvenated the cybersecurity sector. Earnings put the recent rally to the test",
-      "summary": "Mythos gave the cybersecurity sector a boost, but upbeat earnings weren't enough for investors in search of an AI payoff.",
-      "url": "https://www.cnbc.com/2026/06/05/mythos-cybersecurity-earnings-palo-alto-crowdstrike.html",
-      "source": "CNBC Top",
-      "published": "2026-06-05T20:25:09+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_5ee22406c4",
-      "date": "2026-06-05"
-    },
-    {
       "title": "Nasdaq falls 4% and suffers worst day since April 2025 as traders flee chip stocks: Live updates",
       "summary": "All three major averages closed out a losing week.",
       "url": "https://www.cnbc.com/2026/06/04/stock-market-today-live-updates.html",
@@ -281,17 +446,6 @@
       "topic": "Stocks",
       "importance": "normal",
       "id": "a_6957bd6782",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push",
-      "summary": "Meta shares dropped after the Financial Times reported the company could potentially raise tens of billions of dollars in a stock offering to help its AI push.",
-      "url": "https://www.cnbc.com/2026/06/05/meta-stock-sinks-on-report-company-could-raise-tens-of-billions-for-ai.html",
-      "source": "CNBC Top",
-      "published": "2026-06-05T20:22:44+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_d0fcfde5e7",
       "date": "2026-06-05"
     },
     {
@@ -320,7 +474,7 @@
       "title": "Hot jobs report puts Fed cuts further out of reach as Chair Warsh faces policy tests",
       "summary": "Another big jobs report in May has swept aside the possibility of interest rate cuts anytime soon.",
       "url": "https://www.cnbc.com/2026/06/05/hot-jobs-report-puts-fed-cuts-further-out-of-reach-as-chair-warsh-faces-policy-tests.html",
-      "source": "CNBC Top",
+      "source": "CNBC Finance",
       "published": "2026-06-05T19:09:09+00:00",
       "topic": "Macroeconomics",
       "importance": "critical",
@@ -350,17 +504,6 @@
       "date": "2026-06-05"
     },
     {
-      "title": "Crypto mutiny on Strategy: Shorts target 'MSTR' in bitcoin bloodbath",
-      "summary": "Flows around Strategy (MSTR) and the company's variable-rate preferred stock STRC are turning bearish this week.",
-      "url": "https://www.cnbc.com/2026/06/05/crypto-mutiny-on-strategy-shorts-target-mstr-in-bitcoin-bloodbath.html",
-      "source": "CNBC Top",
-      "published": "2026-06-05T18:14:15+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_d7b566cb92",
-      "date": "2026-06-05"
-    },
-    {
       "title": "Crypto tax in Illinois FY2027 budget is one step away from becoming law",
       "summary": "The law, part of a budget plan passed by Illinois lawmakers, would put the burden of collecting a 0.2% tax on crypto transactions on a registered broker.",
       "url": "https://cointelegraph.com/news/cryptocurrency-tax-illinois-fy2027-budget-law?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -372,17 +515,6 @@
       "date": "2026-06-05"
     },
     {
-      "title": "As AI-related stocks dive, the market's winners have one thing in common",
-      "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "url": "https://www.cnbc.com/2026/06/05/as-ai-related-stocks-dive-the-markets-winners-have-one-thing-in-common.html",
-      "source": "CNBC Top",
-      "published": "2026-06-05T18:06:34+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_a783b72faf",
-      "date": "2026-06-05"
-    },
-    {
       "title": "AI exposed a massive flaw in top crypto network and experts warn banks could be next",
       "summary": "",
       "url": "https://www.coindesk.com/tech/2026/06/05/ai-exposed-a-massive-flaw-in-top-crypto-network-and-experts-warn-banks-could-be-next",
@@ -391,17 +523,6 @@
       "topic": "Cryptocurrency",
       "importance": "normal",
       "id": "a_f23fa465ca",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "Chip stock breakout vs the rest of tech showing signs of topping out, says Carter Worth",
-      "summary": "The Philadelphia Stock Exchange Semiconductor Index finally has recouped all its relative losses to the S&P 500 Information Technology Sector.",
-      "url": "https://www.cnbc.com/2026/06/05/chip-stock-breakout-vs-the-rest-of-tech-showing-signs-of-topping-out-says-carter-worth.html",
-      "source": "CNBC Top",
-      "published": "2026-06-05T17:40:49+00:00",
-      "topic": "Stocks",
-      "importance": "normal",
-      "id": "a_4f3d5ec9ee",
       "date": "2026-06-05"
     },
     {
@@ -625,17 +746,6 @@
       "date": "2026-06-05"
     },
     {
-      "title": "Bitcoin sentiment hit peak bearishness at recent lows, peak bullishness near tops",
-      "summary": "",
-      "url": "https://www.coindesk.com/daybook-us/2026/06/04/bitcoin-sentiment-hit-peak-bearishness-at-recent-lows-peak-bullishness-near-tops",
-      "source": "CoinDesk",
-      "published": "2026-06-05T11:25:49+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_0d13df0f47",
-      "date": "2026-06-05"
-    },
-    {
       "title": "Forward Industries moves $32M in SOL amid $1B paper loss",
       "summary": "Forward Industries moved $31.9 million in SOL to Coinbase Prime as its Solana bet sits over 70% underwater, underscoring growing strain on corporate crypto treasuries.",
       "url": "https://cointelegraph.com/news/forward-industries-moves-319m-in-sol-to-coinbase-prime-amid-113b-paper-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -647,116 +757,6 @@
       "date": "2026-06-05"
     },
     {
-      "title": "Crypto's worst week since July 2024 deepens as bitcoin, ether near critical price levels",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/06/05/crypto-s-worst-week-since-july-2024-deepens-as-bitcoin-ether-near-critical-price-levels",
-      "source": "CoinDesk",
-      "published": "2026-06-05T10:39:16+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_a545f55703",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "Stock Index Futures Slip as Tech Slide Deepens, U.S. Jobs Report in Focus",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-index-futures-slip-tech-103730718.html",
-      "source": "Yahoo Finance",
-      "published": "2026-06-05T10:37:30+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_3e9f163f8d",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "Global equity fund inflows at 3-week high as AI optimism boosts sentiment",
-      "summary": "",
-      "url": "https://finance.yahoo.com/news/global-equity-fund-inflows-3-103523484.html",
-      "source": "Yahoo Finance",
-      "published": "2026-06-05T10:35:23+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_eb874bca19",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "The AI bubble looks fit to burst, Bank of America director says. Here’s your road map for riding out a crash",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ai-bubble-looks-fit-burst-103000477.html",
-      "source": "Yahoo Finance",
-      "published": "2026-06-05T10:30:00+00:00",
-      "topic": "AI",
-      "importance": "critical",
-      "id": "a_e12a8632bd",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "Is ONEOK Stock Underperforming the Nasdaq?",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/oneok-stock-underperforming-nasdaq-102430650.html",
-      "source": "Yahoo Finance",
-      "published": "2026-06-05T10:24:30+00:00",
-      "topic": "Stocks",
-      "importance": "normal",
-      "id": "a_106670c328",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "New Fed Chairman Kevin Warsh Is Now in a Position Where Rate Cuts Are Virtually Impossible, and the Stock Market Could Pay the Price",
-      "summary": "",
-      "url": "https://finance.yahoo.com/economy/policy/articles/fed-chairman-kevin-warsh-now-101900872.html",
-      "source": "Yahoo Finance",
-      "published": "2026-06-05T10:19:00+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_00b2fd5da2",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "Is PulteGroup (PHM) One of the Best Real Estate Stocks to Buy Beyond REITs?",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/pultegroup-phm-one-best-real-100358086.html",
-      "source": "Yahoo Finance",
-      "published": "2026-06-05T10:03:58+00:00",
-      "topic": "Investment Banking",
-      "importance": "normal",
-      "id": "a_3209bec9f6",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "Is Meritage Homes (MTH) Among the Best Real Estate Stocks to Buy?",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/meritage-homes-mth-among-best-100355013.html",
-      "source": "Yahoo Finance",
-      "published": "2026-06-05T10:03:55+00:00",
-      "topic": "Investment Banking",
-      "importance": "normal",
-      "id": "a_c50f153245",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "Best high-yield savings interest rates today, Friday, June 5, 2026: Up to 4.10% APY return",
-      "summary": "",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-friday-june-5-2026-100000048.html",
-      "source": "Yahoo Finance",
-      "published": "2026-06-05T10:00:00+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_80091a75b3",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "What Are Analyst Thoughts on Broadcom’s AI Revenue Guidance?",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/analyst-thoughts-broadcom-ai-revenue-095947786.html",
-      "source": "Yahoo Finance",
-      "published": "2026-06-05T09:59:47+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_45fc97f5f6",
-      "date": "2026-06-05"
-    },
-    {
       "title": "Bank of England and Financial Conduct Authority – Memorandum of Understanding on the supervision of Financial Market Infrastructure",
       "summary": "Joint statement from the Bank of England and Financial Conduct Authority",
       "url": "https://www.bankofengland.co.uk/news/2026/june/boe-and-fca-mou-on-supervision-of-financial-market-infrastructures",
@@ -765,39 +765,6 @@
       "topic": "Banking",
       "importance": "normal",
       "id": "a_5ad1b15638",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "JPMorgan, Bank of America, Citi to start blockchain offensive with shared tokenized network",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/06/05/jpmorgan-bank-of-america-and-citi-are-going-on-the-blockchain-offensive-with-a-shared-tokenized-network",
-      "source": "CoinDesk",
-      "published": "2026-06-05T09:16:29+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_a5e4e7654c",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "U.S. bitcoin, ether ETFs end record multibillion outflow streak",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/06/05/bitcoin-and-ether-etfs-end-record-multi-billion-outflow-streak",
-      "source": "CoinDesk",
-      "published": "2026-06-05T08:53:30+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_a802175472",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "Here's what could happen if bitcoin breaks below $60,000",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/06/05/here-s-what-could-happen-if-bitcoin-breaks-below-usd60-000",
-      "source": "CoinDesk",
-      "published": "2026-06-05T07:52:25+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_213a5f61a7",
       "date": "2026-06-05"
     },
     {
@@ -831,28 +798,6 @@
       "topic": "Cryptocurrency",
       "importance": "normal",
       "id": "a_15b8bef4a2",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "Bitcoin in danger of dropping to $60,000, with Zcash bulls turning their backs on ZEC",
-      "summary": "",
-      "url": "https://www.coindesk.com/tech/2026/06/05/bitcoin-in-danger-of-dropping-to-usd60-000-with-zcash-bulls-turning-their-backs-on-zec",
-      "source": "CoinDesk",
-      "published": "2026-06-05T06:18:59+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_58d3272c6f",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "Bitcoin plunges to near $62,000 as the AI trade unwinds, HYPE falls 14%",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/06/05/bitcoin-plunges-to-near-usd62-000-as-the-ai-trade-unwinds-hype-falls-14",
-      "source": "CoinDesk",
-      "published": "2026-06-05T06:08:32+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "critical",
-      "id": "a_dc239cb490",
       "date": "2026-06-05"
     },
     {
@@ -911,17 +856,6 @@
       "date": "2026-06-04"
     },
     {
-      "title": "Comptroller says only Democrats pressuring over crypto trust charter",
-      "summary": "US Comptroller of the Currency Jonathan Gould and New York Representative Gregory Meeks sparred over Donald Trump’s influence on regulators he has nominated as president at a Thursday oversight hearing.",
-      "url": "https://cointelegraph.com/news/occ-gould-political-pressure-democrats-world-liberty-financial?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-06-04T21:54:37+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_183ad29bd2",
-      "date": "2026-06-04"
-    },
-    {
       "title": "Defense tech, AI, and fundraising take center stage at StrictlyVC Los Angeles on June 18",
       "summary": "On Thursday, June 18, at The Aerospace Corporation Campus, investors, founders, and tech leaders will gather for an evening of conversation exploring some of the most consequential shifts taking place across venture capital, defense technology, artificial intelligence, and advanced industry. Secure your spot today.",
       "url": "https://techcrunch.com/2026/06/04/defense-tech-ai-and-fundraising-take-center-stage-at-strictlyvc-los-angeles-on-june-18/",
@@ -931,6 +865,83 @@
       "importance": "normal",
       "id": "a_468b45b70f",
       "date": "2026-06-04"
+    },
+    {
+      "title": "Apple approves Poke as the first AI agent on its Messages for Business platform",
+      "summary": "Poke, the startup that lets people use AI agents through simple text messages, has become the first AI agent approved for Apple’s Messages for Business platform.",
+      "url": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/",
+      "source": "TechCrunch AI",
+      "published": "2026-06-04T19:20:58+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_19b49f9757",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "Long-term unemployment is surging in the U.S. There are hidden costs for workers and the economy",
+      "summary": "Long-term unemployment can have ramifications on financial, emotional and family health that linger even after reentry into the workforce.",
+      "url": "https://www.cnbc.com/2026/06/04/long-term-unemployment-economy-jobs.html",
+      "source": "CNBC Economy",
+      "published": "2026-06-04T18:55:32+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_01172512a7",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "Stocks making the biggest moves premarket: Broadcom, Micron, Petco, Coinbase and more",
+      "summary": "These are the stocks posting the largest moves in the premarket.",
+      "url": "https://www.cnbc.com/2026/06/04/stocks-making-the-biggest-moves-premarket-.html",
+      "source": "CNBC Finance",
+      "published": "2026-06-04T16:33:01+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_2809ab27b0",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "Meta rolls out a new AI creator assistant on Facebook",
+      "summary": "Creators often have to parse through charts and dashboards to understand their performance, but with the new AI assistant, they can get quick answers to questions like \"When should I post?\" and \"What are people saying in my comments?\"",
+      "url": "https://techcrunch.com/2026/06/04/meta-rolls-out-a-new-ai-creator-assistant-on-facebook/",
+      "source": "TechCrunch AI",
+      "published": "2026-06-04T16:32:48+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_d350f684a7",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "Ark Invest owns SpaceX in its venture ETF. It says Starlink alone supports $2 trillion value at IPO",
+      "summary": "Brett Winton said SpaceX's Starlink satellite broadband network is the primary driver of ARK's valuation thesis.",
+      "url": "https://www.cnbc.com/2026/06/04/ark-invest-owns-spacex-in-its-venture-etf-it-says-starlink-alone-supports-2-trillion-value-at-ipo.html",
+      "source": "CNBC Finance",
+      "published": "2026-06-04T14:18:15+00:00",
+      "topic": "Valuation",
+      "importance": "critical",
+      "id": "a_0b63ce1f1d",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "Lovable signs multiyear deal with Google Cloud to up usage 5x, source says",
+      "summary": "Lovable and Google signed an expanded multiyear deal that involves a 5x expansion of Lovable's footprint on Google Cloud, and expanded access to Anthropic Claude.",
+      "url": "https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/",
+      "source": "TechCrunch AI",
+      "published": "2026-06-03T22:56:51+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_37f7a8c7fb",
+      "date": "2026-06-03"
+    },
+    {
+      "title": "Bitcoin set to slump to new lows for 2026 after recent sell-off, traders forecast",
+      "summary": "The cryptocurrency is likely to break below its lows hit in early February, traders on prediction market Kalshi believe.",
+      "url": "https://www.cnbc.com/2026/06/03/bitcoin-to-slump-to-new-lows-after-recent-sell-off-traders-predict.html",
+      "source": "CNBC Finance",
+      "published": "2026-06-03T20:06:54+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "high",
+      "id": "a_6b7ecbd36a",
+      "date": "2026-06-03"
     }
   ]
 }
