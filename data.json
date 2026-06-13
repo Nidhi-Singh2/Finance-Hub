@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T14:11:23.565594+00:00",
+  "generated_at": "2026-06-13T12:28:11.842711+00:00",
   "kpis": [
     {
       "name": "S&P 500",
@@ -35,76 +35,505 @@
     },
     {
       "name": "Bitcoin",
-      "val": "$63.4K",
-      "delta": "+0.99%",
+      "val": "$63.9K",
+      "delta": "+0.78%",
       "dir": "up",
       "stale": false,
-      "as_of": "2026-06-12T14:11:23.565564+00:00"
+      "as_of": "2026-06-13T12:28:11.842691+00:00"
     },
     {
       "name": "Ethereum",
-      "val": "$1,664",
-      "delta": "+1.23%",
+      "val": "$1,677",
+      "delta": "+0.66%",
       "dir": "up",
       "stale": false,
-      "as_of": "2026-06-12T14:11:23.565585+00:00"
+      "as_of": "2026-06-13T12:28:11.842705+00:00"
     }
   ],
   "voices": [],
   "news": [
     {
-      "title": "SpaceX IPO: Everything you need to know",
-      "summary": "TechCrunch has followed SpaceX's start, struggles, and successes from the early days. And we're here for what happens next too. This package of SpaceX IPO coverage includes who stands to win (and maybe some who won't), pre-IPO deals, and what's tucked inside its S-1 registration document.",
-      "url": "https://techcrunch.com/2026/06/12/spacex-ipo-everything-you-need-to-know/",
+      "title": "You can ignore AI giants like SpaceX, but your 401(k) won't",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ignore-ai-giants-spacex-401-120140928.html",
+      "source": "Yahoo Finance",
+      "published": "2026-06-13T12:01:40+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_bf25dc9161",
+      "date": "2026-06-13"
+    },
+    {
+      "title": "From 10% chance of success to $2 trillion market cap: SpaceX's historic IPO",
+      "summary": "After its Nasdaq debut on Friday, SpaceX was the sixth most-valuable U.S. company, despite being a fraction the size by revenue of tech's megacaps.",
+      "url": "https://www.cnbc.com/2026/06/13/from-10percent-chance-of-success-to-2-trillion-spacexs-historic-ipo.html",
+      "source": "CNBC Top",
+      "published": "2026-06-13T12:00:01+00:00",
+      "topic": "Valuation",
+      "importance": "critical",
+      "id": "a_3fa422f6a2",
+      "date": "2026-06-13"
+    },
+    {
+      "title": "Morpho's $175M raise shows where crypto VC money is flowing",
+      "summary": "Morpho’s recent $175 million raise reflects growing investor bets on onchain credit infrastructure as stablecoin adoption expands.",
+      "url": "https://cointelegraph.com/news/morphos-175m-raise-shows-where-the-last-of-the-crypto-vc-money-is-going?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-13T11:52:41+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "high",
+      "id": "a_6469c7cf75",
+      "date": "2026-06-13"
+    },
+    {
+      "title": "Ripple wants AI agents to pay in XRP and RLUSD. The market is still mostly USDC",
+      "summary": "",
+      "url": "https://www.coindesk.com/tech/2026/06/11/ripple-wants-ai-agents-to-pay-in-xrp-and-rlusd-the-market-is-still-mostly-usdc",
+      "source": "CoinDesk",
+      "published": "2026-06-13T11:30:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_a5516285fc",
+      "date": "2026-06-13"
+    },
+    {
+      "title": "Former Tesla board member says SpaceX needs to achieve 2 of its 3 moonshots to keep its valuation",
+      "summary": "SpaceX has achieved its goal of becoming the largest IPO on record.",
+      "url": "https://www.cnbc.com/2026/06/12/spacex-moonshots-valuation-westly-tesla.html",
+      "source": "CNBC Top",
+      "published": "2026-06-13T07:22:10+00:00",
+      "topic": "Valuation",
+      "importance": "normal",
+      "id": "a_28318969e0",
+      "date": "2026-06-13"
+    },
+    {
+      "title": "Top cryptographers can't agree on Bitcoin's biggest quantum question",
+      "summary": "",
+      "url": "https://www.coindesk.com/tech/2026/06/13/top-cryptographers-can-t-agree-on-bitcoin-s-biggest-quantum-question",
+      "source": "CoinDesk",
+      "published": "2026-06-13T06:07:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_66fa430909",
+      "date": "2026-06-13"
+    },
+    {
+      "title": "Anthropic's pre-IPO shares fall as US government shuts down its most powerful AI model",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/06/13/anthropic-s-pre-ipo-shares-fall-as-us-government-shuts-down-its-most-powerful-ai-model",
+      "source": "CoinDesk",
+      "published": "2026-06-13T06:02:05+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_713ff421d1",
+      "date": "2026-06-13"
+    },
+    {
+      "title": "Here’s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-13T05:47:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_8dded07b07",
+      "date": "2026-06-13"
+    },
+    {
+      "title": "Bitcoin steadies above $63,000 as its worst week in months got a late macro rescue",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/06/13/bitcoin-steady-above-usd63-000-as-its-worst-week-in-months-got-a-late-macro-rescue",
+      "source": "CoinDesk",
+      "published": "2026-06-13T05:46:38+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_225344da04",
+      "date": "2026-06-13"
+    },
+    {
+      "title": "SpaceX IPO scramble reveals difference between tokenizing a stock and getting one",
+      "summary": "",
+      "url": "https://www.coindesk.com/tech/2026/06/13/spacex-ipo-scramble-reveals-difference-between-tokenizing-a-stock-and-getting-one",
+      "source": "CoinDesk",
+      "published": "2026-06-13T05:16:10+00:00",
+      "topic": "Valuation",
+      "importance": "normal",
+      "id": "a_6c92a176e9",
+      "date": "2026-06-13"
+    },
+    {
+      "title": "ETH futures flash bearish signal, but stakers’ resilience points to underlying strength",
+      "summary": "Demand for ETH leverage remains low, but corporate accumulation and stakers’ dedication may prevent an Ether price crash to $1,500.",
+      "url": "https://cointelegraph.com/markets/eth-futures-flash-bearish-signal-but-stakers-resilience-points-to-underlying-strength?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-13T03:24:05+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "critical",
+      "id": "a_70051c3e40",
+      "date": "2026-06-13"
+    },
+    {
+      "title": "Anthropic suspends access to Fable 5, Mythos 5, citing US directive",
+      "summary": "Anthropic has abruptly disabled its flagship AI models after a US government directive citing national security concerns.",
+      "url": "https://cointelegraph.com/news/anthropic-suspends-access-to-fable-mythos-citing-us-directive?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-13T02:37:40+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_38b32cf2ef",
+      "date": "2026-06-13"
+    },
+    {
+      "title": "Anthropic’s safety warnings may have just backfired — the government has pulled the plug on its most powerful AI",
+      "summary": "Anthropic isn't hiding its frustration. \"We disagree that the finding of a narrow potential jailbreak should be cause for recalling a commercial model deployed to hundreds of millions of people,\" the company wrote in a blog post.",
+      "url": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
       "source": "TechCrunch AI",
-      "published": "2026-06-12T14:08:54+00:00",
-      "topic": "Valuation",
+      "published": "2026-06-13T02:26:30+00:00",
+      "topic": "AI",
       "importance": "normal",
-      "id": "a_e1adbcf5f0",
-      "date": "2026-06-12"
+      "id": "a_7f196a17ed",
+      "date": "2026-06-13"
     },
     {
-      "title": "SpaceX's first trade indicated around $175 per share ahead of opening: Live updates",
-      "summary": "Follow SpaceX IPO live updates on price, ticker, broker access, valuation and what investors need to know before shares trade.",
-      "url": "https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html",
+      "title": "Major crypto exchanges cancel SpaceX IPO allocations, promising refunds",
+      "summary": "Elon Musk’s SpaceX completed its landmark IPO on the Nasdaq on Friday, but crypto users seeking tokenized exposure to the IPO were left empty-handed after allocations fell through.",
+      "url": "https://cointelegraph.com/news/major-crypto-exchanges-cancel-spacex-ipo-allocations-promising-refunds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-13T02:17:55+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_546af4f86e",
+      "date": "2026-06-13"
+    },
+    {
+      "title": "Anthropic disables access to Fable 5 and Mythos 5 to comply with government directive",
+      "summary": "Anthropic said it disabled access to its Fable 5 and Mythos 5 models to comply with an export control directive from the U.S. government.",
+      "url": "https://www.cnbc.com/2026/06/12/anthropic-disables-access-to-fable-5-and-mythos-5-to-comply-with-government-directive.html",
       "source": "CNBC Top",
-      "published": "2026-06-12T14:08:46+00:00",
-      "topic": "Valuation",
+      "published": "2026-06-13T01:36:34+00:00",
+      "topic": "AI",
       "importance": "normal",
-      "id": "a_50252f82f0",
+      "id": "a_8138775e48",
+      "date": "2026-06-13"
+    },
+    {
+      "title": "Bitcoin’s ‘calm top’ challenges most market bottom estimates: Research",
+      "summary": "New data from Galaxy Research suggests that Bitcoin's floor price may not drop as low as previous bear markets, but the bottom-finding process is still playing out.",
+      "url": "https://cointelegraph.com/markets/bitcoins-calm-top-challenges-old-bottom-targets-what-traders-need-to-know?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-13T00:51:36+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_54596ff217",
+      "date": "2026-06-13"
+    },
+    {
+      "title": "Bitcoin rally to $70K builds as orderbook structure highlights traders’ confidence",
+      "summary": "A positive bid-ask readings and a bullish RSI divergence support Bitcoin's recovery, with $70,000 emerging as a key target.",
+      "url": "https://cointelegraph.com/markets/bitcoin-data-points-to-a-relief-rally-as-order-book-demand-targets-70k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-12T23:42:12+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_288cdc472a",
       "date": "2026-06-12"
     },
     {
-      "title": "These are the assets investors should buy if a peace deal with Iran happens, says Bank of America",
-      "summary": "Low approval ratings and a jump in inflation may be forcing President Donald Trump’s hand in ending the war, with some asset prices already starting to anticipate that.",
-      "url": "https://www.marketwatch.com/story/if-an-iran-peace-deal-is-agreed-these-are-the-assets-investors-should-buy-says-bank-of-america-9b3e9099?mod=mw_rss_topstories",
+      "title": "SpaceX IPO: Live updates on everything you need to know",
+      "summary": "TechCrunch has followed SpaceX's start, struggles, and successes from the early days. And we're here for what happens next too. This package of SpaceX IPO coverage includes who stands to win (and maybe some who won't), pre-IPO deals, and what's tucked inside its S-1 registration document.",
+      "url": "https://techcrunch.com/2026/06/12/spacex-ipo-live-updates-on-everything-you-need-to-know/",
+      "source": "TechCrunch AI",
+      "published": "2026-06-12T23:15:14+00:00",
+      "topic": "Valuation",
+      "importance": "normal",
+      "id": "a_aeb45db1a6",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "Meta’s months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it",
+      "summary": "A new report suggests the unit, which employs 6,500 people, is on the verge of revolt.",
+      "url": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
+      "source": "TechCrunch AI",
+      "published": "2026-06-12T23:00:54+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_e6e1d32bc5",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "This hidden investing flaw is costing you money. Talking to political opponents fixes it.",
+      "summary": "The stock market doesn’t care about your politics. Insisting on a portfolio that’s red or blue can forfeit a lot of green.",
+      "url": "https://www.marketwatch.com/story/this-hidden-investing-flaw-is-costing-you-money-talking-to-political-opponents-fixes-it-fc1f7be3?mod=mw_rss_topstories",
       "source": "MarketWatch Top",
-      "published": "2026-06-12T13:51:00+00:00",
-      "topic": "Banking",
+      "published": "2026-06-12T22:59:00+00:00",
+      "topic": "Stocks",
       "importance": "normal",
-      "id": "a_beb4f2385e",
+      "id": "a_1218ce4d00",
       "date": "2026-06-12"
     },
     {
-      "title": "SpaceX’s Gwynne Shotwell had IPO doubts for years, now she has a message for investors",
-      "summary": "Gwynne Shotwell, long Elon Musk's second-in-command at SpaceX, spoke exclusively with CNBC ahead of her company's highly anticipated IPO.",
-      "url": "https://www.cnbc.com/2026/06/12/spacex-coo-gwynne-shotwell-spcx-ipo.html",
-      "source": "CNBC Top",
-      "published": "2026-06-12T13:46:52+00:00",
-      "topic": "Valuation",
+      "title": "There’s a 68% chance the stock market ends the year higher. Why the headlines shouldn’t disrupt your portfolio.",
+      "summary": "Blocking out the daily noise gives you a clear edge over short-term chaos.",
+      "url": "https://www.marketwatch.com/story/theres-a-68-chance-the-stock-market-ends-the-year-higher-why-the-headlines-shouldnt-disrupt-your-portfolio-3d78cfae?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-06-12T22:58:00+00:00",
+      "topic": "Stocks",
       "importance": "normal",
-      "id": "a_fcb46e58c5",
+      "id": "a_e16064cd11",
       "date": "2026-06-12"
     },
     {
-      "title": "Warren questions SpaceX IPO oversight in new letter to stock indexes",
-      "summary": "Sen. Elizabeth Warren seeking answers on changes to index provider waiting periods, protections for retail investors, in a letter obtained first by CNBC.",
-      "url": "https://www.cnbc.com/2026/06/11/warren-spacex-ipo-exchanges.html",
+      "title": "Paramount-WBD merger wins approval from DOJ",
+      "summary": "The DOJ approval is an important milestone for the roughly $110 billion deal, though it could still face legal challenges from state attorneys general.",
+      "url": "https://www.cnbc.com/2026/06/12/paramount-wbd-merger-approval-doj.html",
       "source": "CNBC Top",
-      "published": "2026-06-12T13:38:21+00:00",
+      "published": "2026-06-12T22:54:06+00:00",
+      "topic": "Investment Banking",
+      "importance": "critical",
+      "id": "a_34db9041a5",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "‘This is not a flash in the pan’: Why value stocks are beating growth by such a wide margin",
+      "summary": "Value stocks are putting up big gains this year that widely surpass growth equities, with investors appearing optimistic about earnings growth broadening beyond technology.",
+      "url": "https://www.marketwatch.com/story/this-is-not-a-flash-in-the-pan-why-value-stocks-are-beating-growth-by-such-a-wide-margin-b2bddccc?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-06-12T22:50:00+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_5fba5452b3",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "How Elon Musk nailed the SpaceX IPO: ‘I’m not sure that this could have gone much better’",
+      "summary": "There were a lot of ways that SpaceX’s initial public offering could have gone wrong. Instead, the company bucked Wall Street norms, pulled off the biggest IPO ever and raised $75 billion.",
+      "url": "https://www.marketwatch.com/story/how-elon-musk-nailed-the-spacex-ipo-im-not-sure-that-this-could-have-gone-much-better-8149d479?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-06-12T21:57:00+00:00",
+      "topic": "Valuation",
+      "importance": "high",
+      "id": "a_1b92c54106",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "Small investors scrambled to get in on the SpaceX IPO, even as some believe the valuation is 'stupid'",
+      "summary": "SpaceX set a fixed price of $135 per share in the leadup to its IPO on Friday, placing its valuation at $1.77 trillion. Shares rallied more than 25%.",
+      "url": "https://www.cnbc.com/2026/06/12/small-investors-scrambled-to-get-in-on-the-spacex-ipo-even-as-some-believe-the-valuation-is-stupid.html",
+      "source": "CNBC Top",
+      "published": "2026-06-12T21:48:59+00:00",
+      "topic": "Valuation",
+      "importance": "critical",
+      "id": "a_6c7e351b52",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "Social Security COLA for 2027 may jump to 4.7%, one estimate finds. This chart shows prices driving the increase",
+      "summary": "As inflation climbs, Social Security beneficiaries may see a higher cost-of-living adjustment in 2027. Here's which costs spiked most over the past 12 months.",
+      "url": "https://www.cnbc.com/2026/06/12/social-security-cola-2027-inflation-estimate.html",
+      "source": "CNBC Top",
+      "published": "2026-06-12T21:18:06+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_70cfeb3c2b",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "Top House Republican’s family investment poised to benefit from SpaceX IPO",
+      "summary": "Republican Rep. Lisa McClain’s husband bought up to $250,000 in Elon Musk’s xAI before it was folded into SpaceX ahead of its IPO.",
+      "url": "https://www.cnbc.com/2026/06/12/lisa-mcclain-spacex-ipo-xai-investment-congress.html",
+      "source": "CNBC Top",
+      "published": "2026-06-12T21:15:28+00:00",
       "topic": "Valuation",
       "importance": "normal",
-      "id": "a_9353756864",
+      "id": "a_81066ad8ff",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "Chinese cybercrime operation that used AI to scam ‘hundreds of thousands of victims’ sued by Google",
+      "summary": "The tech giant said a group called \"Outsider Enterprise\" used AI to scam hundreds of thousands of victims, sending 2.5 million text messages over a span of two weeks.",
+      "url": "https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/",
+      "source": "TechCrunch AI",
+      "published": "2026-06-12T20:38:09+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_9438e3f84e",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "SpaceX market cap tops $2 trillion after shares of Elon Musk's rocket company gain 19% on debut",
+      "summary": "SpaceX shares soared on Friday as trading commenced on the Nasdaq.",
+      "url": "https://www.cnbc.com/2026/06/12/spacex-stock-jumps-2-trillion.html",
+      "source": "CNBC Top",
+      "published": "2026-06-12T20:33:52+00:00",
+      "topic": "Stocks",
+      "importance": "critical",
+      "id": "a_3a719dd22f",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "What comes next for SpaceX after the IPO will be in focus for investors. Here's what's ahead",
+      "summary": "Whether SpaceX can maintain the early enthusiasm in the coming days will be telling.",
+      "url": "https://www.cnbc.com/2026/06/12/stock-market-next-week-outlook-for-june-15-19-2026.html",
+      "source": "CNBC Top",
+      "published": "2026-06-12T20:20:11+00:00",
+      "topic": "Valuation",
+      "importance": "normal",
+      "id": "a_77d607b975",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "Goldman nets a big payday for SpaceX IPO. Plus, what drove our winners and losers this week",
+      "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "url": "https://www.cnbc.com/2026/06/12/goldman-nets-a-big-payday-for-spacex-ipo-plus-what-drove-our-winners-and-losers-this-week.html",
+      "source": "CNBC Top",
+      "published": "2026-06-12T18:52:10+00:00",
+      "topic": "Valuation",
+      "importance": "normal",
+      "id": "a_56d385c43a",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "Bitcoin hit bottom at $59,000 marking end to the crypto winter, says Standard Chartered analyst",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/06/12/bitcoin-hit-bottom-at-usd59-000-marking-end-to-the-crypto-winter-says-standard-chartered-analyst",
+      "source": "CoinDesk",
+      "published": "2026-06-12T18:09:06+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_c4c498de58",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "Mistral is rumored to be raising €3B at €20B valuation",
+      "summary": "The funding round would value the company at around €20 billion (about $23.15 billion), nearly double its Series C valuation of €11.7 billion.",
+      "url": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
+      "source": "TechCrunch AI",
+      "published": "2026-06-12T17:38:11+00:00",
+      "topic": "AI",
+      "importance": "high",
+      "id": "a_4f62c65b74",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "SpaceX hit with sell rating by CFRA shortly after IPO",
+      "summary": "Reusable Starship rocket could prove to be a \"bottleneck\" for multiple segments, research firm says.",
+      "url": "https://www.cnbc.com/2026/06/12/spacex-hit-with-sell-rating-by-cfra-shortly-after-ipo.html",
+      "source": "CNBC Top",
+      "published": "2026-06-12T17:21:01+00:00",
+      "topic": "Valuation",
+      "importance": "normal",
+      "id": "a_2750c054ea",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "SpaceX, Anthropic, and OpenAI’s hot IPO summer",
+      "summary": "The IPO market is back, and&#160;it's&#160;not the same&#160;companies&#160;leading the charge. FAANG had a good run, but a&#160;new acronym is taking over: MANGOS&#160;— Meta (or Microsoft, depending on who you ask), Anthropic, Nvidia, Google, OpenAI, and SpaceX. Half&#160;of that&#160;bunch is heading to public markets in the same window,&#160;and&#160;it's&#160;a stress test for investors, for ",
+      "url": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
+      "source": "TechCrunch AI",
+      "published": "2026-06-12T16:23:25+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_c7fff91e82",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "Bitcoin surfs SpaceX IPO at $64K as trader warns key BTC price support may crumble",
+      "summary": "Bitcoin hit $64,000 as SpaceX launched a record-breaking IPO and US-Iran peace deal hopes continued to grow, but doubts over BTC price support remained.",
+      "url": "https://cointelegraph.com/markets/bitcoin-surfs-spacex-ipo-iran-peace-cues-as-trader-warns-62k-may-crumble?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-12T16:17:33+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "critical",
+      "id": "a_917145d8d4",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "Crypto Biz: SpaceX fuels tokenization’s next boom",
+      "summary": "Tokenized RWAs surge despite crypto volatility, Kraken launches SpaceX IPO xStocks, prediction markets outpace onchain gambling and Sam Bankman-Fried seeks a Trump pardon.",
+      "url": "https://cointelegraph.com/news/tokenized-rwas-kraken-spacex-ipo-prediction-markets-sbf-trump-pardon?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-12T16:07:08+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_477611ba75",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "VanEck bets BNB’s real-world usage can stand out in a crowded crypto ETF market",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/06/12/vaneck-bets-bnb-s-real-world-usage-can-stand-out-in-a-crowded-crypto-etf-market",
+      "source": "CoinDesk",
+      "published": "2026-06-12T16:05:31+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_cd60f0af4c",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "The S&P 500 already made a big call on SpaceX stock and index fund investors need to know it",
+      "summary": "The S&P 500 index, where trillions in retirement savings are invested, said no to the SpaceX IPO, the biggest in history. Here's what that means for portfolios.",
+      "url": "https://www.cnbc.com/2026/06/12/spacex-ipo-sp-500-index-funds-investors.html",
+      "source": "CNBC Finance",
+      "published": "2026-06-12T15:59:09+00:00",
+      "topic": "Valuation",
+      "importance": "normal",
+      "id": "a_047db40542",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "Elon Musk's SpaceX soars 20% in blockbuster Nasdaq debut",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/06/12/spacex-opens-at-usdtk-in-blockbuster-nasdaq-debut",
+      "source": "CoinDesk",
+      "published": "2026-06-12T15:55:42+00:00",
+      "topic": "Stocks",
+      "importance": "critical",
+      "id": "a_b9181dbbc7",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "It’s hot IPO summer, and the MANGOS are ripe",
+      "summary": "The IPO market is back, and&#160;it's&#160;not the same&#160;companies&#160;leading the charge. FAANG had a good run, but a&#160;new acronym is taking over: MANGOS&#160;— Meta (or Microsoft, depending on who you ask), Anthropic, Nvidia, Google, OpenAI, and SpaceX. Half&#160;of that&#160;bunch is heading to public markets in the same window,&#160;and&#160;it's&#160;a stress test for investors, for ",
+      "url": "https://techcrunch.com/podcast/its-hot-ipo-summer-and-the-mangos-are-ripe/",
+      "source": "TechCrunch AI",
+      "published": "2026-06-12T15:50:52+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_ff2961448c",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "Bloomberg Analyst: Most Bitcoin ETF Investors Have Stayed Put Despite Outflows",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/06/08/bloomberg-analyst-most-bitcoin-etf-investors-have-stayed-put-despite-outflows",
+      "source": "CoinDesk",
+      "published": "2026-06-12T15:49:36+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_53b318b3f2",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "Kalshi’s crypto perpetuals spark debate over whether they’re futures or swaps",
+      "summary": "",
+      "url": "https://www.coindesk.com/policy/2026/06/12/kalshi-s-crypto-perpetuals-spark-debate-over-whether-they-re-futures-or-swaps",
+      "source": "CoinDesk",
+      "published": "2026-06-12T15:37:08+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_532781aab5",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "SpaceX cuts retail IPO allocation to low 20% range, source says",
+      "summary": "The Elon Musk-led company plans to direct a percentage in the low 20s of the offering to retail buyers, according to a person familiar with the matter.",
+      "url": "https://www.cnbc.com/2026/06/11/spacex-cuts-retail-ipo-allocation-to-low-20percent-range-source-says.html",
+      "source": "CNBC Finance",
+      "published": "2026-06-12T14:50:28+00:00",
+      "topic": "Valuation",
+      "importance": "normal",
+      "id": "a_00bc0001da",
       "date": "2026-06-12"
     },
     {
@@ -112,21 +541,10 @@
       "summary": "With SpaceX seeking an IPO valuation of nearly $1.8 trillion, early bets are poised to generate some of the biggest paper gains in venture capital history.",
       "url": "https://www.cnbc.com/2026/06/11/spacex-investors-reap-rewards-1-8-trillion-valuation.html",
       "source": "CNBC Finance",
-      "published": "2026-06-12T13:33:00+00:00",
+      "published": "2026-06-12T14:46:10+00:00",
       "topic": "Valuation",
       "importance": "critical",
       "id": "a_2dc3255d35",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "SpaceX IPO hype is massive — and the FOMO can ruin your retirement",
-      "summary": "A stock that dips is a blip at 30. But for older investors in or near retirement, it’s a portfolio disaster.",
-      "url": "https://www.marketwatch.com/story/spacex-ipo-hype-is-massive-and-especially-dangerous-for-investors-over-50-ae3edd10?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-06-12T13:26:00+00:00",
-      "topic": "Valuation",
-      "importance": "normal",
-      "id": "a_53a5b64e44",
       "date": "2026-06-12"
     },
     {
@@ -141,17 +559,6 @@
       "date": "2026-06-12"
     },
     {
-      "title": "SpaceX's supersized starting valuation could limit future returns",
-      "summary": "SpaceX’s planned IPO is unprecedented both in deal size and valuation.",
-      "url": "https://www.cnbc.com/2026/06/12/spacexs-supersized-starting-valuation-could-limit-future-returns.html",
-      "source": "CNBC Top",
-      "published": "2026-06-12T13:14:05+00:00",
-      "topic": "Valuation",
-      "importance": "normal",
-      "id": "a_04ec444920",
-      "date": "2026-06-12"
-    },
-    {
       "title": "CoinDesk 20 performance update: Ethereum (ETH) falls 1% as index trades lower",
       "summary": "",
       "url": "https://www.coindesk.com/coindesk-indices/2026/06/12/coindesk-20-performance-update-ethereum-eth-falls-1-as-index-trades-lower",
@@ -160,17 +567,6 @@
       "topic": "Cryptocurrency",
       "importance": "normal",
       "id": "a_162ef664ef",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Former Tesla board member says SpaceX needs to achieve 2 of its 3 moonshots to keep its valuation",
-      "summary": "SpaceX has achieved its goal of becoming the largest IPO on record.",
-      "url": "https://www.cnbc.com/2026/06/12/spacex-moonshots-valuation-westly-tesla.html",
-      "source": "CNBC Top",
-      "published": "2026-06-12T13:10:06+00:00",
-      "topic": "Valuation",
-      "importance": "normal",
-      "id": "a_28318969e0",
       "date": "2026-06-12"
     },
     {
@@ -185,50 +581,6 @@
       "date": "2026-06-12"
     },
     {
-      "title": "Jim Cramer's top 10 things to watch in the stock market Friday",
-      "summary": "The biggest IPO of all time is finally here.",
-      "url": "https://www.cnbc.com/2026/06/12/jim-cramers-top-10-things-to-watch-in-the-stock-market-friday.html",
-      "source": "CNBC Top",
-      "published": "2026-06-12T12:59:27+00:00",
-      "topic": "Valuation",
-      "importance": "normal",
-      "id": "a_d0d5391353",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Small investors scrambled to get in on the SpaceX IPO, even as some believe the valuation is 'stupid'",
-      "summary": "While SpaceX's IPO has caused alarm that it may be overvalued, some retail investors still want in.",
-      "url": "https://www.cnbc.com/2026/06/12/small-investors-scrambled-to-get-in-on-the-spacex-ipo-even-as-some-believe-the-valuation-is-stupid.html",
-      "source": "CNBC Top",
-      "published": "2026-06-12T12:36:09+00:00",
-      "topic": "Valuation",
-      "importance": "normal",
-      "id": "a_6c7e351b52",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "The S&P 500 already made a big call on SpaceX stock and index fund investors need to know it",
-      "summary": "The S&P 500 index, where trillions in retirement savings are invested, said no to the SpaceX IPO, the biggest in history. Here's what that means for portfolios.",
-      "url": "https://www.cnbc.com/2026/06/12/spacex-ipo-sp-500-index-funds-investors.html",
-      "source": "CNBC Top",
-      "published": "2026-06-12T12:35:55+00:00",
-      "topic": "Valuation",
-      "importance": "normal",
-      "id": "a_047db40542",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Here’s what could be SpaceX’s biggest upside surprise, according to a leading Silicon Valley investor",
-      "summary": "Brad Gerstner and Gavin Baker discussed the SpaceX IPO as well as a possible pivot for Nvidia.",
-      "url": "https://www.marketwatch.com/story/heres-what-could-be-spacexs-biggest-upside-surprise-according-to-a-leading-silicon-valley-investor-e6cab034?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-06-12T12:16:00+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_af36446d85",
-      "date": "2026-06-12"
-    },
-    {
       "title": "Metaplanet to form securities arm through Siiibo acquisition",
       "summary": "Metaplanet will acquire Siiibo Securities and rename it Metaplanet Securities as it builds out Project Nova, its Bitcoin-centric finance strategy in Japan.",
       "url": "https://cointelegraph.com/news/metaplanet-to-form-securities-arm-through-siiibo-acquisition?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -237,17 +589,6 @@
       "topic": "Cryptocurrency",
       "importance": "normal",
       "id": "a_c1c682e5d3",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Here are Friday's biggest analyst calls: Nvidia, SpaceX, AMD, Broadcom, Warby Parker, Adobe, Kratos & more",
-      "summary": "Here are Friday's biggest calls on Wall Street.",
-      "url": "https://www.cnbc.com/2026/06/12/fridays-biggest-analyst-calls-like-spacex.html",
-      "source": "CNBC Top",
-      "published": "2026-06-12T12:03:49+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_abeec6d079",
       "date": "2026-06-12"
     },
     {
@@ -273,17 +614,6 @@
       "date": "2026-06-12"
     },
     {
-      "title": "We asked AI to predict the 2026 World Cup winner. It picked a country that’s never won.",
-      "summary": "Some 2026 World Cup predictions from AI models are going against tradition to pick the underdogs. Here’s why.",
-      "url": "https://www.marketwatch.com/story/we-asked-ai-to-predict-the-2026-world-cup-winner-it-picked-something-that-has-never-happened-53231520?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-06-12T11:32:00+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_e2ac5aa9fa",
-      "date": "2026-06-12"
-    },
-    {
       "title": "For crypto, SpaceX's stock market debut could go either way",
       "summary": "",
       "url": "https://www.coindesk.com/daybook-us/2026/06/12/for-crypto-spacex-s-stock-market-debut-could-go-either-way",
@@ -295,14 +625,25 @@
       "date": "2026-06-12"
     },
     {
-      "title": "JPMorgan says investors are overlooking the upside to Wall Street banks that comes from SpaceX and other mega IPOs",
-      "summary": "Bumper IPO issuance and crazy market volatility should generate very straong trading income for the largst investment banks in the second quarter. JPMorgan makes a short-term trading call on both Goldman and Morgan Stanley",
-      "url": "https://www.marketwatch.com/story/jpmorgan-says-investors-are-overlooking-the-upside-to-wall-street-banks-that-comes-from-spacex-and-other-mega-ipos-bcea99f4?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-06-12T11:14:00+00:00",
-      "topic": "Investment Banking",
+      "title": "Who are the European VCs getting a slice of SpaceX's record IPO?",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/european-vcs-getting-slice-spacexs-111826128.html",
+      "source": "Yahoo Finance",
+      "published": "2026-06-12T11:18:26+00:00",
+      "topic": "Valuation",
       "importance": "normal",
-      "id": "a_2c3f143c4f",
+      "id": "a_1fb20407f3",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "Bezos is Back in Boss Chair With Prometheus AI",
+      "summary": "",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/bezos-back-boss-chair-prometheus-110939973.html",
+      "source": "Yahoo Finance",
+      "published": "2026-06-12T11:09:39+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_2c1a19b2bd",
       "date": "2026-06-12"
     },
     {
@@ -314,6 +655,28 @@
       "topic": "Valuation",
       "importance": "normal",
       "id": "a_ecc302ab6e",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "Hedge funds sold broader tech ahead of SpaceX IPO, JPMorgan data shows",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hedge-funds-sold-broader-tech-105812649.html",
+      "source": "Yahoo Finance",
+      "published": "2026-06-12T10:58:12+00:00",
+      "topic": "Investment Banking",
+      "importance": "normal",
+      "id": "a_457f28700d",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "Oklahoma’s BancFirst to buy SpiritBank, boost Tulsa presence",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/oklahoma-bancfirst-buy-spiritbank-boost-105335987.html",
+      "source": "Yahoo Finance",
+      "published": "2026-06-12T10:53:35+00:00",
+      "topic": "Investment Banking",
+      "importance": "normal",
+      "id": "a_4d0432a8c6",
       "date": "2026-06-12"
     },
     {
@@ -336,6 +699,28 @@
       "topic": "Cryptocurrency",
       "importance": "normal",
       "id": "a_1fde8b4ed9",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "Should You Buy JPMorgan Chase & Co. (JPM)?",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/buy-jpmorgan-chase-co-jpm-103749758.html",
+      "source": "Yahoo Finance",
+      "published": "2026-06-12T10:37:49+00:00",
+      "topic": "Investment Banking",
+      "importance": "normal",
+      "id": "a_9c356896be",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "AI, Institutional Buying Sends Micron Shares Up by 758%",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ai-institutional-buying-sends-micron-103201797.html",
+      "source": "Yahoo Finance",
+      "published": "2026-06-12T10:32:01+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_1cfc9728c1",
       "date": "2026-06-12"
     },
     {
@@ -372,6 +757,17 @@
       "date": "2026-06-12"
     },
     {
+      "title": "Best high-yield savings interest rates today, Friday, June 12, 2026: Up to 4.10% APY return",
+      "summary": "",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-friday-june-12-2026-100000753.html",
+      "source": "Yahoo Finance",
+      "published": "2026-06-12T10:00:00+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_a6c680f5ad",
+      "date": "2026-06-12"
+    },
+    {
       "title": "Crypto scammers exploit World Cup ticket demand, TRM warns",
       "summary": "FIFA and the FBI warned of ticket scams as TRM Labs identified World Cup-themed crypto fraud operations tied to multiple wallet addresses.",
       "url": "https://cointelegraph.com/news/trm-world-cup-crypto-scams-fake-tickets-betting?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -391,17 +787,6 @@
       "topic": "Cryptocurrency",
       "importance": "normal",
       "id": "a_6a742c2233",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Meta reportedly begins dismantling $2 billion Manus deal on Beijing's orders",
-      "summary": "Meta has reportedly begun dismantling its acquisition of Manus, moving to comply with Beijing's unprecedented order to hand back the Chinese-founded AI startup.",
-      "url": "https://www.cnbc.com/2026/06/12/meta-reportedly-begins-dismantling-2-billion-manus-deal-on-beijings-orders.html",
-      "source": "CNBC Top",
-      "published": "2026-06-12T07:41:11+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_9fb59ce575",
       "date": "2026-06-12"
     },
     {
@@ -438,14 +823,36 @@
       "date": "2026-06-12"
     },
     {
-      "title": "Live updates: Bitcoin slips to $63,000 as SpaceX shares get ready to trade on Nasdaq",
+      "title": "Blockworks acquires Messari in crypto data consolidation push",
+      "summary": "The acquisition follows leadership changes and layoffs at Messari and adds one of crypto's largest data and analytics platforms to Blockworks' growing research business.",
+      "url": "https://cointelegraph.com/news/blockworks-buys-rival-messari-at-fraction-of-2022-valuation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-12T07:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_f27868cfb6",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "Exodus launches tokenized stock marketplace with Ondo, adds 200-plus onchain equities",
+      "summary": "The launch comes as tokenized equities surge in popularity, with crypto exchanges and wallets racing to offer onchain access to stocks and pre-IPO companies.",
+      "url": "https://cointelegraph.com/news/exodus-launches-tokenized-stock-marketplace-with-ondo-adds-200-onchain-equities?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-12T07:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_081d9eb88e",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "Live updates: SpaceX rallies nearly 20% in first session, while bitcoin trades shy of $64,000",
       "summary": "",
       "url": "https://www.coindesk.com/tech/2026/06/12/live-updates-bitcoin-in-volatile-trading-above-usd63-000-doge-unchanged",
       "source": "CoinDesk",
       "published": "2026-06-12T06:32:02+00:00",
       "topic": "Cryptocurrency",
       "importance": "normal",
-      "id": "a_38fb9356b5",
+      "id": "a_798d804147",
       "date": "2026-06-12"
     },
     {
@@ -457,28 +864,6 @@
       "topic": "Cryptocurrency",
       "importance": "critical",
       "id": "a_498a010fe6",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "ChatGPT hits a billion monthly app users despite souring public AI sentiment",
-      "summary": "ChatGPT reached a billion monthly users in May despite growing unease over its ethical and environmental impacts.",
-      "url": "https://www.cnbc.com/2026/06/12/chatgpt-a-billion-monthly-app-users-despite-souring-public-ai-sentiment.html",
-      "source": "CNBC Top",
-      "published": "2026-06-12T06:07:18+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_fbced0adcb",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Bitcoin climbs back into the green as Trump signals an end to the Iran war",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/06/12/bitcoin-climbs-back-into-the-green-as-trump-signals-an-end-to-the-iran-war",
-      "source": "CoinDesk",
-      "published": "2026-06-12T05:14:33+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_2e5168b321",
       "date": "2026-06-12"
     },
     {
@@ -494,7 +879,7 @@
     },
     {
       "title": "Cheaper, faster, and culturally aware, Avataar’s video AI is built for India’s scale",
-      "summary": "Avataar AI's distilled video model is priced at $0.005 for every second of generation",
+      "summary": "Avataar AI's distilled video model is priced at $0.005 for every second of generation.",
       "url": "https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/",
       "source": "TechCrunch AI",
       "published": "2026-06-12T04:30:00+00:00",
@@ -546,391 +931,6 @@
       "importance": "normal",
       "id": "a_0fff1a3c53",
       "date": "2026-06-12"
-    },
-    {
-      "title": "Big Tech crash, oil volatility rattles markets: Will Bitcoin hold above $60K?",
-      "summary": "With $1.9 billion exiting the spot Bitcoin ETFs and tech stocks under pressure, BTC is failing as a hedge and at risk of falling below the $60,000 support.",
-      "url": "https://cointelegraph.com/markets/big-tech-crash-oil-volatility-rattles-markets-will-bitcoin-hold-above-60k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-06-11T22:58:52+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "critical",
-      "id": "a_1d8b15ee24",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Honeywell CEO says AI will 'redefine automation' as labor shortages mount",
-      "summary": "Honeywell CEO Vimal Kapur said AI is poised to \"redefine automation\" by helping companies turn operational data into actionable insights.",
-      "url": "https://www.cnbc.com/2026/06/11/honeywell-ceo-ai-automation-labor-shortages.html",
-      "source": "CNBC Top",
-      "published": "2026-06-11T22:58:13+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_cc9b81a6cd",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "SpaceX cuts retail IPO allocation to low 20% range, source says",
-      "summary": "The Elon Musk-led company plans to direct a percentage in the low 20s of the offering to retail buyers, according to a person familiar with the matter.",
-      "url": "https://www.cnbc.com/2026/06/11/spacex-cuts-retail-ipo-allocation-to-low-20percent-range-source-says.html",
-      "source": "CNBC Finance",
-      "published": "2026-06-11T22:21:47+00:00",
-      "topic": "Valuation",
-      "importance": "normal",
-      "id": "a_00bc0001da",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Citi launches blockchain marketplace for shares of private companies: Report",
-      "summary": "The US banking giant's blockchain marketplace will offer tokenized depositary receipts of private company shares amid Wall Street's broad embrace of tokenized assets.",
-      "url": "https://cointelegraph.com/news/citi-launches-blockchain-marketplace-private-company-shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-06-11T21:24:56+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_1ea1a4d5e0",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Ex-Andreessen Horowitz partner slams his old firm, other VCs for 'political infiltration' around AI",
-      "summary": "John O'Farrell, former partner at Andreessen Horowitz, says the PAC Leading the Future, backed by his old firm, is trying to \"intimidate politicians.\"",
-      "url": "https://www.cnbc.com/2026/06/11/ex-a16z-partner-slams-old-firm-othes-political-infiltration-in-ai.html",
-      "source": "CNBC Top",
-      "published": "2026-06-11T20:43:22+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_7ae1a6537e",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "SpaceX officially prices shares at $135 in the largest IPO ever",
-      "summary": "Wits its official share pricing announcement, SpaceX's IPO has begun.",
-      "url": "https://techcrunch.com/2026/06/11/spacex-officially-prices-shares-at-135-in-the-largest-ipo-ever/",
-      "source": "TechCrunch AI",
-      "published": "2026-06-11T20:33:10+00:00",
-      "topic": "Valuation",
-      "importance": "normal",
-      "id": "a_b7d5b7f755",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Elon Musk's SpaceX prices shares at $135, raising $75 billion in largest-ever IPO",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/06/11/spacex-prices-shares-at-usd135-in-largest-ipo-ever",
-      "source": "CoinDesk",
-      "published": "2026-06-11T20:12:46+00:00",
-      "topic": "Valuation",
-      "importance": "high",
-      "id": "a_7d5801b103",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "SpaceX SPV investors won’t know their true holdings until post-IPO lock-ups lift",
-      "summary": "After SpaceX makes its public debut, lower-tier SPV investors face hidden fees, lengthy payout delays, and the risk of outright fraud.",
-      "url": "https://techcrunch.com/2026/06/11/spacex-spv-investors-wont-know-their-true-holdings-until-post-ipo-lock-ups-lift/",
-      "source": "TechCrunch AI",
-      "published": "2026-06-11T19:58:01+00:00",
-      "topic": "Valuation",
-      "importance": "normal",
-      "id": "a_7169adaa6d",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "ETH futures traders lean into $1.6K range lows: Will Ether lead market recovery?",
-      "summary": "ETH traders increased their long positions as Ether price traded near 2026 lows. Will ETH’s rebound eclipse the BTC recovery?",
-      "url": "https://cointelegraph.com/markets/ether-bulls-ramp-up-risk-above-16k-can-buyers-regain-control?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-06-11T19:37:41+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_730cc54844",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Gold slumps to 6-month low even as inflation fears rise. Here's why bullion is out of favor",
-      "summary": "The yellow metal is at its lowest level of the year as potential interest rate increases and faltering technical signals weigh on prices.",
-      "url": "https://www.cnbc.com/2026/06/11/gold-slumps-to-6-month-low-even-as-inflation-fears-rise-heres-why-bullion-is-out-of-favor.html",
-      "source": "CNBC Finance",
-      "published": "2026-06-11T19:06:17+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_5d5a54537e",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Coinbase eyes World Cup boost as prediction markets surge: Bernstein",
-      "summary": "Bernstein says the 2026 FIFA World Cup could inject billions into prediction markets, with Coinbase and Robinhood positioned to capture a wave of new users.",
-      "url": "https://cointelegraph.com/news/coinbase-world-cup-prediction-market-boost-bernstein?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-06-11T17:57:06+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_d742d7c6a7",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Coinbase launches tool to let AI agents manage trading and payments",
-      "summary": "Coinbase is betting that AI agents will become the primary interface for people's financial activity.",
-      "url": "https://www.cnbc.com/2026/06/11/coinbase-launches-tool-to-let-ai-agents-manage-trading-and-payments.html",
-      "source": "CNBC Top",
-      "published": "2026-06-11T17:00:38+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_3bb4f28d28",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Coinbase launches AI agent accounts that can trade and spend on your behalf",
-      "summary": "",
-      "url": "https://www.coindesk.com/tech/2026/06/11/coinbase-launches-ai-agent-accounts-that-can-trade-and-spend-on-your-behalf",
-      "source": "CoinDesk",
-      "published": "2026-06-11T17:00:00+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_9bd0711242",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Banking rails are moving past the 'stablecoin winner' narrative: Sygnum",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/06/11/big-banks-are-ditching-private-blockchains-to-build-tokenized-cash-networks-on-public-infrastructure",
-      "source": "CoinDesk",
-      "published": "2026-06-11T16:37:53+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_73f05ceda5",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Deezer’s new tool can identify AI music from Spotify, Apple Music, and others",
-      "summary": "Deezer introduced a tool that scans playlists from Spotify, Apple Music, and other platforms to identify AI music.",
-      "url": "https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/",
-      "source": "TechCrunch AI",
-      "published": "2026-06-11T16:36:20+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_ad938d0bb6",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "OpenAI to acquire Ona to support its AI coding assistant, Codex",
-      "summary": "Ona's technology will allow OpenAI's coding assistant, Codex, to take on longer-running tasks, OpenAI said.",
-      "url": "https://www.cnbc.com/2026/06/11/open-ai-ona-acquisition-codex.html",
-      "source": "CNBC Top",
-      "published": "2026-06-11T16:26:10+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_d88e216546",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Wholesale prices rose 1.1% in May, more than expected, on surge in energy",
-      "summary": "The producer price index was expected to increase 0.7% in May, according to the Dow Jones consensus forecast.",
-      "url": "https://www.cnbc.com/2026/06/11/producer-price-index-may-2026-.html",
-      "source": "CNBC Economy",
-      "published": "2026-06-11T16:25:00+00:00",
-      "topic": "Stocks",
-      "importance": "high",
-      "id": "a_f9a2c27f3a",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Changes to collateral eligibility in the Sterling Monetary Framework - Market Notice 11 June 2026",
-      "summary": "This Market Notice covers changes to the Bank’s collateral eligibility framework for the Sterling Monetary Framework (SMF).",
-      "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/june/collateral-eligibility-in-the-smf-11-june-2026",
-      "source": "Bank of England",
-      "published": "2026-06-11T16:00:00+00:00",
-      "topic": "Banking",
-      "importance": "normal",
-      "id": "a_dc5c50d700",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "MassPay taps Coinbase to expand stablecoin payouts",
-      "summary": "MassPay taps Coinbase to add USDC-powered cross-border payouts, betting stablecoin rails will cut costs and speed up settlement for businesses paying globally.",
-      "url": "https://cointelegraph.com/news/masspay-coinbase-partner-stablecoin-cross-border-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-06-11T16:00:00+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_c0076364b8",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Federal Reserve Board announces final rule that establishes data standards for certain information collections",
-      "summary": "Federal Reserve Board announces final rule that establishes data standards for certain information collections",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260611a.htm",
-      "source": "Federal Reserve",
-      "published": "2026-06-11T15:00:00+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_b4dd0f7f80",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Crypto for Advisors: Crypto ETFs",
-      "summary": "",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/06/10/crypto-for-advisors-crypto-etfs",
-      "source": "CoinDesk",
-      "published": "2026-06-11T15:00:00+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_84bf5fac7d",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Citigroup shares outperform down market after Trump endorsement",
-      "summary": "Jane Fraser-led Citi fell 1%, less than the rest of the market and some other major banks, after Trump lauded its turnaround in a social media post.",
-      "url": "https://www.cnbc.com/2026/06/10/citigroup-shares-outperform-down-market-after-trump-endorsement.html",
-      "source": "CNBC Finance",
-      "published": "2026-06-11T14:49:02+00:00",
-      "topic": "Banking",
-      "importance": "normal",
-      "id": "a_470944cdd6",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "U.S. House bill would erect crypto-theft task force across law enforcement agencies",
-      "summary": "",
-      "url": "https://www.coindesk.com/policy/2026/06/10/u-s-house-bill-would-erect-crypto-theft-task-force-across-law-enforcement-agencies",
-      "source": "CoinDesk",
-      "published": "2026-06-11T14:30:00+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_d1ec17a88e",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "DoorDash’s new AI chatbot lets you order with prompts and photos",
-      "summary": "The new chatbot, called Ask DoorDash, allows users to search the app for what they're looking for in their own words instead of having to scroll through restaurants and stores to build a cart.",
-      "url": "https://techcrunch.com/2026/06/11/doordashs-new-ai-chatbot-lets-you-order-with-prompts-and-photos/",
-      "source": "TechCrunch AI",
-      "published": "2026-06-11T14:23:43+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_2505f5f7e1",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "SpaceX stock is coming to Solana on the same day it lists on Nasdaq",
-      "summary": "",
-      "url": "https://www.coindesk.com/tech/2026/06/10/spacex-stock-is-coming-to-solana-on-the-same-day-it-lists-on-nasdaq",
-      "source": "CoinDesk",
-      "published": "2026-06-11T14:00:00+00:00",
-      "topic": "Stocks",
-      "importance": "normal",
-      "id": "a_e251e2edee",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "ECB hikes interest rates for first time since 2023 as Iran war ramps up energy costs",
-      "summary": "The European Central Bank also raised its inflation forecasts and cut its growth outlook.",
-      "url": "https://www.cnbc.com/2026/06/11/ecb-hikes-interest-rates.html",
-      "source": "CNBC Economy",
-      "published": "2026-06-11T13:57:33+00:00",
-      "topic": "Banking",
-      "importance": "high",
-      "id": "a_253b262dad",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Tether leads $1.4 billion funding round in German robotics company Neura",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/06/11/tether-leads-usd1-4-billion-funding-round-in-german-robotics-company-neura",
-      "source": "CoinDesk",
-      "published": "2026-06-11T13:49:27+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_7e60e80037",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Bitcoin tags $63.2K as BTC price action ignores inflation, Iran Hormuz closure",
-      "summary": "Bitcoin mostly preserved a recent rebound despite the highest US PPI inflation since October 2022 and Iran closing the Strait of Hormuz oil route.",
-      "url": "https://cointelegraph.com/markets/bitcoin-tags-632k-as-btc-price-action-ignores-new-iran-hormuz-closure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-06-11T13:41:47+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_dcd89a4369",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Digital Asset lands $355M as a16z doubles down on Wall Street blockchain rails",
-      "summary": "Digital Asset raised $355M in an a16z‑led round at a $2B valuation, extending a Wall Street‑backed funding run as banks ramp up pilots on its Canton Network blockchain.",
-      "url": "https://cointelegraph.com/news/digital-asset-355m-16z-wall-street-blockchain-rails?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-06-11T12:59:11+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_6637e637c7",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Hungary to reverse crypto trading crackdown after EU scrutiny",
-      "summary": "Hungary’s government said it will unwind crypto trading restrictions that required approved validation for conversions and exposed users and service providers to criminal liability.",
-      "url": "https://cointelegraph.com/news/hungary-decriminalize-crypto-trading-prison-terms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-06-11T12:52:15+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_69ba11aa2a",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Japan crypto bill advances with ETF, tax reform path: Report",
-      "summary": "Japan’s Lower House reportedly passed a bill that would bring crypto under the country’s financial instruments framework, potentially opening the door to ETFs and lower tax treatment.",
-      "url": "https://cointelegraph.com/news/japan-crypto-bill-etf-tax-reform-path?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-06-11T12:17:21+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_4597aff573",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Audiera’s AI token BEAT beats Bitcoin, Ethereum as price surges 1,500% in a month",
-      "summary": "BEAT has reached its most overbought readings on record, raising the odds of a 35% price decline in the coming days.",
-      "url": "https://cointelegraph.com/markets/audieras-ai-token-beat-beats-bitcoin-ethereum-as-price-surges-1500-in-a-month?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-06-11T12:08:03+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_6d82ec5046",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "AI models led to a ‘vulnerability apocalypse’ in crypto security: Immunefi CEO",
-      "summary": "The proliferation of new frontier AI models is the main catalyst behind the latest resurgence in DeFi hacks, according to Immunefi CEO Mitchell Amador.",
-      "url": "https://cointelegraph.com/news/frontier-ai-models-vulnerability-apocalypse-crypto-security-immunefi-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-06-11T12:01:48+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_dcfaef72a0",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Energy prices take center stage as the ECB prepares to decide on rates",
-      "summary": "The ECB is expected to raise rates by 25 basis points as higher energy prices drive inflation and raise concerns about broader price pressures.",
-      "url": "https://www.cnbc.com/2026/06/10/ecb-rate-hike-energy-prices-inflation.html",
-      "source": "CNBC Economy",
-      "published": "2026-06-11T07:20:29+00:00",
-      "topic": "Macroeconomics",
-      "importance": "high",
-      "id": "a_ac6e76cf5b",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "KKR says AI productivity boom to keep on going — but warns of 'extreme' trend not seen since the 19th century",
-      "summary": "KKR said in its mid-year outlook Thursday that AI will drive economic growth for years to come, but only in specific sectors.",
-      "url": "https://www.cnbc.com/2026/06/11/ais-impact-on-economic-growth-kkr.html",
-      "source": "CNBC Finance",
-      "published": "2026-06-11T05:39:55+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_2b2f019e26",
-      "date": "2026-06-11"
     }
   ]
 }
