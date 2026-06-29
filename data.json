@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T12:18:17.524473+00:00",
+  "generated_at": "2026-06-29T14:48:30.927021+00:00",
   "kpis": [
     {
       "name": "S&P 500",
@@ -35,34 +35,694 @@
     },
     {
       "name": "Bitcoin",
-      "val": "$60.2K",
-      "delta": "−0.01%",
+      "val": "$59.2K",
+      "delta": "−1.30%",
       "dir": "down",
       "stale": false,
-      "as_of": "2026-06-28T12:18:17.524445+00:00"
+      "as_of": "2026-06-29T14:48:30.926990+00:00"
     },
     {
       "name": "Ethereum",
-      "val": "$1,579",
-      "delta": "−0.13%",
+      "val": "$1,566",
+      "delta": "−0.99%",
       "dir": "down",
       "stale": false,
-      "as_of": "2026-06-28T12:18:17.524464+00:00"
+      "as_of": "2026-06-29T14:48:30.927013+00:00"
     }
   ],
-  "voices": [
-    {
-      "name": "Jamie Dimon",
-      "role": "CEO, JPMorgan Chase",
-      "initials": "JD",
-      "bg": "var(--p-sky)",
-      "quote": "The moves would appear to make Doug Petno and Troy Rohrbaugh the most obvious possible successors to JPMorgan Chase CEO Jamie Dimon.",
-      "source": "CNBC Finance",
-      "url": "https://www.cnbc.com/2026/06/25/jpmorgan-chase-co-presidents-lake-exits.html",
-      "date": "2026-06-26"
-    }
-  ],
+  "voices": [],
   "news": [
+    {
+      "title": "S&P 500 rises as U.S.-Iran agree to halt hostilities, gain restrained by selling in chip stocks: Live updates",
+      "summary": "Stocks rose Monday as investors weighed a pause in hostilities between the U.S. and Iran, though selling pressure in chipmakers kept gains in check.",
+      "url": "https://www.cnbc.com/2026/06/28/stock-futures-today-live-updates.html",
+      "source": "CNBC Top",
+      "published": "2026-06-29T14:47:43+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_3c5bb55b2e",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Wall Street's BNY expands stablecoin services for institutions, starting with Circle's USDC",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/06/29/wall-street-s-bny-expands-stablecoin-services-for-institutions-starting-with-circle-s-usdc",
+      "source": "CoinDesk",
+      "published": "2026-06-29T14:46:33+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_fd1b699096",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Supreme Court rules Trump cannot fire Fed Governor Lisa Cook for now",
+      "summary": "The ruling by the Supreme Court means that Lisa Cook will remain as a Federal Reserve governor as her lawsuit challenging Trump's effort to fire her proceeds.",
+      "url": "https://www.cnbc.com/2026/06/29/supreme-court-lisa-cook-trump-federal-reserve.html",
+      "source": "CNBC Top",
+      "published": "2026-06-29T14:38:12+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_d6bfab59ae",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Fed’s Lisa Cook can stay at central bank while challenging Trump’s attempt to fire her, Supreme Court rules",
+      "summary": "The Supreme Court refused to allow President Donald Trump to fire Federal Reserve governor Lisa Cook, in a move that strengthens the independence of the world’s most powerful central bank.",
+      "url": "https://www.marketwatch.com/story/supreme-court-allows-lisa-cook-to-stay-on-at-fed-for-now-whats-next-as-trump-tries-to-fire-her-06bfb9ee?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-06-29T14:32:00+00:00",
+      "topic": "Banking",
+      "importance": "normal",
+      "id": "a_768c1a496d",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "The AI boom is colliding with a new threat: Severe weather",
+      "summary": "Heatwaves and severe weather are raising risks for AI data centers, from grid strain to higher insurance and repair costs.",
+      "url": "https://www.cnbc.com/2026/06/29/ai-data-centers-heatwave-climate-risk-weather.html",
+      "source": "CNBC Top",
+      "published": "2026-06-29T14:30:56+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_614299c1b5",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Here’s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-29T14:29:09+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_8dded07b07",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "SpaceX Has Three AI Customers Paying $27.8 Billion a Year. How Big Can This Revenue Stream Get?",
+      "summary": "",
+      "url": "https://finance.yahoo.com/technology/ai/articles/spacex-three-ai-customers-paying-142713017.html",
+      "source": "Yahoo Finance",
+      "published": "2026-06-29T14:27:13+00:00",
+      "topic": "AI",
+      "importance": "high",
+      "id": "a_cca83c4e72",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Wall Street has sky-high expectations for second quarter earnings",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/article/wall-street-has-sky-high-expectations-for-second-quarter-earnings-141310243.html",
+      "source": "Yahoo Finance",
+      "published": "2026-06-29T14:13:10+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_6145181c46",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "What's wrong with Palantir? How investors see the stock",
+      "summary": "Concern about the penetration of artificial intelligence into the data layer are weighing on the stock.",
+      "url": "https://www.cnbc.com/2026/06/29/whats-wrong-with-palantir-how-investors-see-the-stock.html",
+      "source": "CNBC Top",
+      "published": "2026-06-29T14:12:38+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_e892529625",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Martin Marietta to buy Lhoist North America in $13.5 billion deal",
+      "summary": "Martin Marietta Materials said on Monday it would merge with limestone supplier Lhoist North America in a cash-and-stock deal worth $13.5 billion.",
+      "url": "https://www.cnbc.com/2026/06/29/martin-marietta-to-buy-lhoist-north-america.html",
+      "source": "CNBC Top",
+      "published": "2026-06-29T14:11:42+00:00",
+      "topic": "Investment Banking",
+      "importance": "critical",
+      "id": "a_59dac7917d",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Strategy opens the door to selling bitcoin under new capital plan. Here's what it means",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/06/29/strategy-opens-the-door-to-selling-bitcoin-under-new-capital-plan-here-s-what-it-means",
+      "source": "CoinDesk",
+      "published": "2026-06-29T14:11:01+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_065ab42365",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Rocket Lab to take on SpaceX’s Starlink with $8 billion acquisition",
+      "summary": "Rocket Lab said it is buying Iridium as a “shortcut” to expanding its growing capabilities.",
+      "url": "https://www.marketwatch.com/story/rocket-lab-to-take-on-spacexs-starlink-with-8-billion-acquisition-bf7ef649?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-06-29T14:07:00+00:00",
+      "topic": "Investment Banking",
+      "importance": "high",
+      "id": "a_7c75e646b1",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Comcast Pares Gains Amid Company Split. Is More M&A Coming?",
+      "summary": "",
+      "url": "https://www.investors.com/news/technology/comcast-stock-soars-on-company-split-as-cable-tv-giants-makeover-continues/?src=A00220&yptr=yahoo",
+      "source": "Yahoo Finance",
+      "published": "2026-06-29T14:03:41+00:00",
+      "topic": "Investment Banking",
+      "importance": "normal",
+      "id": "a_bccdf3736d",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Ukraine transfers $8.3 million in seized crypto amid potential plans for strategic reserve",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/06/29/ukraine-transfers-usd8-3-million-in-seized-crypto-amid-potential-plans-for-strategic-reserve",
+      "source": "CoinDesk",
+      "published": "2026-06-29T14:03:04+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_fa482df184",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "BlackRock pushes deeper into DeFi with Ethena integration, sending ENA up 8%",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/06/29/blackrock-pushes-deeper-into-defi-with-ethena-integration-sending-ena-up-8",
+      "source": "CoinDesk",
+      "published": "2026-06-29T14:02:10+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_4e0f101ddf",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "The first half of 2026 has been strong. Why investors should expect more upside",
+      "summary": "Don't expect the stock market's momentum in the first six months of 2026 to wane in the back half of the year, according to CFRA.",
+      "url": "https://www.cnbc.com/2026/06/29/the-first-half-of-2026-has-been-strong-why-investors-should-expect-more-upside.html",
+      "source": "CNBC Top",
+      "published": "2026-06-29T13:57:47+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_50f16b6967",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Bitcoin ETFs Suffer Worst Month Ever",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-suffer-worst-month-135200570.html",
+      "source": "Yahoo Finance",
+      "published": "2026-06-29T13:52:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_effe5611c0",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "SpaceX to join the Nasdaq-100 in a fast-tracked process that will drive huge ETF buying demand",
+      "summary": "Adding SpaceX this quickly would make the Elon Musk company one of the first beneficiaries of Nasdaq's recently adopted fast-track inclusion framework.",
+      "url": "https://www.cnbc.com/2026/06/26/spacex-added-to-nasdaq-100.html",
+      "source": "CNBC Finance",
+      "published": "2026-06-29T13:50:19+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_7edc4ecd31",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "BitMEX CEO And CFO Resign From The Crypto Exchange",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/bitmex-ceo-cfo-resign-crypto-134800710.html",
+      "source": "Yahoo Finance",
+      "published": "2026-06-29T13:48:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_217e3e46cb",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Stock Market Today: Dow Rises On U.S.-Iran News; SpaceX Rallies On Index Addition (Live Coverage)",
+      "summary": "",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-us-iran-spacex-spcx-stock-nasdaq-100/?src=A00220&yptr=yahoo",
+      "source": "Yahoo Finance",
+      "published": "2026-06-29T13:47:52+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_3b40ffc9b6",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "From Bitcoin critics to blockchain believers: The 5 biggest crypto backflips",
+      "summary": "If you can't beat 'em, join 'em. Here are five crypto skeptics who have reluctantly embraced the opportunity of making loads of money with blockchain.",
+      "url": "https://cointelegraph.com/features/from-bitcoin-critics-to-blockchain-believers-the-5-biggest-crypto-backflips?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-29T13:30:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "high",
+      "id": "a_b9bf132e1a",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "The Club's top 10 things to watch in the stock market Monday",
+      "summary": "Honeywell Aerospace starts trading, and a few more M&A deals.",
+      "url": "https://www.cnbc.com/2026/06/29/the-clubs-top-10-things-to-watch-in-the-stock-market-monday.html",
+      "source": "CNBC Top",
+      "published": "2026-06-29T13:19:16+00:00",
+      "topic": "Investment Banking",
+      "importance": "normal",
+      "id": "a_2427d3177b",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "European stocks are poised to outdo their American peers. These catalysts explain why.",
+      "summary": "JPMorgan raises its year-end target for European stocks again. Panmure warns that high valuations imply negative returns for the U.S. in the next decade.",
+      "url": "https://www.marketwatch.com/story/european-stocks-are-poised-to-outdo-their-american-peers-these-catalysts-explain-why-4e23b027?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-06-29T13:19:00+00:00",
+      "topic": "Investment Banking",
+      "importance": "high",
+      "id": "a_0089ddce3e",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Strategy unveils capital framework to preserve Bitcoin exposure, pay dividends",
+      "summary": "Michael Saylor’s Strategy unveiled a capital framework allowing Bitcoin sales to fund dividends, a $2.55 billion reserve and buybacks while raising STRC payout to 12%.",
+      "url": "https://cointelegraph.com/news/strategy-capital-framework-preserve-bitcoin-exposure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-29T13:12:23+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "high",
+      "id": "a_c666172f74",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Omen AI’s plan to optimize data centers is all wet",
+      "summary": "Omen AI raised a $31 million Series A to monitor chip coolant and stop bacterial outbreaks in data centers.",
+      "url": "https://techcrunch.com/2026/06/29/omen-ais-plan-to-optimize-data-centers-is-all-wet/",
+      "source": "TechCrunch AI",
+      "published": "2026-06-29T13:00:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_8b75acd883",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Breez launches Bitcoin-to-stablecoin payments across more than 30 blockchains",
+      "summary": "The new SDK feature lets developers route payments from Bitcoin balances to recipients in USDC and USDT without requiring users to hold stablecoins.",
+      "url": "https://cointelegraph.com/news/breez-bitcoin-wallets-send-usdc-usdt-without-holding-stablecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-29T13:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_bbf6fe91ce",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Kalshi and Polymarket could become M&A targets as prediction markets consolidate: Bernstein",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/06/29/kalshi-and-polymarket-could-become-m-and-a-targets-as-prediction-markets-consolidate-bernstein",
+      "source": "CoinDesk",
+      "published": "2026-06-29T12:56:42+00:00",
+      "topic": "Investment Banking",
+      "importance": "normal",
+      "id": "a_cded14ae90",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Tom Lee blames crypto weakness on quarter-end 'window dressing' as Bitmine adds another $43 million of ETH",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/06/29/tom-lee-blames-crypto-weakness-on-quarter-end-window-dressing-as-bitmine-adds-another-usd43-million-of-eth",
+      "source": "CoinDesk",
+      "published": "2026-06-29T12:51:44+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_d822c60f36",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "JPMorgan sees limited institutional demand for perpetual futures",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/06/29/jpmorgan-sees-limited-institutional-demand-for-perpetual-futures",
+      "source": "CoinDesk",
+      "published": "2026-06-29T12:48:14+00:00",
+      "topic": "Investment Banking",
+      "importance": "normal",
+      "id": "a_36c9ef9005",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Here are Monday's biggest analyst calls: Nvidia, Apple, Tesla, Seagate, Warby Parker, AppLovin & more",
+      "summary": "Here are Monday's biggest calls on Wall Street.",
+      "url": "https://www.cnbc.com/2026/06/29/monday-biggest-wall-street-stock-calls-like-nvidia.html",
+      "source": "CNBC Top",
+      "published": "2026-06-29T12:29:20+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_22c50bb43d",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Saylor's Strategy initiates buybacks and bitcoin monetization program, lifts STRC dividend",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/06/29/saylor-s-strategy-initiates-buybacks-bitcoin-monetization-program-lifts-strc-dividend",
+      "source": "CoinDesk",
+      "published": "2026-06-29T12:13:08+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_8be8f45fbe",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Tether's USDT jumps to 8.5% premium in India after crypto payment crackdown",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/06/29/usdt-jumps-to-8-5-premium-in-india-after-crypto-payment-crackdown",
+      "source": "CoinDesk",
+      "published": "2026-06-29T12:00:46+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_2b5ad8f612",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Vitalik Buterin says crypto’s most powerful idea isn't nearly ready for use",
+      "summary": "",
+      "url": "https://www.coindesk.com/tech/2026/06/29/vitalik-buterin-says-crypto-s-most-powerful-idea-is-still-nowhere-near-ready",
+      "source": "CoinDesk",
+      "published": "2026-06-29T11:52:27+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_88ed575560",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Dollar, U.S. Treasury yield market positions may carry glimmer of hope for bitcoin",
+      "summary": "",
+      "url": "https://www.coindesk.com/daybook-us/2026/06/29/dollar-u-s-treasury-yield-market-positions-may-carry-glimmer-of-hope-for-bitcoin",
+      "source": "CoinDesk",
+      "published": "2026-06-29T11:42:13+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_cf104656f7",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "FundBank becomes IRACE Digital in bid to bridge traditional finance and crypto",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/06/29/fundbank-becomes-irace-digital-in-bid-to-bridge-traditional-finance-and-crypto",
+      "source": "CoinDesk",
+      "published": "2026-06-29T11:30:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_4471845d35",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Prediction-market operational consolidation could spur M&A wave: Bernstein",
+      "summary": "Bernstein says platforms are bringing exchange, clearing and brokerage infrastructure in-house, setting up potential deals while increasing antitrust and regulatory risks.",
+      "url": "https://cointelegraph.com/news/prediction-market-consolidation-ma-wave-bernstein?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-29T11:21:37+00:00",
+      "topic": "Investment Banking",
+      "importance": "normal",
+      "id": "a_642c87da65",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Bitcoin hovers below $60,000 as crypto braces for a pivotal week",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/06/29/bitcoin-hovers-below-usd60-000-as-crypto-braces-for-a-pivotal-week",
+      "source": "CoinDesk",
+      "published": "2026-06-29T11:03:46+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_9e5cfc679a",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Vitalik Buterin says obfuscation could unlock private onchain crypto voting",
+      "summary": "Vitalik Buterin said indistinguishability obfuscation could eventually support private, collusion-resistant onchain voting without trusted committees, though the technology remains impractical.",
+      "url": "https://cointelegraph.com/news/vitalik-buterin-private-onchain-voting-obfuscation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-29T10:53:39+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_be1350bdf2",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Germany leads MiCA crypto authorization race as Europe’s deadline looms",
+      "summary": "MiCA crypto licensing data shows 244 approved companies across EU and EEA jurisdictions, led by Germany with France and the Netherlands also among top hubs ahead of July 1 cliff.",
+      "url": "https://cointelegraph.com/news/mica-licenses-cluster-germany-total-reach-244?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-29T10:48:20+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_635a0b7ee7",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Europe’s unlicensed crypto firms face ‘wipeout’ as MiCA deadline hits",
+      "summary": "",
+      "url": "https://www.coindesk.com/policy/2026/06/29/europe-s-unlicensed-crypto-firms-face-wipeout-as-final-regulatory-deadline-falls",
+      "source": "CoinDesk",
+      "published": "2026-06-29T10:01:23+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_2c84e5bc27",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "BTC price RSI prints key 2026 signal: Five things to know in Bitcoin this week",
+      "summary": "Bitcoin prepped an \"interesting\" RSI divergence into the Q2 and June candle close as analysis compared $60,000 to the $30,000 mark in the 2022 bear market.",
+      "url": "https://cointelegraph.com/markets/btc-price-rsi-prints-key-2026-signal-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-29T09:55:20+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_4c0c33cf6d",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Kiwoom eyes Bithumb stake as Korean brokerages push into crypto: Report",
+      "summary": "Kiwoom Securities is reportedly seeking to acquire a stake in crypto exchange Bithumb, as more brokerage firms race to secure a stake in the industry ahead of the FSC’s new regulatory reforms in July.",
+      "url": "https://cointelegraph.com/news/kiwoom-stake-bithumb-exchange?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-29T09:40:31+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_d87b11bc16",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Bitcoin falls into a technical no man’s land as major support levels sit miles away",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/06/29/bitcoin-falls-into-a-technical-no-man-s-land-as-major-support-levels-sit-miles-away",
+      "source": "CoinDesk",
+      "published": "2026-06-29T09:40:18+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_d5bb61ff6c",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "New MiCA regime in Europe, U.S. jobs report for June: Crypto Week Ahead",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/06/29/new-mica-regime-in-europe-u-s-jobs-report-for-june-crypto-week-ahead",
+      "source": "CoinDesk",
+      "published": "2026-06-29T09:08:25+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_55fc557bc6",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Crypto exchange BitMEX loses CEO, CFO and head of growth",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/06/29/crypto-exchange-bitmex-removes-ceo-cfo-and-head-of-growth",
+      "source": "CoinDesk",
+      "published": "2026-06-29T07:03:51+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_5131f8f544",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "South Korea’s $518 billion AI chip push shows crypto is still losing the capital race",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/06/29/south-korea-s-usd518-billion-ai-chip-push-shows-crypto-is-still-losing-the-capital-race",
+      "source": "CoinDesk",
+      "published": "2026-06-29T06:19:46+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "high",
+      "id": "a_50a91123b8",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Live updates: bitcoin back below $60,000 after brief bounce on Strategy's latest",
+      "summary": "",
+      "url": "https://www.coindesk.com/tech/2026/06/29/bitcoin-dips-to-usd59-700-as-iran-de-escalation-lifts-stocks-but-not-crypto",
+      "source": "CoinDesk",
+      "published": "2026-06-29T06:03:32+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_c73ecd0d9f",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Excessive AI spending risks global financial consequences, BIS warns",
+      "summary": "The AI investment surge is a potential flashpoint for systemic risk, “as financing has relied on enormous debt and highly leveraged nonbank structures that can rapidly unwind,” one analyst said in response to the report.",
+      "url": "https://cointelegraph.com/news/bis-sounds-alarm-on-ai-exuberance-as-debt-fueled-boom-risks-bust?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-29T05:31:40+00:00",
+      "topic": "AI",
+      "importance": "high",
+      "id": "a_2fa0efdfe4",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "$4 billion gone. Spot bitcoin ETFs are on track for their worst month on record",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/06/29/usd4-billion-gone-spot-bitcoin-etfs-are-on-track-for-their-worst-month-on-record",
+      "source": "CoinDesk",
+      "published": "2026-06-29T04:05:48+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "high",
+      "id": "a_e838d9d226",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Ether treasury Sharplink bought $62.4M ETH last week",
+      "summary": "Sharplink bought nearly 40,000 ETH last week after an eight-month pause, adding to signs the company has resumed its Ether accumulation strategy.",
+      "url": "https://cointelegraph.com/news/ether-treasury-sharplink-buys-624m-of-eth-in-3-days?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-29T02:43:44+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_3229b86a45",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Bullish Bitcoin RSI divergence has analysts calling for 2022-style bear market bottom",
+      "summary": "Bitcoin RSI bullish divergences formed the basis for the new bull case, but some market takes warned that new BTC price lows were still to come.",
+      "url": "https://cointelegraph.com/markets/bitcoin-rsi-bullish-divergence-sees-analysis-call-2022-bottom-repeat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-29T02:32:03+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_5f174fee47",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Binance booted from EU, EthLabs rises up to save Ethereum: Hodler's Digest June 14-28",
+      "summary": "BitMine and Joe Lubin back a new non profit called Ethlabs that aims to spur adoption. Binance shutters services in Europe after failing to secure a license.",
+      "url": "https://cointelegraph.com/features/hodlers-digest-binance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-28T22:59:38+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_4a810d2155",
+      "date": "2026-06-28"
+    },
+    {
+      "title": "CZ wants to make the U.S. the 'capital of crypto': State of Crypto",
+      "summary": "",
+      "url": "https://www.coindesk.com/policy/2026/06/28/cz-wants-to-make-the-u-s-the-capital-of-crypto-state-of-crypto",
+      "source": "CoinDesk",
+      "published": "2026-06-28T19:30:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_dadae10aa5",
+      "date": "2026-06-28"
+    },
+    {
+      "title": "Ford rehires ‘gray beard’ engineers after AI falls short",
+      "summary": "\"Mistakenly we thought that by just introducing artificial intelligence ... that would produce a high-quality product.”",
+      "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+      "source": "TechCrunch AI",
+      "published": "2026-06-28T19:05:39+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_50d492c6a3",
+      "date": "2026-06-28"
+    },
+    {
+      "title": "BIS warns stablecoins risk fragmenting global financial system",
+      "summary": "The Basel-based institution said that private digital tokens fall short of the requirements for sound money and urged policymakers to accelerate work on tokenized forms of central bank and commercial bank money.",
+      "url": "https://cointelegraph.com/news/bis-warns-stablecoins-risk-fragmenting-global-financial-system?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-28T18:58:45+00:00",
+      "topic": "Banking",
+      "importance": "high",
+      "id": "a_6e3665728b",
+      "date": "2026-06-28"
+    },
+    {
+      "title": "Will Bitcoin price recover in July?",
+      "summary": "Bitcoin’s past July gains and heavy short bets point to a rally toward $75,000, but a break below key support keeps the risk of $55,000 in play.",
+      "url": "https://cointelegraph.com/markets/will-bitcoin-price-recover-in-july?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-28T16:12:57+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_fcc9872f81",
+      "date": "2026-06-28"
+    },
+    {
+      "title": "EU watchdog EBA details big crypto fines as landmark laws bite",
+      "summary": "The European Banking Authority laid out a proposed penalty framework on Friday that can strip non-compliant significant token issuers of up to 12.5% of their annual revenue.",
+      "url": "https://cointelegraph.com/news/eu-watchdog-eba-details-big-crypto-fines-as-landmark-laws-bite?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-06-28T16:10:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_e603978be0",
+      "date": "2026-06-28"
+    },
+    {
+      "title": "Samson Mow says bitcoin bottom is in despite skepticism from analysts",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/06/28/samson-mow-says-bitcoin-bottom-is-in-but-analysts-remain-divided",
+      "source": "CoinDesk",
+      "published": "2026-06-28T15:07:12+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_8c386c3214",
+      "date": "2026-06-28"
+    },
+    {
+      "title": "Michael Saylor teases more bitcoin buying even as Strategy stock continues to fall",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/06/28/michael-saylor-teases-more-bitcoin-buying-even-as-strategy-stock-continues-to-fall",
+      "source": "CoinDesk",
+      "published": "2026-06-28T15:02:43+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_1c89752dd8",
+      "date": "2026-06-28"
+    },
+    {
+      "title": "Why Wall Street thinks US memory maker Micron is the next Nvidia",
+      "summary": "Eager to find more public AI-related companies that may do as well as Nvidia, Wall Street investors think they've found a winner with Micron.",
+      "url": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
+      "source": "TechCrunch AI",
+      "published": "2026-06-28T15:00:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_1dc53ccdf8",
+      "date": "2026-06-28"
+    },
+    {
+      "title": "SBI's $289 million Bitbank deal is symptomatic of Japan's crypto consolidation: Architect Partners",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/06/28/sbi-s-usd289-million-bitbank-deal-is-symptomatic-of-japan-s-crypto-consolidation-architect-partners",
+      "source": "CoinDesk",
+      "published": "2026-06-28T15:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_26801212d4",
+      "date": "2026-06-28"
+    },
     {
       "title": "Binance posts over $400M in weekly net outflows as MiCA deadline nears",
       "summary": "Early exchange flow data show no clear signs of a mass migration from Binance ahead of the EU MiCA transition deadline, despite rivals' efforts to attract users.",
@@ -75,70 +735,26 @@
       "date": "2026-06-28"
     },
     {
-      "title": "Debt, AI boom and economic fragilities raise global risks, BIS says",
-      "summary": "The central bank umbrella group's Annual Economic Report warned of a complex mix of vulnerabilities.",
-      "url": "https://www.cnbc.com/2026/06/28/debt-ai-boom-and-economic-fragilities-raise-global-risks-bis-says.html",
-      "source": "CNBC Top",
-      "published": "2026-06-28T11:31:31+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_6673ecbaa0",
-      "date": "2026-06-28"
-    },
-    {
-      "title": "Google limits Meta’s use of its Gemini AI models, FT reports",
-      "summary": "Meta had sought more computing capacity than Google could provide, the Financial Times reports.",
-      "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
-      "source": "CNBC Top",
-      "published": "2026-06-28T10:30:27+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_60f1454e76",
-      "date": "2026-06-28"
-    },
-    {
-      "title": "Grayscale's Pandl hopes Strategy sells $3B in Bitcoin to restore confidence",
+      "title": "Grayscale's Pandl says Strategy should sell $3B Bitcoin to restore confidence",
       "summary": "Grayscale's research head Zach Pandl said Strategy should sell $3 billion in Bitcoin to cover its cash obligations, but CryptoQuant argued the company has other ways to support STRC.",
       "url": "https://cointelegraph.com/news/grayscales-pandl-strategy-sells-3b-bitcoin-confidence?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published": "2026-06-28T07:59:28+00:00",
       "topic": "Cryptocurrency",
       "importance": "high",
-      "id": "a_5a6581b2ec",
+      "id": "a_9100736e45",
       "date": "2026-06-28"
     },
     {
-      "title": "Bitcoin falls below $60,000, on track for a rare back-to-back quarterly loss",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/06/28/bitcoin-falls-below-usd60-000-on-track-for-a-rare-back-to-back-quarterly-loss",
-      "source": "CoinDesk",
-      "published": "2026-06-28T07:10:52+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_f0739c9e86",
-      "date": "2026-06-28"
-    },
-    {
-      "title": "Bitcoin unspent transaction outputs signal capitulation underway: analyst",
+      "title": "Bitcoin UXTOs signal capitulation underway: Analyst",
       "summary": "“These periods have always been profitable for long-term investors,” said CryptoQuant analyst Darkfost.",
       "url": "https://cointelegraph.com/news/bitcoin-unspent-transaction-outputs-signal-capitulation-underway-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published": "2026-06-28T02:51:04+00:00",
       "topic": "Cryptocurrency",
       "importance": "normal",
-      "id": "a_4d8ac2a05f",
+      "id": "a_0e087fd875",
       "date": "2026-06-28"
-    },
-    {
-      "title": "SpaceX to join the Nasdaq-100 in a fast-tracked process that will drive huge ETF buying demand",
-      "summary": "Adding SpaceX this quickly would make the Elon Musk company one of the first beneficiaries of Nasdaq's recently adopted fast-track inclusion framework.",
-      "url": "https://www.cnbc.com/2026/06/26/spacex-added-to-nasdaq-100.html",
-      "source": "CNBC Top",
-      "published": "2026-06-27T21:34:59+00:00",
-      "topic": "Stocks",
-      "importance": "normal",
-      "id": "a_7edc4ecd31",
-      "date": "2026-06-27"
     },
     {
       "title": "Fidelity rebuts claims Bitcoin becomes less secure after halvings",
@@ -152,17 +768,6 @@
       "date": "2026-06-27"
     },
     {
-      "title": "Here’s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-06-27T19:34:45+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_8dded07b07",
-      "date": "2026-06-27"
-    },
-    {
       "title": "Bitcoin faces fresh capitulation risk as 50K BTC moved at a loss",
       "summary": "Nearly 50,000 BTC shifted to exchanges at a loss while short-term Bitcoin holders' stress level reached 2-year highs. Is BTC headed toward new lows?",
       "url": "https://cointelegraph.com/markets/bitcoin-faces-fresh-capitulation-risk-as-50k-btc-moves-at-a-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -171,28 +776,6 @@
       "topic": "Cryptocurrency",
       "importance": "normal",
       "id": "a_e0a2e23b81",
-      "date": "2026-06-27"
-    },
-    {
-      "title": "Amazon Prime Day offers a glimpse into the U.S. consumer as shoppers navigate with pinched wallets",
-      "summary": "Retail experts attribute the 9.3% year-over-year increase in spending to high inflation and shoppers purchasing more discretionary, long-lasting products.",
-      "url": "https://www.cnbc.com/2026/06/27/amazon-prime-day.html",
-      "source": "CNBC Top",
-      "published": "2026-06-27T19:01:38+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_8d715c3403",
-      "date": "2026-06-27"
-    },
-    {
-      "title": "Why a selloff in gold and silver is dragging bitcoin down",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/06/27/why-a-selloff-in-gold-and-silver-is-dragging-bitcoin-down",
-      "source": "CoinDesk",
-      "published": "2026-06-27T18:11:04+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_96cbbc46c5",
       "date": "2026-06-27"
     },
     {
@@ -218,69 +801,14 @@
       "date": "2026-06-27"
     },
     {
-      "title": "The AI trade cooled and oil sank. A closer look at Wall Street's volatile week",
-      "summary": "Micron finished the week in the red despite a blockbuster earnings report. But falling oil prices was good news for the fight against inflation.",
-      "url": "https://www.cnbc.com/2026/06/27/the-ai-trade-cooled-and-oil-sank-a-closer-look-at-wall-streets-volatile-week.html",
-      "source": "CNBC Top",
-      "published": "2026-06-27T16:39:52+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_5080fa02f0",
-      "date": "2026-06-27"
-    },
-    {
-      "title": "What Robinhood’s recent layoffs say about the current state of crypto investments",
-      "summary": "",
-      "url": "https://www.coindesk.com/opinion/2026/06/27/what-robinhood-s-recent-layoffs-say-about-the-current-state-of-crypto-investments",
-      "source": "CoinDesk",
-      "published": "2026-06-27T16:30:00+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_61f5ea52fe",
-      "date": "2026-06-27"
-    },
-    {
-      "title": "Coinbase, Circle underperform Big Tech as crypto stock slump deepens",
-      "summary": "Coinbase and Circle have posted steeper losses than Oracle, Netflix and Salesforce, highlighting the widening gap between crypto equities and the broader market.",
-      "url": "https://cointelegraph.com/news/crypto-stocks-underperform-tech-market-slump?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-06-27T16:02:38+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_b1e19a6908",
-      "date": "2026-06-27"
-    },
-    {
       "title": "Why investors may want to prioritize bond markets outside the U.S.",
       "summary": "Allspring Global Investments is pushing clients toward countries with central banks that are raising interest rates or have different inflation dynamics.",
       "url": "https://www.cnbc.com/2026/06/27/inflation-as-major-reason-to-invest-in-global-bond-markets.html",
-      "source": "CNBC Top",
+      "source": "CNBC Finance",
       "published": "2026-06-27T15:00:01+00:00",
       "topic": "Macroeconomics",
       "importance": "normal",
       "id": "a_e7e5db33c3",
-      "date": "2026-06-27"
-    },
-    {
-      "title": "Tether putting $23 billion gold stockpile to work with bullion-backed loans",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/06/27/tether-putting-usd23-billion-gold-stockpile-to-work-with-bullion-backed-loans",
-      "source": "CoinDesk",
-      "published": "2026-06-27T15:00:00+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_8a0f7baaeb",
-      "date": "2026-06-27"
-    },
-    {
-      "title": "Coinbase and OKX try to lure in Binance’s EU users after it failed to secure a MiCA license",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/06/27/coinbase-and-okx-try-to-lure-in-binance-s-450m-eu-users-after-failing-to-secure-a-mica-license",
-      "source": "CoinDesk",
-      "published": "2026-06-27T14:11:45+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_b36041042a",
       "date": "2026-06-27"
     },
     {
@@ -306,50 +834,6 @@
       "date": "2026-06-27"
     },
     {
-      "title": "SpaceX stock has cooled. Hiring for jobs in the space economy hasn't",
-      "summary": "The SpaceX IPO euphoria is over, but the bullish trend in space economy jobs remains in place within a labor market where many other sectors have slowed hiring.",
-      "url": "https://www.cnbc.com/2026/06/27/spacex-jobs-stem-careers-labor-economy.html",
-      "source": "CNBC Top",
-      "published": "2026-06-27T13:17:30+00:00",
-      "topic": "Valuation",
-      "importance": "normal",
-      "id": "a_dd0a3512dd",
-      "date": "2026-06-27"
-    },
-    {
-      "title": "Binance founder CZ blames crypto's sour 2026 on mix of AI, global tension, 4-year cycle",
-      "summary": "",
-      "url": "https://www.coindesk.com/policy/2026/06/27/binance-founder-cz-blames-crypto-s-sour-2026-on-mix-of-ai-global-tension-4-year-cycle",
-      "source": "CoinDesk",
-      "published": "2026-06-27T13:00:00+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_ab678af590",
-      "date": "2026-06-27"
-    },
-    {
-      "title": "Pinterest has taken a beating in recent years. This analyst thinks it's time to buy",
-      "summary": "Pinterest has been fallen 24% this year, but analysts are split whether to buy or sell this stock",
-      "url": "https://www.cnbc.com/2026/06/27/pinterest-has-taken-a-beating-in-recent-years-this-analyst-thinks-its-time-to-buy.html",
-      "source": "CNBC Top",
-      "published": "2026-06-27T12:42:57+00:00",
-      "topic": "Investment Banking",
-      "importance": "normal",
-      "id": "a_08392b7d84",
-      "date": "2026-06-27"
-    },
-    {
-      "title": "Bank of America says these five stocks are best positioned for upside amid market uncertainty",
-      "summary": "Analysts at Bank of America said these stocks have plenty of room to run.",
-      "url": "https://www.cnbc.com/2026/06/27/bank-of-america-names-5-stocks-with-the-most-upside-potential.html",
-      "source": "CNBC Top",
-      "published": "2026-06-27T12:25:02+00:00",
-      "topic": "Banking",
-      "importance": "normal",
-      "id": "a_08b06bc48e",
-      "date": "2026-06-27"
-    },
-    {
       "title": "Jeremy Grantham says, 'This is the most expensive market in American history'",
       "summary": "Jeremy Grantham says soaring valuations around AI makes the U.S. stock market historically expensive.",
       "url": "https://www.cnbc.com/2026/06/26/jeremy-grantham-says-this-is-the-most-expensive-market-in-american-history.html",
@@ -358,17 +842,6 @@
       "topic": "AI",
       "importance": "normal",
       "id": "a_a84867e0f6",
-      "date": "2026-06-27"
-    },
-    {
-      "title": "Strategy's valuation has fallen below the value of its bitcoin holdings",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/06/27/strategy-s-valuation-has-fallen-below-the-value-of-its-bitcoin-holdings",
-      "source": "CoinDesk",
-      "published": "2026-06-27T12:08:14+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_d975eb7a3a",
       "date": "2026-06-27"
     },
     {
@@ -405,138 +878,6 @@
       "date": "2026-06-27"
     },
     {
-      "title": "Is Hudbay Minerals (HBM) One of the High Growth Stocks to Buy Right Now?",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/hudbay-minerals-hbm-one-high-112229979.html",
-      "source": "Yahoo Finance",
-      "published": "2026-06-27T11:22:29+00:00",
-      "topic": "Investment Banking",
-      "importance": "normal",
-      "id": "a_802b46a45a",
-      "date": "2026-06-27"
-    },
-    {
-      "title": "Here is Why Samsara (IOT) is One of the High Growth Stocks to Buy Right Now",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-samsara-iot-one-high-112216841.html",
-      "source": "Yahoo Finance",
-      "published": "2026-06-27T11:22:16+00:00",
-      "topic": "Investment Banking",
-      "importance": "normal",
-      "id": "a_93711f09e4",
-      "date": "2026-06-27"
-    },
-    {
-      "title": "NVIDIA (NVDA) Launches BioNeMo Agent Toolkit to Accelerate AI-Driven Scientific Discovery in Life Sciences",
-      "summary": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-launches-bionemo-agent-112142349.html",
-      "source": "Yahoo Finance",
-      "published": "2026-06-27T11:21:42+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_2455761a19",
-      "date": "2026-06-27"
-    },
-    {
-      "title": "One of Wall Street's Most Unbreakable Records, Spanning 155 Years, Is on the Verge of Toppling -- and It Has Terrifying Implications for the Stock Market",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/one-wall-streets-most-unbreakable-105600225.html",
-      "source": "Yahoo Finance",
-      "published": "2026-06-27T10:56:00+00:00",
-      "topic": "Stocks",
-      "importance": "normal",
-      "id": "a_e3e8d6df6a",
-      "date": "2026-06-27"
-    },
-    {
-      "title": "One in 10 Gen Zers want their boss to be replaced by AI—they’re already being polite to ChatGPT just in case",
-      "summary": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/one-10-gen-zers-want-104951141.html",
-      "source": "Yahoo Finance",
-      "published": "2026-06-27T10:49:51+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_bfb68985f0",
-      "date": "2026-06-27"
-    },
-    {
-      "title": "'Dean Of Valuation' Aswath Damodaran Warns Private Credit Is 'Setting Itself Up For A Beating' Amid AI Data Center Lending Boom",
-      "summary": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/dean-valuation-aswath-damodaran-warns-104614246.html",
-      "source": "Yahoo Finance",
-      "published": "2026-06-27T10:46:14+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_43f242a910",
-      "date": "2026-06-27"
-    },
-    {
-      "title": "Mortgage and refinance interest rates today, Saturday, June 27, 2026: Lowest 30-year rate since April",
-      "summary": "",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-june-27-2026-lowest-30-year-rate-since-april-100000248.html",
-      "source": "Yahoo Finance",
-      "published": "2026-06-27T10:00:00+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_c91f9a8cbc",
-      "date": "2026-06-27"
-    },
-    {
-      "title": "Best high-yield savings interest rates today, Saturday, June 27, 2026: Earn up to 4.10% APY",
-      "summary": "",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-saturday-june-27-2026-earn-up-to-410-apy-100000193.html",
-      "source": "Yahoo Finance",
-      "published": "2026-06-27T10:00:00+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_bdb24fedba",
-      "date": "2026-06-27"
-    },
-    {
-      "title": "EU lawmakers urge assessing DeFi, staking, NFT regulation",
-      "summary": "The nonbinding report outlines Parliament's vision for future EU crypto regulation and warns against national MiCA rules.",
-      "url": "https://cointelegraph.com/news/eu-lawmakers-assessing-defi-staking-nft-regulation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-06-27T08:21:04+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_8cb3d64f93",
-      "date": "2026-06-27"
-    },
-    {
-      "title": "Ripple CEO stays bullish on bitcoin but says Saylor's strategy has hurt crypto",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/06/27/ripple-ceo-stays-bullish-on-bitcoin-but-says-saylor-s-strategy-has-hurt-crypto",
-      "source": "CoinDesk",
-      "published": "2026-06-27T07:58:35+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_8f8b965b0d",
-      "date": "2026-06-27"
-    },
-    {
-      "title": "Dogecoin and Hyperliquid's HYPE led weekly crypto losses as AI stocks lure buyers",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/06/27/dogecoin-and-hyperliquid-s-hype-led-weekly-crypto-losses-as-ai-stocks-lure-buyers",
-      "source": "CoinDesk",
-      "published": "2026-06-27T07:43:58+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_692357b3d7",
-      "date": "2026-06-27"
-    },
-    {
-      "title": "Securitize expects to raise $400M ahead of public debut",
-      "summary": "Securitize says less than 30% of shareholders in the acquisition firm taking it public elected to redeem, giving it an expected $400 million on its upcoming debut.",
-      "url": "https://cointelegraph.com/news/securitize-expects-to-raise-400m-ahead-of-public-debut?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-06-27T05:35:27+00:00",
-      "topic": "Investment Banking",
-      "importance": "high",
-      "id": "a_c5ea2a6ad8",
-      "date": "2026-06-27"
-    },
-    {
       "title": "Trump Admin releases Anthropic Mythos to be used by more than 100 US companies, agencies",
       "summary": "Over 100 companies and government agencies are reportedly authorized to use Mythos 5, including their non-American employees.",
       "url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/",
@@ -546,61 +887,6 @@
       "importance": "normal",
       "id": "a_cf1428aecf",
       "date": "2026-06-27"
-    },
-    {
-      "title": "Old Ether wallets move 37,806 ETH as whale conviction faces key test at $1.5K",
-      "summary": "Old Ether wallets moved 37,806 ETH as long-term whale profitability turned negative for the first time since 2019, signaling mixed sentiment among large holders.",
-      "url": "https://cointelegraph.com/markets/old-ether-wallets-move-37806-eth-as-whale-conviction-faces-key-test?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-06-26T22:18:07+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_09c3a7d760",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "Aave, Solana ecosystem tokens lead crypto rebound as bitcoin steadies near $60,000",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/06/26/aave-solana-ecosystem-tokens-lead-crypto-rebound-as-bitcoin-steadies-near-usd60-000",
-      "source": "CoinDesk",
-      "published": "2026-06-26T20:15:03+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_cb3c3048bf",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "U.S. House Democrat, who may soon run key committee, condemns crypto in 401(k)s",
-      "summary": "",
-      "url": "https://www.coindesk.com/policy/2026/06/26/u-s-house-democrat-who-may-soon-run-key-committee-condemns-crypto-in-401-k-s",
-      "source": "CoinDesk",
-      "published": "2026-06-26T19:38:12+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_321db34d33",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "Spain regulator rules out extension for non-MiCA compliant crypto companies",
-      "summary": "Carlos San Basilio said that “there will be no exceptions ​or extensions” to the MiCA deadline requiring crypto exchanges offering services to EU-based users to be licensed.",
-      "url": "https://cointelegraph.com/news/spain-no-extension-mica-compliance-crypto-companies?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-06-26T19:20:33+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_99ec515dfc",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "Former Ethereum Foundation leader warns of funding gap as governance shifts",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/06/26/former-ethereum-foundation-leader-warns-of-funding-gap-as-governance-shifts",
-      "source": "CoinDesk",
-      "published": "2026-06-26T18:37:50+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_68b906069c",
-      "date": "2026-06-26"
     },
     {
       "title": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm",
@@ -614,17 +900,6 @@
       "date": "2026-06-26"
     },
     {
-      "title": "Boost portfolio income in the second half of 2026 with these cheap dividend payers",
-      "summary": "In an expensive stock market, these stocks pay investors to wait for potential upside. They are also well-liked by Wall Street.",
-      "url": "https://www.cnbc.com/2026/06/26/boost-income-in-the-second-half-of-2026-with-these-cheap-dividend-payers.html",
-      "source": "CNBC Top",
-      "published": "2026-06-26T18:21:17+00:00",
-      "topic": "Stocks",
-      "importance": "normal",
-      "id": "a_7a6d9be0c0",
-      "date": "2026-06-26"
-    },
-    {
       "title": "OpenAI poaches Uber India chief to lead its biggest market outside the US",
       "summary": "The hire marks OpenAI's latest push into India, expanding offices, partnerships and hiring.",
       "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/",
@@ -633,17 +908,6 @@
       "topic": "AI",
       "importance": "normal",
       "id": "a_017c7777e7",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "Virtuals' Jansen Teng says AI agents are evolving into autonomous economic actors",
-      "summary": "",
-      "url": "https://www.coindesk.com/coindesk-news/2026/06/26/virtuals-jansen-teng-says-ai-agents-are-evolving-into-autonomous-economic-actors",
-      "source": "CoinDesk",
-      "published": "2026-06-26T18:04:22+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_9451e2e23b",
       "date": "2026-06-26"
     },
     {
@@ -667,281 +931,6 @@
       "importance": "normal",
       "id": "a_8a52630d9b",
       "date": "2026-06-26"
-    },
-    {
-      "title": "Ethereum whale who shorted October 2025 crash opens $19.7M ETH short position",
-      "summary": "Ether’s technical setup points to a potential drop to $1,375, a move that could lift one whale’s unrealized profit to $2.39 million.",
-      "url": "https://cointelegraph.com/markets/ethereum-whale-who-shorted-october-2025-crash-returns-with-a-197m-short-eth-bet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-06-26T17:02:33+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "critical",
-      "id": "a_109e4d4ad1",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "Warsh reaches within the Fed for latest advisory appointments",
-      "summary": "Warsh has added two more key advisors as he seeks to remake how the central bank approaches the economy and monetary policy.",
-      "url": "https://www.cnbc.com/2026/06/26/warsh-reaches-within-the-fed-for-latest-advisory-appointments.html",
-      "source": "CNBC Finance",
-      "published": "2026-06-26T16:52:10+00:00",
-      "topic": "Banking",
-      "importance": "normal",
-      "id": "a_4408a062b6",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "It’s not about Anthropic vs. OpenAI anymore",
-      "summary": "AI models have progressed to the point where their capabilities have real political consequences. Dealing with those consequences will require collective action.",
-      "url": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/",
-      "source": "TechCrunch AI",
-      "published": "2026-06-26T16:24:47+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_fad85fbb00",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "Crypto Biz: The cost of stacking sats",
-      "summary": "CryptoQuant urged Strategy to pause Bitcoin buying as dividend coverage shrank. Meanwhile, CBOE eyes crypto perpetual futures and Chainlink joins a stablecoin FX project.",
-      "url": "https://cointelegraph.com/news/cryptoquant-strategy-bitcoin-cboe-perpetual-futures-chainlink-stablecoin-fx?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-06-26T16:23:34+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_2391112d86",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "Minneapolis Fed President Neel Kashkari says he expects a rate hike this year",
-      "summary": "Kashkari said he sees a hike likely this year as the economy continues to feel the hit from spiking inflation.",
-      "url": "https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html",
-      "source": "CNBC Finance",
-      "published": "2026-06-26T16:04:42+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_26f00b5275",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "Bitcoin makes first sub-$60K close since Q3 2024 as tech stocks enter ‘deep bear market’",
-      "summary": "Bitcoin risked turning $60,000 into resistance as BTC price weakness persisted following another tech-driven sell-off in Asian stock markets.",
-      "url": "https://cointelegraph.com/markets/bitcoin-sees-first-close-below-60k-since-q3-2024-with-tech-stocks-in-deep-bear-market-zone?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-06-26T15:55:56+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_63f7cde100",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "OpenAI’s Jalapeño chip is Big Tech’s spiciest move away from Nvidia",
-      "summary": "Nvidia has dominated the AI chip market for years, but the era of total dependence might be ending.&#160;&#160; OpenAI just shared its plans to spice things up with&#160;Jalapeño, its custom inference chip built with Broadcom, joining Google, Apple, and SpaceX in a growing list of companies building their way out of single-supplier risk. The goal&#160;is&#160;less&#160;of&#160;a [&#8230;]",
-      "url": "https://techcrunch.com/podcast/openais-jalapeno-chip-is-big-techs-spiciest-move-away-from-nvidia/",
-      "source": "TechCrunch AI",
-      "published": "2026-06-26T14:00:00+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_e447d06b65",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "Framework Ventures raises $400M to invest beyond crypto: Report",
-      "summary": "Framework Ventures raises $400 million fourth fund as it expands into AI, robotics and energy while reportedly planning to continue crypto investments.",
-      "url": "https://cointelegraph.com/news/framework-ventures-raise-400-million-push-beyond-crypto-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-06-26T13:58:28+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_f08f76b3d5",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "JPMorgan names Doug Petno and Troy Rohrbaugh co-presidents as longtime exec Marianne Lake exits",
-      "summary": "The moves would appear to make Doug Petno and Troy Rohrbaugh the most obvious possible successors to JPMorgan Chase CEO Jamie Dimon.",
-      "url": "https://www.cnbc.com/2026/06/25/jpmorgan-chase-co-presidents-lake-exits.html",
-      "source": "CNBC Finance",
-      "published": "2026-06-26T12:32:02+00:00",
-      "topic": "Investment Banking",
-      "importance": "normal",
-      "id": "a_8a750fee9d",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "Wall Street's IPO revival hasn't reached dot-com euphoria levels, Goldman Sachs says",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/06/26/wall-street-s-ipo-revival-hasn-t-reached-dot-com-euphoria-levels-goldman-sachs-says",
-      "source": "CoinDesk",
-      "published": "2026-06-26T12:25:36+00:00",
-      "topic": "Investment Banking",
-      "importance": "normal",
-      "id": "a_76b9ab2e1f",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "Australian regulator extends no-action period for crypto licensing",
-      "summary": "Australia’s financial regulator extended temporary enforcement relief for digital asset businesses until Sept. 30 as firms transition into the country’s licensing system.",
-      "url": "https://cointelegraph.com/news/australia-asic-extends-crypto-licensing-relief-september?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-06-26T12:14:31+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_5bda94d251",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "Rise in memory chip costs puts pressure on retailers of laptops and smartphones",
-      "summary": "As the global race for AI moves forward, a shortage of memory chips has begun to drive up prices of consumer electronics and may lead to product shortages.",
-      "url": "https://www.cnbc.com/2026/06/26/ai-memory-chip-shortage-consumer-electronics-prices.html",
-      "source": "CNBC Top",
-      "published": "2026-06-26T12:00:01+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_7a369746f0",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "With crypto ending the first half in the red, bitcoin's solace is it beat Strategy",
-      "summary": "",
-      "url": "https://www.coindesk.com/daybook-us/2026/06/26/with-crypto-ending-the-first-half-in-the-red-bitcoin-s-solace-is-it-beat-strategy",
-      "source": "CoinDesk",
-      "published": "2026-06-26T11:36:01+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_5a4ef30f31",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "Bitcoin bounces from $58,000 as derivatives signal more pain in the pipeline",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/06/26/bitcoin-bounces-from-usd58-000-as-derivatives-signal-more-pain-in-the-pipeline",
-      "source": "CoinDesk",
-      "published": "2026-06-26T11:03:20+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_9fb8ac2127",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "All eyes on Strategy's June 30 ex-dividend date and monthly STRC dividend rate reset",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/06/26/all-eyes-on-strategy-s-june-30-ex-dividend-date-and-monthly-strc-dividend-rate-reset",
-      "source": "CoinDesk",
-      "published": "2026-06-26T10:28:24+00:00",
-      "topic": "Stocks",
-      "importance": "normal",
-      "id": "a_c5cad6e3f3",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "Binance tells EU users it will no longer provide services after failing to secure MiCA license",
-      "summary": "",
-      "url": "https://www.coindesk.com/policy/2026/06/26/binance-tells-eu-users-it-will-no-longer-provide-services-after-failing-to-secure-mica-license",
-      "source": "CoinDesk",
-      "published": "2026-06-26T10:19:22+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_42c4890ae5",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "Ethereum treasury firm Sharplink buys ether for the first time in eight months",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/06/26/ethereum-treasury-firm-sharplink-takes-in-ether-for-the-first-time-in-eight-months",
-      "source": "CoinDesk",
-      "published": "2026-06-26T09:47:07+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_2c3b3688c6",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "Japanese financial services giant SBI Holdings to buy Bitbank for $289 million",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/06/26/japanese-financial-services-giant-sbi-holdings-to-buy-bitbank-for-usd289-million",
-      "source": "CoinDesk",
-      "published": "2026-06-26T08:31:57+00:00",
-      "topic": "Investment Banking",
-      "importance": "normal",
-      "id": "a_8d61fcb329",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "Grant Cardone says he will keep buying bitcoin using real estate cash flows",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/06/26/grant-cardone-says-he-will-keep-buying-bitcoin-using-real-estate-cash-flows",
-      "source": "CoinDesk",
-      "published": "2026-06-26T08:25:44+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_6257d93211",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "ECB Consumer Expectations Survey results – May 2026",
-      "summary": "",
-      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260626_1~60a21704a8.en.html",
-      "source": "ECB Press",
-      "published": "2026-06-26T08:00:00+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_ce1983e5c8",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
-      "summary": "OpenAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of with the broader public. The reason: the Trump administration told it to.",
-      "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
-      "source": "TechCrunch AI",
-      "published": "2026-06-25T23:34:39+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_d614137c4e",
-      "date": "2026-06-25"
-    },
-    {
-      "title": "Chicago Fed President Goolsbee says inflation is too high; Williams sees price pressures easing",
-      "summary": "In a live CNBC interview from his home district, Goolsbee declined to speculate on where he thinks interest rates are headed.",
-      "url": "https://www.cnbc.com/2026/06/25/chicago-fed-president-goolsbee-says-inflation-is-too-high-calls-warsh-a-serious-guy.html",
-      "source": "CNBC Finance",
-      "published": "2026-06-25T21:03:16+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_f08ec791d8",
-      "date": "2026-06-25"
-    },
-    {
-      "title": "Wendy's turns lower as meme rally fails to extend to a second day",
-      "summary": "The stock's volatile run appeared largely disconnected from company fundamentals and instead reflected a burst of social media enthusiasm.",
-      "url": "https://www.cnbc.com/2026/06/25/wendys-shares-soar-for-a-second-day-as-retail-investors-pile-into-their-new-meme-darling.html",
-      "source": "CNBC Finance",
-      "published": "2026-06-25T20:27:33+00:00",
-      "topic": "Stocks",
-      "importance": "normal",
-      "id": "a_564042efdf",
-      "date": "2026-06-25"
-    },
-    {
-      "title": "Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents",
-      "summary": "Agent-testing startup Patronus AI, founded by former Meta AI researchers, is experiencing nearly insatiable demand, its investor says.",
-      "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
-      "source": "TechCrunch AI",
-      "published": "2026-06-25T20:19:25+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_ad1bc42927",
-      "date": "2026-06-25"
-    },
-    {
-      "title": "Anthropic’s Claude is winning over paid consumers, a market owned by ChatGPT",
-      "summary": "Despite ChatGPT's commanding market lead, consumers who pay for AI have been increasingly choosing Anthropic's Claude, data shows.",
-      "url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
-      "source": "TechCrunch AI",
-      "published": "2026-06-25T17:38:27+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_174471921a",
-      "date": "2026-06-25"
     }
   ]
 }
