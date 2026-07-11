@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T13:14:03.312613+00:00",
+  "generated_at": "2026-07-11T11:55:07.377787+00:00",
   "kpis": [
     {
       "name": "S&P 500",
@@ -35,76 +35,483 @@
     },
     {
       "name": "Bitcoin",
-      "val": "$64.2K",
-      "delta": "+2.20%",
-      "dir": "up",
+      "val": "$64.1K",
+      "delta": "−0.40%",
+      "dir": "down",
       "stale": false,
-      "as_of": "2026-07-10T13:14:03.312575+00:00"
+      "as_of": "2026-07-11T11:55:07.377757+00:00"
     },
     {
       "name": "Ethereum",
-      "val": "$1,793",
-      "delta": "+2.60%",
-      "dir": "up",
+      "val": "$1,798",
+      "delta": "−0.08%",
+      "dir": "down",
       "stale": false,
-      "as_of": "2026-07-10T13:14:03.312602+00:00"
+      "as_of": "2026-07-11T11:55:07.377777+00:00"
     }
   ],
   "voices": [],
   "news": [
     {
-      "title": "Kevin Warsh wants fewer press conferences. Why that’s bad for the economy and your money.",
-      "summary": "The Fed chair is testifying before Congress this week. Lawmakers should ask him about transparency.",
-      "url": "https://www.marketwatch.com/story/kevin-warsh-wants-fewer-press-conferences-why-thats-bad-for-the-economy-and-your-money-e9b0bd55?mod=mw_rss_topstories",
+      "title": "The U.S. stock market is becoming ‘too big to fail’",
+      "summary": "Why protracted bear markets may be a thing of the past.",
+      "url": "https://www.marketwatch.com/story/the-u-s-stock-market-is-becoming-too-big-to-fail-b3473e40?mod=mw_rss_topstories",
       "source": "MarketWatch Top",
-      "published": "2026-07-10T13:06:00+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_0b553ac3ed",
-      "date": "2026-07-10"
-    },
-    {
-      "title": "New Fed task force members share Chairman Kevin Warsh's embrace of AI",
-      "summary": "The three members of a task force advising the Fed on artificial intelligence are strong proponents of the technology.",
-      "url": "https://www.cnbc.com/2026/07/09/fed-task-force-member-chairman-kevin-warsh-ai.html",
-      "source": "CNBC Top",
-      "published": "2026-07-10T13:05:43+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_9de830f199",
-      "date": "2026-07-10"
-    },
-    {
-      "title": "S&P 500 futures are little changed as index heads for winning week: Live updates",
-      "summary": "Wall Street is coming off a winning day, following a jump in chipmakers and falling oil prices.",
-      "url": "https://www.cnbc.com/2026/07/09/stock-market-today-live-updates.html",
-      "source": "CNBC Top",
-      "published": "2026-07-10T13:01:07+00:00",
+      "published": "2026-07-11T11:30:00+00:00",
       "topic": "Stocks",
       "importance": "normal",
-      "id": "a_ad8ed3ed73",
-      "date": "2026-07-10"
+      "id": "a_87da684274",
+      "date": "2026-07-11"
     },
     {
-      "title": "Ryanair jet window 'dislodged' during flight forcing emergency landing in Greece",
-      "summary": "The airline said one ⁠person received medical assistance, but did not elaborate on the cause.",
-      "url": "https://www.cnbc.com/2026/07/10/ryanair-jet-window-dislodged-flight-emergency-landing-greece.html",
-      "source": "CNBC Top",
-      "published": "2026-07-10T12:53:33+00:00",
-      "topic": "Aviation Finance",
+      "title": "Bitcoin price gains nearly 10% in July, but traders still see BTC copying 2022 bear market",
+      "summary": "Bitcoin price gains approached 10% for the first two weeks of the month, but analysis warned of the bear market returning from August onward.",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-gains-nearly-10-in-july-but-traders-still-see-btc-copying-2022-bear-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-07-11T11:21:07+00:00",
+      "topic": "Cryptocurrency",
       "importance": "normal",
-      "id": "a_ec80a35afc",
+      "id": "a_d81b6d6a4f",
+      "date": "2026-07-11"
+    },
+    {
+      "title": "Fed Chair Warsh will be in the hot seat as lawmakers press for his read on the economy",
+      "summary": "Kevin Warsh will testify before Congress for the first time as Fed chair this week. Lawmakers will want answers.",
+      "url": "https://www.marketwatch.com/story/fed-chair-warsh-will-be-in-the-hot-seat-as-lawmakers-press-for-his-read-on-the-economy-959ac784?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-07-11T11:00:00+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_c02f49057c",
+      "date": "2026-07-11"
+    },
+    {
+      "title": "Here’s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-07-11T04:13:13+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_8dded07b07",
+      "date": "2026-07-11"
+    },
+    {
+      "title": "Robinhood says its AI agent feature will ‘soon’ be assisting crypto traders",
+      "summary": "More than 70,000 agentic accounts have already been created by Robinhood equities and options traders since late May, when Robinhood launched a beta version of the product.",
+      "url": "https://cointelegraph.com/news/robinhood-says-ai-agents-will-be-trading-for-crypto-users-soon?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-07-11T04:12:30+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_2f56d81a60",
+      "date": "2026-07-11"
+    },
+    {
+      "title": "Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'",
+      "summary": "The two companies entered into a high-profile partnership in 2024 when ChatGPT was integrated into the iPhone's operating system.",
+      "url": "https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html",
+      "source": "CNBC Top",
+      "published": "2026-07-11T04:09:20+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_289dd36e49",
+      "date": "2026-07-11"
+    },
+    {
+      "title": "Bitcoin analysts predict $300,000–$500,000 price in 2029. The math says no",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/07/10/bitcoin-analysts-predict-usd300-000-usd500-000-price-in-2029-the-math-says-no",
+      "source": "CoinDesk",
+      "published": "2026-07-11T02:30:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_afbf8c24fe",
+      "date": "2026-07-11"
+    },
+    {
+      "title": "Meta removes controversial AI feature on Instagram after backlash",
+      "summary": "\"Our intent was to provide a useful creative tool and to give people control over whether their public content could be referenced in this way,\" the company said in a blog post. \"We've heard the feedback that this feature missed the mark, so it's no longer available.\"",
+      "url": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
+      "source": "TechCrunch AI",
+      "published": "2026-07-10T23:55:07+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_bbbcbfc097",
       "date": "2026-07-10"
     },
     {
-      "title": "Stablecoin issuer Circle just got the greenlight to operate as a bank. The shares are up 12%",
+      "title": "Apple sues OpenAI for alleged theft of confidential info — and says that’s just ‘the tip of the iceberg’",
+      "summary": "The iPhone maker claims “misconduct is normalized and exemplified by leadership” at OpenAI.",
+      "url": "https://www.marketwatch.com/story/apple-sues-openai-for-institutional-misconduct-and-alleges-thats-just-the-tip-of-the-iceberg-6e803c4d?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-07-10T23:06:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_9ec21fa7aa",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Meta’s stock roars back to life as it notches its best week in years",
+      "summary": "Investors are bullish on Meta’s new low-cost AI pricing and infrastructure plans.",
+      "url": "https://www.marketwatch.com/story/metas-stock-roars-back-to-life-as-it-heads-for-its-best-week-in-years-0ff0fa7d?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-07-10T22:24:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_48207c85ea",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "SK Hynix’s stock sees double-digit pop in Nasdaq debut",
+      "summary": "The South Korean memory-chip company’s new American depositary receipts began trading on Friday and logged gains of nearly 13%.",
+      "url": "https://www.marketwatch.com/story/sk-hynixs-stock-looks-primed-for-a-pop-in-its-nasdaq-debut-38054370?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-07-10T22:18:00+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_3de51fa169",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Trump admin eases export controls for UAE; Warren blasts 'corrupt' provision",
+      "summary": "The Commerce Department will favorably review exports involving MGX, which used a stablecoin linked to President Trump's family for a $2B Binance investment.",
+      "url": "https://www.cnbc.com/2026/07/10/trump-uae-mgx-crypto-export-commerce-warren.html",
+      "source": "CNBC Top",
+      "published": "2026-07-10T22:02:04+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_cb9c98bb08",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "The AI race is shifting from bigger models to cheaper, smarter systems",
+      "summary": "Companies are starting to choose AI models by task, cost and control, not just leaderboard rank.",
+      "url": "https://www.cnbc.com/2026/07/10/the-ai-race-is-shifting-from-bigger-models-to-cheaper-smarter-systems.html",
+      "source": "CNBC Top",
+      "published": "2026-07-10T21:27:18+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_5a63be69fb",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Meta's Chief Data Officer Says Agentic Commerce is the \"Next Tier of Business\"",
+      "summary": "",
+      "url": "https://www.coindesk.com/coindesk-news/2026/07/10/meta-s-chief-data-officer-says-agentic-commerce-is-the-next-tier-of-business",
+      "source": "CoinDesk",
+      "published": "2026-07-10T21:26:55+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_b42d6a6310",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Kraken to overhaul app with AI investing assistant",
+      "summary": "The redesigned app will use AI to recommend trades and tailor investing tools around users' financial goals as Kraken expands into broader financial services.",
+      "url": "https://cointelegraph.com/news/kraken-to-rebuild-app-around-ai-powered-trading-agents-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-07-10T21:07:39+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_4cdc2f1770",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Senate Democrats call for hearings into Trump’s ties to crypto amid CLARITY Act discussions",
+      "summary": "Five senators called for committee hearings to investigate US President Donald Trump’s policies potentially being influenced by crypto funding from United Arab Emirates-linked and other entities.",
+      "url": "https://cointelegraph.com/news/senate-democrats-hearings-donald-trump-crypto-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-07-10T21:03:57+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_92dea6371e",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Apple sues OpenAI over alleged trade secret theft",
+      "summary": "Apple alleges the misconduct was directed by OpenAI's senior leadership, including a longtime former employee.",
+      "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+      "source": "TechCrunch AI",
+      "published": "2026-07-10T21:00:29+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_690ddd03d1",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "OpenAI power consolidates under co-founder Greg Brockman ahead of prospective IPO",
+      "summary": "With Fidji Simo's official departure from OpenAI due to a chronic medical issue, Greg Brockman's role has become clearer.",
+      "url": "https://www.cnbc.com/2026/07/10/openai-power-consolidates-under-co-founder-greg-brockman-ahead-of-ipo.html",
+      "source": "CNBC Top",
+      "published": "2026-07-10T20:51:09+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_0d667d8f62",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "SK Hynix rises 13% in Nasdaq debut. Chairman tells CNBC 'demand is enormous'",
+      "summary": "SK Hynix has soared to a trillion-dollar market cap by serving some of the biggest names in technology, including Nvidia and Apple.",
+      "url": "https://www.cnbc.com/2026/07/10/sk-hynix-skhy-stock-nasdaq.html",
+      "source": "CNBC Top",
+      "published": "2026-07-10T20:34:32+00:00",
+      "topic": "AI",
+      "importance": "critical",
+      "id": "a_91545f684f",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "How Apple stock rode the AI rollercoaster to record highs in 1 chart",
+      "summary": "Apple stayed true to itself in the AI race, and Wall Street is finally rewarding the stock for it.",
+      "url": "https://www.cnbc.com/2026/07/10/how-apple-stock-rode-the-ai-rollercoaster-to-record-highs-in-1-chart.html",
+      "source": "CNBC Top",
+      "published": "2026-07-10T20:25:11+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_4f27b32149",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "S&P 500 closes higher to notch a winning week, helped by tech gains",
+      "summary": "The S&P 500 rose on Friday, bolstered by a couple Big Tech names, to notch a weekly gain.",
+      "url": "https://www.cnbc.com/2026/07/09/stock-market-today-live-updates.html",
+      "source": "CNBC Top",
+      "published": "2026-07-10T20:16:42+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_fddf5701d0",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Stablecoin issuer Circle just got the greenlight to operate as a bank. The shares are up 5%",
       "summary": "Stablecoin issuer Circle surged in premarket trading after the U.S. Office of the Comptroller of the Currency granted it approval to operate as a trust bank.",
       "url": "https://www.cnbc.com/2026/07/10/circle-gets-an-occ-bank-charter-as-stablecoin-competition-heats-up-shares-surge-14percent.html",
       "source": "CNBC Top",
-      "published": "2026-07-10T12:31:40+00:00",
+      "published": "2026-07-10T20:01:29+00:00",
       "topic": "Cryptocurrency",
       "importance": "normal",
-      "id": "a_3f7a286430",
+      "id": "a_8a2efaaca8",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Next week brings earnings and inflation data amid resumption of U.S.-Iran hostilities. Here's what's ahead",
+      "summary": "Investors are anticipating the start of earnings season and the release of June inflation data, just as the U.S-Iran war threatens to reassert itself.",
+      "url": "https://www.cnbc.com/2026/07/10/stock-market-next-week-outlook-for-july-13-17-2026.html",
+      "source": "CNBC Top",
+      "published": "2026-07-10T19:58:13+00:00",
+      "topic": "Macroeconomics",
+      "importance": "high",
+      "id": "a_55238d4969",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Open source AI matters more than ever, according to Hugging Face’s Clem Delangue",
+      "summary": "Open source AI is booming, according to&#160;Hugging Face&#160;CEO&#160;Clem Delangue. The company has grown into something like a GitHub for AI in recent years, where AI builders can share and download open models and datasets, now used by roughly half the Fortune 500. Delangue has seen the same story play out again and again: companies start [&#8230;]",
+      "url": "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/",
+      "source": "TechCrunch AI",
+      "published": "2026-07-10T19:00:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_8543b2a065",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Senate Democrats want hearings on Trump’s crypto holdings and foreign investors",
+      "summary": "Democratic Senators cited $1.4 billion in Trump family crypto income, unidentified investors and a reported UAE-backed stake in World Liberty Financial.",
+      "url": "https://www.cnbc.com/2026/07/10/trump-crypto-senate-democrats.html",
+      "source": "CNBC Top",
+      "published": "2026-07-10T17:44:17+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "high",
+      "id": "a_8ed52b7ac0",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Traders fall back in love with Meta. Here's where bulls see it going",
+      "summary": "Meta Platform's AI efforts are looking like the recipe for a comeback after an almost year-long drought in shares of the $1.7 trillion market-cap company.",
+      "url": "https://www.cnbc.com/2026/07/10/traders-fall-back-in-love-with-meta-heres-where-bulls-see-it-going.html",
+      "source": "CNBC Top",
+      "published": "2026-07-10T17:40:29+00:00",
+      "topic": "AI",
+      "importance": "critical",
+      "id": "a_d53a85c842",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Seize the advantage in Micron options against the SK Hynix listing, Jeff Kilburg says",
+      "summary": "MU options saw massive activity Friday, indicating heavy hedging or directional bets as the memory chip trade repositions.",
+      "url": "https://www.cnbc.com/2026/07/10/a-micron-options-trade-is-a-play-on-sk-hynix-listing-jeff-kilburg-says.html",
+      "source": "CNBC Top",
+      "published": "2026-07-10T17:27:10+00:00",
+      "topic": "Valuation",
+      "importance": "normal",
+      "id": "a_3b230f67d2",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "New Hampshire council votes down $100M Bitcoin bonds",
+      "summary": "State representative Keith Ammon said the New Hampshire executive council's vote against Bitcoin-backed bonds was “short-sighted,” urging the body to reconsider the measure.",
+      "url": "https://cointelegraph.com/news/new-hampshire-votes-against-bitcoin-bonds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-07-10T17:23:10+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_6d492b5998",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "SK Hynix raises $26.5B in the biggest foreign IPO in US history, is urged to build new US fabs",
+      "summary": "The AI chip boom just produced its biggest Wall Street moment yet. Now SK Hynix and Samsung are being asked to build U.S. factories.",
+      "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
+      "source": "TechCrunch AI",
+      "published": "2026-07-10T17:17:12+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_e054e1c3ba",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "The stock market looks pretty cheap based on future earnings expectations. Don't be fooled",
+      "summary": "The S&P 500 trades around 28x trailing earnings versus 21x forward earnings. Experts say the spread mostly reflects high earnings expectations.",
+      "url": "https://www.cnbc.com/2026/07/10/the-stock-market-looks-pretty-cheap-based-on-future-earnings-expectations-dont-be-fooled.html",
+      "source": "CNBC Finance",
+      "published": "2026-07-10T16:56:24+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_4e00f06efd",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Backpack joins race for 24/7 stock markets with tokenized equities",
+      "summary": "The launch comes as tokenized stocks become one of the fastest-growing corners of crypto, with exchanges and traditional finance firms racing to expand 24/7 trading.",
+      "url": "https://cointelegraph.com/news/backpack-launches-247-trading-for-tokenized-us-equities?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-07-10T16:36:36+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_b7ba5a4193",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Crypto Biz: How stablecoins found their niche",
+      "summary": "Stablecoins are carving out specialized roles as regulation reshapes the market, while Strategy’s Bitcoin sale and Vanguard’s tokenization push highlight crypto’s evolving financial landscape.",
+      "url": "https://cointelegraph.com/news/crypto-biz-how-stablecoins-found-their-niche?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-07-10T15:37:37+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_9551170d72",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Hyundai becomes first major South Korean company to introduce internal stablecoin transfers",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/07/10/hyundai-becomes-first-major-south-korean-company-to-introduce-internal-stablecoin-transfers",
+      "source": "CoinDesk",
+      "published": "2026-07-10T15:26:43+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_45897061f6",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Bitcoin whales sent BTC price to $64K as Coinbase Premium broke key level: CryptoQuant",
+      "summary": "Bitcoin price gains came thanks to US whales propeling the Coinbase Premium above a key trend line, new analysis from CryptoQuant reported.",
+      "url": "https://cointelegraph.com/markets/bitcoin-whales-sent-btc-price-to-64k-as-coinbase-premium-broke-key-level-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-07-10T14:59:30+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_45badab9f6",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "These are America's 10 cheapest states for 2026, where you can still beat inflation",
+      "summary": "These are America's cheapest states to live in for 2026, where residents can still beat inflation.",
+      "url": "https://www.cnbc.com/2026/07/10/americas-10-cheapest-places-to-live-top-states-for-business.html",
+      "source": "CNBC Top",
+      "published": "2026-07-10T14:50:03+00:00",
+      "topic": "Macroeconomics",
+      "importance": "high",
+      "id": "a_374441c4aa",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "A16z’s Andreessen lands Federal Reserve role as AI reshapes policy debate",
+      "summary": "The Fed named a16z co-founder Marc Andreessen to co-lead an AI productivity and jobs task force under Chair Kevin Warsh’s policy review.",
+      "url": "https://cointelegraph.com/news/federal-reserve-a16z-co-founder-monetary-policy-task-force?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-07-10T14:12:53+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_7186f91306",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Hugging Face’s CEO on why companies are done renting their AI",
+      "summary": "Open source AI is booming, according to&#160;Hugging Face&#160;CEO&#160;Clem Delangue. The company has grown into something like a GitHub for AI in recent years, where AI builders can share and download open models and datasets, now used by roughly half the Fortune 500. Delangue has seen the same story play out again and again: companies start [&#8230;]",
+      "url": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/",
+      "source": "TechCrunch AI",
+      "published": "2026-07-10T14:00:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_2780791a1b",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "These are America's 10 most expensive states for 2026, where inflation is punishing residents",
+      "summary": "These 10 U.S. states are the most expensive places to live in America in 2026, with inflation punishing residents to an extreme degree.",
+      "url": "https://www.cnbc.com/2026/07/10/10-most-expensive-places-to-live-america-top-states-for-business.html",
+      "source": "CNBC Top",
+      "published": "2026-07-10T13:56:43+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_4c5a741101",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "MiCA licensing only the beginning as crypto custodians face scrutiny",
+      "summary": "A MiCA license allows crypto firms to operate in the EU, but the ESMA’s review will test whether custodians can meet the required security and resilience standards.",
+      "url": "https://cointelegraph.com/news/mica-only-beginning-crypto-custodians-scrutiny?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-07-10T13:54:50+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_1f64cfa6c8",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "The Club's top 10 things to watch in the stock market Friday",
+      "summary": "Stocks futures are flat after Thursday's rally, while SK Hynix is set to debut on the Nasdaq.",
+      "url": "https://www.cnbc.com/2026/07/10/the-clubs-top-10-things-to-watch-in-the-stock-market-friday.html",
+      "source": "CNBC Top",
+      "published": "2026-07-10T13:30:28+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_a09cbb0641",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Will the crypto lobby's $189M campaign get CLARITY over the line?",
+      "summary": "As the CLARITY Act advances, crypto's growing political influence in Washington is under scrutiny. But the crypto lobby's massive campaign spend is only part of the story.",
+      "url": "https://cointelegraph.com/features/how-crypto-built-political-influence-in-washington?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-07-10T13:30:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_728b6876b8",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Bitcoin and ethereum prices today, Friday, July 10, 2026: Up nearly 3% since last Friday",
+      "summary": "",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-july-10-2026-up-nearly-3-since-last-friday-130101171.html",
+      "source": "Yahoo Finance",
+      "published": "2026-07-10T13:01:01+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_3e681e20e7",
       "date": "2026-07-10"
     },
     {
@@ -130,50 +537,6 @@
       "date": "2026-07-10"
     },
     {
-      "title": "The bar is high for S&P 500 earnings, but these as-yet-unrewarded sectors are where real surprises could be hiding",
-      "summary": "Expectations for S&P 500 companies that will begin reporting next week are flying pretty high, but only for a select few, notes HSBC.",
-      "url": "https://www.marketwatch.com/story/the-bar-is-high-for-s-p-500-earnings-but-these-as-yet-unrewarded-sectors-are-where-real-surprises-could-be-hiding-b79874d9?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-07-10T12:26:00+00:00",
-      "topic": "Banking",
-      "importance": "high",
-      "id": "a_e521fd0524",
-      "date": "2026-07-10"
-    },
-    {
-      "title": "Here are Friday's biggest analyst calls: Nvidia, SpaceX, Toll, Shopify, Twilio, Seagate, Chipotle & more",
-      "summary": "Here are the biggest calls on Wall Street on Friday.",
-      "url": "https://www.cnbc.com/2026/07/10/fridays-biggest-analyst-calls-on-wall-street-include-nvidia-and-spacex.html",
-      "source": "CNBC Top",
-      "published": "2026-07-10T12:22:59+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_302927e623",
-      "date": "2026-07-10"
-    },
-    {
-      "title": "Why the stock market and economy may seem out of sync",
-      "summary": "The stock market has boomed on AI euphoria, while the trajectory of the U.S. economy has been more tepid, economists said.",
-      "url": "https://www.cnbc.com/2026/07/10/stock-market-and-economy-out-of-sync.html",
-      "source": "CNBC Top",
-      "published": "2026-07-10T12:15:02+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_72864946a9",
-      "date": "2026-07-10"
-    },
-    {
-      "title": "Slumping AI stocks could be really good news for your nontech holdings, says market strategist",
-      "summary": "Katie Stockton, of Fairlead Strategies, said she is seeing strong buying momentum in the healthcare, industrial, biotech, insurance and utility sectors",
-      "url": "https://www.marketwatch.com/story/slumping-ai-stocks-could-be-really-good-news-for-your-nontech-holdings-says-market-strategist-561942a7?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-07-10T11:59:00+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_a425d0f63b",
-      "date": "2026-07-10"
-    },
-    {
       "title": "Wall Street banks tighten prediction market rules for staff as insider fears spread",
       "summary": "Wall Street banks, including Goldman Sachs and Morgan Stanley, are restricting employee prediction market trades as insider trading fears spread across Polymarket and Kalshi.",
       "url": "https://cointelegraph.com/news/wall-street-prediction-market-trading-insider-fears?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -182,17 +545,6 @@
       "topic": "Investment Banking",
       "importance": "normal",
       "id": "a_55c6d24a01",
-      "date": "2026-07-10"
-    },
-    {
-      "title": "This e-commerce stock could get a boost from the agentic AI craze, Stifel says",
-      "summary": "Shopify is poised to gain ground due to the expected growth of agentic AI, per Stifel.",
-      "url": "https://www.cnbc.com/2026/07/10/shopify-could-get-a-boost-from-the-agentic-ai-craze-stifel-says.html",
-      "source": "CNBC Top",
-      "published": "2026-07-10T11:43:04+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_8133676f49",
       "date": "2026-07-10"
     },
     {
@@ -229,17 +581,6 @@
       "date": "2026-07-10"
     },
     {
-      "title": "The Tech Download: Teen social media bans miss a key part of the puzzle: AI chatbots",
-      "summary": "Teenagers are increasingly becoming dependent on AI chatbots, echoing a familiar problem with social media in the 2010s.",
-      "url": "https://www.cnbc.com/2026/07/10/tech-download-social-media-bans-ai-chatbots.html",
-      "source": "CNBC Top",
-      "published": "2026-07-10T11:32:53+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_cf195b3f12",
-      "date": "2026-07-10"
-    },
-    {
       "title": "Japanese lender launches Bitcoin-backed loans of up to $6.2M",
       "summary": "CRYL is offering Bitcoin-backed loans to individuals and businesses as Japanese firms explore broader uses for BTC in lending and credit markets.",
       "url": "https://cointelegraph.com/news/japan-cryl-bitcoin-backed-loans-6-million?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -251,36 +592,47 @@
       "date": "2026-07-10"
     },
     {
-      "title": "OpenAI exec Fidji Simo says she's stepping down due to chronic illness, will transition to advisor",
-      "summary": "Fidji Simo stepped away from OpenAI in April for a medical leave, says she now has to focus on recovery.",
-      "url": "https://www.cnbc.com/2026/07/09/openai-exec-fidji-simo-says-she-will-step-down-and-transition-to-part-time-advisor.html",
-      "source": "CNBC Top",
-      "published": "2026-07-10T11:10:28+00:00",
-      "topic": "AI",
+      "title": "Circle wins final regulatory approval to establish US trust bank, shares rise",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/circle-wins-final-regulatory-approval-105347625.html",
+      "source": "Yahoo Finance",
+      "published": "2026-07-10T10:53:47+00:00",
+      "topic": "Banking",
       "importance": "normal",
-      "id": "a_486af68506",
+      "id": "a_d726850c6a",
       "date": "2026-07-10"
     },
     {
-      "title": "Stocks are seeing increasingly wild swings post-earnings. Why even good numbers often aren’t enough to impress.",
-      "summary": "The second-quarter earnings season is off to a volatile start, offering an early test of whether investors’ high expectations for corporate profits can hold up.",
-      "url": "https://www.marketwatch.com/story/stocks-are-seeing-increasingly-wild-swings-post-earnings-why-even-good-numbers-often-arent-enough-to-impress-f4ce5169?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-07-10T11:04:00+00:00",
+      "title": "PPL Corporation's Quarterly Earnings Preview: What You Need to Know",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ppl-corporations-quarterly-earnings-preview-104931803.html",
+      "source": "Yahoo Finance",
+      "published": "2026-07-10T10:49:31+00:00",
       "topic": "Stocks",
       "importance": "high",
-      "id": "a_12b2a2e344",
+      "id": "a_87c46776cf",
       "date": "2026-07-10"
     },
     {
-      "title": "AI, data center fears could be key in closely watched Michigan Democratic Senate primary",
-      "summary": "Abdul El-Sayed and Rep. Haley Stevens will face off in the Michigan Democratic Senate primary on Aug. 4.",
-      "url": "https://www.cnbc.com/2026/07/10/ai-data-center-fears-michigan-democratic-senate-primary.html",
-      "source": "CNBC Top",
-      "published": "2026-07-10T11:00:01+00:00",
-      "topic": "AI",
+      "title": "Earnings Preview: What To Expect From Aptiv's Report",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-preview-expect-aptivs-report-103911235.html",
+      "source": "Yahoo Finance",
+      "published": "2026-07-10T10:39:11+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_90ac3a20fe",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Stock Index Futures Slip as Chip Rally Fades, SK Hynix Debut in Focus",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-index-futures-slip-chip-103831479.html",
+      "source": "Yahoo Finance",
+      "published": "2026-07-10T10:38:31+00:00",
+      "topic": "Stocks",
       "importance": "normal",
-      "id": "a_46355bd4a2",
+      "id": "a_c37c2f1f88",
       "date": "2026-07-10"
     },
     {
@@ -295,6 +647,39 @@
       "date": "2026-07-10"
     },
     {
+      "title": "Analysis-Trump makes the stock market his scoreboard, but many Americans aren't even in the game",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/analysis-trump-makes-stock-market-100516059.html",
+      "source": "Yahoo Finance",
+      "published": "2026-07-10T10:23:51+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_8a3516eeec",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Fermi America Shares Fall After Pricing Upsized Convertible Notes Offering (FRMI)",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fermi-america-shares-fall-pricing-102043816.html",
+      "source": "Yahoo Finance",
+      "published": "2026-07-10T10:20:43+00:00",
+      "topic": "Corporate Finance",
+      "importance": "normal",
+      "id": "a_4a02b0b8ab",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "The 20-Year Dividend Strategy Built For Investors Who Don’t Need Income Yet",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/20-dividend-strategy-built-investors-102005966.html",
+      "source": "Yahoo Finance",
+      "published": "2026-07-10T10:20:05+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_57f415a1d6",
+      "date": "2026-07-10"
+    },
+    {
       "title": "TeraWulf eyes $3.5B debt raise for Anthropic-linked data center: Report",
       "summary": "Bitcoin miner TeraWulf is reportedly seeking $3.5 billion in debt financing led by Morgan Stanley for its Kentucky data center campus leased by AI company Anthropic.",
       "url": "https://cointelegraph.com/news/terawulf-3-5-billion-debt-raise-anthropic-data-center?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -303,6 +688,17 @@
       "topic": "Cryptocurrency",
       "importance": "high",
       "id": "a_7b77515996",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Mortgage and refinance interest rates today, Friday, July 10: Rates are mixed today, mostly higher",
+      "summary": "",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-friday-july-10-rates-are-mixed-today-mostly-higher-100000913.html",
+      "source": "Yahoo Finance",
+      "published": "2026-07-10T10:00:00+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_d63ba18a12",
       "date": "2026-07-10"
     },
     {
@@ -325,6 +721,17 @@
       "topic": "Cryptocurrency",
       "importance": "normal",
       "id": "a_97804ef6ff",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Taiwanese chipmaker Nanya plans $6 billion in spending in 2027, riding AI boom",
+      "summary": "",
+      "url": "https://finance.yahoo.com/technology/ai/articles/taiwanese-chipmaker-nanya-plans-6-092507004.html",
+      "source": "Yahoo Finance",
+      "published": "2026-07-10T09:25:07+00:00",
+      "topic": "AI",
+      "importance": "high",
+      "id": "a_f38aea61cc",
       "date": "2026-07-10"
     },
     {
@@ -361,17 +768,6 @@
       "date": "2026-07-10"
     },
     {
-      "title": "EasyJet pops 13% as airline weighs $7.7 billion rival takeover bid from Apollo",
-      "summary": "A bidding war has broken out for budget carrier easyJet after Apollo and Castlelake have both submitted takeover offers.",
-      "url": "https://www.cnbc.com/2026/07/10/easyjet-apollo-takeover-bid-castlelake-share-price.html",
-      "source": "CNBC Top",
-      "published": "2026-07-10T08:00:03+00:00",
-      "topic": "Aviation Finance",
-      "importance": "high",
-      "id": "a_75c9d5afd7",
-      "date": "2026-07-10"
-    },
-    {
       "title": "Bitcoin gets a green light from a reliable momentum gauge. Here are key levels to watch",
       "summary": "",
       "url": "https://www.coindesk.com/markets/2026/07/10/bitcoin-gets-a-green-light-from-a-reliable-momentum-gauge-here-are-key-levels-to-watch",
@@ -383,14 +779,14 @@
       "date": "2026-07-10"
     },
     {
-      "title": "Live markets: Bitcoin tops $64,000 ahead of SK Hynix's Nasdaq debut",
+      "title": "Live updates: Bitcoin rises to $64,000 as SK Hynix opens for trade after $26.5 billion IPO",
       "summary": "",
       "url": "https://www.coindesk.com/tech/2026/07/10/live-markets-bitcoin-etfs-bleed-again-while-ether-funds-snap-a-five-day-inflow-streak",
       "source": "CoinDesk",
       "published": "2026-07-10T06:21:34+00:00",
       "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_8db4f963da",
+      "importance": "high",
+      "id": "a_4fc04b4e12",
       "date": "2026-07-10"
     },
     {
@@ -427,17 +823,6 @@
       "date": "2026-07-10"
     },
     {
-      "title": "DeFi may be ‘quietly re-rating’ given outperformance against Bitcoin: Bitwise",
-      "summary": "“DeFi usually swings much harder than Bitcoin, so holding up this well is unusual,” says Bitwise, as DeFi tokens have outperformed Bitcoin.",
-      "url": "https://cointelegraph.com/news/defi-quietly-re-rating-holds-up-unusually-well-in-downturn-bitwise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-07-10T02:30:44+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_e8c45bd62b",
-      "date": "2026-07-10"
-    },
-    {
       "title": "OpenAI says GPT 5.6 is the ‘preferred model’ for Microsoft Copilot 365 amid breakup chatter",
       "summary": "OpenAI's new family of models will continue to power Microsoft's suite of workplace and productivity apps.",
       "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
@@ -468,17 +853,6 @@
       "topic": "AI",
       "importance": "normal",
       "id": "a_604c0ceef8",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "If you invested $10,000 in Bitcoin, Trump meme coin, and gold when Trump took office, here's what you'd have today",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/invested-10-000-bitcoin-trump-222200005.html",
-      "source": "Yahoo Finance",
-      "published": "2026-07-09T22:22:00+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_c28a989160",
       "date": "2026-07-09"
     },
     {
@@ -537,17 +911,6 @@
       "date": "2026-07-09"
     },
     {
-      "title": "Coinbase chief legal officer to transition to advisory role on July 31",
-      "summary": "The soon-to-be former chief legal officer did not announce the details of his next move but said that he would continue working with the Board of Coinbase National Trust Company.",
-      "url": "https://cointelegraph.com/news/coinbase-chief-legal-officer-stepping-down?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-07-09T21:35:12+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_d3f6e8e58e",
-      "date": "2026-07-09"
-    },
-    {
       "title": "Grayscale's CFO exits after 7 years with crypto asset manager",
       "summary": "",
       "url": "https://www.coindesk.com/business/2026/07/09/grayscale-s-cfo-exits-after-7-years-with-crypto-asset-manager",
@@ -567,369 +930,6 @@
       "topic": "Cryptocurrency",
       "importance": "normal",
       "id": "a_31b339f909",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Bitdeer stock jumps 14% as company expands US mining hardware production",
-      "summary": "Bitdeer shares rallied after the company announced a $36 million Nevada manufacturing facility that will produce its SEALMINER Bitcoin mining machines and expand its hardware business.",
-      "url": "https://cointelegraph.com/news/bitdeer-stock-jumps-14-bitcoin-mining-hardware-maker-expands-us-manufacturing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-07-09T20:19:15+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_f8a0fed41e",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Here’s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-07-09T20:17:33+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_8dded07b07",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Kevin Warsh names members of his Federal Reserve task forces, including Marc Andreessen, Doug McMillon",
-      "summary": "Federal Reserve Chairman Kevin Warsh on Thursday released names of the experts who will comprise five task forces to examine the institution's operations.",
-      "url": "https://www.cnbc.com/2026/07/09/kevin-warsh-names-members-of-his-federal-reserve-task-forces-including-marc-andreessen-doug-mcmillon.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-09T19:53:20+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_314e6375a1",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Meta enters the crowded AI coding battle with Muse Spark 1.1",
-      "summary": "Meta's pitch to users is Spark's ability to handle large agentic workloads, fix bugs, and help with large code migrations — the kind of automation that enterprises are increasingly turning to AI companies to provide.",
-      "url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
-      "source": "TechCrunch AI",
-      "published": "2026-07-09T19:40:45+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_69b6409e7e",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Phantom, Hyperliquid ask CFTC to modernize rules for onchain derivatives",
-      "summary": "The companies urged the regulator to exempt blockchain developers and non-custodial wallet providers from rules designed for traditional financial intermediaries.",
-      "url": "https://cointelegraph.com/news/phantom-hyperliquid-ask-cftc-to-modernize-rules-for-onchain-derivatives?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-07-09T19:36:52+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_5f5dc96979",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Newest version of crypto Clarity Act may drop as soon as next week, sources say",
-      "summary": "",
-      "url": "https://www.coindesk.com/policy/2026/07/09/newest-version-of-crypto-clarity-act-may-drop-as-soon-as-next-week-sources-say",
-      "source": "CoinDesk",
-      "published": "2026-07-09T19:34:24+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_d7af655561",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "New York Times says OpenAI hid evidence in ChatGPT copyright trial",
-      "summary": "News publishers say OpenAI hid tools and datasets that could identify copyrighted journalism in ChatGPT outputs, escalating their lawsuit with a new motion for sanctions.",
-      "url": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
-      "source": "TechCrunch AI",
-      "published": "2026-07-09T19:05:58+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_40bae7f2d3",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-      "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
-      "source": "Federal Reserve",
-      "published": "2026-07-09T19:00:00+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_9113ae319c",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Google will now disclose which ads are made with AI",
-      "summary": "While Google prohibits misleading and deceptive ads, an ad can still leverage AI to create some type of synthetic or digitally altered content. Until now, that's something Google only required election ads to disclose.",
-      "url": "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/",
-      "source": "TechCrunch AI",
-      "published": "2026-07-09T18:40:51+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_95036f5702",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Paris-based AI voice startup Gradium raises $100M seed, backed by Nvidia",
-      "summary": "The company is using the cash to open an office in the Bay Area and compete for talent there, \"strengthening its position at the heart of the world's leading AI ecosystem.\"",
-      "url": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/",
-      "source": "TechCrunch AI",
-      "published": "2026-07-09T18:34:35+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_9fdb90dba0",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "How did the government decide OpenAI’s frontier model was safe to release?",
-      "summary": "\"Exactly what that dialog looked like between the government and Anthropic and OpenAI is unclear.\"",
-      "url": "https://techcrunch.com/2026/07/09/how-did-the-government-decide-openais-frontier-model-was-safe-to-release/",
-      "source": "TechCrunch AI",
-      "published": "2026-07-09T18:22:39+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_6f12a7ef22",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Billions flowing out of bitcoin ETFs and private credit funds suggest rising market risks",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/07/09/billions-flowing-out-of-bitcoin-etfs-and-private-credit-funds-suggest-rising-market-risks",
-      "source": "CoinDesk",
-      "published": "2026-07-09T18:13:04+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_ef75f56dcb",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Instagram users: Here’s how to stop Meta’s AI from using your photos",
-      "summary": "Muse Image allows users to generate AI images using photos from public Instagram accounts. As long as a person's profile is public, another user can tag that account and use their images as part of an AI-generated creation.",
-      "url": "https://techcrunch.com/2026/07/09/how-to-stop-metas-ai-image-generator-from-using-your-instagram-photos/",
-      "source": "TechCrunch AI",
-      "published": "2026-07-09T17:56:47+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_a24da9c438",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Meta’s new AI chips will begin production in September",
-      "summary": "The company is taking a modular approach to designing these chips, anticipating that their needs will change as AI evolves rapidly by the time the chips are in production.",
-      "url": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/",
-      "source": "TechCrunch AI",
-      "published": "2026-07-09T17:17:37+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_237a188e58",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Bitcoin miners’ AI pivot faces investor scrutiny over insider sales",
-      "summary": "As AI-driven mining stocks retreat, investors are examining executive stock sales, governance and shareholder alignment across leading Bitcoin miners, according to Blocksbridge Consulting.",
-      "url": "https://cointelegraph.com/news/bitcoin-miners-ai-pivot-faces-investor-scrutiny-over-insider-sales?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-07-09T17:09:01+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_0d15c5ded2",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Nvidia is a victim of the compute marketplace it created",
-      "summary": "Having proven how valuable compute can be, the company finds itself at the center of a market everyone wants to be in — while simpler technologies and less interesting companies get rich on the sidelines.",
-      "url": "https://techcrunch.com/2026/07/09/nvidia-is-a-victim-of-the-compute-marketplace-it-created/",
-      "source": "TechCrunch AI",
-      "published": "2026-07-09T17:06:11+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_89f79d0057",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "UK politicians mull permanent crypto donation ban in wake of Nigel Farage scandal",
-      "summary": "Labour lawmakers proposed a full moratorium on crypto donations in March, which some have sought be made permanent after millions of dollars in contributions were linked to Reform leader Nigel Farage.",
-      "url": "https://cointelegraph.com/news/uk-politicians-crypto-donation-ban-nigel-farage-scandal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-07-09T16:42:18+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_b315e4bb5f",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Can Bitcoin hold $62K ahead of Friday’s $1.4 billion options expiry?",
-      "summary": "US 10-year Treasury yields nears dangerous level while major Deribit Bitcoin options expiry approaches.",
-      "url": "https://cointelegraph.com/markets/can-bitcoin-hold-62k-ahead-of-fridays-14-billion-options-expiry?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-07-09T16:31:10+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_a0497985f9",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "MARA shares surge after 2 GW Texas infrastructure deal expands AI ambitions",
-      "summary": "The Bitcoin miner's shares climbed about 15% after announcing it's acquiring a Texas site with up to 2 GW of power capacity to expand its AI and digital infrastructure strategy.",
-      "url": "https://cointelegraph.com/news/mara-shares-jump-10-after-2-gw-texas-infrastructure-deal-expands-ai-ambitions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-07-09T16:26:33+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_a81a1ada76",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Bitcoin traders reveal key levels as BTC price passes $63K after Trump Iran 'deal' comments",
-      "summary": "Bitcoin gained new upside targets for the daily close and beyond after US president Donald Trump said that Iran \"wants to make a deal.\"",
-      "url": "https://cointelegraph.com/markets/bitcoin-traders-reveal-key-levels-as-btc-price-passes-63k-after-trump-iran-deal-comments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-07-09T15:56:59+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_a151637ecd",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "AI contracts, not bitcoin, now drive miner valuations, and Cipher and TeraWulf look cheap, says analyst",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/07/09/cipher-terawulf-among-ai-infrastructure-stocks-trading-below-contract-value-compass-point-argues",
-      "source": "CoinDesk",
-      "published": "2026-07-09T15:53:42+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_775b910570",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Meet SK Hynix, the trillion-dollar South Korean chipmaker debuting on U.S. markets",
-      "summary": "Following a more than sevenfold rally in its stock price over the past year, South Korea's SK Hynix is listing on the Nasdaq.",
-      "url": "https://www.cnbc.com/2026/07/09/meet-sk-hynix-the-trillion-dollar-chipmaker-debuting-on-us-markets-.html",
-      "source": "CNBC Top",
-      "published": "2026-07-09T15:13:29+00:00",
-      "topic": "Valuation",
-      "importance": "critical",
-      "id": "a_55d9661dbf",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Goldman Sachs wins $70 billion in asset management deals with Verizon, Lockheed Martin",
-      "summary": "Competition in the multitrillion-dollar market for retirement assets is fierce among managers such as Goldman Sachs, BlackRock, Russell Investments and Mercer.",
-      "url": "https://www.cnbc.com/2026/07/09/goldman-sachs-asset-management-deals-verizon-lockheed-martin.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-09T15:00:50+00:00",
-      "topic": "Investment Banking",
-      "importance": "high",
-      "id": "a_4262bae110",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
-      "summary": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260709a.htm",
-      "source": "Federal Reserve",
-      "published": "2026-07-09T15:00:00+00:00",
-      "topic": "Banking",
-      "importance": "normal",
-      "id": "a_263ea3d824",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Ethereum's newest nonprofit wants to become Wall Street's guide to crypto",
-      "summary": "",
-      "url": "https://www.coindesk.com/tech/2026/07/09/ethereum-s-newest-nonprofit-wants-to-become-wall-street-s-guide-to-crypto",
-      "source": "CoinDesk",
-      "published": "2026-07-09T14:58:55+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_6aea3b8c5d",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Anthropic’s new Claude feature is quietly selling you on AI",
-      "summary": "Claude’s new Reflect dashboard doesn’t just visualize how you use AI. It also subtly reinforces how much of your daily work now depends on Anthropic’s chatbot.",
-      "url": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/",
-      "source": "TechCrunch AI",
-      "published": "2026-07-09T14:53:09+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_772abf304a",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Anthropic, OpenAI, and SpaceX are bigger than the last 25 years of tech exits",
-      "summary": "Three big AI IPOs are set to generate more value than all the U.S. VC-backed exits since 2000.",
-      "url": "https://techcrunch.com/2026/07/09/anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits/",
-      "source": "TechCrunch AI",
-      "published": "2026-07-09T14:51:00+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_b3b335027e",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Job seekers giving up: Labor force participation rate falls to lowest in 50 years, outside of Covid era",
-      "summary": "A drop in the unemployment rate helped provide some upside to what was an otherwise downbeat jobs report — but it was for all the wrong reasons.",
-      "url": "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html",
-      "source": "CNBC Economy",
-      "published": "2026-07-09T14:23:29+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_5ea160d259",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Fed minutes expose deep divide over interest-rate outlook",
-      "summary": "",
-      "url": "https://finance.yahoo.com/economy/policy/articles/fed-minutes-expose-deep-divide-141700465.html",
-      "source": "Yahoo Finance",
-      "published": "2026-07-09T14:17:00+00:00",
-      "topic": "Macroeconomics",
-      "importance": "high",
-      "id": "a_9d98c65e23",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Bitcoin’s quantum dilemma: Bigger blocks or STARK proofs?",
-      "summary": "Dealing with large post quantum signatures slowing down Bitcoin can be solved with bigger blocks, or aggregating signatures using STARK proofs.",
-      "url": "https://cointelegraph.com/features/bigger-blocks-or-stark-proofs-bitcoins-quantum-dilemma?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-07-09T13:30:00+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_ec31dd2231",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Popular open source AI developer tool Ollama raises $65M, grows to nearly 9M users",
-      "summary": "Benchmark-backed Ollama has amassed 176,000 stars, and nearly 17,000 forks on GitHub by helping developers easily run AI on their PCs.",
-      "url": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/",
-      "source": "TechCrunch AI",
-      "published": "2026-07-09T13:00:00+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_2c62435aa2",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Character.AI enters the microdrama arena with its own productions, but there’s a twist",
-      "summary": "In an interesting twist that takes advantage of the company's core product, users can chat with these shows' characters, ask them questions, and even roleplay different storylines.",
-      "url": "https://techcrunch.com/2026/07/09/character-ai-enters-the-microdrama-arena-with-its-own-productions-but-with-a-twist/",
-      "source": "TechCrunch AI",
-      "published": "2026-07-09T13:00:00+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_4da35f2ed0",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "Hong Kong regulator orders new anti-phishing measures for crypto platforms",
-      "summary": "Hong Kong’s regulator has ordered crypto platforms and online brokers to meet newly issued phishing-resistant login requirements within the next 12 months.",
-      "url": "https://cointelegraph.com/news/hong-kong-regulator-anti-phishing-measures-crypto-platforms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-07-09T12:53:44+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_d847f306ba",
       "date": "2026-07-09"
     }
   ]
