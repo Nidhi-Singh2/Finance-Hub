@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T12:04:19.050681+00:00",
+  "generated_at": "2026-07-26T12:05:40.205766+00:00",
   "kpis": [
     {
       "name": "S&P 500",
@@ -35,23 +35,353 @@
     },
     {
       "name": "Bitcoin",
-      "val": "$64.0K",
-      "delta": "−1.49%",
-      "dir": "down",
+      "val": "$64.5K",
+      "delta": "+0.74%",
+      "dir": "up",
       "stale": false,
-      "as_of": "2026-07-25T12:04:19.050654+00:00"
+      "as_of": "2026-07-26T12:05:40.205737+00:00"
     },
     {
       "name": "Ethereum",
-      "val": "$1,857",
-      "delta": "−1.27%",
-      "dir": "down",
+      "val": "$1,885",
+      "delta": "+1.50%",
+      "dir": "up",
       "stale": false,
-      "as_of": "2026-07-25T12:04:19.050673+00:00"
+      "as_of": "2026-07-26T12:05:40.205758+00:00"
     }
   ],
   "voices": [],
   "news": [
+    {
+      "title": "‘I’m still confused’: I sold $80,000 in shares on June 30, so why didn’t I receive my dividend?",
+      "summary": "“To my surprise, the proceeds from the sale were credited to my money-market settlement fund.”",
+      "url": "https://www.marketwatch.com/story/im-still-confused-i-sold-80-000-in-shares-on-june-30-so-why-didnt-i-receive-my-dividend-d066016c?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-07-26T12:00:00+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_ad10bf2928",
+      "date": "2026-07-26"
+    },
+    {
+      "title": "What more expensive corporate debt could mean for the AI buildout",
+      "summary": "Wider credit spreads are coming, and they will pressurize heavily indebted segments of the tech sector.",
+      "url": "https://www.cnbc.com/2026/07/26/what-more-expensive-corporate-debt-could-mean-for-the-ai-buildout.html",
+      "source": "CNBC Top",
+      "published": "2026-07-26T11:46:51+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_11297a4087",
+      "date": "2026-07-26"
+    },
+    {
+      "title": "Earnings playbook: Apple and other megacaps lead busiest week of the season",
+      "summary": "It's the most active week of the second-quarter earnings season, and comes at a critical juncture for the broader stock market.",
+      "url": "https://www.cnbc.com/2026/07/26/earnings-playbook-apple-other-megacaps-lead-busiest-week-of-the-season.html",
+      "source": "CNBC Top",
+      "published": "2026-07-26T11:31:20+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_e7e9f45901",
+      "date": "2026-07-26"
+    },
+    {
+      "title": "‘Time will tell whether that was a good bet’: My adviser got me a full SpaceX IPO allocation. Was I lucky?",
+      "summary": "“Investors frequently receive only a small fraction of the shares they request — if they receive any at all.”",
+      "url": "https://www.marketwatch.com/story/time-will-tell-whether-that-was-a-good-bet-my-adviser-got-me-a-full-spacex-ipo-allocation-was-i-lucky-7f319645?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-07-26T11:00:00+00:00",
+      "topic": "Valuation",
+      "importance": "normal",
+      "id": "a_7b0384658c",
+      "date": "2026-07-26"
+    },
+    {
+      "title": "South Korea’s largest bank to launch payment service on JPMorgan’s Kinexys",
+      "summary": "South Korea’s largest lender will use JPMorgan’s blockchain platform to support US dollar cross-border payments for import and export businesses across 10 countries.",
+      "url": "https://cointelegraph.com/news/south-korea-bank-payment-jpmorgans-kinexys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-07-26T10:21:25+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_6c9e2d4ec3",
+      "date": "2026-07-26"
+    },
+    {
+      "title": "Europe's high regulatory bar could spark new crypto industry M&A wave",
+      "summary": "",
+      "url": "https://www.coindesk.com/policy/2026/07/26/europe-s-high-regulatory-bar-could-spark-new-crypto-industry-m-and-a-wave",
+      "source": "CoinDesk",
+      "published": "2026-07-26T10:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_54b87faa48",
+      "date": "2026-07-26"
+    },
+    {
+      "title": "Shiba Inu surges 36% as South Korean traders fuel mystery rally",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/07/26/shiba-inu-surges-36-as-south-korean-traders-fuel-mystery-rally",
+      "source": "CoinDesk",
+      "published": "2026-07-26T07:29:45+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_3fd1a51c0a",
+      "date": "2026-07-26"
+    },
+    {
+      "title": "BitMart to wind down exchange, end trading by Aug. 26",
+      "summary": "Crypto exchange BitMart said it will wind down operations after its BMX token plunged and users reported withdrawal delays, with platform operations set to end in January.",
+      "url": "https://cointelegraph.com/news/bitmart-wind-down-exchange-end-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-07-26T07:11:27+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_f26acad5e0",
+      "date": "2026-07-26"
+    },
+    {
+      "title": "Crypto exchange BitMart to shut down after nine years, BMX token crashes 58%",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/07/26/crypto-exchange-bitmart-to-shut-down-after-nine-years-bmx-token-crashes-58",
+      "source": "CoinDesk",
+      "published": "2026-07-26T06:59:51+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_a06e255e5a",
+      "date": "2026-07-26"
+    },
+    {
+      "title": "Binance ‘red teams’ its own staff every month to keep hackers out",
+      "summary": "Binance regularly tests its employees for security hygiene, with social engineering becoming a major source of industry breaches.",
+      "url": "https://cointelegraph.com/news/binance-red-teams-own-staff-every-month-to-keep-hackers-out?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-07-26T02:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_0dd4288c35",
+      "date": "2026-07-26"
+    },
+    {
+      "title": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
+      "summary": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
+      "url": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "source": "TechCrunch AI",
+      "published": "2026-07-26T01:30:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_db63110d66",
+      "date": "2026-07-26"
+    },
+    {
+      "title": "Samsung Electronics wins $200 billion Broadcom AI chip partnership, boosting foundry push",
+      "summary": "",
+      "url": "https://www.cnbc.com/2026/07/25/samsung-electronics-wins-200-billion-broadcom-ai-chip-partnership.html",
+      "source": "CNBC Top",
+      "published": "2026-07-25T21:11:49+00:00",
+      "topic": "AI",
+      "importance": "high",
+      "id": "a_5176e9d266",
+      "date": "2026-07-25"
+    },
+    {
+      "title": "Robinhood in talks with Crypto.com over prediction markets: WSJ",
+      "summary": "While prediction market companies in the US continue to face legal battles between state and federal authorities, Robinhood is reportedly considering expanding its services.",
+      "url": "https://cointelegraph.com/news/robinhood-cryptocom-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-07-25T21:01:44+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_88f93c32f6",
+      "date": "2026-07-25"
+    },
+    {
+      "title": "I want to transfer $17,000 in credit-card debt. Why did Wells Fargo offer me only a $4,000 credit limit?",
+      "summary": "“I asked why the limit was so low, but they couldn’t give me an explanation.”",
+      "url": "https://www.marketwatch.com/story/i-wanted-to-transfer-17-000-in-credit-card-debt-why-did-wells-fargo-offer-me-only-a-4-000-credit-limit-7ad0a3f0?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-07-25T21:00:00+00:00",
+      "topic": "Banking",
+      "importance": "normal",
+      "id": "a_c9101b5314",
+      "date": "2026-07-25"
+    },
+    {
+      "title": "Here are 4 forces that drove a tough week for stocks",
+      "summary": "Investors navigated everything from escalating tensions in the Middle East to key tech earnings reports to healthcare developments.",
+      "url": "https://www.cnbc.com/2026/07/25/here-are-4-forces-that-drove-a-tough-week-for-stocks.html",
+      "source": "CNBC Top",
+      "published": "2026-07-25T19:56:55+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_c312d140fd",
+      "date": "2026-07-25"
+    },
+    {
+      "title": "Yes, the AI stock selloff looks terrifying. But it might actually save the bull market.",
+      "summary": "The hottest tech trades of 2026 just got slammed — smart investors are buying anyway.",
+      "url": "https://www.marketwatch.com/story/yes-the-ai-stock-selloff-looks-terrifying-but-it-might-actually-save-the-bull-market-3bef59be?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-07-25T18:59:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_80de367551",
+      "date": "2026-07-25"
+    },
+    {
+      "title": "Is your index fund an accidental bet on AI? These two massive ETFs show why it might be.",
+      "summary": "South Korean stocks weren’t a big deal in emerging-markets funds. Artificial intelligence changed that.",
+      "url": "https://www.marketwatch.com/story/south-korean-stocks-werent-a-big-deal-in-your-emerging-markets-fund-artificial-intelligence-changed-that-21308089?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-07-25T18:45:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_276e53d434",
+      "date": "2026-07-25"
+    },
+    {
+      "title": "Bitcoin advocacy group to join US State Department’s ‘digital freedom’ program",
+      "summary": "The Bitcoin Policy Institute and three partner organizations will be able to send employees to work alongside State Department officials to address issues including digital freedom.",
+      "url": "https://cointelegraph.com/news/bitcoin-policy-institute-state-department-program?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-07-25T18:15:44+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_d44dfaaba5",
+      "date": "2026-07-25"
+    },
+    {
+      "title": "Russia’s largest bank Sberbank plans crypto trading infrastructure by December",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/07/25/russia-s-largest-bank-sberbank-plans-crypto-trading-infrastructure-by-december",
+      "source": "CoinDesk",
+      "published": "2026-07-25T16:59:36+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_86355c0da9",
+      "date": "2026-07-25"
+    },
+    {
+      "title": "Librarians are hosting viral ‘Avoiding AI’ workshops for people who are fed up with Big Tech",
+      "summary": "At libraries around the country, \"Avoiding AI\" workshops have elicited unprecedented demand.",
+      "url": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
+      "source": "TechCrunch AI",
+      "published": "2026-07-25T16:00:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_6be9a77117",
+      "date": "2026-07-25"
+    },
+    {
+      "title": "North Korea arrests hackers accused of laundering stolen funds from country's bank via crypto",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/07/25/north-korea-arrests-hackers-accused-of-laundering-stolen-funds-from-country-s-bank-via-crypto",
+      "source": "CoinDesk",
+      "published": "2026-07-25T15:46:05+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_340fcc2193",
+      "date": "2026-07-25"
+    },
+    {
+      "title": "From Silicon Valley to DC, the tech world is suddenly obsessed with one concept in AI: Distillation",
+      "summary": "Distillation has long been a topic for AI wonks, but it's become a hot-button issue of late as techies and lawmakers debate how it should be regulated.",
+      "url": "https://www.cnbc.com/2026/07/25/hat-is-distillation-and-why-is-everyone-so-obsessed-with-it-this-week.html",
+      "source": "CNBC Top",
+      "published": "2026-07-25T14:03:03+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_17ec95a595",
+      "date": "2026-07-25"
+    },
+    {
+      "title": "Blackstone, Brookfield and KKR sign $16 billion deal with Kuwait for oil pipeline network",
+      "summary": "Kuwait Oil will enter joint venture with the three global giants in a lease-and-leaseback structure for a 20.5-year period that includes a volume-based tariff.",
+      "url": "https://www.cnbc.com/2026/07/25/blackstone-brookfield-and-kkr-sign-16-billion-oil-deal-with-kuwait.html",
+      "source": "CNBC Top",
+      "published": "2026-07-25T13:48:05+00:00",
+      "topic": "Investment Banking",
+      "importance": "critical",
+      "id": "a_1b1711fb30",
+      "date": "2026-07-25"
+    },
+    {
+      "title": "Does crypto make your portfolio less risky? Only if you do it right, experts say",
+      "summary": "There's a right way and a wrong way to use cryptocurrencies such as bitcoin for portfolio diversification, financial advisors and market analysts said.",
+      "url": "https://www.cnbc.com/2026/07/25/crypto-diversified-investment-portfolio.html",
+      "source": "CNBC Top",
+      "published": "2026-07-25T13:30:01+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_c5dfc27297",
+      "date": "2026-07-25"
+    },
+    {
+      "title": "North Korea arrests bank hacking ring tied to crypto laundering: Report",
+      "summary": "Daily NK reported that North Korea arrested former state cyber operators accused of hacking two state banks and laundering funds through crypto.",
+      "url": "https://cointelegraph.com/news/north-korea-bank-hacking-ring-crypto-laundering-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-07-25T13:14:18+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_08fc81dd0c",
+      "date": "2026-07-25"
+    },
+    {
+      "title": "One fallen power line exposed a growing AI data center problem. Here’s how to fix it.",
+      "summary": "A close call in Northern Virginia revealed just how poorly data centers respond to grid disruptions. Here's how to fix the problem.",
+      "url": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
+      "source": "TechCrunch AI",
+      "published": "2026-07-25T13:05:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_aeb43aa1ad",
+      "date": "2026-07-25"
+    },
+    {
+      "title": "Democratizing weather derivatives through tokenization could be crypto's most important real-world use case",
+      "summary": "",
+      "url": "https://www.coindesk.com/opinion/2026/07/25/democratizing-weather-derivatives-through-tokenization-could-be-crypto-s-most-important-real-world-use-case",
+      "source": "CoinDesk",
+      "published": "2026-07-25T13:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_a617542eb9",
+      "date": "2026-07-25"
+    },
+    {
+      "title": "Here’s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-07-25T12:06:01+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_8dded07b07",
+      "date": "2026-07-25"
+    },
+    {
+      "title": "Analysis: A powerful new coalition of AI skeptics is coalescing right in Trump's blind spot",
+      "summary": "Evangelicals, labor unions and anti-AI-data-center activists are part of a groundswell worrying about how fast technology is changing.",
+      "url": "https://www.cnbc.com/2026/07/25/trump-ai-data-center-backlash.html",
+      "source": "CNBC Top",
+      "published": "2026-07-25T12:00:02+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_5227d6f782",
+      "date": "2026-07-25"
+    },
+    {
+      "title": "Micron’s AI Repricing Is Real — But the Market Still Isn’t Sure It Can Last",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-ai-repricing-real-market-114136142.html",
+      "source": "Yahoo Finance",
+      "published": "2026-07-25T11:41:36+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_bc35bbd908",
+      "date": "2026-07-25"
+    },
     {
       "title": "Fidelity joins push for Senate passage of CLARITY Act",
       "summary": "Fidelity called on the US Senate to pass the CLARITY Act, joining industry groups and crypto firms pushing for market structure legislation.",
@@ -64,25 +394,58 @@
       "date": "2026-07-25"
     },
     {
-      "title": "We have $8 million in traditional IRAs. Should we tap them to buy a house — and take the tax hit?",
-      "summary": "“We would rather pay taxes upfront than pay mortgage interest.”",
-      "url": "https://www.marketwatch.com/story/we-have-8-million-in-traditional-iras-should-we-tap-them-to-buy-a-house-and-take-the-tax-hit-c2478daa?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-07-25T11:30:00+00:00",
-      "topic": "Investment Banking",
-      "importance": "normal",
-      "id": "a_42045c4ec4",
+      "title": "GE Aerospace (GE) Just Beat and Dropped Again — Is the Third Straight Selloff Any Different This Time?",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ge-aerospace-ge-just-beat-112946138.html",
+      "source": "Yahoo Finance",
+      "published": "2026-07-25T11:29:46+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_78ff6292ce",
       "date": "2026-07-25"
     },
     {
-      "title": "Investors are in the dark about the Fed’s decision this week — and that’s just how Warsh wants it",
-      "summary": "Will Kevin Warsh support a rate hike? Fasten your seat belts for the decision on Wednesday.",
-      "url": "https://www.marketwatch.com/story/investors-are-in-the-dark-about-the-feds-decision-this-week-and-thats-just-how-warsh-wants-it-c9cbfd3f?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-07-25T11:00:00+00:00",
-      "topic": "Macroeconomics",
+      "title": "Elon Musk Warns Short Sellers as $25 Billion Bet Builds Against SpaceX Ahead of Earnings",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-warns-short-sellers-112039197.html",
+      "source": "Yahoo Finance",
+      "published": "2026-07-25T11:20:39+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_00d7f36efa",
+      "date": "2026-07-25"
+    },
+    {
+      "title": "Prediction: This Dividend ETF Will Double by 2034 -- and Pay You Passive Income While You Wait",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-dividend-etf-double-2034-110500449.html",
+      "source": "Yahoo Finance",
+      "published": "2026-07-25T11:05:00+00:00",
+      "topic": "Stocks",
       "importance": "normal",
-      "id": "a_edb996599e",
+      "id": "a_6716c5026b",
+      "date": "2026-07-25"
+    },
+    {
+      "title": "Over 70% of Gen Z investors hold a third of their portfolio in crypto — and only 13% of day traders make money",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/over-70-gen-z-investors-110000377.html",
+      "source": "Yahoo Finance",
+      "published": "2026-07-25T11:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_29256af853",
+      "date": "2026-07-25"
+    },
+    {
+      "title": "Oil Price Rally Masks a Much Bigger Warning From the Strait of Hormuz",
+      "summary": "",
+      "url": "https://finance.yahoo.com/energy/articles/oil-price-rally-masks-much-110000325.html",
+      "source": "Yahoo Finance",
+      "published": "2026-07-25T11:00:00+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_6d25ac0e6d",
       "date": "2026-07-25"
     },
     {
@@ -97,14 +460,14 @@
       "date": "2026-07-25"
     },
     {
-      "title": "I want to transfer $17,000 in credit-card debt. Why did Wells Fargo offer me only a $4,000 credit limit?",
-      "summary": "“I asked why the limit was so low, but they couldn’t give me an explanation.”",
-      "url": "https://www.marketwatch.com/story/i-wanted-to-transfer-17-000-in-credit-card-debt-why-did-wells-fargo-offer-me-only-a-4-000-credit-limit-7ad0a3f0?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
+      "title": "Mortgage and refinance interest rates today, Saturday, July 25, 2026: Highest rates this year",
+      "summary": "",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-july-25-2026-highest-rates-this-year-100000185.html",
+      "source": "Yahoo Finance",
       "published": "2026-07-25T10:00:00+00:00",
-      "topic": "Banking",
+      "topic": "Macroeconomics",
       "importance": "normal",
-      "id": "a_c9101b5314",
+      "id": "a_3eb859353b",
       "date": "2026-07-25"
     },
     {
@@ -116,6 +479,39 @@
       "topic": "AI",
       "importance": "high",
       "id": "a_7481e84fcb",
+      "date": "2026-07-25"
+    },
+    {
+      "title": "Jim Cramer Called 3M Company (NYSE:MMM) “Easy Money” As Earnings Hit The Wires",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-called-3m-company-080528132.html",
+      "source": "Yahoo Finance",
+      "published": "2026-07-25T08:05:28+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_67b2f445c3",
+      "date": "2026-07-25"
+    },
+    {
+      "title": "Western Digital Corporation (NASDAQ:WDC) Got Lucky While Micron’s The Real Deal, Says Jim Cramer",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/western-digital-corporation-nasdaq-wdc-080209259.html",
+      "source": "Yahoo Finance",
+      "published": "2026-07-25T08:02:09+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_f32960e13a",
+      "date": "2026-07-25"
+    },
+    {
+      "title": "Jim Cramer Said To Buy Johnson & Johnson (NYSE:JNJ)’s Shares – Here’s What Happened Next",
+      "summary": "",
+      "url": "https://finance.yahoo.com/healthcare/articles/jim-cramer-said-buy-johnson-075928603.html",
+      "source": "Yahoo Finance",
+      "published": "2026-07-25T07:59:28+00:00",
+      "topic": "Investment Banking",
+      "importance": "normal",
+      "id": "a_80464a833a",
       "date": "2026-07-25"
     },
     {
@@ -155,7 +551,7 @@
       "title": "Moody's says 'unprecedented' AI spending threatens credit quality of Amazon, Meta, Alphabet and others",
       "summary": "Moody's said AI spending is forcing even the world's most cash-rich corporations to lean heavily on debt, stock sales and off-balance-sheet moves.",
       "url": "https://www.cnbc.com/2026/07/24/moodys-ai-spending-credit-quality-amazon-meta-alphabet.html",
-      "source": "CNBC Top",
+      "source": "CNBC Finance",
       "published": "2026-07-24T22:43:56+00:00",
       "topic": "AI",
       "importance": "normal",
@@ -174,17 +570,6 @@
       "date": "2026-07-24"
     },
     {
-      "title": "Musk's bad week: Tesla suffers worst slump since 2022, SpaceX drops ahead of Starship test flight",
-      "summary": "Tesla shares plunged almost 18% this week after the company missed on earnings and turned cash flow negative.",
-      "url": "https://www.cnbc.com/2026/07/24/tesla-tsla-spacex-spcx-stock-starship-test-flight-musk-bad-week.html",
-      "source": "CNBC Top",
-      "published": "2026-07-24T21:57:01+00:00",
-      "topic": "Stocks",
-      "importance": "high",
-      "id": "a_208ca0ef83",
-      "date": "2026-07-24"
-    },
-    {
       "title": "EU authorities include HTX exchange in Russian sanctions",
       "summary": "The exchange, already sanctioned by the UK, is now on a list of 18 entities “providing crypto-assets services or payment services“ in defiance of the EU’s measures against Russia.",
       "url": "https://cointelegraph.com/news/htx-exchange-european-union-russia-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -193,39 +578,6 @@
       "topic": "Cryptocurrency",
       "importance": "normal",
       "id": "a_f60027ddb5",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "The stock market is completely unprepared for a 6% yield on the 30-year Treasury",
-      "summary": "Long-bond spike would crush stock gains and deepen bond-fund losses.",
-      "url": "https://www.marketwatch.com/story/the-30-year-treasury-yield-is-closing-in-on-5-2-a-surge-to-6-could-slam-stocks-fa9631fb?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-07-24T21:38:00+00:00",
-      "topic": "Stocks",
-      "importance": "normal",
-      "id": "a_6e6383cb72",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "Paramount agrees to delay WBD acquisition to as late as June 2027 amid legal challenge",
-      "summary": "Paramount previously said it intended to complete its WBD acquisition by the end of September, but said Friday the agreement is a \"significant win.\"",
-      "url": "https://www.cnbc.com/2026/07/24/paramount-wbd-merger-delay.html",
-      "source": "CNBC Top",
-      "published": "2026-07-24T21:24:09+00:00",
-      "topic": "Investment Banking",
-      "importance": "normal",
-      "id": "a_563b2f3f44",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "Why bond investors are pushing up some of your interest rates",
-      "summary": "Many types of consumer loans such as mortgages peg their interest rate to the yield on 10-year Treasury bonds, which has been moving higher.",
-      "url": "https://www.cnbc.com/2026/07/24/treasury-yields-fed-mortgage-rates.html",
-      "source": "CNBC Top",
-      "published": "2026-07-24T21:09:24+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_02aac72815",
       "date": "2026-07-24"
     },
     {
@@ -240,58 +592,14 @@
       "date": "2026-07-24"
     },
     {
-      "title": "S&P 500 closes little changed Friday as Iran fears and chip sell-off weigh down market: Live updates",
-      "summary": "The three major averages are heading for weekly losses, led by the tech-heavy Nasdaq Composite.",
-      "url": "https://www.cnbc.com/2026/07/23/stock-market-today-live-updates.html",
+      "title": "Trump threatens EU with 'substantial TARIFF' for 'ROBBING' U.S. tech giants",
+      "summary": "Trump on Truth Social railed against the European Union's new fine on Google and prior penalties against U.S. tech giants Apple, Meta and Amazon.",
+      "url": "https://www.cnbc.com/2026/07/24/trump-tariffs-eu-trade-google-apple-tech.html",
       "source": "CNBC Top",
-      "published": "2026-07-24T20:30:15+00:00",
-      "topic": "Stocks",
-      "importance": "normal",
-      "id": "a_b5518a78c5",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "Megacap earnings and Fed meeting could test a market on edge next week. Here’s what’s ahead",
-      "summary": "There's no shortage of hurdles the stock market will have to jump in the week ahead.",
-      "url": "https://www.cnbc.com/2026/07/24/stock-market-next-week-outlook-for-july-27-31-2026.html",
-      "source": "CNBC Top",
-      "published": "2026-07-24T20:17:40+00:00",
+      "published": "2026-07-24T19:39:50+00:00",
       "topic": "Macroeconomics",
-      "importance": "high",
-      "id": "a_15e74f5e10",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "Bond market anxiety is growing over AI capex budgets",
-      "summary": "Google, Amazon and Meta are seeing credit spreads widen as fixed-income investors demand more reward on companies they lend to.",
-      "url": "https://www.cnbc.com/2026/07/24/bond-market-anxiety-ai-capex-spending.html",
-      "source": "CNBC Top",
-      "published": "2026-07-24T20:07:36+00:00",
-      "topic": "AI",
       "importance": "normal",
-      "id": "a_b474681a91",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "1 hyperscaler megacap down, 3 to go. Alphabet raises the stakes on AI spending",
-      "summary": "\"Capex trends are going to be the number one focus,\" Club portfolio director Jeff Marks said Friday ahead of next week's Big Tech earnings.",
-      "url": "https://www.cnbc.com/2026/07/24/1-hyperscaler-megacap-down-3-to-go-alphabet-raises-the-stakes-on-ai-spending.html",
-      "source": "CNBC Top",
-      "published": "2026-07-24T19:41:08+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_8361fa4ac8",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "Here’s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-07-24T19:03:45+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_8dded07b07",
+      "id": "a_1b7dd0c595",
       "date": "2026-07-24"
     },
     {
@@ -303,17 +611,6 @@
       "topic": "AI",
       "importance": "normal",
       "id": "a_4bc025c456",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "Why the Federal Reserve should hike rates next week",
-      "summary": "The Fed cannot know the exact path of inflation, but the potential cost of an energy-driven surge in prices outweighs the cost of a modest preemptive hike.",
-      "url": "https://www.cnbc.com/2026/07/24/why-the-federal-reserve-should-hike-rates-next-week.html",
-      "source": "CNBC Top",
-      "published": "2026-07-24T17:54:28+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_cb15224b4c",
       "date": "2026-07-24"
     },
     {
@@ -592,94 +889,6 @@
       "date": "2026-07-24"
     },
     {
-      "title": "News Corporation Earnings Preview: What to Expect",
-      "summary": "",
-      "url": "https://finance.yahoo.com/media-advertising/articles/news-corporation-earnings-preview-expect-105256553.html",
-      "source": "Yahoo Finance",
-      "published": "2026-07-24T10:52:56+00:00",
-      "topic": "Stocks",
-      "importance": "high",
-      "id": "a_bfcf8eaf14",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "What You Need To Know Ahead of Estée Lauder’s Earnings Release",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/know-ahead-est-e-lauder-104626539.html",
-      "source": "Yahoo Finance",
-      "published": "2026-07-24T10:46:26+00:00",
-      "topic": "Stocks",
-      "importance": "high",
-      "id": "a_24c59e7363",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "Global equity funds attract ninth weekly inflow amid upbeat earnings expectations",
-      "summary": "",
-      "url": "https://finance.yahoo.com/news/global-equity-funds-attract-ninth-103958556.html",
-      "source": "Yahoo Finance",
-      "published": "2026-07-24T10:39:58+00:00",
-      "topic": "Stocks",
-      "importance": "high",
-      "id": "a_2e964842b5",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "What You Need To Know Ahead of Target’s Earnings Release",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/know-ahead-target-earnings-release-103548791.html",
-      "source": "Yahoo Finance",
-      "published": "2026-07-24T10:35:48+00:00",
-      "topic": "Stocks",
-      "importance": "high",
-      "id": "a_973291caa0",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "Intel rises as strong forecasts signal AI boost for turnaround",
-      "summary": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/intel-rises-strong-forecasts-signal-103424987.html",
-      "source": "Yahoo Finance",
-      "published": "2026-07-24T10:34:24+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_77f5f161d5",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "MiCA is Turning Europe Into a Licensing Test for Every Type of Crypto Company",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/mica-turning-europe-licensing-test-102819059.html",
-      "source": "Yahoo Finance",
-      "published": "2026-07-24T10:28:19+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_c714551659",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "Is the Fed About to Hike Rates?",
-      "summary": "",
-      "url": "https://www.wsj.com/finance/investing/is-the-fed-about-to-hike-rates-9307037d?siteid=yhoof2&yptr=yahoo",
-      "source": "Yahoo Finance",
-      "published": "2026-07-24T10:20:00+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_288aee4cd9",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "AI Sales are a Huge Catalyst for Amphenol Shares",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ai-sales-huge-catalyst-amphenol-101250477.html",
-      "source": "Yahoo Finance",
-      "published": "2026-07-24T10:12:50+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_4b94bae360",
-      "date": "2026-07-24"
-    },
-    {
       "title": "India orders takedown of Jack Dorsey’s bitcoin-linked messaging app Bitchat",
       "summary": "",
       "url": "https://www.coindesk.com/tech/2026/07/24/india-orders-takedown-of-jack-dorsey-s-bitcoin-linked-messaging-app-bitchat",
@@ -699,50 +908,6 @@
       "topic": "Cryptocurrency",
       "importance": "normal",
       "id": "a_2aa5d591ef",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "US stocks face tests from Fed decision, tech-led earnings deluge",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/us-stocks-face-tests-fed-100455404.html",
-      "source": "Yahoo Finance",
-      "published": "2026-07-24T10:04:55+00:00",
-      "topic": "Macroeconomics",
-      "importance": "high",
-      "id": "a_656e66b286",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "Exclusive-Defense tech company Anduril in talks to raise funding at about $100 billion valuation",
-      "summary": "",
-      "url": "https://finance.yahoo.com/news/exclusive-defense-tech-company-anduril-100423200.html",
-      "source": "Yahoo Finance",
-      "published": "2026-07-24T10:04:23+00:00",
-      "topic": "Valuation",
-      "importance": "high",
-      "id": "a_417a2df649",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "Philippine bank BPI plans stablecoin payments pilot",
-      "summary": "The Philippine bank is preparing a stablecoin settlement pilot intended to speed up and reduce the cost of overseas payments to Filipino remote workers.",
-      "url": "https://cointelegraph.com/news/philippine-bank-bpi-plans-stablecoin-payments-pilot?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-07-24T10:01:01+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_be1f2acf4c",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "Mortgage and refinance interest rates today, Friday, July 24, 2026: Dropping below 6.5%",
-      "summary": "",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-friday-july-24-2026-dropping-below-65-100000803.html",
-      "source": "Yahoo Finance",
-      "published": "2026-07-24T10:00:00+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_0f6517a94c",
       "date": "2026-07-24"
     },
     {
@@ -766,171 +931,6 @@
       "importance": "normal",
       "id": "a_d3b8bbf0d8",
       "date": "2026-07-24"
-    },
-    {
-      "title": "BTC supply in profit eyes 60%, but analysis hints recovery may ‘roll back over’",
-      "summary": "Bitcoin supply profitability improved versus its 2026 low, but analysis warned that a fake recovery had already broken down at the start of June.",
-      "url": "https://cointelegraph.com/markets/btc-supply-profit-analysis-hints-recovery-roll-over?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-07-24T09:43:07+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_01b9574a02",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "South Korea’s Korbit to rebrand as Digital X under Mirae: Report",
-      "summary": "Mirae Asset reportedly plans to use the South Korean crypto exchange as a hub for tokenized assets, stablecoins and digital finance.",
-      "url": "https://cointelegraph.com/news/korbit-rebrand-digital-x-mirae-asset?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-07-24T08:51:13+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_a2a3c48902",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "Ripple launches Mint to expand institutional access to RLUSD",
-      "summary": "Ripple launches Mint to expand RLUSD access for institutions as the stablecoin’s market cap approaches $1.6 billion.",
-      "url": "https://cointelegraph.com/news/ripple-mint-expand-institutional-access-rlusd?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-07-24T08:47:01+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_dfee58af00",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "Bitcoin mining pool Poolin files for Chapter 11 bankruptcy",
-      "summary": "Bitcoin miner Poolin filed for Chapter 11 bankruptcy and initiated a $52 million sale of its two West Texas mining sites as part of its future creditor recovery program.",
-      "url": "https://cointelegraph.com/news/bitcoin-mining-poolin-chapter-11-bankruptcy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-07-24T08:38:49+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "critical",
-      "id": "a_ffa2430ffb",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "ECB to start implementing enhanced repo facility for central banks",
-      "summary": "",
-      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_2~d7d475d2f0.en.html",
-      "source": "ECB Press",
-      "published": "2026-07-24T08:30:00+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_44935f4f2c",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "EU widens Belarus ownership ban to all crypto service providers",
-      "summary": "The EU will bar Belarusian nationals and residents from owning, controlling or managing exchanges and other MiCA-regulated crypto firms from Aug. 25.",
-      "url": "https://cointelegraph.com/news/eu-belarus-crypto-ownership-ban-mica?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-07-24T08:06:15+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_6af7596358",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "Results of the ECB Survey of Professional Forecasters for the third quarter of 2026",
-      "summary": "",
-      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724~a099353951.en.html",
-      "source": "ECB Press",
-      "published": "2026-07-24T08:00:00+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_62f88cdbfc",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "ECB Consumer Expectations Survey results – June 2026",
-      "summary": "",
-      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_1~fa277eb6fe.en.html",
-      "source": "ECB Press",
-      "published": "2026-07-24T08:00:00+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_5fc7534450",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "Live updates: Bitcoin gives up gains, falls below $64,000 as stocks retreat",
-      "summary": "",
-      "url": "https://www.coindesk.com/tech/2026/07/24/live-updates-dogecoin-and-ether-lead-pullback-as-investors-digest-tech-earnings",
-      "source": "CoinDesk",
-      "published": "2026-07-24T07:22:26+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_6986779f11",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "Bitcoin ETFs snap 7-day inflow streak with $225M in outflows",
-      "summary": "After attracting nearly $1 billion over seven trading sessions, US-listed spot Bitcoin ETFs recorded their first daily net outflow since July 13.",
-      "url": "https://cointelegraph.com/markets/bitcoin-etfs-225-million-outflow-end-7-day-inflow-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-07-24T07:17:57+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_a000e3b5cc",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "Mirae plans to turn crypto exchange Korbit into something Korea hasn't seen before",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/07/24/mirae-asset-has-a-name-for-what-it-s-building-with-korbit-an-intelligent-platform",
-      "source": "CoinDesk",
-      "published": "2026-07-24T06:10:49+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_26c062e2f0",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "Bitcoin holds near $65,000 as $800 billion AI selloff leaves crypto largely untouched",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/07/24/bitcoin-holds-near-usd65-000-as-usd800-billion-ai-selloff-leaves-crypto-largely-untouched",
-      "source": "CoinDesk",
-      "published": "2026-07-24T04:43:19+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_1356c25c12",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "U.S., other nations back open-source AI with 'strong security' at China summit",
-      "summary": "The APEC statement is the first to include open-source cooperation at a minister level, said Li Lecheng, China's industry and information technology minister.",
-      "url": "https://www.cnbc.com/2026/07/24/china-ai-open-source-apec.html",
-      "source": "CNBC Finance",
-      "published": "2026-07-24T02:42:21+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_d83fa8b5a9",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
-      "summary": "We spoke with several cybersecurity researchers, who look for unknown vulnerabilities and develop tools to exploit them, about how OpenAI’s and Anthropic’s guardrails affect their work.",
-      "url": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
-      "source": "TechCrunch AI",
-      "published": "2026-07-24T01:00:00+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_0933b3cb9f",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "AMD takes on Nvidia with its Helios AI rack-scale system",
-      "summary": "AMD is challenging its chipmaker rival with a new rack-scale system that will start shipping to customers later this year.",
-      "url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
-      "source": "TechCrunch AI",
-      "published": "2026-07-23T20:33:02+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_a5e2448846",
-      "date": "2026-07-23"
     }
   ]
 }
