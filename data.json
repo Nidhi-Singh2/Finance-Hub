@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T11:23:07.415211+00:00",
+  "generated_at": "2026-08-23T11:23:02.593382+00:00",
   "kpis": [
     {
       "name": "S&P 500",
@@ -35,19 +35,19 @@
     },
     {
       "name": "Bitcoin",
-      "val": "$76.8K",
-      "delta": "−0.83%",
-      "dir": "down",
+      "val": "$77.1K",
+      "delta": "+0.36%",
+      "dir": "up",
       "stale": false,
-      "as_of": "2026-08-22T11:23:07.415186+00:00"
+      "as_of": "2026-08-23T11:23:02.593356+00:00"
     },
     {
       "name": "Ethereum",
-      "val": "$2,411",
-      "delta": "+1.19%",
+      "val": "$2,426",
+      "delta": "+0.66%",
       "dir": "up",
       "stale": false,
-      "as_of": "2026-08-22T11:23:07.415203+00:00"
+      "as_of": "2026-08-23T11:23:02.593374+00:00"
     }
   ],
   "voices": [
@@ -74,36 +74,245 @@
   ],
   "news": [
     {
-      "title": "A massive ‘corporate welfare’ program is underway — and consumers want a bigger cut of it",
-      "summary": "Tariff refunds have been flowing back to companies since President Donald Trump’s levies were rejected by the Supreme Court.",
-      "url": "https://www.marketwatch.com/story/a-massive-corporate-welfare-program-is-underway-and-consumers-want-a-bigger-cut-of-it-0ff06d67?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-08-22T11:00:00+00:00",
+      "title": "Mortgage and refinance interest rates today, Sunday, August 23, 2026: Higher than last weekend as prime selling season wraps up",
+      "summary": "",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-august-23-2026-higher-than-last-weekend-as-prime-selling-season-wraps-up-100000382.html",
+      "source": "Yahoo Finance",
+      "published": "2026-08-23T10:00:00+00:00",
       "topic": "Macroeconomics",
       "importance": "normal",
-      "id": "a_c40fffdc48",
+      "id": "a_d2adec71c0",
+      "date": "2026-08-23"
+    },
+    {
+      "title": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
+      "summary": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.",
+      "url": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
+      "source": "TechCrunch AI",
+      "published": "2026-08-22T21:46:56+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_f51f92e7e4",
       "date": "2026-08-22"
     },
     {
-      "title": "This has been one of the most affordable U.S. cities to buy a home for the past 134 years",
-      "summary": "Home prices in America have changed dramatically over the last century — but the Midwest has remained a bastion of affordability through it all.",
-      "url": "https://www.marketwatch.com/story/this-has-been-one-of-the-most-affordable-u-s-cities-to-buy-a-home-for-the-past-134-years-0c52895a?mod=mw_rss_topstories",
+      "title": "Nvidia customers reportedly warned about AI-related price hikes",
+      "summary": "The chipmaker has told some of its largest customers that the prices of servers containing its AI chips could move more than 15% higher, Bloomberg News reported.",
+      "url": "https://www.cnbc.com/2026/08/22/nvidia-customers-reportedly-warned-about-ai-related-price-hikes-.html",
+      "source": "CNBC Top",
+      "published": "2026-08-22T20:26:44+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_7b8f54bcbd",
+      "date": "2026-08-22"
+    },
+    {
+      "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+      "summary": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
+      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "source": "TechCrunch AI",
+      "published": "2026-08-22T19:00:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_73e0d72faf",
+      "date": "2026-08-22"
+    },
+    {
+      "title": "OpenAI says California should strengthen its AI safety bill",
+      "summary": "OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.",
+      "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+      "source": "TechCrunch AI",
+      "published": "2026-08-22T16:30:34+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_49378370f6",
+      "date": "2026-08-22"
+    },
+    {
+      "title": "Frontier AI labs still won’t say how they’d contain a rogue model",
+      "summary": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially dangerous behavior.",
+      "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+      "source": "TechCrunch AI",
+      "published": "2026-08-22T16:00:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_869388c58c",
+      "date": "2026-08-22"
+    },
+    {
+      "title": "Crypto exchange BitMart weighs partial restart and creditor payouts weeks after announcing shutdown",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/08/22/crypto-exchange-bitmart-weighs-partial-restart-and-creditor-payouts-weeks-after-announcing-shutdown",
+      "source": "CoinDesk",
+      "published": "2026-08-22T15:16:41+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_c83eb90dca",
+      "date": "2026-08-22"
+    },
+    {
+      "title": "Rising yields rattled the market, but we’re sticking with our favorite AI and retail stocks",
+      "summary": "Stocks took their cue from the bond market this week.",
+      "url": "https://www.cnbc.com/2026/08/22/rising-yields-rattled-the-market-but-were-sticking-with-our-favorite-ai-and-retail-stocks.html",
+      "source": "CNBC Top",
+      "published": "2026-08-22T15:08:54+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_9dd5ff2b8a",
+      "date": "2026-08-22"
+    },
+    {
+      "title": "MiCA is coming for DeFi vaults, but regulation will be difficult",
+      "summary": "Brussels is reviewing whether crypto lending should fall under MiCA, but DeFi lending vaults are making it harder to determine who, exactly, should be regulated.",
+      "url": "https://cointelegraph.com/magazine/mica-is-coming-for-defi-vaults-but-regulation-will-be-difficult?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-08-22T13:30:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_e6f780dee5",
+      "date": "2026-08-22"
+    },
+    {
+      "title": "The biggest U.S. stocks have done great for you. Experts say not to get greedy",
+      "summary": "Low-cost S&P 500 index funds are the foundation of many portfolios to grow wealth, but investors should add assets to diversify and lower volatility.",
+      "url": "https://www.cnbc.com/2026/08/22/stocks-market-investments-diversification.html",
+      "source": "CNBC Top",
+      "published": "2026-08-22T13:26:14+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_75977cf961",
+      "date": "2026-08-22"
+    },
+    {
+      "title": "Our 4-year-old son has $100,000 in his 529 account. Is a bull market a bad time to buy him stocks instead?",
+      "summary": "“I’d love for our son to be able to attend college without needing to take out student loans.”",
+      "url": "https://www.marketwatch.com/story/our-4-year-old-son-has-100-000-in-his-529-account-should-we-buy-him-stocks-instead-3ca745b2?mod=mw_rss_topstories",
       "source": "MarketWatch Top",
-      "published": "2026-08-22T10:00:00+00:00",
+      "published": "2026-08-22T13:01:00+00:00",
       "topic": "Investment Banking",
       "importance": "normal",
-      "id": "a_f75eb42f78",
+      "id": "a_632693705a",
       "date": "2026-08-22"
     },
     {
-      "title": "U.S., Canada fail to reach a tariff deal, deepen trade war",
-      "summary": "The United States and Canada failed to reach a trade deal late on Friday, and the U.S. said it would impose 50% tariffs on some imports from Canada.",
-      "url": "https://www.cnbc.com/2026/08/21/us-canada-fail-to-reach-a-tariff-deal-deepen-trade-war.html",
+      "title": "The Bond King Goes Bananas Over Nvidia's $500 Billion Move. How It May Be Affecting Your Portfolio.",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bond-king-goes-bananas-over-130002636.html",
+      "source": "Yahoo Finance",
+      "published": "2026-08-22T13:00:02+00:00",
+      "topic": "AI",
+      "importance": "high",
+      "id": "a_ab78891e3b",
+      "date": "2026-08-22"
+    },
+    {
+      "title": "Why an announcement from the Treasury sparked a rally in gold and bitcoin this week",
+      "summary": "Cryptocurrencies and precious metals shot higher, while the U.S. dollar weakened, after the Treasury Department said it planned to double its bond buybacks.",
+      "url": "https://www.marketwatch.com/story/why-an-announcement-from-the-treasury-sparked-a-rally-in-gold-and-bitcoin-this-week-d9d5972b?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-08-22T13:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_fbbae83951",
+      "date": "2026-08-22"
+    },
+    {
+      "title": "Move over, credit cards: Social-media stars are tapping magic wands to buy things",
+      "summary": "Tap-to-pay is getting a TikTok makeover as shoppers turn checking out into a personalized accessory.",
+      "url": "https://www.marketwatch.com/story/move-over-credit-cards-social-media-stars-are-tapping-magic-wands-to-buy-things-62e475d4?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-08-22T12:30:00+00:00",
+      "topic": "Investment Banking",
+      "importance": "normal",
+      "id": "a_037aa2fa19",
+      "date": "2026-08-22"
+    },
+    {
+      "title": "‘Always the best time to buy’: Todd Nepola says real estate builds generational wealth. 4 ways to get in from $100",
+      "summary": "",
+      "url": "https://finance.yahoo.com/real-estate/articles/always-best-time-buy-todd-121500299.html",
+      "source": "Yahoo Finance",
+      "published": "2026-08-22T12:15:00+00:00",
+      "topic": "Investment Banking",
+      "importance": "normal",
+      "id": "a_2b81cef7bc",
+      "date": "2026-08-22"
+    },
+    {
+      "title": "These stocks are most overbought even as the S&P 500 posts a losing week",
+      "summary": "Several stocks remain technically overbought even as the S&P 500 pulled back on the week amid rising Treasury yields and inflation concerns.",
+      "url": "https://www.cnbc.com/2026/08/22/these-stocks-are-most-overbought-even-as-the-sp-500-posts-a-losing-week.html",
       "source": "CNBC Top",
-      "published": "2026-08-22T06:20:46+00:00",
+      "published": "2026-08-22T12:00:01+00:00",
       "topic": "Macroeconomics",
       "importance": "normal",
-      "id": "a_01bb3150ed",
+      "id": "a_1cfbbd0211",
+      "date": "2026-08-22"
+    },
+    {
+      "title": "Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto's week in 5 stories",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/08/22/bitcoin-and-ether-bears-get-decimated-amid-squeeze-led-rally-and-musk-s-x-wants-to-pay-creators-in-stablecoins-crypto-week-in-5-stories",
+      "source": "CoinDesk",
+      "published": "2026-08-22T12:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_add4ebf948",
+      "date": "2026-08-22"
+    },
+    {
+      "title": "S&P 500 dividend yield hits record low near 1% and it has some retirees rethinking their strategies",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-dividend-yield-hits-113500363.html",
+      "source": "Yahoo Finance",
+      "published": "2026-08-22T11:35:00+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_16fba7bc31",
+      "date": "2026-08-22"
+    },
+    {
+      "title": "Billionaire Leon Cooperman says today's AI boom echoes a big bust from the 1970s — a lesson from the 'Nifty Fifty' crash",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/billionaire-leon-cooperman-says-todays-113000015.html",
+      "source": "Yahoo Finance",
+      "published": "2026-08-22T11:30:00+00:00",
+      "topic": "AI",
+      "importance": "critical",
+      "id": "a_95b48f1b56",
+      "date": "2026-08-22"
+    },
+    {
+      "title": "Intuitive Machines Misses Big on Earnings. Stifel Upgrades It Anyway",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/intuitive-machines-misses-big-earnings-105201031.html",
+      "source": "Yahoo Finance",
+      "published": "2026-08-22T10:52:01+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_1299112b96",
+      "date": "2026-08-22"
+    },
+    {
+      "title": "This Dividend ETF Won't Let a Stock In Unless It Passes 2 Strict Tests. Here's Why That Matters.",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dividend-etf-wont-let-stock-102000084.html",
+      "source": "Yahoo Finance",
+      "published": "2026-08-22T10:20:00+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_22f636ba58",
+      "date": "2026-08-22"
+    },
+    {
+      "title": "Mortgage and refinance interest rates today, Saturday, August 22, 2026: Bond market sends rates scrambling",
+      "summary": "",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-22-2026-bond-market-sends-rates-scrambling-100000981.html",
+      "source": "Yahoo Finance",
+      "published": "2026-08-22T10:00:00+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_18883d26ed",
       "date": "2026-08-22"
     },
     {
@@ -129,6 +338,17 @@
       "date": "2026-08-22"
     },
     {
+      "title": "Bill Gates pulls $818M from Berkshire to buy this giant",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bill-gates-pulls-818m-berkshire-030700591.html",
+      "source": "Yahoo Finance",
+      "published": "2026-08-22T03:07:00+00:00",
+      "topic": "Investment Banking",
+      "importance": "normal",
+      "id": "a_577ff9a665",
+      "date": "2026-08-22"
+    },
+    {
       "title": "Anthropic’s Opus 4.6 is a smut-machine",
       "summary": "Anthropic forbids its Claude models from generating sexually explicit content. But a series of tests conducted by TechCrunch found that it didn't take much to get past the restriction.",
       "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
@@ -140,17 +360,6 @@
       "date": "2026-08-21"
     },
     {
-      "title": "Dow surges 500 points Friday, but index posts back-to-back weekly losses",
-      "summary": "Stocks rose on Friday as investors tried to find their footing following a steep sell-off driven by rising Treasury yields.",
-      "url": "https://www.cnbc.com/2026/08/20/stock-market-today-live-updates.html",
-      "source": "CNBC Top",
-      "published": "2026-08-21T22:53:08+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_cfa5307254",
-      "date": "2026-08-21"
-    },
-    {
       "title": "Nvidia partners with data center developer Cloverleaf",
       "summary": "Nvidia continues to pour money into data center development — just as AI data centers bring lots of money into Nvidia.",
       "url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
@@ -159,17 +368,6 @@
       "topic": "AI",
       "importance": "normal",
       "id": "a_0aebb6a66a",
-      "date": "2026-08-21"
-    },
-    {
-      "title": "Trump to allow import of 300,000 metric tons of ground beef without tariff",
-      "summary": "Beef prices in the U.S have soared in 2026 due to a reduction in the nation's cattle herd.",
-      "url": "https://www.cnbc.com/2026/08/21/trump-ground-beef-import-tariff.html",
-      "source": "CNBC Top",
-      "published": "2026-08-21T22:35:17+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_1706bf447d",
       "date": "2026-08-21"
     },
     {
@@ -192,17 +390,6 @@
       "topic": "AI",
       "importance": "normal",
       "id": "a_e343bf1d5e",
-      "date": "2026-08-21"
-    },
-    {
-      "title": "Boeing engineers, technical workers reject contract offer",
-      "summary": "Boeing engineers and technical workers rejected the U.S. planemaker's four-year contract offer, union officials said on Friday.",
-      "url": "https://www.cnbc.com/2026/08/21/boeing-engineers-technical-workers-reject-contract-offer.html",
-      "source": "CNBC Top",
-      "published": "2026-08-21T21:51:22+00:00",
-      "topic": "Aviation Finance",
-      "importance": "normal",
-      "id": "a_1320e95085",
       "date": "2026-08-21"
     },
     {
@@ -247,28 +434,6 @@
       "topic": "AI",
       "importance": "high",
       "id": "a_089a5a487c",
-      "date": "2026-08-21"
-    },
-    {
-      "title": "Here’s how Bessent’s newly activist Treasury Department is undercutting the Fed’s Warsh",
-      "summary": "The surprising move this week by Treasury Secretary Scott Bessent to intervene in Treasury markets to lower the cost of government debt undercuts the credibility of Federal Reserve Chairman Kevin Warsh to make interest-rate policy, experts said.",
-      "url": "https://www.marketwatch.com/story/heres-how-bessents-newly-activist-treasury-department-is-undercutting-the-feds-warsh-480455c2?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-08-21T20:11:00+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_6a5eb6adbe",
-      "date": "2026-08-21"
-    },
-    {
-      "title": "Longer-dated Treasury yields rise as Bessent's bond buyback rally fizzles out",
-      "summary": "Concerns over the Treasury Department's debt repurchase program continue to weigh on markets.",
-      "url": "https://www.cnbc.com/2026/08/21/treasury-yields-bonds-inflation-rates.html",
-      "source": "CNBC Top",
-      "published": "2026-08-21T20:05:14+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_79bc13f905",
       "date": "2026-08-21"
     },
     {
@@ -327,21 +492,21 @@
       "date": "2026-08-21"
     },
     {
-      "title": "An overlooked AI winner names a new CFO — plus, Nvidia's key earnings loom",
-      "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "url": "https://www.cnbc.com/2026/08/21/an-overlooked-ai-winner-taps-new-cfo-as-street-awaits-nvidia.html",
-      "source": "CNBC Top",
-      "published": "2026-08-21T18:55:05+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_e17026d668",
+      "title": "U.S. Bank Business Shield Visa review: Solid 0% APR offer, but little long-term rewards value",
+      "summary": "",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/review/us-bank-business-shield-visa-card-185336564.html",
+      "source": "Yahoo Finance",
+      "published": "2026-08-21T18:53:36+00:00",
+      "topic": "Banking",
+      "importance": "normal",
+      "id": "a_c9f5858b4c",
       "date": "2026-08-21"
     },
     {
       "title": "Bessent's bond gambit aimed at calming markets is instead stirring inflation worries",
       "summary": "The so-called breakeven rate hit its highest levels in more than two months.",
       "url": "https://www.cnbc.com/2026/08/21/bessents-bond-gambit-aimed-at-calming-markets-is-instead-stirring-inflation-worries-.html",
-      "source": "CNBC Top",
+      "source": "CNBC Economy",
       "published": "2026-08-21T17:51:10+00:00",
       "topic": "Macroeconomics",
       "importance": "normal",
@@ -352,7 +517,7 @@
       "title": "Kalshi traders think the bitcoin rally could end the year near current levels",
       "summary": "Speculators on the prediction market platform think it's most likely that the cryptocurrency will end 2026 close to where it's now trading.",
       "url": "https://www.cnbc.com/2026/08/21/kalshi-traders-say-bitcoin-rally-wont-go-much-higher-by-end-of-2026.html",
-      "source": "CNBC Top",
+      "source": "CNBC Finance",
       "published": "2026-08-21T17:43:25+00:00",
       "topic": "Cryptocurrency",
       "importance": "normal",
@@ -368,17 +533,6 @@
       "topic": "Cryptocurrency",
       "importance": "normal",
       "id": "a_670a231c08",
-      "date": "2026-08-21"
-    },
-    {
-      "title": "Energy sector is in focus because of Iran, AI and California. Here are hedge funds' top plays",
-      "summary": "The favorite energy stocks of hedge funds - including one with a projected 65% upside",
-      "url": "https://www.cnbc.com/2026/08/21/energy-sector-is-in-focus-because-of-iran-ai-and-california-here-are-hedge-funds-top-plays.html",
-      "source": "CNBC Top",
-      "published": "2026-08-21T16:29:13+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_5c6ea1d5ff",
       "date": "2026-08-21"
     },
     {
@@ -423,17 +577,6 @@
       "topic": "Cryptocurrency",
       "importance": "normal",
       "id": "a_370319a864",
-      "date": "2026-08-21"
-    },
-    {
-      "title": "The Los Angeles Lakers sold for $12.5 billion. Here’s what every NBA team is now worth",
-      "summary": "The pending $12.5 billion Lakers sale would lift CNBC’s average NBA team valuation 21% to $6.68 billion, with the Warriors still No. 1.",
-      "url": "https://www.cnbc.com/2026/08/20/heres-how-the-los-angeles-lakers-12point5b-sale-impacts-the-value-of-all-30-nba-teams.html",
-      "source": "CNBC Top",
-      "published": "2026-08-21T13:15:27+00:00",
-      "topic": "Valuation",
-      "importance": "high",
-      "id": "a_9cf9a6bb35",
       "date": "2026-08-21"
     },
     {
@@ -536,83 +679,6 @@
       "date": "2026-08-21"
     },
     {
-      "title": "Bank of America strategist warns market just flashed a 2000 dot-com bubble signal. Here’s how to protect your portfolio",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-strategist-warns-market-101500180.html",
-      "source": "Yahoo Finance",
-      "published": "2026-08-21T10:15:00+00:00",
-      "topic": "Banking",
-      "importance": "high",
-      "id": "a_b2bb0b6b01",
-      "date": "2026-08-21"
-    },
-    {
-      "title": "Analysis-US corporate AI debt surge tests investor limits as fatigue emerges",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/analysis-us-corporate-ai-debt-100218069.html",
-      "source": "Yahoo Finance",
-      "published": "2026-08-21T10:02:18+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_d8732902c7",
-      "date": "2026-08-21"
-    },
-    {
-      "title": "Mortgage and refinance interest rates today, Friday, August 21, 2026: Rates stand on high ground despite bond market buybacks",
-      "summary": "",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-friday-august-21-2026-rates-stand-on-high-ground-despite-bond-market-buybacks-100000222.html",
-      "source": "Yahoo Finance",
-      "published": "2026-08-21T10:00:00+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_6efa797566",
-      "date": "2026-08-21"
-    },
-    {
-      "title": "Broadcom’s (AVGO) Massive New Debt Deal Points To Where AI Is Headed",
-      "summary": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-massive-debt-deal-094528841.html",
-      "source": "Yahoo Finance",
-      "published": "2026-08-21T09:45:28+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_4f37275901",
-      "date": "2026-08-21"
-    },
-    {
-      "title": "Nebius (NBIS) Raises $5B Convertible Bond As AI Compute Demand Surges",
-      "summary": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nebius-nbis-raises-5b-convertible-093337551.html",
-      "source": "Yahoo Finance",
-      "published": "2026-08-21T09:33:37+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_a87e245592",
-      "date": "2026-08-21"
-    },
-    {
-      "title": "Costco is launching Medicare Advantage plans with SCAN Group, banking on the same brand trust that sells its chicken",
-      "summary": "",
-      "url": "https://finance.yahoo.com/healthcare/articles/costco-launching-medicare-advantage-plans-093000557.html",
-      "source": "Yahoo Finance",
-      "published": "2026-08-21T09:30:00+00:00",
-      "topic": "Banking",
-      "importance": "normal",
-      "id": "a_7062e0f714",
-      "date": "2026-08-21"
-    },
-    {
-      "title": "Global equity fund inflows hit three-week high before late selloff",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/global-equity-fund-inflows-hit-092302468.html",
-      "source": "Yahoo Finance",
-      "published": "2026-08-21T09:23:02+00:00",
-      "topic": "Stocks",
-      "importance": "normal",
-      "id": "a_d311442261",
-      "date": "2026-08-21"
-    },
-    {
       "title": "Treasury's latest measure isn't QE or YCC. Still, bitcoin is skyrocketing. Here's why.",
       "summary": "",
       "url": "https://www.coindesk.com/markets/2026/08/21/treasury-s-latest-measure-isn-t-qe-or-ycc-still-bitcoin-is-skyrocketing-here-s-why",
@@ -632,17 +698,6 @@
       "topic": "Stocks",
       "importance": "critical",
       "id": "a_5a0366ccfd",
-      "date": "2026-08-21"
-    },
-    {
-      "title": "Alibaba’s (BABA) AI Bet Crushes Profit While Cloud Revenue Soars",
-      "summary": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/alibaba-baba-ai-bet-crushes-090413974.html",
-      "source": "Yahoo Finance",
-      "published": "2026-08-21T09:04:13+00:00",
-      "topic": "AI",
-      "importance": "critical",
-      "id": "a_9dfa833407",
       "date": "2026-08-21"
     },
     {
@@ -676,17 +731,6 @@
       "topic": "Cryptocurrency",
       "importance": "high",
       "id": "a_f061072e79",
-      "date": "2026-08-21"
-    },
-    {
-      "title": "A China Chip Denial Lands Before Nvidia’s (NVDA) Big Week",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/china-chip-denial-lands-nvidia-082114198.html",
-      "source": "Yahoo Finance",
-      "published": "2026-08-21T08:21:14+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_d727f347bc",
       "date": "2026-08-21"
     },
     {
@@ -907,50 +951,6 @@
       "topic": "AI",
       "importance": "normal",
       "id": "a_09cce0bcaf",
-      "date": "2026-08-20"
-    },
-    {
-      "title": "US debt tops $40T stoking debate on what it means for Bitcoin",
-      "summary": "Analysts say the $40 trillion debt milestone could bolster Bitcoin’s long-term case, even as Treasury yields, dollar strength and liquidity remain key near-term drivers.",
-      "url": "https://cointelegraph.com/markets/bitcoin-surges-after-us-debt-crosses-40t?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-08-20T17:43:58+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "critical",
-      "id": "a_fea2355aa9",
-      "date": "2026-08-20"
-    },
-    {
-      "title": "A third of web pages published since ChatGPT launched were written by AI, study finds",
-      "summary": "ChatGPT and other AI models are now authoring and editing much of the new web.",
-      "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
-      "source": "TechCrunch AI",
-      "published": "2026-08-20T17:18:58+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_c1acbf6d10",
-      "date": "2026-08-20"
-    },
-    {
-      "title": "Ramp launches its own AI model router, called Router",
-      "summary": "Ramp has launched its own AI model routing service, dubbed Router, that lets users and companies use and switch between various large language models via an API.",
-      "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
-      "source": "TechCrunch AI",
-      "published": "2026-08-20T16:46:00+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_430c219cd3",
-      "date": "2026-08-20"
-    },
-    {
-      "title": "Treasury buybacks could set up bitcoin’s next move toward $180,000, says strategist",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/08/20/treasury-buybacks-could-set-up-bitcoin-s-next-move-toward-usd180-000",
-      "source": "CoinDesk",
-      "published": "2026-08-20T16:17:32+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_d9308563d7",
       "date": "2026-08-20"
     }
   ]
