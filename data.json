@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T21:20:04.944174+00:00",
+  "generated_at": "2026-08-29T15:32:34.039195+00:00",
   "kpis": [
     {
       "name": "S&P 500",
@@ -35,33 +35,209 @@
     },
     {
       "name": "Bitcoin",
-      "val": "$77.4K",
-      "delta": "−3.30%",
+      "val": "$77.9K",
+      "delta": "−1.76%",
       "dir": "down",
       "stale": false,
-      "as_of": "2026-08-28T21:20:04.944153+00:00"
+      "as_of": "2026-08-29T15:32:34.039174+00:00"
     },
     {
       "name": "Ethereum",
-      "val": "$2,428",
-      "delta": "−3.03%",
+      "val": "$2,444",
+      "delta": "−2.47%",
       "dir": "down",
       "stale": false,
-      "as_of": "2026-08-28T21:20:04.944168+00:00"
+      "as_of": "2026-08-29T15:32:34.039188+00:00"
     }
   ],
   "voices": [],
   "news": [
     {
-      "title": "Nvidia’s revenue forecast is so huge that Wall Street wonders if SpaceX is the reason",
-      "summary": "SpaceX plans to spend tons of money on chips and recently announced it will only buy Nvidia’s. But other high-profile companies need more processing power as well.",
-      "url": "https://www.marketwatch.com/story/nvidias-revenue-forecast-is-so-huge-that-wall-street-wonders-if-spacex-is-the-reason-1ee7a8a9?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-08-28T20:58:00+00:00",
+      "title": "Swift’s $1.5 quadrillion network faces a blockchain test",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/08/29/swift-s-usd1-5-quadrillion-network-faces-a-blockchain-test",
+      "source": "CoinDesk",
+      "published": "2026-08-29T15:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_6df2a41a12",
+      "date": "2026-08-29"
+    },
+    {
+      "title": "The next trillion-dollar currency may not be a stablecoin — it might not even have a name yet",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/08/29/the-next-trillion-dollar-currency-may-not-be-a-stablecoin-it-might-not-even-have-a-name-yet",
+      "source": "CoinDesk",
+      "published": "2026-08-29T15:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "critical",
+      "id": "a_753d0079f2",
+      "date": "2026-08-29"
+    },
+    {
+      "title": "Fed Chairman Warsh shows courage with Jackson Hole speech, defying political pressure, says Harvard's Rogoff",
+      "summary": "",
+      "url": "https://finance.yahoo.com/economy/article/fed-chairman-warsh-shows-courage-with-jackson-hole-speech-defying-political-pressure-says-harvards-rogoff-140951926.html",
+      "source": "Yahoo Finance",
+      "published": "2026-08-29T14:09:51+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_c65ae6d95a",
+      "date": "2026-08-29"
+    },
+    {
+      "title": "Stock Market Week Ahead: Chips, Cybersecurity And Jobs",
+      "summary": "",
+      "url": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-chips-cybersecurity-and-jobs/?src=A00220&yptr=yahoo",
+      "source": "Yahoo Finance",
+      "published": "2026-08-29T13:07:58+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_2d3ef0450d",
+      "date": "2026-08-29"
+    },
+    {
+      "title": "Nvidia’s AI advantage is moving beyond the GPU",
+      "summary": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
+      "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
+      "source": "TechCrunch AI",
+      "published": "2026-08-29T13:00:00+00:00",
       "topic": "AI",
+      "importance": "normal",
+      "id": "a_5ddc9875f1",
+      "date": "2026-08-29"
+    },
+    {
+      "title": "Here’s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-08-29T12:39:59+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_8dded07b07",
+      "date": "2026-08-29"
+    },
+    {
+      "title": "Tech backlash reaches fever pitch as AI angst collides with social media fears",
+      "summary": "With data center concerns becoming a major election issue and Meta reaching a landmark settlement in a social media case, the tech backlash is gaining steam.",
+      "url": "https://www.cnbc.com/2026/08/29/tech-backlash-ai-data-centers-elections.html",
+      "source": "CNBC Top",
+      "published": "2026-08-29T12:16:03+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_7af567b8f3",
+      "date": "2026-08-29"
+    },
+    {
+      "title": "Bank of America says these stocks have upside heading into September",
+      "summary": "Several stocks offer plenty more room to appreciate in September, Bank of America said this week.",
+      "url": "https://www.cnbc.com/2026/08/29/bank-of-america-says-these-stocks-have-upside-heading-into-september.html",
+      "source": "CNBC Top",
+      "published": "2026-08-29T12:12:35+00:00",
+      "topic": "Banking",
+      "importance": "normal",
+      "id": "a_11664015dc",
+      "date": "2026-08-29"
+    },
+    {
+      "title": "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Amazon Holds Key Level",
+      "summary": "",
+      "url": "https://www.investors.com/research/best-stocks-seven-magnificent-stocks-earnings-growth/?src=A00220&yptr=yahoo",
+      "source": "Yahoo Finance",
+      "published": "2026-08-29T12:00:21+00:00",
+      "topic": "Stocks",
       "importance": "high",
-      "id": "a_17302637dd",
-      "date": "2026-08-28"
+      "id": "a_d0aa3568e6",
+      "date": "2026-08-29"
+    },
+    {
+      "title": "Dow Jones Futures: Microsoft, Titans Mask Market Weakness. Here's What To Do.",
+      "summary": "",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-microsoft-titans-mask-market-weakness/?src=A00220&yptr=yahoo",
+      "source": "Yahoo Finance",
+      "published": "2026-08-29T11:56:31+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_323cd73952",
+      "date": "2026-08-29"
+    },
+    {
+      "title": "Wall Street is turning Nvidia's AI chips into a new futures market: Chart of the Day",
+      "summary": "",
+      "url": "https://finance.yahoo.com/markets/article/wall-street-is-turning-nvidias-ai-chips-into-a-new-futures-market-chart-of-the-day-115118331.html",
+      "source": "Yahoo Finance",
+      "published": "2026-08-29T11:51:18+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_bae90e6769",
+      "date": "2026-08-29"
+    },
+    {
+      "title": "Mortgage and refinance interest rates today, Saturday, August 29, 2026: Fixed rates move slightly higher into the weekend",
+      "summary": "",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-29-2026-fixed-rates-move-slightly-higher-into-the-weekend-114438775.html",
+      "source": "Yahoo Finance",
+      "published": "2026-08-29T11:44:38+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_d7653df119",
+      "date": "2026-08-29"
+    },
+    {
+      "title": "Robert Kiyosaki says he’s $1.2B in debt — and isn’t worried. He uses debt to buy this 1 asset and ‘pay no tax legally’",
+      "summary": "",
+      "url": "https://finance.yahoo.com/real-estate/articles/robert-kiyosaki-says-1-2b-113500795.html",
+      "source": "Yahoo Finance",
+      "published": "2026-08-29T11:35:00+00:00",
+      "topic": "Investment Banking",
+      "importance": "normal",
+      "id": "a_8528b1b6df",
+      "date": "2026-08-29"
+    },
+    {
+      "title": "Corporate earnings have been growing at a blistering pace. Here’s why that’s not likely to last.",
+      "summary": "The recent blistering pace of earnings growth is unsustainable.",
+      "url": "https://www.marketwatch.com/story/corporate-earnings-have-been-growing-at-a-blistering-pace-heres-why-thats-not-likely-to-last-28810eac?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-08-29T11:30:00+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_add024b58d",
+      "date": "2026-08-29"
+    },
+    {
+      "title": "The S&P 500 keeps climbing on days when stocks broadly struggle. Here’s what’s going on.",
+      "summary": "Investors’ intense focus on AI is at times adding to the might of a small club of Big Tech stocks with mega market values to potentially make or break a single trading session for the S&P 500.",
+      "url": "https://www.marketwatch.com/story/the-s-p-500-keeps-climbing-on-days-when-stocks-broadly-struggle-heres-whats-going-on-60ad5c72?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-08-29T11:00:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_59efc72579",
+      "date": "2026-08-29"
+    },
+    {
+      "title": "Bitcoin ETFs end 9-day inflow streak as BTC dips below $78K",
+      "summary": "US spot Bitcoin ETFs posted $201.8 million in net outflows Friday, led by ARK 21Shares, as total fund assets slipped back below $100 billion.",
+      "url": "https://cointelegraph.com/markets/bitcoin-etf-end-9-day-inflow-streak-btc-below-78k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-08-29T06:47:12+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "high",
+      "id": "a_3fedc7eab0",
+      "date": "2026-08-29"
+    },
+    {
+      "title": "Bitcoin wallets untouched for 10 years moved $40 million. Most avoided exchanges",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/08/28/bitcoin-wallets-untouched-for-10-years-moved-usd40-million-most-avoided-exchanges",
+      "source": "CoinDesk",
+      "published": "2026-08-29T04:30:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_447ee34e75",
+      "date": "2026-08-29"
     },
     {
       "title": "S&P 500 falls Friday after Fed’s Warsh highlights inflation worries, but index posts positive week",
@@ -72,17 +248,6 @@
       "topic": "Macroeconomics",
       "importance": "normal",
       "id": "a_587582e57f",
-      "date": "2026-08-28"
-    },
-    {
-      "title": "Here’s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-08-28T20:42:54+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_8dded07b07",
       "date": "2026-08-28"
     },
     {
@@ -105,39 +270,6 @@
       "topic": "AI",
       "importance": "normal",
       "id": "a_23fc190f14",
-      "date": "2026-08-28"
-    },
-    {
-      "title": "Kevin Warsh gets what every Fed chair hopes for: a bond market that trusts his word",
-      "summary": "Kevin Warsh passed another big test as a new Federal Reserve chairman on Friday: He said the central bank still has work to do on inflation, and the bond market took him at his word.",
-      "url": "https://www.marketwatch.com/story/kevin-warsh-gets-what-every-fed-chair-hopes-for-a-bond-market-that-trust-his-words-5103dad5?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-08-28T20:10:00+00:00",
-      "topic": "Banking",
-      "importance": "normal",
-      "id": "a_054d1b5262",
-      "date": "2026-08-28"
-    },
-    {
-      "title": "2-year Treasury yield jumps as Warsh says Fed may 'have work to do'",
-      "summary": "Investors assessed Federal Reserve Chair Kevin Warsh's hawkish message in his keynote address at Jackson Hole.",
-      "url": "https://www.cnbc.com/2026/08/28/treasury-yields-jackson-hole.html",
-      "source": "CNBC Top",
-      "published": "2026-08-28T20:08:18+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_337830eb56",
-      "date": "2026-08-28"
-    },
-    {
-      "title": "AI wants to help you pick a Medicare plan. Should you let it?",
-      "summary": "Using artificial-intelligence tools to help navigate Medicare’s open-enrollment season might seem like an easy way to simplify what can be an overwhelming decision.",
-      "url": "https://www.marketwatch.com/story/why-you-shouldnt-use-ai-to-pick-a-medicare-plan-5db7c50f?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-08-28T20:05:00+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_2e28083d9d",
       "date": "2026-08-28"
     },
     {
@@ -174,28 +306,6 @@
       "date": "2026-08-28"
     },
     {
-      "title": "Meet Generation Renter — young Americans who don’t expect to ever own a home",
-      "summary": "Also in Weekend Reads: How to start investing, an AI boost for an old industry and advice from the Moneyist.",
-      "url": "https://www.marketwatch.com/story/meet-generation-renter-young-americans-who-no-longer-expect-ever-to-own-a-home-3cff63a9?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-08-28T19:01:00+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_4726bf3f57",
-      "date": "2026-08-28"
-    },
-    {
-      "title": "Bolster your portfolio with these dividend-paying cash cows as midterms approach",
-      "summary": "A new market catalyst is on the horizon in the form of midterm elections. ISS Stoxx picked out a few cash cows that may offer some stability.",
-      "url": "https://www.cnbc.com/2026/08/28/bolster-your-portfolio-with-these-dividend-paying-cash-cows-as-midterms-approach.html",
-      "source": "CNBC Top",
-      "published": "2026-08-28T18:41:20+00:00",
-      "topic": "Stocks",
-      "importance": "normal",
-      "id": "a_c81675e9f6",
-      "date": "2026-08-28"
-    },
-    {
       "title": "Open-weight AI companies are the Valley’s hottest acquisition targets",
       "summary": "There's a lot of capital pouring into the business of giving models away.",
       "url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
@@ -204,17 +314,6 @@
       "topic": "AI",
       "importance": "normal",
       "id": "a_e96655ce15",
-      "date": "2026-08-28"
-    },
-    {
-      "title": "Treasury moves to sanction UAE branch of Egyptian bank over Iran ties",
-      "summary": "Banque Misr UAE processed about $1.8 billion over two years for some 100 companies that are potentially part of Iran's shadow banking network, Treasury said.",
-      "url": "https://www.cnbc.com/2026/08/28/treasury-uae-banque-misr-sanctions-iran.html",
-      "source": "CNBC Top",
-      "published": "2026-08-28T18:13:13+00:00",
-      "topic": "Banking",
-      "importance": "high",
-      "id": "a_f29435bc8a",
       "date": "2026-08-28"
     },
     {
@@ -229,14 +328,14 @@
       "date": "2026-08-28"
     },
     {
-      "title": "The biggest risk to retirement plans may no longer be a stock market crash or inflation",
-      "summary": "An obsolete datapoint may be sabotaging your retirement outcome",
-      "url": "https://www.marketwatch.com/story/your-portfolio-can-recover-from-a-bear-market-but-can-it-survive-you-living-to-110-cc6d344c?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-08-28T16:46:00+00:00",
+      "title": "Analysis: Kevin Warsh sharpens inflation warning at Jackson Hole, signaling possible rate hike",
+      "summary": "After confusing markets at his July news conference, Fed Chairman Kevin Warsh used Jackson Hole to give a clearer view of the case for higher interest rates.",
+      "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-fed-inflation-rate-hike.html",
+      "source": "CNBC Top",
+      "published": "2026-08-28T17:44:02+00:00",
       "topic": "Macroeconomics",
-      "importance": "critical",
-      "id": "a_e3f3efb8a7",
+      "importance": "normal",
+      "id": "a_20506528f9",
       "date": "2026-08-28"
     },
     {
@@ -265,7 +364,7 @@
       "title": "Fed Chairman Warsh expresses concern about inflation, advocates for 'quieter' central bank",
       "summary": "He used the speech to outline his philosophy on policymaking while carefully sidestepping any signals",
       "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html",
-      "source": "CNBC Top",
+      "source": "CNBC Economy",
       "published": "2026-08-28T16:11:51+00:00",
       "topic": "Banking",
       "importance": "normal",
@@ -325,28 +424,6 @@
       "topic": "Macroeconomics",
       "importance": "normal",
       "id": "a_5957be70eb",
-      "date": "2026-08-28"
-    },
-    {
-      "title": "Marc Benioff is getting his mojo back as Salesforce's AI strength quiets skeptics",
-      "summary": "Salesforce's stock had its second-best day on record following earnings, as Wall Street shows renewed confidence in CEO Marc Benioff's AI story.",
-      "url": "https://www.cnbc.com/2026/08/28/marc-benioff-getting-his-mojo-back-as-salesforce-lifts-ai-growth-view.html",
-      "source": "CNBC Top",
-      "published": "2026-08-28T13:44:25+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_0e317f4ca8",
-      "date": "2026-08-28"
-    },
-    {
-      "title": "Marvell shares tumble 6% as outlook underwhelms despite 37% revenue growth",
-      "summary": "Marvell Technology shares fell Friday despite a second-quarter revenue beat, as its fiscal 2028 outlook failed to meet investors' expectations.",
-      "url": "https://www.cnbc.com/2026/08/28/marvell-mrvl-q2-earnings-outlook.html",
-      "source": "CNBC Top",
-      "published": "2026-08-28T13:42:43+00:00",
-      "topic": "Stocks",
-      "importance": "high",
-      "id": "a_4574bc5280",
       "date": "2026-08-28"
     },
     {
@@ -625,17 +702,6 @@
       "date": "2026-08-28"
     },
     {
-      "title": "An XRP treasury company backed by Ripple is a shareholder vote away from Nasdaq",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/08/28/an-xrp-treasury-company-backed-by-ripple-is-a-shareholder-vote-away-from-nasdaq",
-      "source": "CoinDesk",
-      "published": "2026-08-28T04:21:22+00:00",
-      "topic": "Stocks",
-      "importance": "normal",
-      "id": "a_523f87a1c6",
-      "date": "2026-08-28"
-    },
-    {
       "title": "Abu Dhabi royal backs 49% stake in Trump-linked crypto bank venture: WSJ",
       "summary": "Sheikh Tahnoon’s group reportedly backs a 49% stake in the holding company behind World Liberty’s conditionally approved US trust bank.",
       "url": "https://cointelegraph.com/news/abu-dhabi-royal-trump-world-liberty-crypto-bank-wsj?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -724,17 +790,6 @@
       "date": "2026-08-27"
     },
     {
-      "title": "Ethena surges as buyback vote, VC unlock overhaul boost token outlook",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/08/27/ethena-surges-as-buyback-vote-vc-unlock-overhaul-boost-token-outlook",
-      "source": "CoinDesk",
-      "published": "2026-08-27T17:32:20+00:00",
-      "topic": "Stocks",
-      "importance": "high",
-      "id": "a_f19c533a36",
-      "date": "2026-08-27"
-    },
-    {
       "title": "Fed's Hammack says 'now is the time to act' on raising interest rates",
       "summary": "She still thinks the Fed needs to take action against inflation that is straining household budgets.",
       "url": "https://www.cnbc.com/2026/08/27/feds-hammack-says-now-is-the-time-to-act-on-raising-interest-rates.html",
@@ -757,39 +812,6 @@
       "date": "2026-08-27"
     },
     {
-      "title": "Charles Schwab adda Solana, Avalanche and Chainlink to nascent crypto platform",
-      "summary": "The financial services giant plans to expand Schwab Crypto beyond Bitcoin and Ether just months after rolling out direct crypto trading to retail clients.",
-      "url": "https://cointelegraph.com/news/charles-schwab-to-add-solana-avalanche-and-chainlink-to-crypto-platform?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-08-27T16:13:10+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_bd9e4d276a",
-      "date": "2026-08-27"
-    },
-    {
-      "title": "Polish Olympic chief arrested as prosecutors probe suspected crypto-linked bribe",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/08/27/polish-olympic-chief-arrested-as-prosecutors-probe-suspected-crypto-linked-bribe",
-      "source": "CoinDesk",
-      "published": "2026-08-27T16:12:10+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_90f28d36f6",
-      "date": "2026-08-27"
-    },
-    {
-      "title": "Bitcoin’s 23% rally sends beaten-down miners soaring past AI stocks",
-      "summary": "Canaan, American Bitcoin and Cango jumped as much as 67% as renewed crypto demand showed BTC exposure can still drive mining equities despite the industry’s AI push.",
-      "url": "https://cointelegraph.com/markets/bitcoin-miner-stocks-rally-crypto-demand-ai-hpc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-08-27T16:04:15+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_38ff174ca4",
-      "date": "2026-08-27"
-    },
-    {
       "title": "Google’s AI Mode can now track flight prices, help book hotels, and more",
       "summary": "The updates indicate that Google is looking to position AI Mode as an AI travel agent of sorts, as it's moving beyond simply helping users find information to actually handling parts of the trip-planning and booking process.",
       "url": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
@@ -798,50 +820,6 @@
       "topic": "AI",
       "importance": "normal",
       "id": "a_ae9828bf51",
-      "date": "2026-08-27"
-    },
-    {
-      "title": "UK government reports 240 crypto millionaires in 2025",
-      "summary": "About 17,600 people in the UK reported a combined $1.9 billion in gains tied to crypto in the 2024 to 2025 tax year, with 240 each declaring more than $1.4 million.",
-      "url": "https://cointelegraph.com/news/uk-government-crypto-millionaires-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-08-27T15:56:00+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_b90861b32f",
-      "date": "2026-08-27"
-    },
-    {
-      "title": "MoonPay’s newest integration lets AI agents handle crypto lending on Solana",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/08/27/moonpay-s-newest-integration-lets-ai-agents-handle-crypto-lending-on-solana",
-      "source": "CoinDesk",
-      "published": "2026-08-27T15:52:21+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_af1a1ea49f",
-      "date": "2026-08-27"
-    },
-    {
-      "title": "240 UK taxpayers made more than $1.3 million each from crypto holdings in fiscal 2025",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/08/27/240-uk-taxpayers-made-more-than-usd1-3-million-each-from-crypto-holdings-in-fiscal-2025",
-      "source": "CoinDesk",
-      "published": "2026-08-27T15:36:25+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_812feb4589",
-      "date": "2026-08-27"
-    },
-    {
-      "title": "Bank of America doubles down on Nvidia stock",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-doubles-down-nvidia-153054071.html",
-      "source": "Yahoo Finance",
-      "published": "2026-08-27T15:30:54+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_a89e5809c5",
       "date": "2026-08-27"
     },
     {
@@ -900,36 +878,58 @@
       "date": "2026-08-27"
     },
     {
-      "title": "Stocks Rally as Nvidia Earnings Boost AI Optimism",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-rally-nvidia-earnings-boost-140031535.html",
-      "source": "Yahoo Finance",
-      "published": "2026-08-27T14:00:31+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_222d0a41af",
+      "title": "Delay to the November 2026 RTGS standards release",
+      "summary": "Bank of England statement",
+      "url": "https://www.bankofengland.co.uk/news/2026/august/delay-to-the-november-2026-rtgs-standards-release",
+      "source": "Bank of England",
+      "published": "2026-08-27T13:16:29+00:00",
+      "topic": "Banking",
+      "importance": "normal",
+      "id": "a_8fcbff7c76",
       "date": "2026-08-27"
     },
     {
-      "title": "Earnings spur software and chip rally, offsetting weakness in other areas of the market: AlphaCheck",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/article/earnings-spur-software-and-chip-rally-offsetting-weakness-in-other-areas-of-the-market-alphacheck-135658418.html",
-      "source": "Yahoo Finance",
-      "published": "2026-08-27T13:56:58+00:00",
-      "topic": "Stocks",
-      "importance": "high",
-      "id": "a_30ba2a7581",
+      "title": "Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents",
+      "summary": "Called Plaud One, these adopt the simple bare-bones style of Apple's AirPods, and can record calls, while their case can be used to record in-person conversations or take notes.",
+      "url": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/",
+      "source": "TechCrunch AI",
+      "published": "2026-08-27T13:00:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_270ff70a79",
       "date": "2026-08-27"
     },
     {
-      "title": "Nasdaq rises as Nvidia stock jumps on revenue forecast",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-rises-nvidia-stock-jumps-135038016.html",
-      "source": "Yahoo Finance",
-      "published": "2026-08-27T13:50:38+00:00",
+      "title": "OpenAI to start showing ads on ChatGPT’s free and Go tiers in India",
+      "summary": "OpenAI has more than 100 million weekly active ChatGPT users in India, a huge chunk of whom are on the free or the lower-priced Go tiers.",
+      "url": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/",
+      "source": "TechCrunch AI",
+      "published": "2026-08-27T11:35:59+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_6d44e8f5a5",
+      "date": "2026-08-27"
+    },
+    {
+      "title": "Nvidia closes in on Hugging Face acquisition",
+      "summary": "Nvidia has reportedly agreed to buy Hugging Face, the popular open source AI hub, for $12.9 billion in a move that would let Nvidia both protect its chip empire and jump back into the cloud business.",
+      "url": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/",
+      "source": "TechCrunch AI",
+      "published": "2026-08-27T06:32:51+00:00",
       "topic": "AI",
       "importance": "high",
-      "id": "a_cebbdbc74e",
+      "id": "a_d1183c0e6b",
+      "date": "2026-08-27"
+    },
+    {
+      "title": "Z.ai shares surge 8% after releasing new AI model running only on Chinese chips",
+      "summary": "The Chinese AI company said it had already launched the model globally in stealth mode for a week.",
+      "url": "https://www.cnbc.com/2026/08/27/zai-shares-surge-new-ai-model-using-chinese-chips.html",
+      "source": "CNBC Finance",
+      "published": "2026-08-27T05:34:13+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_0d64453122",
       "date": "2026-08-27"
     }
   ]
