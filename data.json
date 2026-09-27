@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T14:55:15.954260+00:00",
+  "generated_at": "2026-09-27T15:34:11.950728+00:00",
   "kpis": [
     {
       "name": "S&P 500",
@@ -35,43 +35,230 @@
     },
     {
       "name": "Bitcoin",
-      "val": "$84.0K",
-      "delta": "+0.37%",
+      "val": "$84.6K",
+      "delta": "+0.51%",
       "dir": "up",
       "stale": false,
-      "as_of": "2026-09-26T14:55:15.954236+00:00"
+      "as_of": "2026-09-27T15:34:11.950707+00:00"
     },
     {
       "name": "Ethereum",
-      "val": "$2,689",
-      "delta": "+0.10%",
-      "dir": "up",
+      "val": "$2,688",
+      "delta": "−0.19%",
+      "dir": "down",
       "stale": false,
-      "as_of": "2026-09-26T14:55:15.954252+00:00"
+      "as_of": "2026-09-27T15:34:11.950722+00:00"
     }
   ],
   "voices": [],
   "news": [
     {
-      "title": "I’m afraid of ‘starving to death.’ Social Security stopped our checks due to a hacked bank account. What can we do?",
-      "summary": "“We are relying on our church for our current needs.”",
-      "url": "https://www.marketwatch.com/story/social-security-stopped-our-checks-due-to-a-hacked-bank-account-were-relying-on-our-church-for-help-what-can-we-do-a9464325?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-09-26T14:44:00+00:00",
-      "topic": "Banking",
+      "title": "Meta's Muse agent is attacking one of the economy's most profitable weak spots",
+      "summary": "Meta's Muse AI personal agent will work over your credit card spending if you don't mind the invasion. How big a threat is it to the subscription economy?",
+      "url": "https://www.cnbc.com/2026/09/27/meta-muse-ai-personal-agent.html",
+      "source": "CNBC Top",
+      "published": "2026-09-27T14:33:22+00:00",
+      "topic": "AI",
       "importance": "normal",
-      "id": "a_76ba1c194b",
+      "id": "a_78c184f73b",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "Vitalik Buterin maps Ethereum’s shift beyond a blockchain in sweeping 2030 vision",
+      "summary": "",
+      "url": "https://www.coindesk.com/tech/2026/09/27/vitalik-buterin-maps-ethereum-s-shift-beyond-a-blockchain-in-sweeping-2030-vision",
+      "source": "CoinDesk",
+      "published": "2026-09-27T14:29:13+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_d641545044",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth",
+      "summary": "Micron is increasingly important to the S&P 500, and its earnings report has become “a market event in and of itself.”",
+      "url": "https://www.marketwatch.com/story/micron-could-dethrone-nvidia-and-become-the-biggest-driver-of-s-p-500-profit-growth-d62e0e68?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-09-27T14:00:00+00:00",
+      "topic": "AI",
+      "importance": "high",
+      "id": "a_a6138291f2",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "Look closer, and Wall Street’s rally is showing cracks",
+      "summary": "Major stock indexes hovering near records are masking a market straining under elevated oil prices, rising Treasury yields and a Federal Reserve bracing for additional interest-rate hikes.",
+      "url": "https://www.marketwatch.com/story/look-closer-and-wall-streets-rally-is-showing-cracks-94952048?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-09-27T13:00:00+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_a19161fa3c",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "Australia asks OpenAI, Anthropic chiefs to Senate inquiry on rogue hack: Report",
+      "summary": "A rogue OpenAI research agent bypassed blocks on the Australian government health-data portal, accessing non-public files in June.",
+      "url": "https://cointelegraph.com/news/australia-summons-openai-anthropic-chiefs-to-senate-inquiry-on-health-data-hack-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-09-27T12:46:28+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_6f233af111",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "Top Wall Street analysts like these 3 dividend stocks for steady income",
+      "summary": "Investors seeking a stable income stream can enhance their portfolios with the addition of dividend stocks.",
+      "url": "https://www.cnbc.com/2026/09/27/top-wall-street-analysts-like-these-dividend-stocks-for-steady-income.html",
+      "source": "CNBC Top",
+      "published": "2026-09-27T11:33:15+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_9ab3afe975",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "Wall Street money takes back over from small investors as driving force of the stock market",
+      "summary": "One firm sees a \"reasonably constructive signal for risk appetite\" among institutional investors.",
+      "url": "https://www.cnbc.com/2026/09/27/institutional-investors-stocks-treaurys-retail-traders.html",
+      "source": "CNBC Top",
+      "published": "2026-09-27T11:32:35+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_f81062534a",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "This key part of the stock market could be headed for a meaningful breakout",
+      "summary": "The Technology Select SPDR (XLK) has an opportunity to turn a bounce into a more meaningful breakout, says Frank Cappelleri.",
+      "url": "https://www.cnbc.com/2026/09/27/this-key-part-of-the-stock-market-could-be-headed-for-a-meaningful-breakout.html",
+      "source": "CNBC Top",
+      "published": "2026-09-27T11:27:11+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_a7d4bd58ad",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "Debt-hungry AI companies face increased risk as bond yields spike",
+      "summary": "The AI infrastructure buildout shows no sign of slowing, but the surge in Treasury yields means it's at least going to cost more.",
+      "url": "https://www.cnbc.com/2026/09/27/debt-hungry-data-center-companies-increased-risk-bond-yields-spike.html",
+      "source": "CNBC Top",
+      "published": "2026-09-27T11:00:01+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_d78accffd9",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "Why the upcoming jobs report could send 10-year and 30-year Treasury yields surging",
+      "summary": "Another hot jobs report could also pressure the Federal Reserve to raise interest rates again in October.",
+      "url": "https://www.marketwatch.com/story/why-the-upcoming-jobs-report-could-send-10-year-and-30-year-treasury-yields-surging-67eab4ba?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-09-27T11:00:00+00:00",
+      "topic": "Macroeconomics",
+      "importance": "high",
+      "id": "a_4285e60da7",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "Riot Platforms repays $200M credit facility, releases collateral",
+      "summary": "The Bitcoin miner has continued to expand its data-center business as well.",
+      "url": "https://cointelegraph.com/news/riot-platforms-repays-200m-credit-facility-releases-collateral?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-09-27T09:57:19+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_997be5b4cb",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "Saylor outlines ‘bill of digital rights’ to help build prosperity in future economy",
+      "summary": "Our ambition should be to “enable 10 million new companies to raise capital,” Strategy’s executive chairman Michael Saylor wrote in an essay.",
+      "url": "https://cointelegraph.com/news/saylor-outlines-bill-of-digital-rights-to-help-build-prosperity-in-future-economy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-09-27T07:18:42+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "high",
+      "id": "a_28f247b8b3",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "OpenAI, Anthropic CEOs called to appear at Australian AI probe",
+      "summary": "The Australian Medicare breach is one of the highest-profile incidents of AI agents accessing external systems outside the U.S.",
+      "url": "https://www.cnbc.com/2026/09/27/openai-anthropic-ceos-called-to-appear-at-australian-ai-probe.html",
+      "source": "CNBC Top",
+      "published": "2026-09-27T07:13:12+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_b00adf000a",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+      "summary": "The limited test covers select products and users, with a broader rollout planned for later in October.",
+      "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
+      "source": "TechCrunch AI",
+      "published": "2026-09-27T01:30:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_0f12115c7a",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "Boeing flags 737 Max software glitch affecting some automated approach functions",
+      "summary": "Boeing identified a software issue on some 737 Max aircraft that can affect automated vertical navigation functions after a missed approach.",
+      "url": "https://www.cnbc.com/2026/09/26/boeing-737-max-navigation-software-glitch.html",
+      "source": "CNBC Top",
+      "published": "2026-09-26T21:55:01+00:00",
+      "topic": "Aviation Finance",
+      "importance": "normal",
+      "id": "a_91554383a2",
       "date": "2026-09-26"
     },
     {
-      "title": "The blue-collar AI job market is booming. Will data center backlash make it go bust?",
-      "summary": "The public has soured on AI data centers and states are slowing development, but for HVAC, plumbing, welding, and electrical workers, it's been a jobs boom.",
-      "url": "https://www.cnbc.com/2026/09/26/blue-collar-jobs-ai-data-center-backlash.html",
-      "source": "CNBC Top",
-      "published": "2026-09-26T14:16:07+00:00",
+      "title": "Insurers claim AI is already increasing healthcare costs",
+      "summary": "Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period.",
+      "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+      "source": "TechCrunch AI",
+      "published": "2026-09-26T21:02:06+00:00",
       "topic": "AI",
       "importance": "normal",
-      "id": "a_211f98e06c",
+      "id": "a_cb9891c8e5",
+      "date": "2026-09-26"
+    },
+    {
+      "title": "From $6 eggs to $50,000 cars, these charts show how inflation has defined the past 5 years",
+      "summary": "Rising prices have been crushing consumer confidence and biting at Americans’ wallets for more than five years now.",
+      "url": "https://www.marketwatch.com/story/from-6-eggs-to-50-000-cars-these-charts-show-how-inflation-has-defined-the-past-5-years-3c7b9ab9?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-09-26T17:54:00+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_c9fe2023a7",
+      "date": "2026-09-26"
+    },
+    {
+      "title": "OpenAI expands review of model behavior after more rogue agent incidents emerge",
+      "summary": "OpenAI is conducting an extensive review of misaligned model activity after disclosures involving an Australian government portal and other websites.",
+      "url": "https://www.cnbc.com/2026/09/26/openai-agent-model-behavior-review.html",
+      "source": "CNBC Top",
+      "published": "2026-09-26T17:10:32+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_03dfba8e81",
+      "date": "2026-09-26"
+    },
+    {
+      "title": "This may be the ‘missing piece’ for investors looking to boost AI exposure",
+      "summary": "Matthews Asia portfolio manager Andrew Mattock delivers a strategy that revolves around the world's second largest economy.",
+      "url": "https://www.cnbc.com/2026/09/26/ai-portfolios-may-need-china-to-grab-the-biggest-gains.html",
+      "source": "CNBC Top",
+      "published": "2026-09-26T15:00:01+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_a3b15bcdb7",
       "date": "2026-09-26"
     },
     {
@@ -108,21 +295,10 @@
       "date": "2026-09-26"
     },
     {
-      "title": "How to keep profiting from AI while shielding your portfolio against the risk of a slowdown",
-      "summary": "Jamie Wilhelm and Sunit Gogia of Fort Washington Investment Advisors expect the AI wave to continue, but describe leading indicators of an eventual downturn.",
-      "url": "https://www.marketwatch.com/story/how-to-keep-profiting-from-ai-while-shielding-your-portfolio-against-the-risk-of-a-slowdown-a5801291?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-09-26T13:35:00+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_05d22c3133",
-      "date": "2026-09-26"
-    },
-    {
       "title": "The 10-year Treasury yield is at its highest in nearly two decades. How we got here",
       "summary": "The benchmark yield has climbed to a 19-year high, fueled by sticky inflation, heavy bond issuance and an AI-fueled investment boom.",
       "url": "https://www.cnbc.com/2026/09/26/10-year-treasury-yield-is-at-its-highest-in-19-years-how-we-got-here.html",
-      "source": "CNBC Top",
+      "source": "CNBC Finance",
       "published": "2026-09-26T13:30:06+00:00",
       "topic": "AI",
       "importance": "normal",
@@ -149,17 +325,6 @@
       "topic": "Cryptocurrency",
       "importance": "normal",
       "id": "a_8dded07b07",
-      "date": "2026-09-26"
-    },
-    {
-      "title": "China wants in on U.S. AI data center boom. Here's why",
-      "summary": "Chinese data center manufacturers see U.S. AI infrastructure demand as an opportunity, but roadblocks remain",
-      "url": "https://www.cnbc.com/2026/09/26/china-us-ai-data-centers.html",
-      "source": "CNBC Top",
-      "published": "2026-09-26T12:00:01+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_f45a984aac",
       "date": "2026-09-26"
     },
     {
@@ -196,17 +361,6 @@
       "date": "2026-09-26"
     },
     {
-      "title": "Chinese AI models surge in global popularity — and Washington is worried",
-      "summary": "Usage of Chinese AI models by businesses across the globe has increased substantially in 2026.",
-      "url": "https://www.cnbc.com/2026/09/26/china-ai-global-adoption.html",
-      "source": "CNBC Top",
-      "published": "2026-09-26T05:00:01+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_3b54cffbd4",
-      "date": "2026-09-26"
-    },
-    {
       "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
       "summary": "Boom Supersonic CEO Blake Scholl said the company's new stationary power plants were no longer in Crusoe's near-term plans.",
       "url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
@@ -215,17 +369,6 @@
       "topic": "AI",
       "importance": "normal",
       "id": "a_067fe22675",
-      "date": "2026-09-25"
-    },
-    {
-      "title": "Dow jumps more than 470 points Friday; stocks notch winning week despite Treasury yield surge",
-      "summary": "Wall Street gets set to wrap up a volatile week of trading, with a surge in Treasury yields rippling through financial markets.",
-      "url": "https://www.cnbc.com/2026/09/24/stock-market-today-live-updates.html",
-      "source": "CNBC Top",
-      "published": "2026-09-25T22:41:12+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_8658c74465",
       "date": "2026-09-25"
     },
     {
@@ -383,17 +526,6 @@
       "date": "2026-09-25"
     },
     {
-      "title": "U.S. appeals court upholds Pentagon designation of Anthropic as supply chain risk",
-      "summary": "In a 2-1 decision, a federal appeals court upheld the Department of Defense's blacklisting of Anthropic.",
-      "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
-      "source": "CNBC Top",
-      "published": "2026-09-25T17:19:19+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_ef5515194e",
-      "date": "2026-09-25"
-    },
-    {
       "title": "Strategy seeks shareholder approval for daily preferred stock dividends",
       "summary": "Strategy’s proposal would move STRC and its three other preferred stocks to daily dividend payments, following a similar move by Bitcoin treasury firm Strive.",
       "url": "https://cointelegraph.com/news/strategy-seeks-shareholder-approval-daily-preferred-stock-dividends?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -501,17 +633,6 @@
       "topic": "Macroeconomics",
       "importance": "normal",
       "id": "a_3f6a8dce5e",
-      "date": "2026-09-25"
-    },
-    {
-      "title": "CEO who posted 'Lake America' sweatshirt photos is no longer with the company",
-      "summary": "Smith on Sept. 11 had posted an allegedly AI-edited photo on Facebook of her family dressed in \"Lake America\" sweatshirts.",
-      "url": "https://www.cnbc.com/2026/09/25/ceo-who-posted-lake-america-sweatshirt-photos-has-left-the-company.html",
-      "source": "CNBC Top",
-      "published": "2026-09-25T13:32:57+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_09aac64352",
       "date": "2026-09-25"
     },
     {
@@ -669,17 +790,6 @@
       "date": "2026-09-25"
     },
     {
-      "title": "Lightspeed targets $250M for new India fund, focusing on early-stage AI",
-      "summary": "The venture firm is aligning its India fundraising cycle with its global funds for the first time, as it shifts to a shorter investment period.",
-      "url": "https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai/",
-      "source": "TechCrunch AI",
-      "published": "2026-09-25T05:00:00+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_2b03fd5dc6",
-      "date": "2026-09-25"
-    },
-    {
       "title": "Researchers propose Zcash-style private Bitcoin transfers without a soft fork",
       "summary": "Shielded Bitcoin would use zero-knowledge proofs and encrypted notes to hide transaction details without changing Bitcoin consensus, but researchers have raised questions about anonymity and quantum resistance.",
       "url": "https://cointelegraph.com/news/shielded-bitcoin-zcash-style-privacy-no-soft-fork?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -713,17 +823,6 @@
       "date": "2026-09-25"
     },
     {
-      "title": "Asia dominates Crypto Adoption Index, Bitget’s $352M hack: Asia Express",
-      "summary": "The APAC region accounts for half of the Global Crypto Adoption Index. Bitget suffers massive $352M loss and OpenAI forgets to mention its agents hacked the Australian Government.",
-      "url": "https://cointelegraph.com/magazine/asia-dominates-crypto-adoption-index-bitgets-356m-hack-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-09-24T23:27:17+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_baf19fa660",
-      "date": "2026-09-24"
-    },
-    {
       "title": "U.S. Federal Reserve moves on proposals to implement GENIUS Act for stablecoins",
       "summary": "",
       "url": "https://www.coindesk.com/policy/2026/09/24/u-s-federal-reserve-moves-on-proposals-to-implement-genius-act-for-stablecoins",
@@ -732,17 +831,6 @@
       "topic": "Macroeconomics",
       "importance": "normal",
       "id": "a_2bcdd27608",
-      "date": "2026-09-24"
-    },
-    {
-      "title": "Fed proposes new capital, redemption rules for stablecoin issuers",
-      "summary": "The Fed’s proposal would set capital requirements, a two-day redemption window and new reserve disclosures as regulators implement the GENIUS Act.",
-      "url": "https://cointelegraph.com/news/fed-proposes-new-capital-redemption-rules-for-stablecoin-issuers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-09-24T22:10:09+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_1075492d13",
       "date": "2026-09-24"
     },
     {
@@ -843,94 +931,6 @@
       "importance": "normal",
       "id": "a_6d317870a0",
       "date": "2026-09-24"
-    },
-    {
-      "title": "Almost ten million people took part in ECB survey on new euro banknotes",
-      "summary": "",
-      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260923~6ebddaf01e.en.html",
-      "source": "ECB Press",
-      "published": "2026-09-23T09:00:00+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_a6ed92a1a5",
-      "date": "2026-09-23"
-    },
-    {
-      "title": "This Little-Known AI Chip Stock Doubled. Its New Chips Now Double Optical Speed",
-      "summary": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/little-known-ai-chip-stock-042916921.html",
-      "source": "Yahoo Finance",
-      "published": "2026-09-23T04:29:16+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_7e4801cf02",
-      "date": "2026-09-23"
-    },
-    {
-      "title": "Pat Gelsinger Just Backed a $100 Million Challenge to Nvidia’s AI Networking Moat. AMD Could Benefit",
-      "summary": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/pat-gelsinger-just-backed-100-042433352.html",
-      "source": "Yahoo Finance",
-      "published": "2026-09-23T04:24:33+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_9a4966983d",
-      "date": "2026-09-23"
-    },
-    {
-      "title": "Lumentum Jumped Nearly 10% While Corning Barely Moved. Is the AI Optics Trade Splitting Apart?",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/lumentum-jumped-nearly-10-while-041957023.html",
-      "source": "Yahoo Finance",
-      "published": "2026-09-23T04:19:57+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_3474edc7eb",
-      "date": "2026-09-23"
-    },
-    {
-      "title": "Intel (INTC) Could Get a Fresh Valuation for Altera. AMD (AMD) Is the Rival to Watch",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-intc-could-fresh-valuation-041710849.html",
-      "source": "Yahoo Finance",
-      "published": "2026-09-23T04:17:10+00:00",
-      "topic": "Valuation",
-      "importance": "normal",
-      "id": "a_9178ef2ad0",
-      "date": "2026-09-23"
-    },
-    {
-      "title": "Nvidia doubles down on selling to both sides of the AI race",
-      "summary": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-doubles-down-selling-both-020300627.html",
-      "source": "Yahoo Finance",
-      "published": "2026-09-23T02:03:00+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_c36a2a047b",
-      "date": "2026-09-23"
-    },
-    {
-      "title": "Strive CEO: Bitcoin Could ‘Go to Infinity' as Dollar Debt Crisis Breaks",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/strive-ceo-bitcoin-could-infinity-015100441.html",
-      "source": "Yahoo Finance",
-      "published": "2026-09-23T01:51:00+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_3911d5396a",
-      "date": "2026-09-23"
-    },
-    {
-      "title": "May Mobility's SPAC Merger: Is This a Road to Nowhere for Investors?",
-      "summary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/may-mobilitys-spac-merger-road-015000118.html",
-      "source": "Yahoo Finance",
-      "published": "2026-09-23T01:50:00+00:00",
-      "topic": "Investment Banking",
-      "importance": "normal",
-      "id": "a_c48045481b",
-      "date": "2026-09-23"
     }
   ]
 }
