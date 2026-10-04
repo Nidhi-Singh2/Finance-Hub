@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T15:05:15.955107+00:00",
+  "generated_at": "2026-10-04T15:42:18.485230+00:00",
   "kpis": [
     {
       "name": "S&P 500",
@@ -35,19 +35,19 @@
     },
     {
       "name": "Bitcoin",
-      "val": "$84.8K",
-      "delta": "−0.93%",
-      "dir": "down",
+      "val": "$85.3K",
+      "delta": "+0.57%",
+      "dir": "up",
       "stale": false,
-      "as_of": "2026-10-03T15:05:15.955073+00:00"
+      "as_of": "2026-10-04T15:42:18.485200+00:00"
     },
     {
       "name": "Ethereum",
-      "val": "$2,681",
-      "delta": "−1.00%",
-      "dir": "down",
+      "val": "$2,697",
+      "delta": "+0.65%",
+      "dir": "up",
       "stale": false,
-      "as_of": "2026-10-03T15:05:15.955097+00:00"
+      "as_of": "2026-10-04T15:42:18.485221+00:00"
     }
   ],
   "voices": [
@@ -60,19 +60,207 @@
       "source": "ECB Press",
       "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261001~cf3c630379.en.html",
       "date": "2026-10-01"
-    },
-    {
-      "name": "David Solomon",
-      "role": "CEO, Goldman Sachs",
-      "initials": "DS",
-      "bg": "var(--p-mint)",
-      "quote": "The Goldman Sachs board has reportedly discussed replacing CEO David Solomon, 64, with president John Waldron, 57, as early as next year.",
-      "source": "CNBC Finance",
-      "url": "https://www.cnbc.com/2026/09/29/goldman-sachs-ceo-succession-planning.html",
-      "date": "2026-09-29"
     }
   ],
   "news": [
+    {
+      "title": "Trump unveils his new Super Intelligence Force",
+      "summary": "This new task force is Trump's latest response to the debate over AI safety.",
+      "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+      "source": "TechCrunch AI",
+      "published": "2026-10-04T15:15:10+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_7351d832b7",
+      "date": "2026-10-04"
+    },
+    {
+      "title": "Corporate America has never been this upbeat about future profits",
+      "summary": "As third-quarter earnings kick off this week, more companies than ever have expressed optimism about their bottom lines.",
+      "url": "https://www.marketwatch.com/story/corporate-america-has-never-been-this-upbeat-about-future-profits-fbaf8cd9?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-10-04T14:00:00+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_0e71487d45",
+      "date": "2026-10-04"
+    },
+    {
+      "title": "Crypto poured years into new products. The next challenge is keeping users",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/10/04/crypto-poured-years-into-new-products-the-next-challenge-is-keeping-users",
+      "source": "CoinDesk",
+      "published": "2026-10-04T14:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_d107b09692",
+      "date": "2026-10-04"
+    },
+    {
+      "title": "Starting a watch collection? What beginners should know before buying",
+      "summary": "Watch experts explain how beginners can start a collection, what tends to hold value, when to buy used and how to avoid costly mistakes.",
+      "url": "https://www.cnbc.com/2026/10/04/watch-collecting-beginners.html",
+      "source": "CNBC Top",
+      "published": "2026-10-04T13:44:31+00:00",
+      "topic": "Investment Banking",
+      "importance": "normal",
+      "id": "a_69ee44a687",
+      "date": "2026-10-04"
+    },
+    {
+      "title": "A 'weird' IPO pull, a tainted reputation and the stalled breakout moment for AI wearables",
+      "summary": "Apple, Google and Meta are pushing new AI devices and assistants amid growing privacy concerns around wearables.",
+      "url": "https://www.cnbc.com/2026/10/04/ai-wearables-oura-ipo-privacy.html",
+      "source": "CNBC Top",
+      "published": "2026-10-04T13:22:39+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_0da8166df5",
+      "date": "2026-10-04"
+    },
+    {
+      "title": "JPMorgan’s best stock ideas heading into October",
+      "summary": "JPMorgan has pointed to several investment ideas its analyst like for October. They include American Express, Thermo Fisher Scientific and Liberty Energy.",
+      "url": "https://www.cnbc.com/2026/10/04/jpmorgans-best-stock-ideas-heading-into-october.html",
+      "source": "CNBC Top",
+      "published": "2026-10-04T13:17:14+00:00",
+      "topic": "Investment Banking",
+      "importance": "normal",
+      "id": "a_61edefd3de",
+      "date": "2026-10-04"
+    },
+    {
+      "title": "The Clarity Act stalled. Bankers aren’t hitting the brakes yet on crypto dealmaking",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/10/04/the-clarity-act-stalled-crypto-dealmakers-aren-t-hitting-the-brakes-yet",
+      "source": "CoinDesk",
+      "published": "2026-10-04T13:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_cbb16cb611",
+      "date": "2026-10-04"
+    },
+    {
+      "title": "Trump taps Director of National Intelligence Jay Clayton as AI czar",
+      "summary": "Director of National Intelligence Jay Clayton will lead the administration's AI policy.",
+      "url": "https://www.cnbc.com/2026/10/03/trump-jay-clayton-ai-czar.html",
+      "source": "CNBC Top",
+      "published": "2026-10-04T12:53:12+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_457084b2e1",
+      "date": "2026-10-04"
+    },
+    {
+      "title": "Fed minutes coming this week could give markets important clues about future rate hikes",
+      "summary": "Minutes from the September meeting may provide extra context, as the real fed-funds rate is now surprisingly low.",
+      "url": "https://www.marketwatch.com/story/fed-minutes-coming-this-week-could-give-markets-important-clues-about-future-rate-hikes-31bfba5b?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-10-04T12:00:00+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_60d4a845f7",
+      "date": "2026-10-04"
+    },
+    {
+      "title": "In crude Ohio rally speech, Trump says he may not help if Democrats win",
+      "summary": "Ohio's is among eight U.S. Senate races rated competitive. The state has turned into a campaign battlefield over data centers and culture war issues.",
+      "url": "https://www.cnbc.com/2026/10/04/in-ohio-rally-speech-trump-says-he-may-not-help-if-democrats-win.html",
+      "source": "CNBC Top",
+      "published": "2026-10-04T09:44:25+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_f3fb3874e1",
+      "date": "2026-10-04"
+    },
+    {
+      "title": "El Salvador receives $138 million from IMF after Bitcoin waivers granted",
+      "summary": "Efforts will continue to reduce the state’s involvement in Bitcoin-related activities and to strengthen crypto‑asset regulation and governance, the IMF said.",
+      "url": "https://cointelegraph.com/news/el-salvador-receives-138-million-from-imf-after-bitcoin-waivers-granted?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-10-04T09:40:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_617b28f0ba",
+      "date": "2026-10-04"
+    },
+    {
+      "title": "Russia’s Finance Ministry pays wages in digital rubles for first time",
+      "summary": "Work on the introduction of the digital ruble to the budget process is being carried out by the Bank of Russia together with the Ministry of Finance.",
+      "url": "https://cointelegraph.com/news/russias-finance-ministry-pays-wages-in-digital-rubles-for-first-time?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-10-04T07:18:00+00:00",
+      "topic": "Banking",
+      "importance": "normal",
+      "id": "a_cd2e250e2f",
+      "date": "2026-10-04"
+    },
+    {
+      "title": "Falling wages, soaring energy prices and inflation: It’s beginning to look a lot like the 1970s",
+      "summary": "Is it time to dust off the financial playbook from that dismal decade?",
+      "url": "https://www.marketwatch.com/story/falling-wages-soaring-energy-prices-and-inflation-its-beginning-to-look-a-lot-like-the-1970s-d645cbca?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-10-03T23:58:00+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_2457101594",
+      "date": "2026-10-03"
+    },
+    {
+      "title": "These bond strategies can help you get a safe 5% return on your cash",
+      "summary": "With U.S. Treasury yields on the rise, financial planners say they’re seeing a growing interest in bonds, especially among investors looking to secure fixed income in retirement.",
+      "url": "https://www.marketwatch.com/story/these-bond-strategies-can-help-you-get-a-safe-5-return-on-your-cash-5fa45ccd?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-10-03T18:49:00+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_330698486b",
+      "date": "2026-10-03"
+    },
+    {
+      "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+      "summary": "By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job.",
+      "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+      "source": "TechCrunch AI",
+      "published": "2026-10-03T16:30:01+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_5e21fe64ca",
+      "date": "2026-10-03"
+    },
+    {
+      "title": "Payments firm OpenPayd targets year-end Nasdaq listing to fund U.S. expansion and acquisitions",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/10/03/openpayd-targets-year-end-nasdaq-listing-to-fund-u-s-expansion-and-acquisitions",
+      "source": "CoinDesk",
+      "published": "2026-10-03T16:00:00+00:00",
+      "topic": "Valuation",
+      "importance": "normal",
+      "id": "a_a7d570d749",
+      "date": "2026-10-03"
+    },
+    {
+      "title": "Crypto job postings triple to over 1,200 in September, but applications fall",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/10/03/crypto-job-postings-triple-to-over-1-200-in-september-but-applications-fall",
+      "source": "CoinDesk",
+      "published": "2026-10-03T16:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_b7a3aec931",
+      "date": "2026-10-03"
+    },
+    {
+      "title": "How Nvidia, Micron and a surprising jobs report drove last week's stock action",
+      "summary": "Here's a closer look at the three developments that drove the action in our portfolio last week.",
+      "url": "https://www.cnbc.com/2026/10/03/how-nvidia-micron-and-a-surprising-jobs-report-drove-last-weeks-stock-action.html",
+      "source": "CNBC Top",
+      "published": "2026-10-03T15:06:10+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_418fb56c52",
+      "date": "2026-10-03"
+    },
     {
       "title": "Cathie Wood says smart investors need to start watching where AI agents spend money",
       "summary": "",
@@ -82,17 +270,6 @@
       "topic": "AI",
       "importance": "normal",
       "id": "a_31d020eede",
-      "date": "2026-10-03"
-    },
-    {
-      "title": "You might be shocked by how many stocks are in a bear market right now",
-      "summary": "The S&P 500 was trading within 2 percentage points of its record closing high on Tuesday, but dig a little bit deeper, and things are looking far less rosy.",
-      "url": "https://www.marketwatch.com/story/you-might-be-shocked-by-how-many-stocks-are-in-a-bear-market-right-now-017c9cd8?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-10-03T14:10:00+00:00",
-      "topic": "Stocks",
-      "importance": "normal",
-      "id": "a_8a652b3708",
       "date": "2026-10-03"
     },
     {
@@ -118,28 +295,6 @@
       "date": "2026-10-03"
     },
     {
-      "title": "High interest rates are foreclosing on the American home remodeling dream",
-      "summary": "Homeowners are stuck in houses they might have left by now due to the low mortgage rates of the past, and can't even remodel with HELOCs too expensive to tap.",
-      "url": "https://www.cnbc.com/2026/10/03/mortgage-rates-home-equity-heloc-remodeling.html",
-      "source": "CNBC Top",
-      "published": "2026-10-03T13:11:37+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_c4caebf4e4",
-      "date": "2026-10-03"
-    },
-    {
-      "title": "The U.S. jobs market just took a turn for the worse. Or did it?",
-      "summary": "The bottom didn’t drop out of the labor market after a poor September U.S. jobs report. But what it did show is hiring is slow and it’s a tough time to find work.",
-      "url": "https://www.marketwatch.com/story/the-u-s-jobs-market-just-took-a-turn-for-the-worse-or-did-it-c44c371b?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-10-03T13:00:00+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_aaab2bd048",
-      "date": "2026-10-03"
-    },
-    {
       "title": "Crypto's Sisyphean struggle",
       "summary": "",
       "url": "https://www.coindesk.com/opinion/2026/10/03/crypto-s-sisyphean-struggle",
@@ -148,28 +303,6 @@
       "topic": "Cryptocurrency",
       "importance": "normal",
       "id": "a_fb8305f71a",
-      "date": "2026-10-03"
-    },
-    {
-      "title": "America’s data center fight is a preview of what's to come for the rest of the world",
-      "summary": "America’s fight over data centers is going global. Communities across Europe and Asia are pushing back over the rising costs of the AI infrastructure boom.",
-      "url": "https://www.cnbc.com/2026/10/03/data-center-backlash-europe-asia-africa.html",
-      "source": "CNBC Top",
-      "published": "2026-10-03T12:39:29+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_cf08e485c1",
-      "date": "2026-10-03"
-    },
-    {
-      "title": "The next big AI battle is all about cuteness",
-      "summary": "Meta and other tech companies are betting that fuzzy mascots can win over AI skeptics.",
-      "url": "https://www.marketwatch.com/story/the-next-big-ai-battle-is-all-about-cuteness-41f6f948?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-10-03T12:30:00+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_2c6268490c",
       "date": "2026-10-03"
     },
     {
@@ -188,33 +321,22 @@
       "summary": "Community banking group’s lawsuit claims OCC has overstepped its mandate from Congress.",
       "url": "https://cointelegraph.com/news/community-banks-sue-occ-over-trust-bank-charters-of-crypto-firms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
-      "published": "2026-10-03T09:25:01+00:00",
+      "published": "2026-10-03T09:28:00+00:00",
       "topic": "Cryptocurrency",
       "importance": "normal",
       "id": "a_ee7f730876",
       "date": "2026-10-03"
     },
     {
-      "title": "Trump is expected to appoint Jay Clayton as new AI czar: Reports",
+      "title": "Trump expected to appoint Jay Clayton as new AI czar: Reports",
       "summary": "US intel chief Clayton may be asked to also oversee AI innovation and development along with “self policing” tech CEOs.",
       "url": "https://cointelegraph.com/news/trump-is-expected-to-appoint-jay-clayton-as-new-ai-czar-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
-      "published": "2026-10-03T07:06:08+00:00",
+      "published": "2026-10-03T07:09:00+00:00",
       "topic": "AI",
       "importance": "normal",
-      "id": "a_1fb4be0c56",
+      "id": "a_8f085863d1",
       "date": "2026-10-03"
-    },
-    {
-      "title": "Cerebras stock hits post-IPO low, tumbling 20% for the week on Nvidia pressure and lockup expiration",
-      "summary": "Cerebras shares hit an all-time low due to pressure from chip giant Nvidia, plus a post-lockup selloff.",
-      "url": "https://www.cnbc.com/2026/10/02/cerebras-stock-hits-post-ipo-low-on-nvidia-pressure-lockup-expiration.html",
-      "source": "CNBC Top",
-      "published": "2026-10-02T22:38:49+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_65131caec5",
-      "date": "2026-10-02"
     },
     {
       "title": "Bank group sues U.S. regulator over granting crypto trust charters",
@@ -261,17 +383,6 @@
       "date": "2026-10-02"
     },
     {
-      "title": "Here's how high the 10-year Treasury yield needs to rise before income investors should worry, according to UBS",
-      "summary": "UBS lays out the levels where the income cushion doesn't protect investors from capital losses anymore.",
-      "url": "https://www.cnbc.com/2026/10/02/heres-how-high-the-10-year-treasury-yield-needs-to-rise-before-income-investors-should-worry-according-to-ubs.html",
-      "source": "CNBC Top",
-      "published": "2026-10-02T20:10:43+00:00",
-      "topic": "Banking",
-      "importance": "normal",
-      "id": "a_cb31ed5dab",
-      "date": "2026-10-02"
-    },
-    {
       "title": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
       "summary": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm",
@@ -280,17 +391,6 @@
       "topic": "Macroeconomics",
       "importance": "normal",
       "id": "a_c8a56e8eab",
-      "date": "2026-10-02"
-    },
-    {
-      "title": "FAA says Boeing 737 Max software glitch not a flight-safety issue",
-      "summary": "The FAA on Monday said it was reviewing the software glitch, which could affect procedures during certain landings.",
-      "url": "https://www.cnbc.com/2026/10/02/faa-says-boeing-737-max-10-software-glitch-not-a-flight-safety-issue.html",
-      "source": "CNBC Top",
-      "published": "2026-10-02T19:19:15+00:00",
-      "topic": "Aviation Finance",
-      "importance": "normal",
-      "id": "a_d308d37ffc",
       "date": "2026-10-02"
     },
     {
@@ -668,28 +768,6 @@
       "date": "2026-10-02"
     },
     {
-      "title": "Zano exploiter minted more than a quadrillion fUSD before blockchain rollback",
-      "summary": "The unauthorized coins were indistinguishable from legitimate ZANO, leaving the team unable to remove them without rolling back the blockchain.",
-      "url": "https://cointelegraph.com/news/zano-exploiter-created-369m-unauthorized-zano-before-blockchain-rollback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-10-02T05:02:23+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_b20a8e65eb",
-      "date": "2026-10-02"
-    },
-    {
-      "title": "Ethereum’s zkAPI brings privacy-preserving API payments to mainnet",
-      "summary": "Ethereum’s zkAPI is now live on mainnet, turning an earlier zero-knowledge API payment proposal into a working implementation for private, prepaid access.",
-      "url": "https://cointelegraph.com/news/ethereum-zkapi-private-api-payments-mainnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-10-02T03:34:25+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_b2606ff434",
-      "date": "2026-10-02"
-    },
-    {
       "title": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture Venezuela’s president",
       "summary": "President Trump reportedly asked for Grok's opinion before invading Venezuela and capturing Nicolás Maduro.",
       "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
@@ -753,28 +831,6 @@
       "topic": "AI",
       "importance": "normal",
       "id": "a_c123a5e70e",
-      "date": "2026-10-01"
-    },
-    {
-      "title": "Shopify debuts Canvas, a way to build online stores by chatting with AI",
-      "summary": "Shopify’s new Canvas site builder lets merchants create and customize their online stores by chatting with its AI agent Sidekick, while watching the changes happen in real time.",
-      "url": "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/",
-      "source": "TechCrunch AI",
-      "published": "2026-10-01T16:44:35+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_178d0a3e34",
-      "date": "2026-10-01"
-    },
-    {
-      "title": "Brian Chesky interview: AI agents need their own operating system",
-      "summary": "Brian Chesky on making Airbnb agent-friendly, the state of consumer AI, and why the world needs an AI-native operating system.",
-      "url": "https://techcrunch.com/2026/10/01/brian-chesky-interview-ai-agents-need-their-own-operating-system/",
-      "source": "TechCrunch AI",
-      "published": "2026-10-01T15:12:00+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_d390924646",
       "date": "2026-10-01"
     },
     {
@@ -844,39 +900,6 @@
       "date": "2026-10-01"
     },
     {
-      "title": "Crypto lost $1.26 billion in hacks while bitcoin bulls enjoyed a monster quarter",
-      "summary": "",
-      "url": "https://www.coindesk.com/daybook-us/2026/10/01/crypto-lost-usd1-26-billion-in-hacks-while-bitcoin-bulls-enjoyed-a-monster-quarter",
-      "source": "CoinDesk",
-      "published": "2026-10-01T11:30:38+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_1f6879005d",
-      "date": "2026-10-01"
-    },
-    {
-      "title": "Bitcoin kicks off new quarter in the old $82,000-$85,000 price range",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/10/01/bitcoin-kicks-off-new-quarter-in-the-old-usd82-000-usd85-000-price-range",
-      "source": "CoinDesk",
-      "published": "2026-10-01T10:38:04+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_ebb299b5ec",
-      "date": "2026-10-01"
-    },
-    {
-      "title": "Citigroup raises 12-month bitcoin target to $113,000 as ETF inflows resume",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/10/01/citigroup-raises-12-month-bitcoin-target-to-usd113-000-as-etf-inflows-resume",
-      "source": "CoinDesk",
-      "published": "2026-10-01T09:59:30+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_ad6cb2ce10",
-      "date": "2026-10-01"
-    },
-    {
       "title": "Fed's Kashkari says inflation is 'still too high' even after softer-than-expected PCE data, labor market is 'pretty good'",
       "summary": "Kashkari sat down with CNBC's Steve Liesman for an exclusive conversation Wednesday night.",
       "url": "https://www.cnbc.com/2026/09/30/watch-minneapolis-fed-president-neel-kashkari.html",
@@ -919,39 +942,6 @@
       "importance": "normal",
       "id": "a_524470568d",
       "date": "2026-09-30"
-    },
-    {
-      "title": "The Fed's main inflation measure will be released Wednesday. Here's what to expect",
-      "summary": "Data is expected to show ongoing price pressures and consumers who nevertheless continue to spend.",
-      "url": "https://www.cnbc.com/2026/09/29/the-feds-main-inflation-measure-will-be-released-wednesday-heres-what-to-expect.html",
-      "source": "CNBC Economy",
-      "published": "2026-09-29T20:51:43+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_e8bc9dfd24",
-      "date": "2026-09-29"
-    },
-    {
-      "title": "Goldman Sachs CEO succession planning faces one big problem",
-      "summary": "The Goldman Sachs board has reportedly discussed replacing CEO David Solomon, 64, with president John Waldron, 57, as early as next year.",
-      "url": "https://www.cnbc.com/2026/09/29/goldman-sachs-ceo-succession-planning.html",
-      "source": "CNBC Finance",
-      "published": "2026-09-29T20:50:10+00:00",
-      "topic": "Investment Banking",
-      "importance": "normal",
-      "id": "a_90eba3b384",
-      "date": "2026-09-29"
-    },
-    {
-      "title": "Agencies publish resolution plan feedback letters for 15 banking organizations",
-      "summary": "Agencies publish resolution plan feedback letters for 15 banking organizations",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260929a.htm",
-      "source": "Federal Reserve",
-      "published": "2026-09-29T20:00:00+00:00",
-      "topic": "Banking",
-      "importance": "normal",
-      "id": "a_67fe57d7e6",
-      "date": "2026-09-29"
     }
   ]
 }
