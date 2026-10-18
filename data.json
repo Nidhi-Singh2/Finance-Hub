@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T14:06:18.891824+00:00",
+  "generated_at": "2026-10-18T14:21:24.556475+00:00",
   "kpis": [
     {
       "name": "S&P 500",
@@ -35,19 +35,19 @@
     },
     {
       "name": "Bitcoin",
-      "val": "$81.4K",
-      "delta": "−0.65%",
+      "val": "$81.2K",
+      "delta": "−0.21%",
       "dir": "down",
       "stale": false,
-      "as_of": "2026-10-17T14:06:18.891788+00:00"
+      "as_of": "2026-10-18T14:21:24.556444+00:00"
     },
     {
       "name": "Ethereum",
-      "val": "$2,422",
-      "delta": "−1.47%",
+      "val": "$2,386",
+      "delta": "−1.43%",
       "dir": "down",
       "stale": false,
-      "as_of": "2026-10-17T14:06:18.891811+00:00"
+      "as_of": "2026-10-18T14:21:24.556463+00:00"
     }
   ],
   "voices": [
@@ -74,6 +74,259 @@
   ],
   "news": [
     {
+      "title": "These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth",
+      "summary": "Boeing, Meta and EchoStar recorded steep charges and expenses a year ago, which are expected to make this latest quarter’s results look especially strong by comparison.",
+      "url": "https://www.marketwatch.com/story/these-surprising-stocks-could-be-some-of-the-biggest-drivers-of-s-p-500-earnings-growth-ea073a07?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-10-18T14:00:00+00:00",
+      "topic": "Aviation Finance",
+      "importance": "high",
+      "id": "a_49588014c2",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash",
+      "source": "CoinDesk",
+      "published": "2026-10-18T14:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_791858dbd8",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Here’s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-10-18T13:54:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_8dded07b07",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs",
+      "summary": "The idea that the AI trade has been mostly immune to rising bond yields isn’t quite right, one strategist notes.",
+      "url": "https://www.marketwatch.com/story/stocks-are-heading-for-a-high-stakes-showdown-as-strong-earnings-collide-with-rising-borrowing-costs-6f8ea5b8?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-10-18T13:00:00+00:00",
+      "topic": "AI",
+      "importance": "high",
+      "id": "a_ac72e56d49",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/10/18/bitcoin-s-usd100-000-year-end-hope-divides-analysts-as-inflation-clouds-outlook",
+      "source": "CoinDesk",
+      "published": "2026-10-18T13:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "high",
+      "id": "a_5f09d7f457",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Crypto audits give investors false sense of security as Q3 hacks cost $1.18 billion, Hacken says",
+      "summary": "",
+      "url": "https://www.coindesk.com/tech/2026/10/18/crypto-audits-give-investors-false-sense-of-security-as-q3-hacks-cost-usd1-18-billion-hacken-says",
+      "source": "CoinDesk",
+      "published": "2026-10-18T13:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "high",
+      "id": "a_a6f924673e",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Meta Platforms and Tesla are among the companies set to report next week. What to expect",
+      "summary": "Meta, General Motors, major airlines and more companies will report earnings this week. Here's what analysts forecast and what's happened in the past.",
+      "url": "https://www.cnbc.com/2026/10/18/meta-tesla-netflix-earnings-preview.html",
+      "source": "CNBC Top",
+      "published": "2026-10-18T12:41:18+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_0756bdc190",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Top Wall Street analysts are bullish on the growth potential of these 3 stocks",
+      "summary": "Amid fear of rate hikes and oil prices, investors can look past volatility and track Street analysts' stock picks with strong long-term growth potential.",
+      "url": "https://www.cnbc.com/2026/10/18/top-analysts-are-bullish-on-the-growth-potential-of-these-3-stocks.html",
+      "source": "CNBC Top",
+      "published": "2026-10-18T12:34:51+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_3d252fc932",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Always on, always listening: New AI devices are pushing legal limits and could put users in jeopardy",
+      "summary": "AI always-listening wearables from Apple, Amazon, Meta and other startups are getting creative with privacy rules and fueling concerns about covert recordings.",
+      "url": "https://www.cnbc.com/2026/10/18/ai-wearables-privacy-wiretap-laws.html",
+      "source": "CNBC Top",
+      "published": "2026-10-18T12:00:01+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_c74ec3550f",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "There is a silent market rotation inside the S&P 500 that’s warning of more weakness ahead",
+      "summary": "A “triple-top” reversal chart pattern is pointing to a period of underperformance for the S&P 500 — perhaps a long one.",
+      "url": "https://www.marketwatch.com/story/there-is-a-silent-market-rotation-inside-the-s-p-500-thats-warning-of-more-weakness-ahead-549e7650?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-10-18T12:00:00+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_355447b284",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Crypto exchanges Binance, Coinbase join West Africa scam sweep that flagged $11 million",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/10/14/crypto-exchanges-binance-coinbase-join-west-africa-scam-sweep-that-flagged-usd11-million",
+      "source": "CoinDesk",
+      "published": "2026-10-18T12:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_f9f89af307",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Cysic crypto bridge halted after unauthorized mint of 10M CYS",
+      "summary": "Cysic said the incident was limited to bridge message processing and minting and did not affect the mainnet or other operational systems.",
+      "url": "https://cointelegraph.com/news/cysic-crypto-bridge-halted-after-unauthorized-mint-of-10m-cys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-10-18T10:46:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_ad8e4cf535",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Tether backs AIsa as strategic investor, completing seed extension round",
+      "summary": "The round brings AIsa’s total funding to more than $9 million.",
+      "url": "https://cointelegraph.com/news/tether-backs-aisa-as-strategic-investor-completing-seed-extension-round?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-10-18T06:29:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_e19301a799",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Why hedge funds could be making a bond market shock more likely",
+      "summary": "The Bank of England's deputy governor has warned that hedge funds' activities could raise the risk of a global bond market shock.",
+      "url": "https://www.cnbc.com/2026/10/18/hedge-funds-bond-market-turmoil.html",
+      "source": "CNBC Top",
+      "published": "2026-10-18T06:13:05+00:00",
+      "topic": "Banking",
+      "importance": "high",
+      "id": "a_3a41593632",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Trump touts his power at Kentucky rally to energize voters ahead of midterm elections",
+      "summary": "Trump's self-proclaimed power clashes with voter frustration, with more Americans seeing the president as looking out for his own interests, not the country's.",
+      "url": "https://www.cnbc.com/2026/10/17/trump-touts-his-power-at-kentucky-rally-ahead-of-midterms.html",
+      "source": "CNBC Top",
+      "published": "2026-10-18T05:56:03+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_35063aa888",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Circle defends USDC economics as stablecoin rivals court its partners with bigger cut",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/10/17/circle-defends-usdc-economics-as-stablecoin-rivals-court-its-partners-with-bigger-cut",
+      "source": "CoinDesk",
+      "published": "2026-10-18T01:06:35+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_cb762cca3d",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "AI rapidly improving, could vastly boost U.S. GDP, Anthropic's Clark tells policymakers",
+      "summary": "Anthropic's Jack Clark said international cooperation was needed to set \"unusual and serious rules\" for transformative technology.",
+      "url": "https://www.cnbc.com/2026/10/17/ai-us-gdp-anthropics-clark.html",
+      "source": "CNBC Top",
+      "published": "2026-10-17T23:04:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_d30055fedc",
+      "date": "2026-10-17"
+    },
+    {
+      "title": "Meta removes language that raised scraping and AI training concerns",
+      "summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+      "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "source": "TechCrunch AI",
+      "published": "2026-10-17T21:31:32+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_77d92fecf7",
+      "date": "2026-10-17"
+    },
+    {
+      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+      "summary": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
+      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "source": "TechCrunch AI",
+      "published": "2026-10-17T20:21:19+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_4bb85369fc",
+      "date": "2026-10-17"
+    },
+    {
+      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "source": "TechCrunch AI",
+      "published": "2026-10-17T18:48:08+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_20b6319a60",
+      "date": "2026-10-17"
+    },
+    {
+      "title": "Goldman, Wells Fargo, Morgan Stanley see tokenization as a growth play, not a threat",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/10/17/goldman-wells-fargo-morgan-stanley-see-tokenization-as-a-growth-play-not-a-threat",
+      "source": "CoinDesk",
+      "published": "2026-10-17T17:00:00+00:00",
+      "topic": "Banking",
+      "importance": "normal",
+      "id": "a_dcb4ebdc36",
+      "date": "2026-10-17"
+    },
+    {
+      "title": "‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?",
+      "summary": "”I earn $110,000 a year.”",
+      "url": "https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-10-17T16:47:00+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_e786f7a752",
+      "date": "2026-10-17"
+    },
+    {
+      "title": "AI stocks plunge. Inflation heats up. Where we're still finding opportunities",
+      "summary": "The sinking AI trade rattled last week's market. But solid bank earnings and a rotation beyond tech gave us reasons for optimism.",
+      "url": "https://www.cnbc.com/investingclub/2026/10/17/ai-stocks-plunge-inflation-heats-up-where-were-still-finding-opportunities.html",
+      "source": "CNBC Top",
+      "published": "2026-10-17T15:42:34+00:00",
+      "topic": "AI",
+      "importance": "high",
+      "id": "a_66cde6a91b",
+      "date": "2026-10-17"
+    },
+    {
       "title": "Polygon sees Coinme acquisition as entry to payments sector dominated by Visa, Stripe",
       "summary": "",
       "url": "https://www.coindesk.com/business/2026/10/17/polygon-sees-coinme-acquisition-as-entry-to-payments-sector-dominated-by-visa-stripe",
@@ -82,39 +335,6 @@
       "topic": "Investment Banking",
       "importance": "normal",
       "id": "a_ce1664f384",
-      "date": "2026-10-17"
-    },
-    {
-      "title": "Here’s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-10-17T13:29:00+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_8dded07b07",
-      "date": "2026-10-17"
-    },
-    {
-      "title": "‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?",
-      "summary": "”I earn $110,000 a year.”",
-      "url": "https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-10-17T13:00:00+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_e786f7a752",
-      "date": "2026-10-17"
-    },
-    {
-      "title": "These tech stocks are a buy ahead of their earnings reports, Bank of America says",
-      "summary": "Bank of America says there are several technology stocks that have more room to run heading into their next quarterly results.",
-      "url": "https://www.cnbc.com/2026/10/17/tech-stocks-to-buy-going-into-their-earnings-reports.html",
-      "source": "CNBC Top",
-      "published": "2026-10-17T12:49:53+00:00",
-      "topic": "Banking",
-      "importance": "high",
-      "id": "a_7f94282c1c",
       "date": "2026-10-17"
     },
     {
@@ -129,14 +349,14 @@
       "date": "2026-10-17"
     },
     {
-      "title": "Microsoft, Shopify and 3 more AI stocks that are favorite Wall Street earnings plays",
-      "summary": "As earnings season kicks off, select tech companies have the opportunity to deliver big positive surprises for investors.",
-      "url": "https://www.marketwatch.com/story/microsoft-shopify-and-3-more-ai-stocks-that-are-favorite-wall-street-earnings-plays-0bb61e81?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-10-17T12:01:00+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_22b1275424",
+      "title": "How to get a same-day personal loan",
+      "summary": "Some lenders can deposit your money the same day you're approved, but you need to meet certain requirements.",
+      "url": "https://www.cnbc.com/select/can-you-get-a-personal-loan-the-same-day-you-apply/",
+      "source": "CNBC Top",
+      "published": "2026-10-17T12:35:01+00:00",
+      "topic": "Banking",
+      "importance": "normal",
+      "id": "a_811c12c11b",
       "date": "2026-10-17"
     },
     {
@@ -151,47 +371,25 @@
       "date": "2026-10-17"
     },
     {
-      "title": "It was another great week for the average stock as market leadership shifts away from tech",
-      "summary": "The S&P 500’s tech sector just had its worst week in a year and a half, while an equal-weighted version of the index cemented a second-straight weekly advance.",
-      "url": "https://www.marketwatch.com/story/it-was-another-great-week-for-the-average-stock-as-market-leadership-shifts-away-from-tech-8e8516da?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-10-17T11:30:00+00:00",
-      "topic": "Stocks",
-      "importance": "normal",
-      "id": "a_927eb21afb",
-      "date": "2026-10-17"
-    },
-    {
-      "title": "Fed interest-rate decision this month is a closer call than markets think",
-      "summary": "Here are some of the arguments against a Fed rate hike — and why some economists disagree with them.",
-      "url": "https://www.marketwatch.com/story/fed-interest-rate-decision-this-month-is-a-closer-call-than-markets-think-f96ccf95?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-10-17T11:00:00+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_85bad775ee",
-      "date": "2026-10-17"
-    },
-    {
       "title": "Circle’s Allaire says stablecoin issuer looking to enter 40 developing markets: Report",
       "summary": "Markets in Southeast Asia, Latin America, Africa and the Middle East see increasing demand for stablecoins.",
       "url": "https://cointelegraph.com/news/circles-allaire-says-stablecoin-issuer-looking-to-enter-40-developing-markets-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
-      "published": "2026-10-17T10:00:07+00:00",
+      "published": "2026-10-17T10:03:00+00:00",
       "topic": "Cryptocurrency",
       "importance": "normal",
       "id": "a_110d6db062",
       "date": "2026-10-17"
     },
     {
-      "title": "Lagarde says euro-area economy is resilient, digital euro imminent",
+      "title": "Lagarde says euro-area economy is resilient, digital euro under development",
       "summary": "“The digital euro will further stimulate innovation and competition in retail payments,” according to the ECB president.",
       "url": "https://cointelegraph.com/news/lagarde-says-euro-area-economy-is-resilient-digital-euro-imminent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
-      "published": "2026-10-17T08:32:11+00:00",
+      "published": "2026-10-17T08:45:00+00:00",
       "topic": "Macroeconomics",
       "importance": "normal",
-      "id": "a_85b552d641",
+      "id": "a_e5f67c59e4",
       "date": "2026-10-17"
     },
     {
@@ -203,17 +401,6 @@
       "topic": "AI",
       "importance": "normal",
       "id": "a_0e8fbd5f65",
-      "date": "2026-10-17"
-    },
-    {
-      "title": "Some companies give AI to everyone. This CEO is doing the opposite",
-      "summary": "Paysend CEO Ben Chisell limits AI tools to top performers as other U.K. companies push broader workplace rollouts.",
-      "url": "https://www.cnbc.com/2026/10/17/ai-workplace-tokenmaxxing-paysend.html",
-      "source": "CNBC Top",
-      "published": "2026-10-17T05:00:01+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_881348a1ba",
       "date": "2026-10-17"
     },
     {
@@ -239,28 +426,6 @@
       "date": "2026-10-16"
     },
     {
-      "title": "Nowhere to hide: Tech selloff hits software and chip stocks alike",
-      "summary": "The software and semiconductor sectors haven’t been trading in tandem much this year, but they collectively fell Friday as AI and interest-rate fears hit the market.",
-      "url": "https://www.marketwatch.com/story/nowhere-to-hide-tech-selloff-hits-software-and-chip-stocks-alike-6d96773c?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-10-16T21:59:00+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_f7dbc08c03",
-      "date": "2026-10-16"
-    },
-    {
-      "title": "Replit is no longer working with Anthropic, CEO says",
-      "summary": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.",
-      "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "source": "TechCrunch AI",
-      "published": "2026-10-16T21:22:28+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_cbee6c9cfb",
-      "date": "2026-10-16"
-    },
-    {
       "title": "Nasdaq slides 2% Friday to post worst week since June, pressured by AI sell-off and oil prices: Live updates",
       "summary": "Investors shunned the artificial intelligence trade and oil prices spiked on Friday, dragging the three major averages to losses.",
       "url": "https://www.cnbc.com/2026/10/15/stock-market-today-live-updates.html",
@@ -272,17 +437,6 @@
       "date": "2026-10-16"
     },
     {
-      "title": "Wall Street's fear gauge is ripping. Traders see it going even higher",
-      "summary": "The sell-off in AI-related stocks pushed the VIX above 22 for the first time in four months. A cluster of trades suggests it could go even higher.",
-      "url": "https://www.cnbc.com/2026/10/16/wall-streets-fear-gauge-is-ripping-traders-see-it-going-even-higher.html",
-      "source": "CNBC Top",
-      "published": "2026-10-16T19:28:10+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_91bcc4824f",
-      "date": "2026-10-16"
-    },
-    {
       "title": "Looking for a non-AI trade? This bank stock is poised for a breakout next week",
       "summary": "For JPMorgan, the upside potential appears greater than the downside risk.",
       "url": "https://www.cnbc.com/2026/10/16/ja.html",
@@ -291,17 +445,6 @@
       "topic": "AI",
       "importance": "normal",
       "id": "a_326c3ab711",
-      "date": "2026-10-16"
-    },
-    {
-      "title": "What happens after bankruptcy? A debt attorney explains what comes next",
-      "summary": "Learn what happens after bankruptcy, how it affects your credit, plus steps to rebuild with guidance from a debt attorney.",
-      "url": "https://www.cnbc.com/select/how-to-rebuild-your-credit-after-bankruptcy/",
-      "source": "CNBC Top",
-      "published": "2026-10-16T19:06:24+00:00",
-      "topic": "Stocks",
-      "importance": "critical",
-      "id": "a_ef4eebb039",
       "date": "2026-10-16"
     },
     {
@@ -338,21 +481,10 @@
       "date": "2026-10-16"
     },
     {
-      "title": "Prediction market odds on Tesla-SpaceX merger are above 50% for early 2027",
-      "summary": "Kalshi odds for a Tesla-SpaceX merger rose above 50% for early 2027 as Barclays outlined how a deal could work.",
-      "url": "https://www.cnbc.com/2026/10/16/tesla-spacex-merger-odds-rise-on-kalshi.html",
-      "source": "CNBC Top",
-      "published": "2026-10-16T17:02:40+00:00",
-      "topic": "Investment Banking",
-      "importance": "normal",
-      "id": "a_d6eb498baa",
-      "date": "2026-10-16"
-    },
-    {
       "title": "U.S. presses China on Mastercard, Citigroup market access in bilateral Bangkok talks, official says",
       "summary": "The U.S. raised market access issues for Mastercard and Citigroup in China during bilateral meetings in Bangkok this week, a U.S. Treasury official says.",
       "url": "https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html",
-      "source": "CNBC Top",
+      "source": "CNBC Finance",
       "published": "2026-10-16T16:46:18+00:00",
       "topic": "Banking",
       "importance": "normal",
@@ -401,17 +533,6 @@
       "topic": "AI",
       "importance": "normal",
       "id": "a_a4b0ddd387",
-      "date": "2026-10-16"
-    },
-    {
-      "title": "Tesla unveils long-delayed Roadster developed with SpaceX, fueling merger speculation",
-      "summary": "Elon Musk first debuted the Roadster refresh concept in 2017 but Tesla has since missed every targeted delivery date.",
-      "url": "https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html",
-      "source": "CNBC Top",
-      "published": "2026-10-16T15:52:41+00:00",
-      "topic": "Investment Banking",
-      "importance": "normal",
-      "id": "a_451502fef3",
       "date": "2026-10-16"
     },
     {
@@ -690,28 +811,6 @@
       "date": "2026-10-15"
     },
     {
-      "title": "Scammer loses $4.8M stored on tampered Ledgers: Asia Express",
-      "summary": "A scammer reportedly lost $4.8M of stolen money after storing the funds on tampered Ledgers. Bitcoin and Ether ETFs launch trading in Thailand and South Korea blocks 27 exchanges.",
-      "url": "https://cointelegraph.com/magazine/scammer-loses-48m-stored-on-tampered-ledgers-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-10-15T22:42:58+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_ee0ca55d91",
-      "date": "2026-10-15"
-    },
-    {
-      "title": "Binance.US seeks $1B valuation in potential $100M funding round: Report",
-      "summary": "The crypto exchange was reportedly looking to use the additional funding to regain market share following Binance’s 2023 settlement with US authorities.",
-      "url": "https://cointelegraph.com/news/binance-us-funding-valuation-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-10-15T20:21:11+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_ace7006bb0",
-      "date": "2026-10-15"
-    },
-    {
       "title": "Meta launches an open-weight AI model that runs on Macs",
       "summary": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.",
       "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
@@ -756,39 +855,6 @@
       "date": "2026-10-15"
     },
     {
-      "title": "At the White House, crypto policy vacancy looms large",
-      "summary": "",
-      "url": "https://www.coindesk.com/news-analysis/2026/10/15/at-the-white-house-crypto-policy-vacancy-looms-large",
-      "source": "CoinDesk",
-      "published": "2026-10-15T18:48:02+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_08df4fb280",
-      "date": "2026-10-15"
-    },
-    {
-      "title": "Ex-Trump crypto adviser profited after helping pass stablecoin bill: WSJ",
-      "summary": "The Wall Street Journal reported that a company co-founded by Bo Hines benefited from the passage of the GENIUS stablecoin bill.",
-      "url": "https://cointelegraph.com/news/bo-hines-donald-trump-crypto-advisor-nxum-tether-conflict?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-10-15T17:14:45+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_84b05d9eef",
-      "date": "2026-10-15"
-    },
-    {
-      "title": "Sweden revisits digital krona as ECB advances digital euro plans",
-      "summary": "Sweden’s Riksbank has recommended that lawmakers prepare for a possible digital krona, citing concerns over foreign-currency stablecoins and the future of domestic payments.",
-      "url": "https://cointelegraph.com/news/sweden-riksbank-digital-krona-cbdc-legislation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-10-15T16:49:59+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_3a159af711",
-      "date": "2026-10-15"
-    },
-    {
       "title": "Wholesale prices jumped 6.3% annually in September, biggest gain since 2022",
       "summary": "September producer prices were expected to increase 0.6% month over month and 5.5% annually, according to the consensus estimate by Dow Jones.",
       "url": "https://www.cnbc.com/2026/10/15/september-producer-price-index-retail-sales-data.html",
@@ -822,17 +888,6 @@
       "date": "2026-10-15"
     },
     {
-      "title": "Crypto for Advisors: Wall Street is done waiting on Congress for crypto rules",
-      "summary": "",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/10/15/crypto-for-advisors-wall-street-is-done-waiting-on-congress-for-crypto-rules",
-      "source": "CoinDesk",
-      "published": "2026-10-15T15:00:00+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_9c2ed79bbe",
-      "date": "2026-10-15"
-    },
-    {
       "title": "Google’s Universal Cart shopping tool launches in the US",
       "summary": "The new shopping tool is available in the U.S. across Google Search and the Gemini app.",
       "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
@@ -852,83 +907,6 @@
       "topic": "Macroeconomics",
       "importance": "critical",
       "id": "a_dfe40dd120",
-      "date": "2026-10-15"
-    },
-    {
-      "title": "How Brooklyn prosecutors and the FBI took down a massive crypto fraud network targeting Russian speakers",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/10/15/how-brooklyn-prosecutors-and-the-fbi-took-down-a-massive-crypto-fraud-network-targeting-russian-speakers",
-      "source": "CoinDesk",
-      "published": "2026-10-15T12:35:24+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_6410f5a3bd",
-      "date": "2026-10-15"
-    },
-    {
-      "title": "Amazon’s Bee launches two new personal AI devices, starting at $75",
-      "summary": "Amazon-owned Bee has launched its first new AI devices since its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices can summarize conversations, create to-do lists, and integrate with Alexa and Amazon shopping, with prices starting at $74.99.",
-      "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
-      "source": "TechCrunch AI",
-      "published": "2026-10-15T12:00:00+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_b41c20e57a",
-      "date": "2026-10-15"
-    },
-    {
-      "title": "Under pressure, Ledger unveils plan to turn its crypto hardware wallet into a smartphone",
-      "summary": "",
-      "url": "https://www.coindesk.com/tech/2026/10/15/under-pressure-ledger-unveils-plan-to-turn-its-crypto-hardware-wallet-into-a-smartphone",
-      "source": "CoinDesk",
-      "published": "2026-10-15T12:00:00+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_8db35eef90",
-      "date": "2026-10-15"
-    },
-    {
-      "title": "Bitcoin, copper, stocks, yields all fall; gold rises",
-      "summary": "",
-      "url": "https://www.coindesk.com/daybook-us/2026/10/15/bitcoin-copper-stocks-yields-all-fall-gold-rises",
-      "source": "CoinDesk",
-      "published": "2026-10-15T11:15:00+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_e2250a2122",
-      "date": "2026-10-15"
-    },
-    {
-      "title": "Altcoins lead crypto declines as Asian stocks drop; bitcoin little changed since midnight",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/10/15/bitcoin-holds-above-usd80-000-as-an-asian-stock-rout-drags-altcoins-lower",
-      "source": "CoinDesk",
-      "published": "2026-10-15T10:52:11+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_a7de3768d8",
-      "date": "2026-10-15"
-    },
-    {
-      "title": "Live updates: Bitcoin bounces back to $82,000 after first fall below $80,000 in one month",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/10/15/live-updates-bitcoin-back-under-usd81-000-as-ai-selloff-worsens",
-      "source": "CoinDesk",
-      "published": "2026-10-15T10:16:15+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_89b776490b",
-      "date": "2026-10-15"
-    },
-    {
-      "title": "Hyperliquid founder wants U.S. oversight of trading platforms, not his blockchain",
-      "summary": "",
-      "url": "https://www.coindesk.com/policy/2026/10/15/hyperliquid-founder-wants-u-s-oversight-of-trading-platforms-not-his-blockchain",
-      "source": "CoinDesk",
-      "published": "2026-10-15T10:00:56+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_7fe2d97a4e",
       "date": "2026-10-15"
     },
     {
@@ -952,6 +930,28 @@
       "importance": "normal",
       "id": "a_daa31e2c19",
       "date": "2026-10-15"
+    },
+    {
+      "title": "IMF sees milder global slowdown as AI boom offsets war hit — warns resilience is nearing limits",
+      "summary": "The IMF raised its 2026 global growth forecast to 3.1%, warning that resilience is tested by energy constraints and looming fiscal risks.",
+      "url": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html",
+      "source": "CNBC Economy",
+      "published": "2026-10-15T06:35:31+00:00",
+      "topic": "AI",
+      "importance": "high",
+      "id": "a_e42a6b7c40",
+      "date": "2026-10-15"
+    },
+    {
+      "title": "Morgan Stanley tops estimates as equities trading revenue beats expectations by $909 million",
+      "summary": "Morgan Stanley topped expectations on the top and bottom lines for the third quarter.",
+      "url": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html",
+      "source": "CNBC Finance",
+      "published": "2026-10-14T20:22:09+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_6132696f6f",
+      "date": "2026-10-14"
     }
   ]
 }
