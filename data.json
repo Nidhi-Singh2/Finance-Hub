@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T14:20:52.475415+00:00",
+  "generated_at": "2026-10-25T14:54:03.108149+00:00",
   "kpis": [
     {
       "name": "S&P 500",
@@ -35,23 +35,232 @@
     },
     {
       "name": "Bitcoin",
-      "val": "$80.1K",
-      "delta": "−1.29%",
-      "dir": "down",
+      "val": "$80.4K",
+      "delta": "+0.24%",
+      "dir": "up",
       "stale": false,
-      "as_of": "2026-10-24T14:20:52.475387+00:00"
+      "as_of": "2026-10-25T14:54:03.108121+00:00"
     },
     {
       "name": "Ethereum",
-      "val": "$2,338",
-      "delta": "−1.89%",
+      "val": "$2,337",
+      "delta": "−0.33%",
       "dir": "down",
       "stale": false,
-      "as_of": "2026-10-24T14:20:52.475405+00:00"
+      "as_of": "2026-10-25T14:54:03.108138+00:00"
     }
   ],
   "voices": [],
   "news": [
+    {
+      "title": "The hottest AI wearables and gadgets you should know about",
+      "summary": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
+      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+      "source": "TechCrunch AI",
+      "published": "2026-10-25T14:10:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_5883666453",
+      "date": "2026-10-25"
+    },
+    {
+      "title": "More than a third of S&P 500 companies are about to report earnings as market confidence cracks",
+      "summary": "“With cautious to negative market sentiment, it could be a tricky week,” one strategist says.",
+      "url": "https://www.marketwatch.com/story/more-than-a-third-of-s-p-500-companies-are-about-to-report-earnings-as-market-confidence-cracks-03b7a8f1?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-10-25T14:00:00+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_f537d48b9a",
+      "date": "2026-10-25"
+    },
+    {
+      "title": "My husband wants to sell our $1.5 million home and invest the proceeds. But this is where we raised our kids — and I can’t bear to leave.",
+      "summary": "“He wants to buy something for $600,000 now that we are empty-nesters.”",
+      "url": "https://www.marketwatch.com/story/my-husband-wants-to-sell-our-1-5-million-home-and-invest-the-proceeds-but-this-is-where-we-raised-our-kids-and-i-cant-bear-to-leave-4feb46ed?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-10-25T13:45:00+00:00",
+      "topic": "Investment Banking",
+      "importance": "normal",
+      "id": "a_4c5b0abc4d",
+      "date": "2026-10-25"
+    },
+    {
+      "title": "Worried about this stock-market selloff? Relief may be coming after the midterms — no matter who wins.",
+      "summary": "The nine months between Election Day and June 30 have seen the S&P 500 deliver an average return of 15.5% going back to 1950.",
+      "url": "https://www.marketwatch.com/story/worried-about-this-stock-market-selloff-relief-may-be-coming-after-the-midterms-no-matter-who-wins-39322c07?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-10-25T13:00:00+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_ec4b2c5f7a",
+      "date": "2026-10-25"
+    },
+    {
+      "title": "UK banks face 10,000 complaints in 3 months over crypto restrictions",
+      "summary": "",
+      "url": "https://www.coindesk.com/policy/2026/10/22/uk-banks-face-10-000-complaints-in-3-months-over-crypto-restrictions",
+      "source": "CoinDesk",
+      "published": "2026-10-25T13:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_66a36d1b57",
+      "date": "2026-10-25"
+    },
+    {
+      "title": "‘Nonanswers’ aren’t working. This is what investors really need from the Fed.",
+      "summary": "What really matters to investors, economists say, is for Fed Chairman Kevin Warsh to prove he can successfully communicate the central bank’s strategy.",
+      "url": "https://www.marketwatch.com/story/non-answers-arent-working-this-is-what-investors-really-need-from-the-fed-673a9dce?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-10-25T12:44:00+00:00",
+      "topic": "Banking",
+      "importance": "normal",
+      "id": "a_48dceac5bf",
+      "date": "2026-10-25"
+    },
+    {
+      "title": "Marc Lore’s Wonder bets on Texas, automation and user-built restaurants as it mulls IPO",
+      "summary": "Wonder is leaning into automation and user-built restaurants as founder Marc Lore prepares the startup for a potential IPO.",
+      "url": "https://www.cnbc.com/2026/10/25/wonder-ipo-texas-automation.html",
+      "source": "CNBC Top",
+      "published": "2026-10-25T12:00:01+00:00",
+      "topic": "Valuation",
+      "importance": "normal",
+      "id": "a_cb0dcba71f",
+      "date": "2026-10-25"
+    },
+    {
+      "title": "Why economic health no longer dictates stock-market returns",
+      "summary": "There is a wide disconnect between Wall Street and Main Street, and AI could drive them even further apart",
+      "url": "https://www.marketwatch.com/story/why-economic-health-no-longer-dictates-stock-market-returns-c44b88f2?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-10-25T12:00:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_0abd0e27a2",
+      "date": "2026-10-25"
+    },
+    {
+      "title": "Earnings playbook: Alphabet, Microsoft, Amazon and more report this week. Here's what to expect",
+      "summary": "The megacaps are some of the 160 S&P 500 companies expected to report at a critical time for tech and the market.",
+      "url": "https://www.cnbc.com/2026/10/25/earnings-week-alphabet-microsoft-amazon.html",
+      "source": "CNBC Top",
+      "published": "2026-10-25T11:54:08+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_b81289d56f",
+      "date": "2026-10-25"
+    },
+    {
+      "title": "Netanyahu floats use of blockchain as solution to potential financial sanctions",
+      "summary": "Ahead of elections, Prime Minister Benjamin Netanyahu said Israel could turn to blockchain and crypto to skirt potential international sanctions, to the dismay of opponents and the country’s central banker.",
+      "url": "https://cointelegraph.com/news/netanyahu-floats-use-of-blockchain-as-solution-to-potential-financial-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-10-25T11:42:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_51e22565db",
+      "date": "2026-10-25"
+    },
+    {
+      "title": "Here’s the real signal to watch for the Fed’s next move",
+      "summary": "Investors should focus not on the rate itself, but on where financial conditions are",
+      "url": "https://www.marketwatch.com/story/heres-the-real-signal-to-watch-for-the-feds-next-move-9189cb51?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-10-25T11:30:00+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_913f73118d",
+      "date": "2026-10-25"
+    },
+    {
+      "title": "Lula, Bolsonaro rally supporters on final day before Brazil presidential runoff",
+      "summary": "The two candidates have remained neck and neck in polls following a stronger-than-expected performance by the right-wing senator in the first round.",
+      "url": "https://www.cnbc.com/2026/10/25/lula-bolsonaro-rally-supporters-before-brazil-presidential-runoff.html",
+      "source": "CNBC Top",
+      "published": "2026-10-25T08:48:04+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_b4e290b2de",
+      "date": "2026-10-25"
+    },
+    {
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "source": "TechCrunch AI",
+      "published": "2026-10-24T19:00:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_b6e15a3515",
+      "date": "2026-10-24"
+    },
+    {
+      "title": "Biotech stocks are surging. How investors can play the new drug innovation boom",
+      "summary": "Biotech stocks are rallying as clinical wins, M&A and new drug technologies revive the sector. Here are the ETFs and stocks analysts favor.",
+      "url": "https://www.cnbc.com/2026/10/24/biotech-stocks-drug-innovation-rally.html",
+      "source": "CNBC Top",
+      "published": "2026-10-24T18:56:29+00:00",
+      "topic": "Investment Banking",
+      "importance": "normal",
+      "id": "a_3d4f555496",
+      "date": "2026-10-24"
+    },
+    {
+      "title": "AI funding fears rattle Wall Street. Here's how we're adjusting our portfolio",
+      "summary": "The rotation out of AI stocks benefited several defensive Club stocks.",
+      "url": "https://www.cnbc.com/investingclub/2026/10/24/ai-funding-fears-rattle-wall-street-heres-how-were-adjusting-our-portfolio.html",
+      "source": "CNBC Top",
+      "published": "2026-10-24T16:14:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_b707f3f314",
+      "date": "2026-10-24"
+    },
+    {
+      "title": "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/10/24/strategy-strive-face-balancing-act-between-bitcoin-buying-and-preferred-stock-dividends",
+      "source": "CoinDesk",
+      "published": "2026-10-24T16:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_b39f81503c",
+      "date": "2026-10-24"
+    },
+    {
+      "title": "Block's new voice AI sounds eerily human, sparking awe and scam fears",
+      "summary": "",
+      "url": "https://www.coindesk.com/tech/2026/10/24/block-s-new-voice-ai-sounds-eerily-human-sparking-awe-and-scam-fears",
+      "source": "CoinDesk",
+      "published": "2026-10-24T15:21:06+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_0c0c4e0f45",
+      "date": "2026-10-24"
+    },
+    {
+      "title": "Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/10/24/crypto-under-weekend-pressure-bitcoin-slides-below-usd80-000-on-u-s-middle-east-evacuations",
+      "source": "CoinDesk",
+      "published": "2026-10-24T15:11:24+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_09218dc325",
+      "date": "2026-10-24"
+    },
+    {
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "summary": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "source": "TechCrunch AI",
+      "published": "2026-10-24T15:00:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_ff4cbed076",
+      "date": "2026-10-24"
+    },
     {
       "title": "Wells Fargo, Cisco, Marvell among latest firms objecting to OKXICE's tokenized stock plan",
       "summary": "",
@@ -64,80 +273,25 @@
       "date": "2026-10-24"
     },
     {
+      "title": "Here are the top AI agents that can live in your text messages",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source": "TechCrunch AI",
+      "published": "2026-10-24T14:00:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_17ea61c85f",
+      "date": "2026-10-24"
+    },
+    {
       "title": "Bitcoin’s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO",
       "summary": "",
-      "url": "https://www.coindesk.com/",
+      "url": "https://www.coindesk.com/business/2026/10/24/bitcoin-s-wealthy-holders-turning-to-loans-and-yield-as-investment-habits-mature-xapo-ceo",
       "source": "CoinDesk",
       "published": "2026-10-24T14:00:00+00:00",
       "topic": "Cryptocurrency",
       "importance": "normal",
-      "id": "a_dcb1264b7b",
-      "date": "2026-10-24"
-    },
-    {
-      "title": "Investors’ recent money moves show a preference for lowering risks over boosting rewards",
-      "summary": "Investors have been steadily pouring money into the Invesco S&P 500 Quality ETF this year.",
-      "url": "https://www.marketwatch.com/story/investors-recent-money-moves-show-a-preference-for-quality-over-momentum-within-the-s-p-500-ed6b5149?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-10-24T13:37:00+00:00",
-      "topic": "Stocks",
-      "importance": "normal",
-      "id": "a_48859f15a0",
-      "date": "2026-10-24"
-    },
-    {
-      "title": "Biotech stocks are surging. How investors can play the new drug innovation boom",
-      "summary": "Biotech stocks are rallying as clinical wins, M&A and new drug technologies revive the sector. Here are the ETFs and stocks analysts favor.",
-      "url": "https://www.cnbc.com/2026/10/24/biotech-stocks-drug-innovation-rally.html",
-      "source": "CNBC Top",
-      "published": "2026-10-24T13:10:45+00:00",
-      "topic": "Investment Banking",
-      "importance": "normal",
-      "id": "a_3d4f555496",
-      "date": "2026-10-24"
-    },
-    {
-      "title": "Goldman says these top tech stocks have plenty of upside ahead of earnings",
-      "summary": "Goldman Sachs said this week there are plenty of top tech companies to buy heading into their quarterly results.",
-      "url": "https://www.cnbc.com/2026/10/24/top-tech-stocks-to-buy-according-to-goldman-sachs.html",
-      "source": "CNBC Top",
-      "published": "2026-10-24T12:51:31+00:00",
-      "topic": "Investment Banking",
-      "importance": "high",
-      "id": "a_f0de5fa72c",
-      "date": "2026-10-24"
-    },
-    {
-      "title": "AI fever ignites a boom in thematic ETFs as fund managers hunt for their next big hit",
-      "summary": "The runaway success of the artificial-intelligence trade has left investors hungry for the next big market theme. Wall Street fund managers are happily obliging with a flurry of new targeted products, helping investors invest in everything from the rise of robotics to the incipient space economy.",
-      "url": "https://www.marketwatch.com/story/ai-fever-ignites-a-boom-in-thematic-etfs-as-fund-managers-hunt-for-their-next-big-hit-82d1566c?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-10-24T12:00:00+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_799b1a98a6",
-      "date": "2026-10-24"
-    },
-    {
-      "title": "My husband wants to sell our $1.5 million home and invest the proceeds. But this is where we raised our kids — and I can’t bear to leave.",
-      "summary": "“He wants to buy something for $600,000 now that we are empty-nesters.”",
-      "url": "https://www.marketwatch.com/story/my-husband-wants-to-sell-our-1-5-million-home-and-invest-the-proceeds-but-this-is-where-we-raised-our-kids-and-i-cant-bear-to-leave-4feb46ed?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-10-24T12:00:00+00:00",
-      "topic": "Investment Banking",
-      "importance": "normal",
-      "id": "a_4c5b0abc4d",
-      "date": "2026-10-24"
-    },
-    {
-      "title": "‘Non-answers’ aren’t working. This is what investors really need from the Fed.",
-      "summary": "What really matters to investors, economists say, is for Fed Chairman Kevin Warsh to prove he can successfully communicate the central bank’s strategy.",
-      "url": "https://www.marketwatch.com/story/non-answers-arent-working-this-is-what-investors-really-need-from-the-fed-673a9dce?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-10-24T11:30:00+00:00",
-      "topic": "Banking",
-      "importance": "normal",
-      "id": "a_738c627077",
+      "id": "a_f5a2ea658d",
       "date": "2026-10-24"
     },
     {
@@ -152,17 +306,6 @@
       "date": "2026-10-24"
     },
     {
-      "title": "Trump is pushing a massive AI buildout. His own voters are wary of what comes with it",
-      "summary": "A new CNBC survey finds broad voter opposition to nearby AI data centers, creating a political challenge for Trump and Republicans ahead of the midterm election.",
-      "url": "https://www.cnbc.com/2026/10/24/trump-ai-data-centers-voter-backlash-midterms.html",
-      "source": "CNBC Top",
-      "published": "2026-10-24T10:59:16+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_aa3bad6627",
-      "date": "2026-10-24"
-    },
-    {
       "title": "America by the numbers: How voters feel about the economy, inflation, AI and Trump",
       "summary": "With the U.S. midterm elections looming, Americans are nearly as gloomy about the economy as they were when the nation was emerging from the pandemic.",
       "url": "https://www.cnbc.com/2026/10/23/america-by-the-numbers-how-voters-feel-about-the-economy-inflation-ai-and-trump.html",
@@ -174,28 +317,6 @@
       "date": "2026-10-24"
     },
     {
-      "title": "Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
-      "summary": "Stock slumps, pulled IPOs and rising spreads on credit default swaps this week sets stage for hyperscaler earnings.",
-      "url": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
-      "source": "CNBC Top",
-      "published": "2026-10-24T06:41:14+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_c5e6e575b6",
-      "date": "2026-10-24"
-    },
-    {
-      "title": "What a day in customer service looks like — as AI changes everything",
-      "summary": "Customer service can be a \"really, really difficult job.\" Will AI make it easier — or cause even more headaches?",
-      "url": "https://www.cnbc.com/2026/10/24/ai-customer-service-jobs-work.html",
-      "source": "CNBC Top",
-      "published": "2026-10-24T05:00:01+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_49a44683b2",
-      "date": "2026-10-24"
-    },
-    {
       "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
       "summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
       "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
@@ -204,17 +325,6 @@
       "topic": "AI",
       "importance": "normal",
       "id": "a_2f38a78070",
-      "date": "2026-10-23"
-    },
-    {
-      "title": "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
-      "summary": "Moody's left its credit rating on France at Aa3, giving the country some relief in a week of unrest.",
-      "url": "https://www.cnbc.com/2026/10/23/moodys-holds-steady-on-frances-credit-rating-as-country-grapples-with-turmoil-and-higher-yields.html",
-      "source": "CNBC Top",
-      "published": "2026-10-23T22:49:42+00:00",
-      "topic": "Corporate Finance",
-      "importance": "normal",
-      "id": "a_2ea5109394",
       "date": "2026-10-23"
     },
     {
@@ -281,17 +391,6 @@
       "topic": "Cryptocurrency",
       "importance": "normal",
       "id": "a_ab948ac14d",
-      "date": "2026-10-23"
-    },
-    {
-      "title": "AI's 'Black October': Critical PHP flaws set off global security scramble",
-      "summary": "Governments and businesses around the globe are scrambling to contain the fallout after the PHP vulnerabilities leaked online.",
-      "url": "https://www.cnbc.com/2026/10/23/php-vulnerabilities-ai-cybersecurity.html",
-      "source": "CNBC Top",
-      "published": "2026-10-23T16:55:37+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_738997c2bb",
       "date": "2026-10-23"
     },
     {
@@ -680,17 +779,6 @@
       "date": "2026-10-22"
     },
     {
-      "title": "Underdog taps zerohash to bring crypto deposits to prediction markets",
-      "summary": "The new funding option, expected to launch later this year, will allow eligible Underdog users to deposit digital assets around the clock.",
-      "url": "https://cointelegraph.com/news/underdog-taps-zerohash-to-bring-crypto-deposits-to-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-10-22T17:24:49+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_2957867ad4",
-      "date": "2026-10-22"
-    },
-    {
       "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
       "summary": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.",
       "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
@@ -724,17 +812,6 @@
       "date": "2026-10-22"
     },
     {
-      "title": "Irish central bank fines Coinbase Ireland $3.6 million over fund safeguarding failures",
-      "summary": "",
-      "url": "https://www.coindesk.com/policy/2026/10/22/irish-central-bank-fines-coinbase-ireland-usd3-6-million-over-fund-safeguarding-failures",
-      "source": "CoinDesk",
-      "published": "2026-10-22T15:40:25+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_21bbd0d4e9",
-      "date": "2026-10-22"
-    },
-    {
       "title": "Spotify’s current AI bet is about being the music service that agents choose",
       "summary": "Spotify co-CEO Gustav Söderström explains why the rise of AI agents could be good news for the music service.",
       "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
@@ -743,28 +820,6 @@
       "topic": "AI",
       "importance": "normal",
       "id": "a_0832d59d37",
-      "date": "2026-10-22"
-    },
-    {
-      "title": "Crypto for Advisors: Stablecoins are ready for prime time",
-      "summary": "",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/10/22/crypto-for-advisors-stablecoins-are-ready-for-prime-time",
-      "source": "CoinDesk",
-      "published": "2026-10-22T14:58:31+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_d8977e2741",
-      "date": "2026-10-22"
-    },
-    {
-      "title": "Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/10/22/crypto-custody-specialist-fireblocks-denies-its-in-talks-to-be-acquired-by-visa",
-      "source": "CoinDesk",
-      "published": "2026-10-22T14:37:12+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_7dacb4c425",
       "date": "2026-10-22"
     },
     {
@@ -788,72 +843,6 @@
       "importance": "normal",
       "id": "a_90d0cd22b9",
       "date": "2026-10-22"
-    },
-    {
-      "title": "Crypto is making a splash in U.S. elections — but chiefly in jabs about industry influence",
-      "summary": "",
-      "url": "https://www.coindesk.com/news-analysis/2026/10/21/crypto-is-making-a-splash-in-u-s-elections-but-chiefly-in-jabs-about-industry-influence",
-      "source": "CoinDesk",
-      "published": "2026-10-22T13:00:00+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_169a86cc80",
-      "date": "2026-10-22"
-    },
-    {
-      "title": "Ethereum’s four-minute settlement plan could lower the cost of moving crypto",
-      "summary": "",
-      "url": "https://www.coindesk.com/tech/2026/10/22/ethereum-s-four-minute-settlement-plan-could-lower-the-cost-of-moving-crypto",
-      "source": "CoinDesk",
-      "published": "2026-10-22T12:14:29+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_d5e49b2487",
-      "date": "2026-10-22"
-    },
-    {
-      "title": "Crypto traders seek shelter in bitcoin as altcoins slide and ETF flows wobble",
-      "summary": "",
-      "url": "https://www.coindesk.com/daybook-us/2026/10/22/crypto-traders-seek-shelter-in-bitcoin-as-altcoins-slide-and-etf-flows-wobble",
-      "source": "CoinDesk",
-      "published": "2026-10-22T11:20:04+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_5e5b942a37",
-      "date": "2026-10-22"
-    },
-    {
-      "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
-      "summary": "Blackstone’s AI head on why the PE giant isn't panicked by market jitters.",
-      "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
-      "source": "TechCrunch AI",
-      "published": "2026-10-21T22:51:22+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_ed1d3342ad",
-      "date": "2026-10-21"
-    },
-    {
-      "title": "Meta wants to pay for its broad AI buildout with a newly created class of stock",
-      "summary": "The social media giant is planning a new stock strategy to help power its broad investments in AI models and services.",
-      "url": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/",
-      "source": "TechCrunch AI",
-      "published": "2026-10-21T22:45:34+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_6b82aa0cff",
-      "date": "2026-10-21"
-    },
-    {
-      "title": "Meta says Muse has over 10M users, with shopping a top activity",
-      "summary": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during its Q3 earnings call. The AI app now has over 10M users.",
-      "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
-      "source": "TechCrunch AI",
-      "published": "2026-10-21T21:14:19+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_c7393283ca",
-      "date": "2026-10-21"
     },
     {
       "title": "Goldman Sachs, JPMorgan and Morgan Stanley are dominating the AI stock boom. Here's their edge",
@@ -930,6 +919,17 @@
       "topic": "AI",
       "importance": "normal",
       "id": "a_30046ef561",
+      "date": "2026-10-19"
+    },
+    {
+      "title": "Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion of defense investments",
+      "summary": "With $5 billion already deployed off its balance sheet, JPMorgan Chase is racing ahead on direct investments in defense tech, hardware and supply chains.",
+      "url": "https://www.cnbc.com/2026/10/19/jpmorgan-security-defense-investments.html",
+      "source": "CNBC Finance",
+      "published": "2026-10-19T12:34:01+00:00",
+      "topic": "Investment Banking",
+      "importance": "high",
+      "id": "a_15b5d2f8ef",
       "date": "2026-10-19"
     }
   ]
