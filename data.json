@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T16:57:50.661893+00:00",
+  "generated_at": "2026-10-31T15:58:38.569394+00:00",
   "kpis": [
     {
       "name": "S&P 500",
@@ -35,44 +35,529 @@
     },
     {
       "name": "Bitcoin",
-      "val": "$77.2K",
-      "delta": "−4.84%",
-      "dir": "down",
+      "val": "$77.5K",
+      "delta": "+0.03%",
+      "dir": "up",
       "stale": false,
-      "as_of": "2026-10-30T16:57:50.661866+00:00"
+      "as_of": "2026-10-31T15:58:38.569368+00:00"
     },
     {
       "name": "Ethereum",
-      "val": "$2,226",
-      "delta": "−5.40%",
-      "dir": "down",
+      "val": "$2,249",
+      "delta": "+0.98%",
+      "dir": "up",
       "stale": false,
-      "as_of": "2026-10-30T16:57:50.661883+00:00"
+      "as_of": "2026-10-31T15:58:38.569383+00:00"
     }
   ],
-  "voices": [
+  "voices": [],
+  "news": [
     {
-      "name": "Christine Lagarde",
-      "role": "President, ECB",
-      "initials": "CL",
-      "bg": "var(--p-mint)",
-      "quote": "European Central Bank President Christine Lagarde will step down on Feb. 7 next year, she announced Thursday.",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html",
-      "date": "2026-10-29"
+      "title": "Stocks started the week with promise but ended in despair. Our take on the big reversal",
+      "summary": "Big Tech earnings reignited AI spending fears, sending investors into defensive stocks.",
+      "url": "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html",
+      "source": "CNBC Top",
+      "published": "2026-10-31T15:37:11+00:00",
+      "topic": "AI",
+      "importance": "high",
+      "id": "a_13bf8f18ee",
+      "date": "2026-10-31"
     },
     {
-      "name": "Warren Buffett",
-      "role": "CEO, Berkshire Hathaway",
-      "initials": "WB",
-      "bg": "var(--p-peach)",
-      "quote": "About 52% of people with a workplace retirement plan say they would invest in private assets if they were available in their company’s plan.",
+      "title": "Binance says 90% of stolen assets replenished, targets Sunday withdrawals",
+      "summary": "Less-liquid tokens make up the remaining shortfall as Binance continues buying replacement assets through market and over-the-counter trades.",
+      "url": "https://cointelegraph.com/news/binance-hack-90-percent-replenished?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-10-31T15:36:01+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_008fe1d348",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Bitcoin held up better than expected after Binance hack, Strive CEO says",
+      "summary": "Strive CEO Matt Cole says the Binance hack has not changed his long-term case for Bitcoin, but cautions it is too early to call a market bottom.",
+      "url": "https://cointelegraph.com/markets/bitcoin-binance-hack-strive-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-10-31T15:26:46+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_067fbf614e",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/10/31/binance-says-it-has-replaced-90-of-stolen-crypto-after-massive-usd6-3-billion-breach",
+      "source": "CoinDesk",
+      "published": "2026-10-31T15:24:10+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "high",
+      "id": "a_c1c409533e",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Here’s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-10-31T15:09:55+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_8dded07b07",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Institutions embrace crypto staking despite shrinking yields",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/10/26/institutions-embrace-crypto-staking-despite-shrinking-yields",
+      "source": "CoinDesk",
+      "published": "2026-10-31T15:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_a2b40220cd",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "The S&P 500 isn’t the big winner you may think it is",
+      "summary": "The index’s weakness may surprise a generation of investors raised on the cult of “stocks always go up.”",
+      "url": "https://www.marketwatch.com/story/you-cant-rely-on-the-s-p-500-as-much-as-you-may-think-a3ac0cb7?mod=mw_rss_topstories",
       "source": "MarketWatch Top",
-      "url": "https://www.marketwatch.com/story/private-equity-in-your-401-k-heed-warren-buffetts-warning-6f318cd0?mod=mw_rss_topstories",
+      "published": "2026-10-31T14:54:00+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_9b701dc61a",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/10/31/uber-tests-how-tokenization-can-put-idle-cash-to-work-with-hsbc-franklin-templeton",
+      "source": "CoinDesk",
+      "published": "2026-10-31T14:40:29+00:00",
+      "topic": "Banking",
+      "importance": "normal",
+      "id": "a_174db6557b",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Bitcoin turns 18: Has the original rebel grown up?",
+      "summary": "In typical Bitcoin style, the number one cryptocurrency turns 18 today, amid AI-driven security threats, quantum fears and the biggest exchange hack in crypto history.",
+      "url": "https://cointelegraph.com/magazine/bitcoin-turns-18-has-the-original-rebel-grown-up?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-10-31T14:27:52+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_c39b5f381b",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Binance, crypto and hacks: What to know about keeping coin safe as cyber criminals advance",
+      "summary": "The Binance hack of $6.3 billion, the largest crypto theft ever, is a wake-up call for investors to understand how coin is guarded and the risk of losing it.",
+      "url": "https://www.cnbc.com/2026/10/31/binance-crypto-hack-safety.html",
+      "source": "CNBC Top",
+      "published": "2026-10-31T14:26:29+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "high",
+      "id": "a_7ade51387e",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "As big bitcoin miners chase AI profits, individuals get another shot at the rewards",
+      "summary": "",
+      "url": "https://www.coindesk.com/tech/2026/10/31/as-big-bitcoin-miners-chase-ai-profits-individuals-get-another-shot-at-the-rewards",
+      "source": "CoinDesk",
+      "published": "2026-10-31T14:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_16da6619d0",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Texas brothers sentenced to 15 years in prison for armed crypto robbery, kidnapping",
+      "summary": "Home invasions became the most common form of crypto wrench attacks worldwide during the first half of 2026, rising to 20 incidents from one.",
+      "url": "https://cointelegraph.com/news/texas-brothers-sentenced-to-15-years-in-prison-for-armed-crypto-robbery-kidnapping?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-10-31T13:37:49+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_6d04f276a1",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Google taught the world how to search. Now it faces a revolution it can’t afford to lose.",
+      "summary": "Wall Street is grappling with a fundamental question: Are Google’s AI Overviews bound to save search — or ruin the whole business?",
+      "url": "https://www.marketwatch.com/story/google-taught-the-world-how-to-search-now-it-faces-a-revolution-it-cant-afford-to-lose-b7a01394?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-10-31T13:15:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_c2190a3de9",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Bank of America says buy these stocks ahead of earnings before it's too late",
+      "summary": "The firm named a slew of undervalued stocks to buy ahead of quarterly reports.",
+      "url": "https://www.cnbc.com/2026/10/31/bank-of-america-stocks-to-buy-into-earnings.html",
+      "source": "CNBC Top",
+      "published": "2026-10-31T13:05:03+00:00",
+      "topic": "Investment Banking",
+      "importance": "high",
+      "id": "a_abfc3e1e7e",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Crypto industry pours more than $200 million into 2026 midterms to pressure Congress on favorable rules",
+      "summary": "Interest groups tied to cryptocurrency are spending millions to tilt the midterm elections. They had mixed success in 2024",
+      "url": "https://www.cnbc.com/2026/10/31/crypto-industry-spends-more-than-200-million-to-sway-the-midterms.html",
+      "source": "CNBC Top",
+      "published": "2026-10-31T13:04:29+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_d953fe630c",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Intel stock plunges 29%. Analysts urge caution on buying the dip",
+      "summary": "Intel's sell-off could be a chance to buy the dip, but you need a long investing horizon.",
+      "url": "https://www.cnbc.com/2026/10/31/intel-not-a-buy-after-drop.html",
+      "source": "CNBC Top",
+      "published": "2026-10-31T13:02:22+00:00",
+      "topic": "Investment Banking",
+      "importance": "critical",
+      "id": "a_a81dbef308",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "The stock market’s front-runners stumbled in October. Here’s where the smart money is moving now.",
+      "summary": "U.S. stocks saw a stronger reversal in fortunes in October, as worries about dwindling free cash flows and rising borrowing costs threw a wrench into the works of the artificial-intelligence trade.",
+      "url": "https://www.marketwatch.com/story/the-stock-markets-front-runners-stumbled-in-october-heres-where-the-smart-money-is-moving-now-f901472a?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-10-31T13:01:00+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_4d4d33397c",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "18 years in, what has Bitcoin truly done?",
+      "summary": "",
+      "url": "https://www.coindesk.com/opinion/2026/10/31/18-years-in-what-has-bitcoin-truly-done",
+      "source": "CoinDesk",
+      "published": "2026-10-31T13:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_b38e238113",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "How to start an art collection on any budget",
+      "summary": "A guide to beginning an art collection, including how to research artists, what to buy, and where to connect, from galleries to fairs to auction houses.",
+      "url": "https://www.cnbc.com/2026/10/31/how-to-invest-in-art-collecting.html",
+      "source": "CNBC Top",
+      "published": "2026-10-31T12:58:43+00:00",
+      "topic": "Investment Banking",
+      "importance": "normal",
+      "id": "a_53bf3e972a",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Trump promised to slash energy costs — but gasoline, diesel and jet fuel all soared instead",
+      "summary": "President Donald Trump promised voters who were angry about inflation that he would slash gasoline prices below $2 a gallon in his first year in office.",
+      "url": "https://www.cnbc.com/2026/10/31/trump-gas-diesel-price-midterm-election.html",
+      "source": "CNBC Top",
+      "published": "2026-10-31T12:49:58+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_d17a501a73",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "A Nasdaq-listed company may sell $450 million bitcoin, citing Binance hack and quantum fears",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/10/31/a-nasdaq-listed-company-may-sell-usd450-million-bitcoin-citing-binance-hack-and-quantum-fears",
+      "source": "CoinDesk",
+      "published": "2026-10-31T12:49:47+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_65e2b3a447",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Binance’s $6.3 billion hack raises questions about crypto wallet safety",
+      "summary": "Two high-profile security incidents this week, including the largest crypto theft in history, have raised custody and safety concerns.",
+      "url": "https://www.cnbc.com/2026/10/31/binance-hack-crypto-wallet-safety.html",
+      "source": "CNBC Top",
+      "published": "2026-10-31T12:47:08+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "high",
+      "id": "a_12f950ebbd",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Berkshire ekes out some new highs, but October rally stalls",
+      "summary": "Berkshire Hathaway shares managed to set a few more all-time highs in an otherwise lackluster week of trading.",
+      "url": "https://www.cnbc.com/2026/10/31/berkshire-ekes-out-some-new-highs-but-october-rally-stalls.html",
+      "source": "CNBC Top",
+      "published": "2026-10-31T12:26:00+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_43c52849a0",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Humans are still doing the work behind some AI agents",
+      "summary": "AI agents from startups including Dazzle, Duckbill and Wajo still rely on human workers for calls and other real-world tasks when software falls short.",
+      "url": "https://www.cnbc.com/2026/10/31/ai-agents-humans-dazzle-duckbill-meta.html",
+      "source": "CNBC Top",
+      "published": "2026-10-31T12:00:01+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_4dac5b67ca",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "The $6.3 billion Binance hack paradox: Centralization made the hack possible, but also saved $3 billion",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/10/31/the-usd6-3-billion-binance-hack-paradox-centralization-made-the-hack-possible-but-also-saved-usd3-billion",
+      "source": "CoinDesk",
+      "published": "2026-10-31T12:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "high",
+      "id": "a_1111b2eec1",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Blockchain investigator Chainalysis hit by cybersecurity incident",
+      "summary": "The company said some non-sensitive customer data was exposed, including user IDs, names and email addresses.",
+      "url": "https://cointelegraph.com/news/blockchain-investigator-chainalysis-hit-by-cybersecurity-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-10-31T11:22:49+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_25bacd7e6a",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Anthropic's path to the Nasdaq just got a lot bumpier",
+      "summary": "Concerning projections from hyperscalers this week punished tech stocks and pushed the Nasdaq to its first three-week losing streak since March.",
+      "url": "https://www.cnbc.com/2026/10/31/anthropic-ipo-ai-spending.html",
+      "source": "CNBC Top",
+      "published": "2026-10-31T11:00:01+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_95828e17c0",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Binance $6.3B record hack sparks pre-election political clashes",
+      "summary": "Some political and administration figures tried to make hay of the biggest-ever crypto heist.",
+      "url": "https://cointelegraph.com/news/binance-63b-record-hack-sparks-pre-election-political-chatter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-10-31T09:58:50+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_2533dd7340",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Bitcoin stolen from Binance tops Tesla’s holdings and is over twice El Salvador’s reserve",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/10/31/bitcoin-stolen-from-binance-tops-tesla-s-holdings-and-is-over-twice-el-salvador-s-reserve",
+      "source": "CoinDesk",
+      "published": "2026-10-31T05:01:32+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_6e1b0c1ce0",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "source": "TechCrunch AI",
+      "published": "2026-10-31T01:20:05+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_d1c75a3424",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "OpenAI reportedly cuts fundraising and valuation targets amid AI jitters",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/10/30/openai-reportedly-cuts-fundraising-target-amid-ai-jitters",
+      "source": "CoinDesk",
+      "published": "2026-10-31T00:48:56+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_7ca2366c0d",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Ollie, a privacy-focused AI assistant, is shutting down",
+      "summary": "As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week.",
+      "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+      "source": "TechCrunch AI",
+      "published": "2026-10-30T22:56:13+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_a924511f9f",
       "date": "2026-10-30"
-    }
-  ],
-  "news": [
+    },
+    {
+      "title": "Meta outlook revised downward by S&P on cash flow and capex concerns",
+      "summary": "Meta has been given a negative outlook by S&P Global Ratings due to the company's hefty capital expenditures and concerns about free cash flow.",
+      "url": "https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html",
+      "source": "CNBC Top",
+      "published": "2026-10-30T22:42:26+00:00",
+      "topic": "Corporate Finance",
+      "importance": "high",
+      "id": "a_c13c6f3c38",
+      "date": "2026-10-30"
+    },
+    {
+      "title": "Binance hackers raced to move billions before it could be frozen",
+      "summary": "Attackers raced to convert stolen stablecoins into crypto that issuers could not freeze as industry players like Tether and Circle moved to immobilize billions of dollars in assets.",
+      "url": "https://cointelegraph.com/magazine/binance-hackers-raced-to-move-billions-before-could-be-frozen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-10-30T22:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_c32c2f2509",
+      "date": "2026-10-30"
+    },
+    {
+      "title": "Intel’s stock crashes, knocking $12B from government’s stake",
+      "summary": "Intel is being hurt by PC sales as the AI industry gobbles memory and other components causing PC prices to rise.",
+      "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+      "source": "TechCrunch AI",
+      "published": "2026-10-30T21:54:34+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_f7280bac42",
+      "date": "2026-10-30"
+    },
+    {
+      "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+      "summary": "Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business.",
+      "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+      "source": "TechCrunch AI",
+      "published": "2026-10-30T21:52:03+00:00",
+      "topic": "AI",
+      "importance": "high",
+      "id": "a_f4fe927175",
+      "date": "2026-10-30"
+    },
+    {
+      "title": "Last-minute Halloween costumes for tech nerds",
+      "summary": "No Halloween costume? Just be a deceptively cute AI agent icon, a PHP vulnerability, or sleepy time Bryan Johnson.",
+      "url": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
+      "source": "TechCrunch AI",
+      "published": "2026-10-30T21:26:59+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_2468326ef3",
+      "date": "2026-10-30"
+    },
+    {
+      "title": "Cracks are emerging in the AI spending boom",
+      "summary": "Big Tech is pouring billions into AI infrastructure, but mounting debt, negative cash flow, and growing investor skepticism are raising questions about the sustainability of the AI spending boom.",
+      "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+      "source": "TechCrunch AI",
+      "published": "2026-10-30T21:17:40+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_bfefcaedde",
+      "date": "2026-10-30"
+    },
+    {
+      "title": "Intel stock has worst day since 1970s, wiping about $12 billion off government's stake",
+      "summary": "Investors are nervous about the massive AI spending from the tech giants and whether that will pay off.",
+      "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html",
+      "source": "CNBC Top",
+      "published": "2026-10-30T20:30:57+00:00",
+      "topic": "AI",
+      "importance": "high",
+      "id": "a_2659998577",
+      "date": "2026-10-30"
+    },
+    {
+      "title": "Stock market rocked as investors dump tech shares; Nasdaq suffers worst day since June: Live updates",
+      "summary": "The tech-heavy Nasdaq Composite posted its worst month since March 2025.",
+      "url": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html",
+      "source": "CNBC Top",
+      "published": "2026-10-30T20:20:40+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_40cd88a1ab",
+      "date": "2026-10-30"
+    },
+    {
+      "title": "Experts divided over Binance hack asset freezes, warn recovery is another matter",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/10/30/experts-divided-over-binance-hack-asset-freezes-warn-recovery-is-another-matter",
+      "source": "CoinDesk",
+      "published": "2026-10-30T19:55:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_6521f1251d",
+      "date": "2026-10-30"
+    },
+    {
+      "title": "Tether’s excess reserves nearly double to $8B as Q3 profit hits $1.5B",
+      "summary": "The stablecoin issuer’s US Treasury holdings are comparable to those of major foreign holders, while its Bitcoin reserves were valued at $8.37 billion at the end of September.",
+      "url": "https://cointelegraph.com/news/tethers-excess-reserves-nearly-double-to-8b-as-q3-profit-hits-15b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-10-30T19:01:58+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "high",
+      "id": "a_87e2cfb2ff",
+      "date": "2026-10-30"
+    },
+    {
+      "title": "Coinbase leads crypto stock selloff following $6.3B Binance hack",
+      "summary": "Circle, Strategy and other crypto-linked stocks fell sharply Friday, a day after Binance disclosed a $6.3 billion security breach.",
+      "url": "https://cointelegraph.com/markets/coinbase-leads-crypto-stock-selloff-shares-tumble?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-10-30T17:48:27+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "high",
+      "id": "a_58e623bd83",
+      "date": "2026-10-30"
+    },
+    {
+      "title": "Zest’s new AI agent finds restaurants and books reservations over text",
+      "summary": "Can't agree on where to eat? Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
+      "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+      "source": "TechCrunch AI",
+      "published": "2026-10-30T17:47:12+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_d5c158dfca",
+      "date": "2026-10-30"
+    },
+    {
+      "title": "Crypto Biz: Bitcoin’s quantum threat is becoming an economic problem",
+      "summary": "Bitcoin faces mounting quantum security concerns as Ripple secures a US banking charter, USDC gains ground in Europe and VanEck adds BTC to a new ETF.",
+      "url": "https://cointelegraph.com/news/bitcoin-quantum-threat-ripple-bank-usdc-vaneck-crypto-biz?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-10-30T17:09:31+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_7bc91ebab6",
+      "date": "2026-10-30"
+    },
+    {
+      "title": "Google’s first data center satellite is online and writing poetry",
+      "summary": "The first TPU in space is running a Google DeepMind Gemma 4 model and writing cheesy poetry.",
+      "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+      "source": "TechCrunch AI",
+      "published": "2026-10-30T17:00:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_6cd2bf2e31",
+      "date": "2026-10-30"
+    },
     {
       "title": "Halloween gets pricier as chocolate costs climb — Hershey may feel the pinch",
       "summary": "Higher cocoa and sugar prices are fueling above-average cost inflation for candy",
@@ -85,36 +570,14 @@
       "date": "2026-10-30"
     },
     {
-      "title": "St. Louis Fed's Musalem: Another rate hike needed 'soon'",
-      "summary": "Musalem's comments offer the first morsels of insight into what leaders at the Fed see next following this week's decision to hold interst rates steady.",
-      "url": "https://www.cnbc.com/2026/10/30/musalem-fed-monetary-policy-tightening.html",
-      "source": "CNBC Top",
-      "published": "2026-10-30T16:54:37+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_6cb9ea605d",
-      "date": "2026-10-30"
-    },
-    {
-      "title": "Intel stock heads for worst day in more than 50 years, wiping $12 billion off government's stake",
-      "summary": "Investors are nervous about the massive AI spending from the tech giants and whether that will pay off.",
-      "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html",
-      "source": "CNBC Top",
-      "published": "2026-10-30T16:54:11+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_b208453f13",
-      "date": "2026-10-30"
-    },
-    {
-      "title": "Stocks making the biggest moves midday: Intel, Lumentum, Sandisk, Twilio, Coinbase & more",
-      "summary": "Here are some of the companies making headlines in midday trading.",
-      "url": "https://www.cnbc.com/2026/10/30/stocks-making-the-biggest-moves-midday-intc-lite-sndk-twlo-coin.html",
-      "source": "CNBC Top",
-      "published": "2026-10-30T16:51:44+00:00",
+      "title": "Recap: How Binance’s record $6.3B hack unfolded",
+      "summary": "A recap of Cointelegraph’s live coverage of the Binance hack, including early breach reports and the exchange’s full reimbursement pledge.",
+      "url": "https://cointelegraph.com/news/recap-binances-record-63b-hack-unfolded?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-10-30T16:53:46+00:00",
       "topic": "Cryptocurrency",
       "importance": "normal",
-      "id": "a_841c23c4dc",
+      "id": "a_05394b328a",
       "date": "2026-10-30"
     },
     {
@@ -126,28 +589,6 @@
       "topic": "Cryptocurrency",
       "importance": "high",
       "id": "a_a69db45874",
-      "date": "2026-10-30"
-    },
-    {
-      "title": "After Intel’s historic stock drop, analysts say there’s no reason to buy the dip",
-      "summary": "“A cheaper stock does not necessarily offer better value,” one expert says.",
-      "url": "https://www.marketwatch.com/story/after-intels-historic-stock-drop-analysts-say-theres-no-reason-to-buy-the-dip-068446af?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-10-30T16:45:00+00:00",
-      "topic": "Investment Banking",
-      "importance": "normal",
-      "id": "a_54f2c99d4e",
-      "date": "2026-10-30"
-    },
-    {
-      "title": "Binance's $6.3 billion hack: What we know and what comes next",
-      "summary": "Billions in crypto assets have been frozen following a potential Binance security breach, raising questions about whether the funds can be recovered.",
-      "url": "https://www.cnbc.com/2026/10/30/billions-in-crypto-frozen-in-binance-hack-heres-what-happens-next-.html",
-      "source": "CNBC Top",
-      "published": "2026-10-30T16:31:36+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_e71d04335a",
       "date": "2026-10-30"
     },
     {
@@ -195,105 +636,6 @@
       "date": "2026-10-30"
     },
     {
-      "title": "$6.3 billion Binance hack is largest crypto theft on record",
-      "summary": "Binance says a security breach impacted about $6.3 billion in assets. The exchange says roughly $3 billion has been frozen and losses will be covered.",
-      "url": "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html",
-      "source": "CNBC Top",
-      "published": "2026-10-30T16:01:51+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_83faf918c6",
-      "date": "2026-10-30"
-    },
-    {
-      "title": "Private equity in your 401(k)? Heed Warren Buffett’s warning.",
-      "summary": "About 52% of people with a workplace retirement plan say they would invest in private assets if they were available in their company’s plan.",
-      "url": "https://www.marketwatch.com/story/private-equity-in-your-401-k-heed-warren-buffetts-warning-6f318cd0?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-10-30T15:53:00+00:00",
-      "topic": "Investment Banking",
-      "importance": "normal",
-      "id": "a_7e7e755260",
-      "date": "2026-10-30"
-    },
-    {
-      "title": "Broadridge runs Wall Street’s market plumbing. Tokenization may expand its role",
-      "summary": "Broadridge's business is deeply embedded in the financial system, but some investors have viewed AI and tokenization as a threat.",
-      "url": "https://www.cnbc.com/2026/10/30/broadridge-tokenization-stock.html",
-      "source": "CNBC Top",
-      "published": "2026-10-30T15:52:38+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_543f339017",
-      "date": "2026-10-30"
-    },
-    {
-      "title": "Jim Cramer reveals 3 stocks to buy — plus, why he is not selling the Intel plunge",
-      "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
-      "url": "https://www.cnbc.com/investingclub/2026/10/30/cramer-sees-3-stocks-to-buy-not-selling-the-intel-plunge.html",
-      "source": "CNBC Top",
-      "published": "2026-10-30T15:49:19+00:00",
-      "topic": "Investment Banking",
-      "importance": "normal",
-      "id": "a_db8aada117",
-      "date": "2026-10-30"
-    },
-    {
-      "title": "'Bad time to troll': Binance cofounder Changpeng Zhao asks Elon Musk for 'respect' after post about bitcoin hack",
-      "summary": "Binance co-founder Changpeng Zhao asked Elon Musk to stop “trolling” after a $6.3 billion hack, pointing to Binance’s $1 billion-plus SpaceX stake.",
-      "url": "https://www.cnbc.com/2026/10/30/binance-hack-elon-musk-tesla-spacex.html",
-      "source": "CNBC Top",
-      "published": "2026-10-30T15:44:23+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_f652ab07f7",
-      "date": "2026-10-30"
-    },
-    {
-      "title": "In a wild October for markets, these stocks were the biggest winners and losers",
-      "summary": "Many Big Tech stocks were hit hard but the S&P 500 showed strength under the surface, with a majority of stocks showing gains for the month.",
-      "url": "https://www.marketwatch.com/story/in-a-wild-october-for-markets-these-stocks-were-the-biggest-winners-and-losers-3736f043?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-10-30T15:26:00+00:00",
-      "topic": "Stocks",
-      "importance": "normal",
-      "id": "a_3c06a43066",
-      "date": "2026-10-30"
-    },
-    {
-      "title": "Musk and Zuckerberg echo Trump's push to rebrand AI as 'super intelligence' on earnings calls. Others do not",
-      "summary": "Meta's Mark Zuckerberg and Elon Musk of Tesla and SpaceX adopted President Trump's preferred \"super intelligence\" term on their third-quarter earnings calls.",
-      "url": "https://www.cnbc.com/2026/10/30/trump-tech-allies-swap-ai-for-super-intelligence-in-earnings-calls.html",
-      "source": "CNBC Top",
-      "published": "2026-10-30T15:14:27+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_b29216aa25",
-      "date": "2026-10-30"
-    },
-    {
-      "title": "Swiss central bank posts bumper $23 billion profit thanks to gold, foreign assets",
-      "summary": "Unlike other major central banks, the Swiss National Bank has a significant equity portfolio.",
-      "url": "https://www.cnbc.com/2026/10/30/swiss-national-bank-q3-profit-gold-foreign-asset.html",
-      "source": "CNBC Top",
-      "published": "2026-10-30T15:07:48+00:00",
-      "topic": "Banking",
-      "importance": "high",
-      "id": "a_c86da68fa0",
-      "date": "2026-10-30"
-    },
-    {
-      "title": "Here are the stocks reporting next week that have a history of earnings beats and big share gains",
-      "summary": "These stocks reporting next week typically beat Wall Street numbers and see their stocks rally afterward.",
-      "url": "https://www.cnbc.com/2026/10/30/here-are-stocks-reporting-next-week-that-usually-beats-and-see-big-share-gains.html",
-      "source": "CNBC Top",
-      "published": "2026-10-30T15:04:26+00:00",
-      "topic": "Stocks",
-      "importance": "high",
-      "id": "a_14435e759b",
-      "date": "2026-10-30"
-    },
-    {
       "title": "Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack",
       "summary": "",
       "url": "https://www.coindesk.com/markets/2026/10/30/wall-street-analysts-urge-investors-to-buy-crypto-stocks-on-weakness-after-usd6-3-billion-binance-hack",
@@ -302,17 +644,6 @@
       "topic": "Cryptocurrency",
       "importance": "high",
       "id": "a_a4c6b6c15e",
-      "date": "2026-10-30"
-    },
-    {
-      "title": "Here’s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-10-30T14:07:42+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_8dded07b07",
       "date": "2026-10-30"
     },
     {
@@ -349,14 +680,14 @@
       "date": "2026-10-30"
     },
     {
-      "title": "Binance working with FBI to recover assets following $6.3B hack",
-      "summary": "Binance is working with law enforcement to recover $3 billion that is frozen, after setting aside more than $6.3 billion from the company’s funds to cover the shortfall.",
+      "title": "FBI and Secret Service join response to Binance’s $6.3B hack",
+      "summary": "US agencies are investigating the theft and helping trace stolen assets, while Binance says about $3 billion has been frozen.",
       "url": "https://cointelegraph.com/news/binance-fbi-recover-assets-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published": "2026-10-30T13:11:10+00:00",
       "topic": "Cryptocurrency",
       "importance": "high",
-      "id": "a_c170c7df40",
+      "id": "a_05fd6d482d",
       "date": "2026-10-30"
     },
     {
@@ -448,17 +779,6 @@
       "date": "2026-10-30"
     },
     {
-      "title": "Tech giants need legacy businesses to keep growing as they pour trillions into the AI buildout",
-      "summary": "Hyperscalers continue spending big on artificial intelligence, putting pressure on their legacy businesses and impacting their free cash flow.",
-      "url": "https://www.cnbc.com/2026/10/30/tech-giants-alphabet-meta-microsoft-amazon-ai-buildouts.html",
-      "source": "CNBC Top",
-      "published": "2026-10-30T11:00:01+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_cb92d94a9c",
-      "date": "2026-10-30"
-    },
-    {
       "title": "Binance hacker’s Bitcoin haul tops Coinbase’s corporate treasury",
       "summary": "The attackers held 18,270 BTC early Friday, topping Coinbase’s reported corporate holdings, and an Ether stash exceeding 500,000 ETH.",
       "url": "https://cointelegraph.com/news/binance-hacker-bitcoin-holdings-exceed-coinbase-btc-treasury?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -492,14 +812,14 @@
       "date": "2026-10-30"
     },
     {
-      "title": "Live updates: Bitcoin falls to $77,000 as Binance exploit combines with tech woes",
+      "title": "Live updates: Bitcoin falls below $77,000 as Binance exploit combines with tech woes",
       "summary": "",
       "url": "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
       "source": "CoinDesk",
       "published": "2026-10-30T08:36:52+00:00",
       "topic": "Cryptocurrency",
       "importance": "normal",
-      "id": "a_55346c5c5f",
+      "id": "a_9cc7fe67bd",
       "date": "2026-10-30"
     },
     {
@@ -591,28 +911,6 @@
       "date": "2026-10-30"
     },
     {
-      "title": "Binance hack could accelerate shift to DEXs: Standard Chartered",
-      "summary": "Standard Chartered’s Geoffrey Kendrick said the breach could accelerate a shift toward decentralized trading and strengthen his case for Uniswap’s UNI token reaching $100 by 2030.",
-      "url": "https://cointelegraph.com/news/binance-hack-could-accelerate-shift-to-dexs-standard-chartered?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-10-30T03:47:01+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_0a9edc9ca7",
-      "date": "2026-10-30"
-    },
-    {
-      "title": "Crypto's longtime foe, North Korea's Lazarus Group, likely behind Binance hack: blockchain sleuths",
-      "summary": "",
-      "url": "https://www.coindesk.com/policy/2026/10/29/crypto-s-longtime-foe-north-korea-s-lazarus-group-likely-behind-binance-hack-blockchain-sleuths",
-      "source": "CoinDesk",
-      "published": "2026-10-30T03:36:11+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_14e21bce40",
-      "date": "2026-10-30"
-    },
-    {
       "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
       "summary": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
       "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
@@ -624,28 +922,6 @@
       "date": "2026-10-30"
     },
     {
-      "title": "Binance hack drained wallets backing customer assets, reserve data shows",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/10/30/binance-hack-drained-wallets-backing-customer-assets-reserve-data-shows",
-      "source": "CoinDesk",
-      "published": "2026-10-30T00:17:10+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_e58a59ac99",
-      "date": "2026-10-30"
-    },
-    {
-      "title": "Binance points to engineer’s hacked laptop in $6.3B breach",
-      "summary": "Binance said attackers may have used a compromised DevOps laptop to access internal infrastructure.",
-      "url": "https://cointelegraph.com/news/binance-hack-may-involve-private-key-misuse-not-theft-blockaid-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-10-30T00:11:26+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_15ae7fd665",
-      "date": "2026-10-30"
-    },
-    {
       "title": "AWS will be a $1T business, Jassy says — but first, it will spend big",
       "summary": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
       "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
@@ -654,303 +930,6 @@
       "topic": "AI",
       "importance": "critical",
       "id": "a_d04ab436e1",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "Binance hack rattles markets as BNB falls 8%, Bitcoin nears $77K",
-      "summary": "Bitcoin, Ether and the broader crypto market took a dive as Binance suffered a multibillion-dollar hack.",
-      "url": "https://cointelegraph.com/markets/binance-hack-rattles-crypto-markets-bnb-bitcoin-slide?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-10-29T23:24:21+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_88087afbf7",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "Tampered Ledger reported in Singapore a month before news broke: Asia Express",
-      "summary": "Singapore police say tampered Ledgers started showing up there on September 10. South Korean lawmakers look set to delay the crypto tax law for a fourth time.",
-      "url": "https://cointelegraph.com/magazine/tampered-ledger-reported-in-singapore-a-month-before-news-broke-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-10-29T22:31:07+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_43a6474709",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "Binance hit by $6.3B hack, the largest in cryptocurrency history",
-      "summary": "Binance pledged to cover all losses after a $6.3 billion hack, with about $3 billion in assets frozen by the exchange and its partners.",
-      "url": "https://cointelegraph.com/news/binance-linked-wallet-faces-possible-exploit-blockchain-researcher-warns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-10-29T21:24:36+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_d298a4eea4",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "Binance loses over $6 billion in 'biggest crypto hack in history'",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets",
-      "source": "CoinDesk",
-      "published": "2026-10-29T21:12:45+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_00ef5d7055",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
-      "summary": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
-      "source": "Federal Reserve",
-      "published": "2026-10-29T20:30:00+00:00",
-      "topic": "Banking",
-      "importance": "normal",
-      "id": "a_d077739f00",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
-      "summary": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
-      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
-      "source": "TechCrunch AI",
-      "published": "2026-10-29T20:08:31+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_3cd90c3ad7",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "Rivian expands joint venture with VW to include AI assistant",
-      "summary": "Rivian doesn't disclose if the value of its $5.8 billion joint venture will expand as a result.",
-      "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
-      "source": "TechCrunch AI",
-      "published": "2026-10-29T20:05:47+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_b7091eb091",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "OpenAI-backed Thrive Holdings acquires ADT",
-      "summary": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.",
-      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
-      "source": "TechCrunch AI",
-      "published": "2026-10-29T19:56:19+00:00",
-      "topic": "AI",
-      "importance": "critical",
-      "id": "a_4052518857",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "Public companies double share of blockchain revenue since 2022: Report",
-      "summary": "A new 1kx report finds that public companies are capturing a larger share of blockchain revenue, driven by institutional adoption and real-world applications.",
-      "url": "https://cointelegraph.com/news/public-companies-double-share-of-blockchain-revenue-since-2022-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-10-29T19:53:14+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_24932ca03f",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "Meta quietly launches an AI fashion app called Style Sketch",
-      "summary": "The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a photo, recording a quick video, or uploading images from your camera roll.",
-      "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
-      "source": "TechCrunch AI",
-      "published": "2026-10-29T19:14:36+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_b67b28a304",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
-      "summary": "The personal consumption expenditures price index was projected to increase 0.5% in September for an annual rate of 3.7%, according to the Dow Jones consensus.",
-      "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
-      "source": "CNBC Economy",
-      "published": "2026-10-29T18:06:31+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_2465839d84",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "Granola crunches up a dictation feature to compete with Wispr",
-      "summary": "Uno reverse! After Wispr added meeting notes to its dictation app, Granola is adding dictation to its meeting notetaker. The voice AI wars are getting interesting.",
-      "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
-      "source": "TechCrunch AI",
-      "published": "2026-10-29T17:54:38+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_6c69c0ada9",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "Analysis: Kevin Warsh is keeping Wall Street guessing. It may be his most powerful tool",
-      "summary": "The new chairman made clear he leans toward higher interest rates, but left himself options depending on how the data comes in.",
-      "url": "https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html",
-      "source": "CNBC Economy",
-      "published": "2026-10-29T17:32:34+00:00",
-      "topic": "Macroeconomics",
-      "importance": "normal",
-      "id": "a_a5480bff80",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
-      "summary": "Mistral says its new model can afford organizations a kind of control over its cyber defenses that closed models can't.",
-      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
-      "source": "TechCrunch AI",
-      "published": "2026-10-29T17:00:00+00:00",
-      "topic": "AI",
-      "importance": "critical",
-      "id": "a_355bf95de0",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "KuCoin exits Russia and Belarus as crypto exchanges withdraw from Western-sanctioned markets",
-      "summary": "",
-      "url": "https://www.coindesk.com/policy/2026/10/29/kucoin-exits-russia-and-belarus-as-crypto-exchanges-withdraw-from-western-sanctioned-markets",
-      "source": "CoinDesk",
-      "published": "2026-10-29T16:51:18+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_0b8570ec32",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
-      "summary": "A top executive of a Singapore AI cloud company that was accused of illegally selling Nvidia chips to China could also have been a Chinese spy, sources have told the New York Times.",
-      "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
-      "source": "TechCrunch AI",
-      "published": "2026-10-29T16:42:32+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_801e2a00d9",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "From rivals to partners: Polygon and Solana team to bring stablecoin payments to banks",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/10/29/from-rivals-to-partners-polygon-and-solana-team-to-bring-stablecoin-payments-to-banks",
-      "source": "CoinDesk",
-      "published": "2026-10-29T16:35:43+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_1fd7ec535d",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "Nasdaq-listed Canton Strategic Holdings plans tokenized stock trading from Nov. 2",
-      "summary": "The tokenized shares would carry the same shareholder rights as traditional stock, with round-the-clock trading and immediate settlement under the SEC’s innovation exemption.",
-      "url": "https://cointelegraph.com/news/canton-strategic-holdings-tokenized-stock-trading-november-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-10-29T16:27:39+00:00",
-      "topic": "Stocks",
-      "importance": "normal",
-      "id": "a_2f44009219",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
-      "summary": "Dream is grounded in real physics and construction standards. Just as LLMs learn from text, Dream's world model is trained on more than 100 million square feet of building data gathered from permit archives across the United States.",
-      "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
-      "source": "TechCrunch AI",
-      "published": "2026-10-29T16:21:00+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_5527046819",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "Crypto exchange HTX exits the UK after settling with the FCA",
-      "summary": "",
-      "url": "https://www.coindesk.com/policy/2026/10/29/crypto-exchange-htx-exits-the-uk-after-settling-with-the-fca",
-      "source": "CoinDesk",
-      "published": "2026-10-29T16:11:18+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_bf2f009351",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "Kalshi raises $1B at $40B valuation as non-sports revenue run rate tops $1B",
-      "summary": "The funding round comes as Kalshi expands its partnerships with the NBA and S&P Dow Jones Indices while facing legal challenges over its sports contracts.",
-      "url": "https://cointelegraph.com/news/kalshi-closes-1b-funding-round-at-40b-valuation-as-non-sports-revenue-run-rate-tops-1b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-10-29T15:52:43+00:00",
-      "topic": "Valuation",
-      "importance": "normal",
-      "id": "a_c6a8c7b3d8",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "Polymarket brings ultra-short crypto prediction markets to U.S. platform",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/10/29/polymarket-brings-ultra-short-crypto-prediction-markets-to-u-s-platform",
-      "source": "CoinDesk",
-      "published": "2026-10-29T14:55:47+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_b29ee0e0ac",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "The politics of President Lagarde's European Central Bank early exit — and who could replace her",
-      "summary": "European Central Bank President Christine Lagarde will step down on Feb. 7 next year, she announced Thursday.",
-      "url": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html",
-      "source": "CNBC Economy",
-      "published": "2026-10-29T14:53:06+00:00",
-      "topic": "Banking",
-      "importance": "normal",
-      "id": "a_6795fb2681",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "European Central Bank keeps key interest rate on hold at 2.5%",
-      "summary": "Markets saw the decision as a hawkish pause and were last pricing in a 67% chance of a December rate hike.",
-      "url": "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html",
-      "source": "CNBC Economy",
-      "published": "2026-10-29T14:48:01+00:00",
-      "topic": "Banking",
-      "importance": "normal",
-      "id": "a_13d5c37241",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "Crypto for Advisors: Only 1 in 5 Americans say the financial system is secure",
-      "summary": "",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/10/29/crypto-for-advisors-only-1-in-5-americans-say-the-financial-system-is-secure",
-      "source": "CoinDesk",
-      "published": "2026-10-29T14:39:01+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_4960499774",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
-      "summary": "On Thursday, AI app Wabi, now describing itself as a \"personal agent,\" said it has raised $55 million at a $1.25 billion valuation.",
-      "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
-      "source": "TechCrunch AI",
-      "published": "2026-10-29T14:35:26+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_c82eee4073",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "Minutes of the Meeting of the Court of Directors held on 17 September 2026",
-      "summary": "The Bank's Court of Directors acts as a unitary board, setting the organisation's strategy and budget and taking key decisions on resourcing and appointments. Required to meet a minimum seven times per year, it has five executive members from the Bank and up to nine non-executive members.",
-      "url": "https://www.bankofengland.co.uk/minutes/2026/september/court-minutes-17-september-2026",
-      "source": "Bank of England",
-      "published": "2026-10-29T14:00:00+00:00",
-      "topic": "Banking",
-      "importance": "normal",
-      "id": "a_b666b6d048",
       "date": "2026-10-29"
     }
   ]
