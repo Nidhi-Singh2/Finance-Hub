@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T18:15:55.657136+00:00",
+  "generated_at": "2026-11-04T18:30:28.040384+00:00",
   "kpis": [
     {
       "name": "S&P 500",
@@ -35,87 +35,681 @@
     },
     {
       "name": "Bitcoin",
-      "val": "$77.7K",
-      "delta": "+0.60%",
+      "val": "$80.6K",
+      "delta": "+3.83%",
       "dir": "up",
       "stale": false,
-      "as_of": "2026-11-03T18:15:55.657106+00:00"
+      "as_of": "2026-11-04T18:30:28.040355+00:00"
     },
     {
       "name": "Ethereum",
-      "val": "$2,297",
-      "delta": "+1.67%",
+      "val": "$2,433",
+      "delta": "+6.05%",
       "dir": "up",
       "stale": false,
-      "as_of": "2026-11-03T18:15:55.657127+00:00"
+      "as_of": "2026-11-04T18:30:28.040375+00:00"
     }
   ],
-  "voices": [
-    {
-      "name": "Bill Ackman",
-      "role": "CEO, Pershing Square",
-      "initials": "BA",
-      "bg": "var(--p-lemon)",
-      "quote": "We're back to the casino-type markets when there was 95% leverage,",
-      "source": "CNBC Top",
-      "url": "https://www.cnbc.com/2026/11/03/bill-ackman-casino-stock-market.html",
-      "date": "2026-11-03"
-    }
-  ],
+  "voices": [],
   "news": [
     {
-      "title": "Midterm elections could jolt stocks if Democrats sweep Congress",
-      "summary": "Wall Street weighs how the 2026 midterms could affect stocks, Treasury yields, artificial intelligence, energy prices, banks, defense and healthcare.",
-      "url": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
+      "title": "CVS to split off drugstore business in major breakup of healthcare giant; shares fall 10%",
+      "summary": "The move would reverse the company's $78 billion acquisition of Aetna and dismantle the vertically integrated healthcare conglomerate it created in 2018.",
+      "url": "https://www.cnbc.com/2026/11/04/cvs-to-split-off-drugstore-business.html",
       "source": "CNBC Top",
-      "published": "2026-11-03T18:05:18+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_f7254ca2f2",
-      "date": "2026-11-03"
+      "published": "2026-11-04T18:18:40+00:00",
+      "topic": "Investment Banking",
+      "importance": "high",
+      "id": "a_db575fd44d",
+      "date": "2026-11-04"
     },
     {
-      "title": "Binance co-CEO Richard Teng says hackers used fake job interviews, AI tool to steal $6.3 billion in crypto",
-      "summary": "Binance has replenished 98% of $6.34 billion in affected assets, according to a security report the crypto exchange issued Tuesday.",
-      "url": "https://www.cnbc.com/2026/11/03/binance-co-ceo-teng-says-hackers-used-fake-job-interviews-to-steal-6point3-billion-in-crypto.html",
-      "source": "CNBC Top",
-      "published": "2026-11-03T17:58:41+00:00",
+      "title": "These 12 stocks are good bets to beat the 10-year Treasury over the next decade",
+      "summary": "Investment newsletters’ favorite Dividend Aristocrat stocks",
+      "url": "https://www.marketwatch.com/story/these-12-stocks-are-good-bets-to-beat-the-10-year-treasury-over-the-next-decade-cc4f308b?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-11-04T18:03:00+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_dc172ac322",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Circle’s ARC token sale lifts earnings as lower yields weigh on USDC income",
+      "summary": "Circle is looking to payments fees and future staking rewards to diversify revenue as its core stablecoin business faces pressure from lower yields and growing competition.",
+      "url": "https://cointelegraph.com/news/circles-arc-token-sale-earnings-yields-usdc-income?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-04T18:02:42+00:00",
       "topic": "Cryptocurrency",
       "importance": "high",
-      "id": "a_1b3754ad88",
-      "date": "2026-11-03"
+      "id": "a_ad51432dfd",
+      "date": "2026-11-04"
     },
     {
-      "title": "Midterm elections 2026 live updates: Economy, inflation and voter concerns",
-      "summary": "Follow 2026 midterm elections live updates, including House and Senate races, Texas, Georgia, Ohio and Minnesota, and key results as polls close.",
-      "url": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
-      "source": "CNBC Top",
-      "published": "2026-11-03T17:57:50+00:00",
+      "title": "Watch out for Big Tech companies like Meta and Alphabet issuing more shares and diluting your stock ownership",
+      "summary": "The Big Tech companies known as hyperscalers may be tempted to issue more shares as interest rates rise and the stock market holds up, which can hurt their current shareholders.",
+      "url": "https://www.marketwatch.com/story/watch-out-for-big-tech-companies-like-meta-and-alphabet-issuing-more-shares-and-diluting-your-stock-ownership-283e8c96?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-11-04T17:44:00+00:00",
       "topic": "Macroeconomics",
       "importance": "normal",
-      "id": "a_52668e395a",
-      "date": "2026-11-03"
+      "id": "a_7e2e5834c3",
+      "date": "2026-11-04"
     },
     {
-      "title": "Stocks making the biggest moves midday: Apple, Palantir, Nvidia, Coinbase, Bloom Energy & more",
-      "summary": "Here are some of the companies making headlines in midday trading.",
-      "url": "https://www.cnbc.com/2026/11/03/stocks-making-the-biggest-moves-midday-aapl-pltr-nvda-coin-be.html",
+      "title": "Deal or no deal: Handicapping an LBO at Global Payments",
+      "summary": "Global Payments is reportedly in buyout talks. Analysts weigh financing hurdles and model possible take-private prices from below $100 to $190 a share.",
+      "url": "https://www.cnbc.com/2026/11/04/global-payments-buyout-cdr-gtcr.html",
       "source": "CNBC Top",
-      "published": "2026-11-03T17:55:18+00:00",
-      "topic": "Cryptocurrency",
+      "published": "2026-11-04T17:23:12+00:00",
+      "topic": "Investment Banking",
       "importance": "normal",
-      "id": "a_6de68f3efd",
-      "date": "2026-11-03"
+      "id": "a_f3749d3f24",
+      "date": "2026-11-04"
     },
     {
-      "title": "AI-generated 'slopaganda' in political ads puts internet platforms on alert",
-      "summary": "Tuesday's midterm elections follow record spending on AI-generated political ads.",
-      "url": "https://www.cnbc.com/2026/11/03/ai-generated-slopaganda-in-political-ads-puts-platforms-on-alert.html",
+      "title": "Kraft Heinz to divest its North American coffee business in $650 million deal",
+      "summary": "Kraft Heinz will divest its North American coffee business to private equity firm One Rock Capital Partners as CEO Steve Cahillane works to revive the company.",
+      "url": "https://www.cnbc.com/2026/11/04/kraft-heinz-coffee-business-one-rock-deal.html",
       "source": "CNBC Top",
-      "published": "2026-11-03T17:37:31+00:00",
+      "published": "2026-11-04T17:21:06+00:00",
+      "topic": "Investment Banking",
+      "importance": "normal",
+      "id": "a_093789b25b",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Hospital stocks rally while drugmakers brace for scrutiny. Here’s what the Democratic wave means for healthcare.",
+      "summary": "The Democratic victory in the midterm elections could be a huge boon to the nation’s largest hospitals.",
+      "url": "https://www.marketwatch.com/story/hospital-stocks-rally-while-drugmakers-brace-for-scrutiny-heres-what-the-democratic-wave-means-for-healthcare-625b79f3?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-11-04T17:19:00+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_27eb764ec1",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "10-year Treasury yield slides as traders mull over Democrats' midterm victories, oil prices drop",
+      "summary": "Treasury yields were last little changed Wednesday as investors weighed big wins from Democrats in the U.S. midterm elections.",
+      "url": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
+      "source": "CNBC Finance",
+      "published": "2026-11-04T17:11:00+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_3d72aab46c",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Jim Cramer says this bank stock is a buy after its post-election pullback",
+      "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+      "url": "https://www.cnbc.com/investingclub/2026/11/04/cramer-says-this-bank-stock-is-a-buy-after-its-post-election-pullback.html",
+      "source": "CNBC Top",
+      "published": "2026-11-04T16:54:39+00:00",
+      "topic": "Banking",
+      "importance": "normal",
+      "id": "a_e705e5207e",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling",
+      "summary": "Apple's AI-powered Siri Recaps won me over in just one day, despite my privacy reservations. But there's still room for improvement.",
+      "url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-04T16:51:35+00:00",
       "topic": "AI",
       "importance": "normal",
-      "id": "a_7e623fc3e5",
+      "id": "a_9f1252d944",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
+      "summary": "Politicians on the left, like NYC mayor Zohran Mamdani and former FTC chair Lina Khan, accused Google of acting as an unregulated monopoly.",
+      "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-04T16:17:22+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_275d091739",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Wall Street rethinks AI data center boom as Texas election raises new risks",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/11/04/wall-street-cuts-bitcoin-miner-price-targets-after-democrats-texas-win-threatens-ai-data-center-boom",
+      "source": "CoinDesk",
+      "published": "2026-11-04T16:08:14+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_003de6f1fd",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "The U.S. economy is barreling ahead — but there’s one big problem",
+      "summary": "The largest part of the U.S. economy grew at a rapid pace just ahead of the holiday shopping season, but business leaders were not in a festive mood due to stubborn inflation.",
+      "url": "https://www.marketwatch.com/story/the-u-s-economy-is-barreling-ahead-but-theres-one-big-problem-6d62e3b3?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-11-04T16:05:00+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_cb2e782502",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Bitcoin hits $80.5K as US stocks rally on midterm election results",
+      "summary": "Bitcoin climbed toward $80,500 as risk assets rallied on Democrats’ midterm election gains and oil prices fell.",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-us-stocks-rally-midterm-election-result?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-04T15:29:23+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_e2fc0f086e",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Crypto Long & Short: ICE is betting on retail’s appetite for quick outcomes",
+      "summary": "",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/11/04/crypto-long-and-short-ice-is-betting-on-retail-s-appetite-for-quick-outcomes",
+      "source": "CoinDesk",
+      "published": "2026-11-04T15:27:20+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_478a7832bf",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Micron and other chip stocks slip as election results strike at the core of data-center optimism",
+      "summary": "Democratic victories in Texas and other states raise long-term questions about the AI buildout, though they do not “unwind projects already funded.”",
+      "url": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-slip-as-election-results-strike-at-the-core-of-data-center-optimism-b55d19b3?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-11-04T15:17:00+00:00",
+      "topic": "AI",
+      "importance": "high",
+      "id": "a_43d0a4b1a5",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Datadog’s stock extends steep declines in the wake of earnings",
+      "summary": "Datadog failed to top expectations with its revenue forecast.",
+      "url": "https://www.marketwatch.com/story/datadogs-stock-extends-steep-declines-in-the-wake-of-earnings-af412874?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-11-04T15:16:00+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_a4dde8c763",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Qualcomm sat out the semiconductor rally. Can a SpaceX partnership change that?",
+      "summary": "The company is furthering its expansion outside of the handset market — by powering Starlink Mobile.",
+      "url": "https://www.marketwatch.com/story/qualcomm-sat-out-the-semiconductor-rally-can-a-spacex-partnership-change-that-5bb4c0b2?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-11-04T15:13:00+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_348523899b",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "McDonald's stock rises as earnings beat, U.S. restaurants show improvement",
+      "summary": "McDonald's has leaned into discounts to attract budget-conscious diners over the last two years.",
+      "url": "https://www.cnbc.com/2026/11/04/mcdonalds-is-about-to-report-earnings-heres-what-to-expect.html",
+      "source": "CNBC Top",
+      "published": "2026-11-04T15:05:28+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_8c635edbca",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "AI data center stocks and Musk's SpaceX decline as Texas governor result raises risks of a slowdown",
+      "summary": "AI fortunes were mixed as premarket trading opened on Wednesday.",
+      "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
+      "source": "CNBC Top",
+      "published": "2026-11-04T14:43:57+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_996d0d62f3",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "The election changes Washington. The work on crypto continues",
+      "summary": "",
+      "url": "https://www.coindesk.com/opinion/2026/11/04/the-election-changes-washington-the-work-on-crypto-continues",
+      "source": "CoinDesk",
+      "published": "2026-11-04T14:25:12+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_fd02b14667",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Live updates: Bitcoin and stocks post big gains, reversing overnight plunge following Blue Wave landslide",
+      "summary": "",
+      "url": "https://www.coindesk.com/tech/2026/11/04/live-updates-bitcoin-and-stocks-reverse-overnight-plunge-following-blue-wave-landslide",
+      "source": "CoinDesk",
+      "published": "2026-11-04T14:00:53+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_bbd26d1c23",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Here’s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-04T13:47:43+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_8dded07b07",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "France backs reporting for self-custodied crypto worth 100K euros or more",
+      "summary": "The amendment would require taxpayers to report holdings worth at least $112,000, but the measure still needs to survive the budget process.",
+      "url": "https://cointelegraph.com/news/france-approves-amendment-self-custodied-crypto-wallets-100k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-04T13:44:52+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_a3cf110762",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Mortgage rates drop for the third straight week, but homebuyers are still leaving the market",
+      "summary": "Mortgage rates came down again last week, but mortgage demand from homebuyers continued to decline, as high home prices and inflation stretch affordability.",
+      "url": "https://www.cnbc.com/2026/11/04/mortgage-rates-dropped-homebuyers-still-leaving.html",
+      "source": "CNBC Top",
+      "published": "2026-11-04T12:51:13+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_84290a3f79",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "THORChain's RUNE jumps 10% as North Korean hackers resume laundering Binance loot",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/11/04/thorchain-s-rune-jumps-10-as-north-korean-hackers-resume-laundering-binance-loot",
+      "source": "CoinDesk",
+      "published": "2026-11-04T12:49:56+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_951c164062",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Circle beats earnings expectations on strong revenue, but cuts 5% of its workforce",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/11/04/circle-beats-earnings-and-revenue-estimates-on-soaring-usdc-transaction-volume",
+      "source": "CoinDesk",
+      "published": "2026-11-04T12:33:54+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_5f66654dbc",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Binance hack may be ‘temporary setback’ for crypto, Grayscale’s Pandl says",
+      "summary": "Zach Pandl highlighted institutional custody safeguards as crypto markets recovered some losses following the record $6.3 billion Binance hack.",
+      "url": "https://cointelegraph.com/markets/crypto-market-recovery-grayscale-binance-hack-temporary-setback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-04T11:11:57+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "high",
+      "id": "a_cb8376c613",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
+      "summary": "It was driven by energy inflation, which surged above 20% in October.",
+      "url": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html",
+      "source": "CNBC Economy",
+      "published": "2026-11-04T10:47:30+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_a86f9f4295",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Bitcoin rebounds from midterm dip as DeFi leads gains",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/11/04/bitcoin-rebounds-from-midterm-dip-as-defi-leads-gains",
+      "source": "CoinDesk",
+      "published": "2026-11-04T10:38:58+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_c3be0b9800",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "ZachXBT names French bank Crédit Mutuel Arkéa as suspected victim of $133 million crypto theft",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/11/04/zachxbt-names-french-bank-credit-mutuel-arkea-as-suspected-victim-of-usd133-million-crypto-theft",
+      "source": "CoinDesk",
+      "published": "2026-11-04T10:18:50+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_35986c0c79",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Elon Musk floats space data centers as Democratic sweep puts pressure on AI trade",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/11/04/elon-musk-floats-space-data-centers-as-democratic-sweep-puts-pressure-on-ai-trade",
+      "source": "CoinDesk",
+      "published": "2026-11-04T10:03:33+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_2d7f16c9e6",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Bitcoin ETFs lose $1.16B as Bitwise calls selling ‘short-term’",
+      "summary": "Bitwise’s André Dragosch attributed Bitcoin ETF outflows to weaker market sentiment, saying institutions have largely maintained their exposure.",
+      "url": "https://cointelegraph.com/markets/bitcoin-etf-shed-1-16-billion-bitwise-short-term-risk-off?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-04T09:38:07+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_84e754ff0f",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "US midterm elections 2026 as it happened: Democrats win control of Congress",
+      "summary": "Democrats won control of Congress in the 2026 US midterms. Catch up on key races, crypto-backed candidates and the outlook for crypto regulation.",
+      "url": "https://cointelegraph.com/news/us-midterms-2026-live-results-and-what-they-mean-for-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-04T09:27:34+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "high",
+      "id": "a_8280dde715",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Binance hackers move 81% of stolen Solana, route funds via THORChain",
+      "summary": "The Binance attackers moved most of the stolen SOL and continued laundering funds through THORChain after the protocol resumed swaps.",
+      "url": "https://cointelegraph.com/news/binance-hackers-move-81-stolen-solana-route-thorchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-04T09:15:55+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_361e74b909",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Bitcoin bounces from 7-week low under $76K as Democrats sweep Congress",
+      "summary": "Bitcoin price downside reached a seven-week-low of $75,618 as 24-hour crypto long liquidations neared $300 million.",
+      "url": "https://cointelegraph.com/markets/bitcoin-bounces-from-7-week-low-under-76k-as-democrats-eye-congress-sweep?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-04T07:25:47+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_5f12e2e294",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Bitcoin rises to $78,300 in V-shaped comeback as midterm election uncertainty fades",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/11/04/bitcoin-knocks-on-usd78-000-in-v-shaped-comeback-as-midterm-uncertainty-fades",
+      "source": "CoinDesk",
+      "published": "2026-11-04T06:16:40+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_48a55fc29c",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Jack Dorsey's Block faces $764 million DOJ settlement as bitcoin profit plunges 50%",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/11/04/jack-dorsey-s-block-faces-usd764-million-doj-settlement-as-bitcoin-profit-plunges-50",
+      "source": "CoinDesk",
+      "published": "2026-11-04T06:06:04+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "critical",
+      "id": "a_e055ee7d1c",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Ethereum dev targets 2028 for quantum resistance, a year early",
+      "summary": "Ethereum researcher Justin Drake said it is their “hope” that Ethereum will achieve its post-quantum and post-AI transition by December 2028.",
+      "url": "https://cointelegraph.com/news/ethereum-post-quantum-transition-2028-target?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-04T05:46:33+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_eabd9ba492",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "U.S.-sanctioned Moscow Exchange to list bitcoin and Tether’s USDT in December",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/11/04/u-s-sanctioned-moscow-exchange-to-list-bitcoin-and-tether-s-usdt-in-december",
+      "source": "CoinDesk",
+      "published": "2026-11-04T05:14:12+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_ef89560a40",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "South Korea's ruling party wants to delay its crypto tax again",
+      "summary": "",
+      "url": "https://www.coindesk.com/policy/2026/11/04/south-korea-s-ruling-party-wants-to-put-off-its-crypto-tax-again",
+      "source": "CoinDesk",
+      "published": "2026-11-04T05:09:40+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_87adcf5375",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Democrats surge toward Senate, House majorities, with crypto braced for new direction",
+      "summary": "",
+      "url": "https://www.coindesk.com/policy/2026/11/03/democrats-surge-toward-senate-house-majorities-with-crypto-braced-for-new-direction",
+      "source": "CoinDesk",
+      "published": "2026-11-04T04:55:11+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_ab0aa4a243",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Bitcoin briefly sinks to $75,700 as bets on a Democratic sweep rattle markets",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/11/04/bitcoin-briefly-sinks-to-usd75-700-as-bets-on-a-democratic-sweep-rattle-markets",
+      "source": "CoinDesk",
+      "published": "2026-11-04T04:48:16+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_04a891099b",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Democrats claim control of the US Senate",
+      "summary": "The shift in Senate control could change the path for the CLARITY Act, reshape committee leadership and bring closer scrutiny of Trump’s crypto businesses.",
+      "url": "https://cointelegraph.com/news/democrats-flip-us-senate-as-crypto-industry-faces-policy-reset?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-04T04:40:44+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_137120c686",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "ZachXBT identifies French bank as alleged victim of $133M crypto theft",
+      "summary": "The French bank has not confirmed its alleged involvement in the crypto theft, which ZachXBT said could have resulted in losses exceeding $133 million.",
+      "url": "https://cointelegraph.com/news/zachxbt-french-bank-credit-mutuel-arkea-133m-crypto-theft?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-04T03:35:30+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_582c11ac16",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "1inch lawyer sees agencies driving US crypto regulation as midterms unfold",
+      "summary": "Crypto executives expect US regulators to drive crypto policymaking regardless of the midterm election outcome.",
+      "url": "https://cointelegraph.com/news/1inch-lawyer-sees-agencies-driving-us-crypto-regulation-as-midterms-unfold?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-04T00:45:16+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_18e6a7f35f",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "ECB wage tracker suggests slightly higher wage growth in first three quarters of 2027 compared with the full year of 2026",
+      "summary": "",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html",
+      "source": "ECB Press",
+      "published": "2026-11-04T00:00:00+00:00",
+      "topic": "Macroeconomics",
+      "importance": "normal",
+      "id": "a_d00a086037",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Live updates: Bitcoin and stocks reverse overnight plunge following Blue Wave landslide",
+      "summary": "",
+      "url": "https://www.coindesk.com/tech/2026/11/03/election-2026-coindesk-live-blog",
+      "source": "CoinDesk",
+      "published": "2026-11-04T00:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_f7bf73f0c7",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "RUNE rallies 15% as THORChain restarts most swaps after halt",
+      "summary": "THORChain has restored trading on Bitcoin, Ethereum and several other networks following a refund bug, while three chains remain paused.",
+      "url": "https://cointelegraph.com/markets/rune-rallies-15-as-thorchain-restarts-most-swaps-after-outage?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-03T23:56:09+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_541fb76048",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "What voters said about their views on crypto",
+      "summary": "",
+      "url": "https://www.coindesk.com/policy/2026/11/03/what-voters-said-about-their-views-on-crypto",
+      "source": "CoinDesk",
+      "published": "2026-11-03T23:19:44+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_aaa86a8e06",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Anthropic is working on a system to prove AI models’ identity",
+      "summary": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-03T22:41:03+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_4d95778ef0",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "CFTC gets into legal clash over stock perps after having cleared path for crypto version",
+      "summary": "",
+      "url": "https://www.coindesk.com/policy/2026/11/03/cftc-gets-into-legal-clash-over-stock-perps-after-having-cleared-path-for-crypto-version",
+      "source": "CoinDesk",
+      "published": "2026-11-03T22:14:44+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_765ac4b093",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "SpaceX blocks tokenized stock listing on OKXICE despite offshore trading boom",
+      "summary": "SpaceX joined several other issuers objecting to OKXICE tokenized trading, months after crypto platforms offered tokens tied to its shares.",
+      "url": "https://cointelegraph.com/news/spacex-tokenization-okxice?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-03T21:47:20+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_fda2da640e",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
+      "summary": "Cybersecurity-focused Ballistic Ventures is seeking to raise $360 million for a new flagship fund and another $130 million for a separate investment vehicle.",
+      "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-03T21:43:08+00:00",
+      "topic": "AI",
+      "importance": "high",
+      "id": "a_fe854e85e1",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "CFTC clears stock perpetual futures for trading on US exchanges",
+      "summary": "US regulators are opening the door to stock-based perpetual futures, extending a popular crypto trading product into traditional markets amid ongoing legal disputes.",
+      "url": "https://cointelegraph.com/news/cftc-equity-perpetual-futures-trading-us-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-03T20:24:55+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_c609aded3e",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "US midterms: Prediction markets favor Democrats in key crypto races",
+      "summary": "Kalshi and Polymarket price a 75% chance of a Democratic sweep, days after markets misjudged Brazil’s runoff.",
+      "url": "https://cointelegraph.com/news/us-midterm-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-03T19:38:19+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_6c18a13f8a",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
+      "summary": "The five-year-old startup raised a $1.3 billion round led by Bessemer.",
+      "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-03T19:34:43+00:00",
+      "topic": "AI",
+      "importance": "high",
+      "id": "a_f07125a1b9",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Job openings posted big September gain in positive sign for labor market ahead of payrolls report",
+      "summary": "The BLS reported job openings at 7.52 million, up 333,000 from August and well above the Dow Jones consensus outlook for 7.15 million",
+      "url": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html",
+      "source": "CNBC Economy",
+      "published": "2026-11-03T19:15:21+00:00",
+      "topic": "Macroeconomics",
+      "importance": "high",
+      "id": "a_735a465944",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
+      "summary": "The first experimental feature under the tab will allow users to get recommendations based on what they're currently in the mood for.",
+      "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-03T18:42:16+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_caf68c847b",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Stock market after midterm elections: What S&P 500 history shows",
+      "summary": "Midterms historically precede a strong year for the S&P 500. What to know if Democrats win back Congress",
+      "url": "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html",
+      "source": "CNBC Finance",
+      "published": "2026-11-03T18:21:05+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_beb29f306d",
       "date": "2026-11-03"
     },
     {
@@ -130,28 +724,6 @@
       "date": "2026-11-03"
     },
     {
-      "title": "Shopify falls 7% after Q3 revenue and merchandise volume miss estimates",
-      "summary": "Shopify stock fell after the e-commerce platform's Q3 revenue and gross merchandise volume missed estimates, despite an adjusted earnings beat.",
-      "url": "https://www.cnbc.com/2026/11/03/shopify-q3-2026-earnings-gmv.html",
-      "source": "CNBC Top",
-      "published": "2026-11-03T16:53:01+00:00",
-      "topic": "Stocks",
-      "importance": "high",
-      "id": "a_fe807f17cf",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "South Korea's president says country needs a ‘cybersecurity czar’ following $6.3 billion Binance hack",
-      "summary": "",
-      "url": "https://www.coindesk.com/tech/2026/11/03/south-korea-s-president-says-country-needs-a-cybersecurity-czar-following-usd6-3-billion-binance-hack",
-      "source": "CoinDesk",
-      "published": "2026-11-03T16:49:56+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_9e5e66787d",
-      "date": "2026-11-03"
-    },
-    {
       "title": "Wall Street killed Bitcoin’s wild rallies: 10x’s Markus Thielen",
       "summary": "Markus Thielen sees Bitcoin reaching $90,000 by year-end, questions institutional ETF demand and says Ethereum must do more for holders.",
       "url": "https://cointelegraph.com/magazine/wall-street-killed-bitcoins-wild-rallies-markus-thielen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -160,17 +732,6 @@
       "topic": "Cryptocurrency",
       "importance": "normal",
       "id": "a_1c8b279cad",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "U.S. clears path for first regulated equity perpetual futures",
-      "summary": "A trendy crypto-native trading product that has exploded in popularity on offshore venues is expanding its foothold in the U.S.",
-      "url": "https://www.marketwatch.com/story/u-s-clears-path-for-first-regulated-equity-perpetual-futures-6bb35905?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-11-03T16:46:00+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_fb0dd8b330",
       "date": "2026-11-03"
     },
     {
@@ -185,17 +746,6 @@
       "date": "2026-11-03"
     },
     {
-      "title": "Shopify’s stock slides after earnings. This is what’s worrying Wall Street.",
-      "summary": "The company missed revenue expectations, a tough outcome in today’s less-forgiving tech market.",
-      "url": "https://www.marketwatch.com/story/shopifys-stock-slides-after-earnings-this-is-whats-worrying-wall-street-e2e8d52b?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-11-03T16:31:00+00:00",
-      "topic": "Stocks",
-      "importance": "high",
-      "id": "a_08f02b2ace",
-      "date": "2026-11-03"
-    },
-    {
       "title": "Google will let schools disable its AI tools, but not without sacrificing Search",
       "summary": "Schools choosing to restrict AI altogether will no longer be able to access Google Search, as AI features are now integrated into the search engine.",
       "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
@@ -204,61 +754,6 @@
       "topic": "AI",
       "importance": "normal",
       "id": "a_bf2edba831",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Bill Ackman warns of 'casino' stock market as speculative trading grows",
-      "summary": "\"We're back to the casino-type markets when there was 95% leverage,\" said the founder of Pershing Square Capital Management.",
-      "url": "https://www.cnbc.com/2026/11/03/bill-ackman-casino-stock-market.html",
-      "source": "CNBC Top",
-      "published": "2026-11-03T16:23:26+00:00",
-      "topic": "Stocks",
-      "importance": "high",
-      "id": "a_d59e270ffd",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Here’s why Palantir’s stock is down despite a ‘bombastic’ quarter",
-      "summary": "A deceleration in U.S. commercial contract growth gave some Wall Street analysts pause despite Palantir’s earnings beat.",
-      "url": "https://www.marketwatch.com/story/heres-why-palantirs-stock-is-down-despite-a-bombastic-quarter-42c9fdb8?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-11-03T16:21:00+00:00",
-      "topic": "Stocks",
-      "importance": "high",
-      "id": "a_b19d34b979",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Stablecoin governance group behind OUSD sets out management fee, offers equity earning pool",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/11/03/stablecoin-governance-group-behind-ousd-sets-out-management-fee-offers-equity-earning-pool",
-      "source": "CoinDesk",
-      "published": "2026-11-03T16:12:35+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_170e0bf3fa",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Job openings posted big September gain in positive sign for labor market ahead of payrolls report",
-      "summary": "The BLS reported job openings at 7.52 million, up 333,000 from August and well above the Dow Jones consensus outlook for 7.15 million",
-      "url": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html",
-      "source": "CNBC Top",
-      "published": "2026-11-03T16:10:21+00:00",
-      "topic": "Macroeconomics",
-      "importance": "high",
-      "id": "a_735a465944",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "The most bearish post-midterm scenario that could take the S&P 500 down 10%",
-      "summary": "The S&P 500 could wipe out its entire 2026 gain if this particular midterm election result happens.",
-      "url": "https://www.cnbc.com/2026/11/03/the-most-bearish-post-midterm-scenario-that-could-take-the-sp-500-down-10percent.html",
-      "source": "CNBC Top",
-      "published": "2026-11-03T16:00:08+00:00",
-      "topic": "Stocks",
-      "importance": "normal",
-      "id": "a_e0fbc508bf",
       "date": "2026-11-03"
     },
     {
@@ -273,17 +768,6 @@
       "date": "2026-11-03"
     },
     {
-      "title": "The Texas governor’s race might be a make-or-break contest for a wobbling AI trade",
-      "summary": "Democrats are favored to take both the House and Senate in Tuesday’s U.S. midterm election, but there is another race to which artificial-intelligence investors should be paying close attention.",
-      "url": "https://www.marketwatch.com/story/the-texas-governors-race-might-be-a-make-or-break-contest-for-a-wobbling-ai-trade-7764aa29?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-11-03T15:44:00+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_b3c1526a61",
-      "date": "2026-11-03"
-    },
-    {
       "title": "Apple restricts dating apps and AI companions to users 18 and up",
       "summary": "Apple's new App Store rules will require 18+ ratings for dating apps and AI companions that offer sexual or romantic content.",
       "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
@@ -292,127 +776,6 @@
       "topic": "AI",
       "importance": "normal",
       "id": "a_3de1894290",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Stock market after midterm elections: What S&P 500 history shows",
-      "summary": "Midterms historically precede a strong year for the S&P 500. What to know if Democrats win back Congress",
-      "url": "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html",
-      "source": "CNBC Finance",
-      "published": "2026-11-03T15:19:38+00:00",
-      "topic": "Stocks",
-      "importance": "normal",
-      "id": "a_beb29f306d",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "We're trimming some more off a stock that's enjoying nice post-earnings gains",
-      "summary": "Like we said Monday, we're still unsure what the next catalyst is.",
-      "url": "https://www.cnbc.com/investingclub/2026/11/03/were-trimming-some-more-off-a-stock-thats-enjoying-nice-post-earnings-gains.html",
-      "source": "CNBC Top",
-      "published": "2026-11-03T15:09:51+00:00",
-      "topic": "Stocks",
-      "importance": "high",
-      "id": "a_afba228b93",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "5 questions to ask if your boss offers you a buyout, as Microsoft did with 60,000 employees",
-      "summary": "Two days after Microsoft asked more than a quarter of its workers if they’d take a buyout, it reported $45.2 billion in capital spending in a single quarter, most of it for AI.",
-      "url": "https://www.marketwatch.com/story/5-questions-to-ask-if-your-boss-offers-you-a-buyout-as-microsoft-did-with-60-000-employees-03d037a5?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-11-03T15:04:00+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_2d160e521f",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "CFTC clears perpetual futures on stocks, bringing crypto trading model to Wall Street",
-      "summary": "",
-      "url": "https://www.coindesk.com/policy/2026/11/03/cftc-clears-perpetual-futures-on-stocks-bringing-crypto-trading-model-to-wall-street",
-      "source": "CoinDesk",
-      "published": "2026-11-03T15:02:13+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_b2302170de",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Binance's $6.3 billion hack began with a fake job interview, and a campaign 'built over many months'",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says",
-      "source": "CoinDesk",
-      "published": "2026-11-03T14:53:19+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_466067d5d3",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Ferrari raises 2026 guidance after Q3 earnings beat",
-      "summary": "Ferrari raised its 2026 guidance Tuesday after third-quarter revenue and adjusted earnings per share edged past Wall Street expectations.",
-      "url": "https://www.cnbc.com/2026/11/03/ferrari-race-earnings-q3-2026.html",
-      "source": "CNBC Top",
-      "published": "2026-11-03T14:43:43+00:00",
-      "topic": "Stocks",
-      "importance": "high",
-      "id": "a_6e5219362d",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "South Korea asks its biggest banks how a major crypto hack would hit them",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/11/03/south-korea-asks-its-biggest-banks-how-a-major-crypto-hack-would-hit-them",
-      "source": "CoinDesk",
-      "published": "2026-11-03T14:42:30+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_11d399f3b4",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Apple stock sinks as global memory crisis hurts profits, giving Ternus his first big test",
-      "summary": "In John Ternus' first earnings report as CEO, Apple issued a gross margin forecast that disappointed Wall Street.",
-      "url": "https://www.cnbc.com/2026/11/03/apple-earnings-john-ternus-faces-first-test-amid-high-memory-costs.html",
-      "source": "CNBC Top",
-      "published": "2026-11-03T14:38:03+00:00",
-      "topic": "Stocks",
-      "importance": "high",
-      "id": "a_8d96373514",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "CZ warns of more AI-driven hacks following Binance’s historic $6.3 billion heist",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/11/03/cz-warns-of-more-ai-driven-hacks-following-binance-s-historic-usd6-4-billion-heist",
-      "source": "CoinDesk",
-      "published": "2026-11-03T14:22:09+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_756785112b",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Versant earnings beat expectations as digital platforms drive growth",
-      "summary": "Versant posted third-quarter earnings that beat Wall Street expectations and reaffirmed its full-year guidance.",
-      "url": "https://www.cnbc.com/2026/11/03/versant-vsnt-q3-2026-earnings.html",
-      "source": "CNBC Top",
-      "published": "2026-11-03T14:17:42+00:00",
-      "topic": "Stocks",
-      "importance": "high",
-      "id": "a_fd6f9e52a2",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "LO:TECH raises $12 million to expand crypto trading into U.S. and Asia",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/11/03/lo-tech-raises-usd12-million-to-expand-crypto-trading-into-u-s-and-asia",
-      "source": "CoinDesk",
-      "published": "2026-11-03T14:00:00+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_4163ac4401",
       "date": "2026-11-03"
     },
     {
@@ -427,17 +790,6 @@
       "date": "2026-11-03"
     },
     {
-      "title": "Here’s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-11-03T13:50:51+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_8dded07b07",
-      "date": "2026-11-03"
-    },
-    {
       "title": "Moscow Exchange to launch Bitcoin, Ether and USDT trading in December",
       "summary": "Moscow Exchange plans to launch crypto trading on Dec. 1 under Russia’s new law, with annual purchase limits for non-qualified investors.",
       "url": "https://cointelegraph.com/news/moscow-exchange-bitcoin-ether-usdt-trading-december?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -446,193 +798,6 @@
       "topic": "Cryptocurrency",
       "importance": "normal",
       "id": "a_b218c492c5",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "New national home listing database is taking on Compass in the battle for control of real estate information",
-      "summary": "Heavy hitters in residential real estate joined the fight over who can see residential property listings. Their goal, they say, is to counter private listings.",
-      "url": "https://www.cnbc.com/2026/11/03/national-home-listing-database-battles-compass-in-real-estate-info-war.html",
-      "source": "CNBC Top",
-      "published": "2026-11-03T13:00:01+00:00",
-      "topic": "Valuation",
-      "importance": "normal",
-      "id": "a_77fa73d2b9",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Binance net outflows reach $5.3 billion after record hack. CEO says recovery underway",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/11/03/binance-net-outflows-reach-usd5-3b-after-record-hack-though-ceo-cites-recovery",
-      "source": "CoinDesk",
-      "published": "2026-11-03T12:57:28+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_7fd72372aa",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Bitcoin is breaking a midterm election pattern going back to 2014",
-      "summary": "",
-      "url": "https://www.coindesk.com/daybook-us/2026/11/03/bitcoin-is-breaking-a-midterm-election-pattern-going-back-to-2014",
-      "source": "CoinDesk",
-      "published": "2026-11-03T12:30:09+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "critical",
-      "id": "a_8d01434133",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "ETHGas wants to bring Wall Street to public Ethereum by selling advance block reservations",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/11/03/ethgas-courts-wall-street-with-ethereum-blockspace-but-compensation-for-missed-trades-is-zero",
-      "source": "CoinDesk",
-      "published": "2026-11-03T12:01:05+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_b055e4c27c",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Binance’s net inflows turn positive at $2.3B as withdrawals expand",
-      "summary": "Binance led exchanges in 24-hour net inflows, reversing Monday’s heavy outflows as it restored access to funds after its $6.3 billion hack.",
-      "url": "https://cointelegraph.com/news/binances-daily-inflows-positive-18b-withdrawals?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-11-03T11:32:02+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_6f82c2e155",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Bitcoin steadies after dip to $76,300 as ETF outflows and midterm elections weigh on crypto",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/11/03/bitcoin-steadies-after-dip-to-usd76-300-as-etf-outflows-and-midterm-elections-weigh-on-crypto",
-      "source": "CoinDesk",
-      "published": "2026-11-03T11:28:00+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_e7364aa07d",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Liquid’s bitcoin IOUs are fully backed again after a $320 million exploit",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/11/03/liquid-s-bitcoin-ious-are-fully-backed-again-after-a-usd320-million-exploit",
-      "source": "CoinDesk",
-      "published": "2026-11-03T11:12:12+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_6910f5359d",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "France postpones 2027 budget vote, crypto exit-tax proposals scrapped",
-      "summary": "The National Assembly postponed the vote on the budget’s revenue section for the second time, while the Nov. 17 deadline for the first reading examination nears.",
-      "url": "https://cointelegraph.com/news/france-postpones-2027-budget-vote-reject-crypto-exit-tax?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-11-03T10:49:26+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_5e3bc7e4d7",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Tether holds 150,000 bitcoin worth $11.5 billion, CEO Paolo Ardoino says",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/11/03/tether-holds-150-000-bitcoin-worth-usd11-5-billion-ceo-paolo-ardoino-says",
-      "source": "CoinDesk",
-      "published": "2026-11-03T10:15:53+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_bcd4d91313",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Bitcoin price threatens $77.7K support loss with recent buyers underwater",
-      "summary": "Bitcoin fell below the realized price of the one-to-three-month-old buyer cohort in a move that risked flipping it to new resistance.",
-      "url": "https://cointelegraph.com/markets/bitcoin-price-support-loss-recent-buyers-underwater?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-11-03T10:04:05+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_4fdf3028d1",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Live updates: Bitcoin faces fifth weekly loss as midterm elections weigh on markets",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/11/03/live-news-bitcoin-faces-fifth-weekly-loss-as-midterm-uncertainty-and-apple-warning-weigh-on-markets",
-      "source": "CoinDesk",
-      "published": "2026-11-03T09:50:16+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_581c135cbf",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "North Korea denies role in $6.4 billion Binance hack after FBI points to TraderTraitor",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/11/03/north-korea-denies-role-in-usd6-4-billion-binance-hack-after-fbi-points-to-tradertraitor",
-      "source": "CoinDesk",
-      "published": "2026-11-03T09:40:32+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_900f2ae989",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Mercado Bitcoin pledges to cover all user losses after near $40 million hack",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/11/03/mercado-bitcoin-pledges-to-cover-all-user-losses-after-near-usd40-million-hack",
-      "source": "CoinDesk",
-      "published": "2026-11-03T08:56:48+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_b4211f5790",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Bitcoin’s latest chart signal looks a lot like the ones before its big crashes",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/11/03/bitcoin-s-price-chart-is-flashing-a-red-signal",
-      "source": "CoinDesk",
-      "published": "2026-11-03T08:50:56+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_7762bc9d42",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "ARK buys $17M in Coinbase, Circle shares while trimming Bullish",
-      "summary": "ARK Invest added Coinbase and Circle shares across two trading sessions while selling about $8 million in Bullish as crypto stocks declined.",
-      "url": "https://cointelegraph.com/news/ark-buys-coinbase-circle-trims-bullish?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-11-03T08:35:13+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_3b34838f94",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Kraken restricts accounts amid suspected $133M EU crypto theft",
-      "summary": "Crypto.com also took steps to block funds tied to the suspected theft, while Kraken said its systems and customer accounts were not compromised.",
-      "url": "https://cointelegraph.com/news/zachxbt-eu-crypto-theft-133m-alleged-cover-up?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-11-03T08:18:22+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_fd0e46f91e",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "BlackRock’s IBIT sees biggest Bitcoin ETF outflows since June",
-      "summary": "BlackRock’s Bitcoin ETF shed $405.3 million on Monday as US spot Bitcoin funds opened November with nearly $399 million in net outflows.",
-      "url": "https://cointelegraph.com/markets/blackrocks-ibit-biggest-bitcoin-etf-outflow-june?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-11-03T07:49:51+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_4e1ccb7ac8",
       "date": "2026-11-03"
     },
     {
@@ -658,83 +823,6 @@
       "date": "2026-11-03"
     },
     {
-      "title": "Binance has spent half its SAFU bitcoin, about $580 million worth, data shows",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/11/03/binance-has-spent-half-its-safu-bitcoin-about-usd580-million-worth-data-shows",
-      "source": "CoinDesk",
-      "published": "2026-11-03T05:36:56+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_3380bfeee1",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Bitcoin miner Cipher posts $31 million profit as AI pivot begins",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/11/03/bitcoin-miner-cipher-posts-usd31-million-profit-as-ai-pivot-begins",
-      "source": "CoinDesk",
-      "published": "2026-11-03T05:29:48+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_408e03461a",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Arbitrum’s council moved $30 million of Binance hack funds without the hacker’s key",
-      "summary": "",
-      "url": "https://www.coindesk.com/tech/2026/11/03/arbitrum-s-council-moved-usd30-million-of-binance-hack-funds-without-the-hacker-s-key",
-      "source": "CoinDesk",
-      "published": "2026-11-03T05:25:12+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_dcaecd14ab",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Crypto.com to withdraw Hong Kong consumer app citing regulatory changes",
-      "summary": "Crypto.com will discontinue its consumer app services in Hong Kong in February next year.",
-      "url": "https://cointelegraph.com/news/crypto-com-hong-kong-app-shutdown-license-pending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-11-03T05:10:19+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_e09917a4e7",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Bitcoin drops below $77,000 as chip rout deepens ahead of U.S. midterm vote",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/11/03/bitcoin-drops-below-usd77-000-as-chip-rout-deepens-ahead-of-u-s-midterm-vote",
-      "source": "CoinDesk",
-      "published": "2026-11-03T04:48:17+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_7cfe17a218",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Australia lifts rates to 18-year high as AI boom, energy costs fuel inflation",
-      "summary": "The Reserve Bank of Australia raised its benchmark rate to 4.85% on rising technology costs from AI investment and higher energy prices.",
-      "url": "https://cointelegraph.com/markets/australia-lifts-rates-as-ai-boom-energy-costs-fuel-inflation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-11-03T04:14:32+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_e11b33640e",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "UK warns AI ransomware attack on infrastructure ‘highly likely’ by 2028",
-      "summary": "The warning comes as UK cyber officials also flag growing threats from state-backed hackers targeting government officials and politicians.",
-      "url": "https://cointelegraph.com/news/uk-warns-ai-ransomware-attack-on-infrastructure-highly-likely-by-2028?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-11-03T03:58:45+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_7a636452e2",
-      "date": "2026-11-03"
-    },
-    {
       "title": "Australia hikes rates to 18-year high to fight inflation",
       "summary": "The Reserve Bank of Australia's decision was in line with expectations from economists polled by Reuters, and marked its fifth rate increase this year.",
       "url": "https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html",
@@ -757,17 +845,6 @@
       "date": "2026-11-03"
     },
     {
-      "title": "Binance begins second withdrawal phase, exchange outflows slow",
-      "summary": "The exchange says additional assets will become available for withdrawal from 04:00 UTC on Tuesday as security checks are completed, following an initial reopening on Sunday.",
-      "url": "https://cointelegraph.com/news/binance-begins-second-withdrawal-phase-following-record-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-11-03T03:03:44+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_175dbdbe40",
-      "date": "2026-11-03"
-    },
-    {
       "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
       "summary": "Apple hinted at ways that it could spur revenue through third-party \"opportunities\" during its Monday night earnings call.",
       "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
@@ -776,17 +853,6 @@
       "topic": "AI",
       "importance": "high",
       "id": "a_a46dec5b10",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "South Korea urges exchanges to boost cold storage after Binance hack",
-      "summary": "South Korean crypto exchanges are already required to hold at least 80% of customer crypto in cold wallets, but the regulator is urging more.",
-      "url": "https://cointelegraph.com/news/south-korea-urges-exchanges-to-boost-cold-storage-after-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-11-03T01:32:39+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_6b921026df",
       "date": "2026-11-03"
     },
     {
@@ -812,28 +878,6 @@
       "date": "2026-11-02"
     },
     {
-      "title": "North Korea denies role in $6.3B Binance hack, points finger at US",
-      "summary": "Pyongyang has pushed back against the FBI’s attribution of the Binance attack, with Kim Yo Jong calling the US allegations politically motivated.",
-      "url": "https://cointelegraph.com/news/north-korea-denies-role-in-63b-binance-hack-points-finger-at-us?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-11-02T23:07:07+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_8e58955bfc",
-      "date": "2026-11-02"
-    },
-    {
-      "title": "New Jersey drops Coinbase staking order ahead of crypto’s midterm test",
-      "summary": "New Jersey lifted its staking ban and dropped a $5 million penalty, clearing the way for Coinbase to restore staking access for users in the US state.",
-      "url": "https://cointelegraph.com/news/new-jersey-coinbase-staking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-11-02T22:22:30+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_9d257b9078",
-      "date": "2026-11-02"
-    },
-    {
       "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
       "summary": "RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return.",
       "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
@@ -842,50 +886,6 @@
       "topic": "AI",
       "importance": "high",
       "id": "a_007f790362",
-      "date": "2026-11-02"
-    },
-    {
-      "title": "AI poses greater threat to Bitcoin than quantum computing, Swan founder says",
-      "summary": "The Swan Bitcoin founder warned that hackers are using large language models to exploit security flaws with just a few prompts.",
-      "url": "https://cointelegraph.com/news/ai-hackers-threat-bitcoin-quantum-computing-swan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-11-02T21:54:41+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_d0761a69dd",
-      "date": "2026-11-02"
-    },
-    {
-      "title": "Big crypto wants the one thing it can’t buy: your vote",
-      "summary": "",
-      "url": "https://www.coindesk.com/opinion/2026/11/02/big-crypto-wants-the-one-thing-it-can-t-buy-your-vote",
-      "source": "CoinDesk",
-      "published": "2026-11-02T21:38:53+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_b9576cb872",
-      "date": "2026-11-02"
-    },
-    {
-      "title": "Crypto investigators flag suspected $106M theft, $786K Solana bot drain",
-      "summary": "A European entity may have lost $106 million from exchange accounts, while a wallet associated with a Solana arbitrage bot may have lost another $786,000.",
-      "url": "https://cointelegraph.com/news/zachxbt-flags-suspected-106m-crypto-theft-as-solana-bot-faces-possible-786k-drain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-11-02T21:16:24+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_ff9b321156",
-      "date": "2026-11-02"
-    },
-    {
-      "title": "Coinbase hit with 50% price target cut as post-earnings rout deepens",
-      "summary": "Slowing trading activity and fallout from the Binance hack are clouding Coinbase’s revenue prospects, prompting Morgan Stanley to lower its rating on the stock.",
-      "url": "https://cointelegraph.com/news/morgan-stanley-cuts-coinbase-target-to-120-as-earnings-recovery-outlook-weakens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-11-02T20:22:23+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_9fd1e382cd",
       "date": "2026-11-02"
     },
     {
@@ -900,48 +900,37 @@
       "date": "2026-11-02"
     },
     {
-      "title": "Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally",
-      "summary": "Bitcoin fell around 1.7% on Monday as stocks pared early gains fueled by hopes of a diplomatic resolution to the US-Iran war.",
-      "url": "https://cointelegraph.com/markets/bitcoin-risks-sub-76k-drop-as-7-fall-in-oil-fails-to-spark-btc-price-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-11-02T19:27:58+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_27f0b02345",
-      "date": "2026-11-02"
-    },
-    {
-      "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
-      "summary": "The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
-      "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
-      "source": "TechCrunch AI",
-      "published": "2026-11-02T19:19:17+00:00",
+      "title": "South Korea targets 'world's highest performance' sovereign AI model in record new budget",
+      "summary": "The 2027 budget will rise 12.8% to 820.9 trillion won, and will include a 21.3 trillion won investment into semiconductors, physical AI and AI data centers.",
+      "url": "https://www.cnbc.com/2026/11/02/south-korea-ai-spending-budget.html",
+      "source": "CNBC Economy",
+      "published": "2026-11-02T06:02:03+00:00",
       "topic": "AI",
-      "importance": "normal",
-      "id": "a_dc5d6e6f67",
+      "importance": "critical",
+      "id": "a_0d0417f3a9",
       "date": "2026-11-02"
     },
     {
-      "title": "Mercado Bitcoin wallets show post-hack transfers after $46M theft",
-      "summary": "Brazil’s exchange Mercado Bitcoin paused deposits and withdrawals after a security breach, saying customer funds and data were safe.",
-      "url": "https://cointelegraph.com/news/mercado-bitcoin-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-11-02T19:05:35+00:00",
+      "title": "Binance’s $6.3 billion hack raises questions about crypto wallet safety",
+      "summary": "Two high-profile security incidents this week, including the largest crypto theft in history, have raised custody and safety concerns.",
+      "url": "https://www.cnbc.com/2026/10/31/binance-hack-crypto-wallet-safety.html",
+      "source": "CNBC Finance",
+      "published": "2026-10-31T12:47:08+00:00",
       "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_37dabab4e6",
-      "date": "2026-11-02"
+      "importance": "high",
+      "id": "a_12f950ebbd",
+      "date": "2026-10-31"
     },
     {
-      "title": "Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/11/02/bitcoin-traders-eye-post-election-rally-as-exchange-outflows-point-to-supply-squeeze",
-      "source": "CoinDesk",
-      "published": "2026-11-02T18:13:57+00:00",
-      "topic": "Cryptocurrency",
+      "title": "It's a 'socialist' bank — and North Dakota Republicans love it",
+      "summary": "North Dakota's state-owned bank has broad Republican support and is drawing interest from public-banking advocates in other states.",
+      "url": "https://www.cnbc.com/2026/10/29/bank-north-dakota-socialism-election.html",
+      "source": "CNBC Finance",
+      "published": "2026-10-30T22:12:36+00:00",
+      "topic": "Banking",
       "importance": "normal",
-      "id": "a_ec62d9e1f0",
-      "date": "2026-11-02"
+      "id": "a_98fdd4af07",
+      "date": "2026-10-30"
     }
   ]
 }
