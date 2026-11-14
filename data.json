@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T18:26:21.704519+00:00",
+  "generated_at": "2026-11-14T16:53:14.293795+00:00",
   "kpis": [
     {
       "name": "S&P 500",
@@ -35,19 +35,19 @@
     },
     {
       "name": "Bitcoin",
-      "val": "$68.8K",
-      "delta": "−4.17%",
+      "val": "$65.3K",
+      "delta": "−4.82%",
       "dir": "down",
       "stale": false,
-      "as_of": "2026-11-13T18:26:21.704483+00:00"
+      "as_of": "2026-11-14T16:53:14.293771+00:00"
     },
     {
       "name": "Ethereum",
-      "val": "$1,938",
-      "delta": "−3.90%",
+      "val": "$1,821",
+      "delta": "−5.40%",
       "dir": "down",
       "stale": false,
-      "as_of": "2026-11-13T18:26:21.704508+00:00"
+      "as_of": "2026-11-14T16:53:14.293785+00:00"
     }
   ],
   "voices": [
@@ -57,71 +57,435 @@
       "initials": "SB",
       "bg": "var(--p-sage)",
       "quote": "Jensen Huang resigned as Nvidia CEO days after admitting to an affair following scrutiny of his relationship with a woman reportedly deemed a Chinese spy.",
-      "source": "CNBC Top",
+      "source": "CNBC Economy",
       "url": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
       "date": "2026-11-13"
-    },
-    {
-      "name": "Tim Cook",
-      "role": "CEO, Apple",
-      "initials": "TC",
-      "bg": "var(--p-blush)",
-      "quote": "In a post on Truth Social, President Trump says only one man can take Jensen Huang's place as head of Nvidia: Tim Cook.",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
-      "date": "2026-11-12"
     }
   ],
   "news": [
     {
-      "title": "Stocks making the biggest moves Friday: Nvidia, Cisco Systems, AMD, Steris, Modine & more",
-      "summary": "Follow along as CNBC highlights the biggest stock market moves of the day.",
-      "url": "https://www.cnbc.com/2026/11/13/stocks-moving-the-most-today-live-updates.html",
-      "source": "CNBC Top",
-      "published": "2026-11-13T17:48:49+00:00",
+      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-14T16:34:15+00:00",
       "topic": "AI",
       "importance": "normal",
-      "id": "a_efccdbe163",
-      "date": "2026-11-13"
+      "id": "a_5be522f5a7",
+      "date": "2026-11-14"
     },
     {
-      "title": "10-year Treasury yield moves to 5.17% as traders weigh producer price report",
-      "summary": "Treasury yields moved higher as investor expectations for a December rate hike by the Federal Reserve gain strength.",
-      "url": "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html",
+      "title": "Bitcoin slides to 3-month low of $65,000 as analyst flags fourth capitulation wave",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst",
+      "source": "CoinDesk",
+      "published": "2026-11-14T16:33:29+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_78fc4e9f88",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business",
+      "summary": "",
+      "url": "https://www.coindesk.com/business/2026/11/14/ethereum-scaling-project-megaeth-slashes-staff-by-20-as-it-pursues-ai-business",
+      "source": "CoinDesk",
+      "published": "2026-11-14T16:33:23+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_2917daac0b",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+      "summary": "ETF experts say Nvidia’s leadership turmoil and Democratic control of Congress could shift AI demand to the benefit of other Big Tech stocks, rival chipmakers.",
+      "url": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
       "source": "CNBC Top",
-      "published": "2026-11-13T17:39:48+00:00",
+      "published": "2026-11-14T15:50:43+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_00a651cc99",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
+      "summary": "Nvidia CEO Jensen Huang resigned this week after reports of multiple affairs, including one with a suspected Chinese spy, Alice Huang.",
+      "url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+      "source": "CNBC Top",
+      "published": "2026-11-14T15:36:47+00:00",
+      "topic": "AI",
+      "importance": "high",
+      "id": "a_c1cea0c81e",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "Heating oil prices are up 59% from last winter. The spike is 'crushing folks,' Maine nonprofit says",
+      "summary": "With household budgets already squeezed by persistent inflation, some residents are seeking emergency help with heating oil bills before winter begins.",
+      "url": "https://www.cnbc.com/2026/11/14/heating-oil-price-spike-household-budgets.html",
+      "source": "CNBC Top",
+      "published": "2026-11-14T14:30:01+00:00",
       "topic": "Macroeconomics",
       "importance": "normal",
-      "id": "a_beddace179",
+      "id": "a_c1cfb6df2a",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "Bank of America says these stocks have major upside potential in an uncertain market",
+      "summary": "Bank of America named several stocks that still have more room to run despite market jitters.",
+      "url": "https://www.cnbc.com/2026/11/14/stocks-with-upside-potential-in-an-uncertain-market.html",
+      "source": "CNBC Top",
+      "published": "2026-11-14T14:13:51+00:00",
+      "topic": "Banking",
+      "importance": "normal",
+      "id": "a_4b5c985b95",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "How Canadian stocks could be big winners of U.S. midterms",
+      "summary": "Canadian stocks are up more than 1% since the vote, while the S&P 500 has sagged 0.5% in that time.",
+      "url": "https://www.cnbc.com/2026/11/14/canada-stocks-us-midterms-tariffs.html",
+      "source": "CNBC Top",
+      "published": "2026-11-14T14:11:48+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_a59f0a3e54",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "Berkshire breaks out to record high with fourth-quarter rally reaching 19%",
+      "summary": "Berkshire Hathaway's red-hot shares are ending a strong week with four consecutive fresh record high closes.",
+      "url": "https://www.cnbc.com/2026/11/14/berkshire-breaks-out-to-record-high-with-fourth-quarter-rally-reaching-19percent.html",
+      "source": "CNBC Top",
+      "published": "2026-11-14T14:02:39+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_0f7eaacfdf",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "These 6 battered AI stocks could bounce back big, an analyst says",
+      "summary": "The postelection panic over data centers has led to a widespread tech selloff, but some stocks are more insulated than they seem, according to Bernstein.",
+      "url": "https://www.marketwatch.com/story/these-6-battered-ai-stocks-could-bounce-back-big-an-analyst-says-e9f29c24?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-11-14T13:00:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_8fdc138b40",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill",
+      "summary": "",
+      "url": "https://www.coindesk.com/policy/2026/11/13/britain-could-turn-wasted-scottish-wind-power-into-bitcoin-to-cut-its-usd1-3-billion-grid-bill",
+      "source": "CoinDesk",
+      "published": "2026-11-14T13:00:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "high",
+      "id": "a_cf829d48fa",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "A behind the scenes force may amplify bitcoin and ether price volatility",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/11/14/a-behind-the-scenes-force-may-amplify-bitcoin-and-ether-price-volatility",
+      "source": "CoinDesk",
+      "published": "2026-11-14T12:57:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_e50230927f",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "Meet the seven co-founders of Anthropic",
+      "summary": "Four researchers, a former journalist, a public policymaker, and an engineer founded Anthropic in 2021. They're now poised to become multi-billionaires.",
+      "url": "https://www.cnbc.com/2026/11/14/meet-the-seven-co-founders-of-anthropic.html",
+      "source": "CNBC Top",
+      "published": "2026-11-14T12:15:01+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_5b8376b855",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
+      "summary": "Eric Trump-backed robot startup Foundation Future Industries has run low on cash and missed payroll, as CEO Sankaet Pathak faces scrutiny over a $4.6 million company loan.",
+      "url": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
+      "source": "CNBC Top",
+      "published": "2026-11-14T12:00:01+00:00",
+      "topic": "Investment Banking",
+      "importance": "normal",
+      "id": "a_a61d241345",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "Here’s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-14T11:28:12+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_8dded07b07",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "Microsoft confirms global outage resolved, rules out cyberattack",
+      "summary": "Microsoft attributed the outage to a network capacity upgrade issue, confirming that the disruption was unrelated to cyberattacks or AI agents.",
+      "url": "https://cointelegraph.com/news/microsoft-365-outage-resolved-cyberattack-ruled-out?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-14T10:34:06+00:00",
+      "topic": "AI",
+      "importance": "high",
+      "id": "a_882adad417",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "MegaETH parent cuts 20% of staff amid restructuring, AI push",
+      "summary": "MegaETH co-founder Shuyao Kong said the restructuring affected employees who helped build the project’s blockchain, wallet and ecosystem.",
+      "url": "https://cointelegraph.com/news/megaeth-parent-cuts-20-percent-staff-ai-push?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-14T08:12:30+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_511c16d7a4",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "Analysis: Companies love a ‘rockstar’ CEO. Until they depend on one",
+      "summary": "Jensen Huang’s exit tests Nvidia’s succession planning and governance, and offers lessons for companies that elevate their CEOs to rockstar status.",
+      "url": "https://www.cnbc.com/2026/11/14/nvidia-jensen-huang-ceo-succession-risk.html",
+      "source": "CNBC Top",
+      "published": "2026-11-14T07:08:45+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_522eedcced",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock’s losing streak hits 11",
+      "summary": "US spot Bitcoin ETFs recorded $185.4 million in net outflows Friday, with BlackRock’s IBIT accounting for $143.5 million and Fidelity’s FBTC shedding $41.9 million.",
+      "url": "https://cointelegraph.com/markets/bitcoin-etf-outflows-2-35-billion-blackrock-11-session-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-14T06:33:13+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_3968c408f8",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/11/13/satoshi-era-wallet-served-in-a-usd260-billion-lawsuit-moves-75-btc-it-held-since-2011",
+      "source": "CoinDesk",
+      "published": "2026-11-14T04:30:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "high",
+      "id": "a_fb5af946a5",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "14 dividend stocks selected for long-term growth",
+      "summary": "These stocks feature attractive dividend payouts and are trading low to the companies’ intrinsic value, according to John Buckingham of Value87 Investment Partners.",
+      "url": "https://www.marketwatch.com/story/14-dividend-stocks-selected-for-long-term-growth-0a095c0d?mod=mw_rss_topstories",
+      "source": "MarketWatch Top",
+      "published": "2026-11-14T01:58:00+00:00",
+      "topic": "Stocks",
+      "importance": "normal",
+      "id": "a_ef418b2caa",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
+      "summary": "The Republican-led Congress wants to see Jensen Huang in Washington before Democrats take control in January.",
+      "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
+      "source": "CNBC Top",
+      "published": "2026-11-13T23:54:36+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_69614d9a73",
       "date": "2026-11-13"
     },
     {
-      "title": "Nasdaq falls on Friday as Nvidia keeps sliding, but major averages are up for week: Live updates",
+      "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+      "summary": "Jensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker.",
+      "url": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+      "source": "CNBC Top",
+      "published": "2026-11-13T23:42:18+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_c92189011e",
+      "date": "2026-11-13"
+    },
+    {
+      "title": "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
+      "summary": "",
+      "url": "https://www.coindesk.com/tech/2026/11/13/bitcoin-miners-pay-paraguay-usd350-million-a-year-but-ai-is-pushing-them-out",
+      "source": "CoinDesk",
+      "published": "2026-11-13T23:30:00+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_02ce1e4aff",
+      "date": "2026-11-13"
+    },
+    {
+      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-13T22:43:00+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_869b42f645",
+      "date": "2026-11-13"
+    },
+    {
+      "title": "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex",
+      "summary": "OpenAI’s new payment wallet lets AI agents complete purchases using existing card networks, with plans to eventually allow preauthorized transactions.",
+      "url": "https://cointelegraph.com/news/openai-ai-payments-chatgpt-wallet-visa-mastercard-amex?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-13T22:01:03+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_fa0cc2c129",
+      "date": "2026-11-13"
+    },
+    {
+      "title": "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system",
+      "summary": "Blockstream’s new custody system, developed with Thales, uses dedicated hardware for transaction signing as Adam Back advocates for offline security to reduce cyber risks.",
+      "url": "https://cointelegraph.com/news/adam-back-simpler-security-blockstream-bitcoin-custody-system?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-13T21:49:27+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_b01a86ddda",
+      "date": "2026-11-13"
+    },
+    {
+      "title": "Goldman Sachs looks to cash in on big IPOs twice. Anthropic’s historic deal is its next chance",
+      "summary": "While co-leading the offering, Goldman also wants a shot at managing the billions of dollars in new wealth that the deal creates. It's not the only one.",
+      "url": "https://www.cnbc.com/investingclub/2026/11/13/goldman-sachs-looks-to-cash-in-on-anthropics-ipo-twice-heres-how-and-who-else-wants-to.html",
+      "source": "CNBC Top",
+      "published": "2026-11-13T21:44:07+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_226df337c2",
+      "date": "2026-11-13"
+    },
+    {
+      "title": "Nasdaq falls on Friday as Nvidia sells off, but index notches best week since August: Live updates",
       "summary": "Nvidia shares rebounded from its recent pressure and the latest inflation data came in slightly lighter than expected.",
       "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html",
       "source": "CNBC Top",
-      "published": "2026-11-13T17:36:49+00:00",
+      "published": "2026-11-13T21:34:28+00:00",
       "topic": "AI",
       "importance": "normal",
-      "id": "a_7f075fdfbb",
+      "id": "a_22eb1b0746",
       "date": "2026-11-13"
     },
     {
-      "title": "How low does Nvidia’s stock need to go before it’s a screaming bargain?",
-      "summary": "Also in Weekend Reads: Other AI stocks, tips for open-enrollment season and advice from the Moneyist.",
-      "url": "https://www.marketwatch.com/story/how-low-does-nvidias-stock-need-to-go-before-its-a-screaming-bargain-c25302ed?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-11-13T17:07:00+00:00",
+      "title": "AI risks are the biggest threat to the financial system, Fed survey finds",
+      "summary": "The report comes with Wall Street on edge over high-flying AI hyperscalers, while communities are on alert for the rapid spread of data centers.",
+      "url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
+      "source": "CNBC Economy",
+      "published": "2026-11-13T21:18:30+00:00",
       "topic": "AI",
       "importance": "normal",
-      "id": "a_9a1272eb01",
+      "id": "a_7d813a1053",
+      "date": "2026-11-13"
+    },
+    {
+      "title": "Agencies extend comment period for proposed third-party risk management guidance",
+      "summary": "Agencies extend comment period for proposed third-party risk management guidance",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm",
+      "source": "Federal Reserve",
+      "published": "2026-11-13T21:15:00+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_d501f72290",
+      "date": "2026-11-13"
+    },
+    {
+      "title": "Kraken parent Payward gains market share as slower trading weighs on earnings",
+      "summary": "Payward’s adjusted EBITDA fell 66% year over year to $60 million, even as its share of global spot trading nearly doubled and fee-based services expanded.",
+      "url": "https://cointelegraph.com/news/kraken-parent-payward-gains-market-share-slower-trading-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-13T21:01:39+00:00",
+      "topic": "Stocks",
+      "importance": "high",
+      "id": "a_f6e53ee84f",
+      "date": "2026-11-13"
+    },
+    {
+      "title": "US regulators move ahead on crypto trust charters as Senate scrutiny grows",
+      "summary": "Coinbase’s trust company received final clearance as lawmakers seek records on crypto firms’ compliance and potential conflicts of interest.",
+      "url": "https://cointelegraph.com/news/us-regulators-crypto-trust-charters-senate-scrutiny-grows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-13T20:53:20+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "normal",
+      "id": "a_9956cf81b0",
+      "date": "2026-11-13"
+    },
+    {
+      "title": "After Jensen Huang’s exit, what top financial advisors are doing with Nvidia: Exclusive CNBC poll",
+      "summary": "Advisors say investors should weigh their Nvidia exposure, time horizon and risk tolerance before reacting to the leadership change.",
+      "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-advisors-jensen-huang-exit-exclusive-poll.html",
+      "source": "CNBC Top",
+      "published": "2026-11-13T19:53:38+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_c7ee68ad24",
+      "date": "2026-11-13"
+    },
+    {
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-13T19:37:57+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_81e280c72f",
+      "date": "2026-11-13"
+    },
+    {
+      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+      "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
+      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-13T18:40:30+00:00",
+      "topic": "AI",
+      "importance": "normal",
+      "id": "a_e99461ba18",
+      "date": "2026-11-13"
+    },
+    {
+      "title": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
+      "summary": "",
+      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-slides-to-usd68k-as-nvidia-turmoil-anthropic-ipo-fuel-broader-market-sell-off",
+      "source": "CoinDesk",
+      "published": "2026-11-13T18:39:58+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "critical",
+      "id": "a_a2a1a116f7",
+      "date": "2026-11-13"
+    },
+    {
+      "title": "Metaplanet swings to $170M loss as Bitcoin sale hits earnings",
+      "summary": "Bitcoin sales, valuation losses and rising borrowing costs weighed on the Japanese company’s earnings despite higher revenue and operating profit.",
+      "url": "https://cointelegraph.com/news/metaplanet-swings-170m-loss-bitcoin-sale-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published": "2026-11-13T18:28:29+00:00",
+      "topic": "Cryptocurrency",
+      "importance": "high",
+      "id": "a_cd56dd70af",
       "date": "2026-11-13"
     },
     {
       "title": "Bessent blames Lutnick’s Commerce as he slams Nvidia chip ‘leakage’ to China",
       "summary": "Jensen Huang resigned as Nvidia CEO days after admitting to an affair following scrutiny of his relationship with a woman reportedly deemed a Chinese spy.",
       "url": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
-      "source": "CNBC Top",
+      "source": "CNBC Economy",
       "published": "2026-11-13T17:06:57+00:00",
       "topic": "AI",
       "importance": "normal",
@@ -140,28 +504,6 @@
       "date": "2026-11-13"
     },
     {
-      "title": "After Jensen Huang’s exit, what top financial advisors are doing with Nvidia: Exclusive CNBC poll",
-      "summary": "Advisors say investors should weigh their Nvidia exposure, time horizon and risk tolerance before reacting to the leadership change.",
-      "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-advisors-jensen-huang-exit-exclusive-poll.html",
-      "source": "CNBC Top",
-      "published": "2026-11-13T17:01:26+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_c7ee68ad24",
-      "date": "2026-11-13"
-    },
-    {
-      "title": "Why the data center slowdown concern is overblown. Two stocks to buy amid the fear",
-      "summary": "Not one utility CEO we spoke with at the EEI conference is anticipating a slowdown in electricity growth expectations.",
-      "url": "https://www.cnbc.com/2026/11/13/data-center-slowdown-utility-stocks.html",
-      "source": "CNBC Top",
-      "published": "2026-11-13T16:54:40+00:00",
-      "topic": "Investment Banking",
-      "importance": "normal",
-      "id": "a_6849b57835",
-      "date": "2026-11-13"
-    },
-    {
       "title": "Bitcoin holds below $70K as stocks slip despite a cooler US PPI print",
       "summary": "Bitcoin was down about 4% on the day amid a tepid market reaction to October’s US PPI reading, which came in below expected levels.",
       "url": "https://cointelegraph.com/markets/bitcoin-below-70k-stocks-slip-cooler-us-ppi-print?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -173,28 +515,6 @@
       "date": "2026-11-13"
     },
     {
-      "title": "Nvidia’s stock is on a losing streak not seen in 14 years. What comes next?",
-      "summary": "Nvidia has wiped out $657 billion in market capitalization this week — its sixth consecutive week of stock declines.",
-      "url": "https://www.marketwatch.com/story/nvidias-stock-is-on-a-losing-streak-not-seen-in-14-years-what-comes-next-a07e801e?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-11-13T16:26:00+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_2d37a3a26f",
-      "date": "2026-11-13"
-    },
-    {
-      "title": "HSBC downgrades Nvidia, says stock to struggle until new CEO named",
-      "summary": "Analyst Frank Lee downgraded the chipmaker to hold from buy.",
-      "url": "https://www.cnbc.com/2026/11/13/hsbc-downgrades-nvidia-says-stock-to-struggle-until-new-ceo-named.html",
-      "source": "CNBC Top",
-      "published": "2026-11-13T16:24:39+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_4c42c986af",
-      "date": "2026-11-13"
-    },
-    {
       "title": "Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms",
       "summary": "",
       "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-heads-for-sixth-weekly-loss-as-anthropic-s-blockbuster-ipo-looms",
@@ -203,17 +523,6 @@
       "topic": "Cryptocurrency",
       "importance": "normal",
       "id": "a_d59e60250c",
-      "date": "2026-11-13"
-    },
-    {
-      "title": "14 dividend stocks selected for long-term growth",
-      "summary": "These stocks feature attractive dividend payouts and are trading low to the companies’ intrinsic value, according to John Buckingham of Value87 Investment Partners.",
-      "url": "https://www.marketwatch.com/story/14-dividend-stocks-selected-for-long-term-growth-0a095c0d?mod=mw_rss_topstories",
-      "source": "MarketWatch Top",
-      "published": "2026-11-13T16:01:00+00:00",
-      "topic": "Stocks",
-      "importance": "normal",
-      "id": "a_ef418b2caa",
       "date": "2026-11-13"
     },
     {
@@ -239,21 +548,10 @@
       "date": "2026-11-13"
     },
     {
-      "title": "Nvidia scandal draws in Commerce Secretary Lutnick, who reportedly agrees to testify about China chip sales",
-      "summary": "Commerce Secretary Lutnick will testify before the Senate Banking Committee following revelations about Jensen Huang's affair with an alleged Chinese spy.",
-      "url": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html",
-      "source": "CNBC Top",
-      "published": "2026-11-13T15:49:11+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_e791089c0c",
-      "date": "2026-11-13"
-    },
-    {
       "title": "Wholesale prices rose 0.3% in October, putting annual rate at 6.5%, the highest in nearly four years",
       "summary": "The producer price index was expected to increase 0.4% in October, according to the Dow Jones consensus.",
       "url": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html",
-      "source": "CNBC Top",
+      "source": "CNBC Economy",
       "published": "2026-11-13T15:44:16+00:00",
       "topic": "Stocks",
       "importance": "normal",
@@ -261,43 +559,10 @@
       "date": "2026-11-13"
     },
     {
-      "title": "What's ahead for AI financing after Nvidia CEO Jensen Huang departs",
-      "summary": "Jensen Huang’s resignation puts Nvidia’s AI financing strategy in focus as investors watch credit markets and neocloud exposure.",
-      "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-resignation-ai-financing.html",
-      "source": "CNBC Top",
-      "published": "2026-11-13T15:34:48+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_65365490a9",
-      "date": "2026-11-13"
-    },
-    {
-      "title": "OpenAI launches ChatGPT Wallet, allowing its 'dots' AI agents to make purchases for users",
-      "summary": "OpenAI's ChatGPT Wallet partners with American Express, Mastercard and Visa, and those cardholders keep their existing credit card rewards.",
-      "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
-      "source": "CNBC Top",
-      "published": "2026-11-13T15:31:58+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_54985ee2ba",
-      "date": "2026-11-13"
-    },
-    {
-      "title": "Apple, Alphabet and Uber survived major founder transitions. Nvidia will be a harder test",
-      "summary": "Like Apple, Nvidia now faces its own transition away from a founder-led company. But experts say Jensen Huang’s central role could make replacing him difficult.",
-      "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-founder-ceo-transition.html",
-      "source": "CNBC Top",
-      "published": "2026-11-13T15:03:10+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_8747a1c2be",
-      "date": "2026-11-13"
-    },
-    {
       "title": "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation",
       "summary": "The policymaker expressed concern about the latest inflation data, telling CNBC that the central bank likely will need to take action.",
       "url": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html",
-      "source": "CNBC Top",
+      "source": "CNBC Finance",
       "published": "2026-11-13T14:22:07+00:00",
       "topic": "Banking",
       "importance": "normal",
@@ -316,28 +581,6 @@
       "date": "2026-11-13"
     },
     {
-      "title": "Jensen Huang scandal casts doubt on Nvidia’s AI dominance — how we got here",
-      "summary": "Nvidia is facing its biggest crisis in its 33 year history, with founder Jensen Huang resigning as CEO. Here's the story of the rise and fall of Jensen Huang.",
-      "url": "https://www.cnbc.com/2026/11/13/jensen-huang-scandal-casts-doubt-on-nvidias-ai-dominance-how-we-got-here.html",
-      "source": "CNBC Top",
-      "published": "2026-11-13T14:01:24+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_3da70812e5",
-      "date": "2026-11-13"
-    },
-    {
-      "title": "Here’s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-11-13T13:49:44+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_8dded07b07",
-      "date": "2026-11-13"
-    },
-    {
       "title": "Arthur Hayes ‘flattered’ as Coinbase backs US stock perps",
       "summary": "Arthur Hayes said he was “flattered” by Coinbase’s defense of US stock perpetual futures, a decade after BitMEX launched perpetual swaps.",
       "url": "https://cointelegraph.com/news/arthur-hayes-coinbase-us-stock-perps-cftc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -349,19 +592,8 @@
       "date": "2026-11-13"
     },
     {
-      "title": "CFTC Chair Selig tells CNBC crypto industry is embracing agency rules as legislation hopes fade",
-      "summary": "The top U.S. commodities regulator in October announced proposed crypto rules to assert its jurisdiction over the asset class.",
-      "url": "https://www.cnbc.com/2026/11/13/cftc-chair-selig-crypto-industry-opting-into-agencys-crypto-rules-.html",
-      "source": "CNBC Top",
-      "published": "2026-11-13T13:15:35+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_66f41a3aec",
-      "date": "2026-11-13"
-    },
-    {
       "title": "Nakamoto shares fall 6% premarket after Q3 revenue turns negative",
-      "summary": "A $5.8 million loss on Bitcoin options pushed operating revenue below zero, and higher Bitcoin prices lifted net income to $85.5 million.",
+      "summary": "A $5.8 million Bitcoin options loss pushed Nakamoto’s quarterly operating revenue below zero, while the company extended repayment of $60 million in Kraken debt to 2027.",
       "url": "https://cointelegraph.com/markets/nakamoto-shares-fall-after-negative-q3-revenue?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published": "2026-11-13T13:04:19+00:00",
@@ -404,17 +636,6 @@
       "date": "2026-11-13"
     },
     {
-      "title": "U.S. seizes $1.2 billion in cryptocurrency stolen from Binance",
-      "summary": "The DOJ said it was taking action against the North Korean government's \"schemes to fund its regime through the massive theft of cryptocurrency.\"",
-      "url": "https://www.cnbc.com/2026/11/13/us-seizes-binance-hack-crypto.html",
-      "source": "CNBC Top",
-      "published": "2026-11-13T12:03:24+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_9df7b3dc4c",
-      "date": "2026-11-13"
-    },
-    {
       "title": "Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion",
       "summary": "",
       "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-hits-12-week-low-as-dollar-rallies-on-interest-rate-outlook-liquidations-top-usd1-6-billion",
@@ -448,14 +669,14 @@
       "date": "2026-11-13"
     },
     {
-      "title": "Live updates: Bitcoin plunges back towards bear market lows, wiping out late summer rally",
+      "title": "Live updates: Bitcoin eyes bear market lows as late summer rally mostly wiped out",
       "summary": "",
       "url": "https://www.coindesk.com/tech/2026/11/13/live-news-bitcoin-drops-below-200-week-moving-average-as-dollar-strength-pressures-risk-assets",
       "source": "CoinDesk",
       "published": "2026-11-13T09:16:58+00:00",
       "topic": "Cryptocurrency",
-      "importance": "critical",
-      "id": "a_1074b16683",
+      "importance": "normal",
+      "id": "a_c0ee796eb2",
       "date": "2026-11-13"
     },
     {
@@ -635,17 +856,6 @@
       "date": "2026-11-12"
     },
     {
-      "title": "Strategy stock sheds 5% amid MSCI index removal, Bitcoin sell-off",
-      "summary": "Strategy shares declined Thursday following MSCI’s decision to remove the company from its indexes, as Bitcoin also fell amid a broader crypto market decline.",
-      "url": "https://cointelegraph.com/markets/strategy-shares-fall-5-msci-index-removal-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-11-12T21:52:04+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_7fcc9b4b2a",
-      "date": "2026-11-12"
-    },
-    {
       "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
       "summary": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
       "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
@@ -654,17 +864,6 @@
       "topic": "AI",
       "importance": "high",
       "id": "a_3954c2e10c",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "US Justice Department, business groups and DeFi firms challenge Illinois crypto tax",
-      "summary": "Industry groups argued in court filings that Illinois’ crypto tax, which applies even when a transaction yields no profit, could raise compliance costs and violate federal law.",
-      "url": "https://cointelegraph.com/news/us-justice-department-business-groups-defi-illinois-crypto-tax?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-11-12T20:58:06+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_f35b8be110",
       "date": "2026-11-12"
     },
     {
@@ -742,215 +941,6 @@
       "topic": "Macroeconomics",
       "importance": "normal",
       "id": "a_9cd352c466",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
-      "summary": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
-      "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
-      "source": "TechCrunch AI",
-      "published": "2026-11-12T17:36:40+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_21c6ede20a",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
-      "summary": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
-      "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
-      "source": "TechCrunch AI",
-      "published": "2026-11-12T17:17:58+00:00",
-      "topic": "Aviation Finance",
-      "importance": "normal",
-      "id": "a_f375989a73",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
-      "summary": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
-      "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
-      "source": "TechCrunch AI",
-      "published": "2026-11-12T17:00:52+00:00",
-      "topic": "AI",
-      "importance": "high",
-      "id": "a_6a14a96c56",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
-      "summary": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos.",
-      "url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
-      "source": "TechCrunch AI",
-      "published": "2026-11-12T17:00:00+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_01996c7782",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "Illinois crypto tax is impossible to enforce as written, crypto industry tells court",
-      "summary": "",
-      "url": "https://www.coindesk.com/policy/2026/11/12/illinois-crypto-tax-is-impossible-to-enforce-as-written-crypto-industry-tells-court",
-      "source": "CoinDesk",
-      "published": "2026-11-12T16:45:52+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_b0c13aff91",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
-      "summary": "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways.",
-      "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
-      "source": "TechCrunch AI",
-      "published": "2026-11-12T16:32:33+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_2006336e1c",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor",
-      "summary": "In a post on Truth Social, President Trump says only one man can take Jensen Huang's place as head of Nvidia: Tim Cook.",
-      "url": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
-      "source": "TechCrunch AI",
-      "published": "2026-11-12T16:12:44+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_ad25267882",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
-      "source": "Federal Reserve",
-      "published": "2026-11-12T16:00:00+00:00",
-      "topic": "Banking",
-      "importance": "normal",
-      "id": "a_85be5e1fb1",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "Bitcoin slides toward $71K as Nvidia stock tumbles after Huang steps down",
-      "summary": "Bitcoin fell to its lowest leve since Aug. 20 as tech stocks slid following the resignation of Nvidia CEO Jensen Huang.",
-      "url": "https://cointelegraph.com/markets/bitcoin-price-drops-71k-stocks-nvidia-huang-resignation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-11-12T15:46:06+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_798dd87546",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
-      "summary": "Nvidia CFO Colette Kress is taking over as an interim replacement for longtime CEO Jensen Huang, who is embroiled in scandal.",
-      "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
-      "source": "TechCrunch AI",
-      "published": "2026-11-12T15:37:29+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_e8fd73e1f7",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "Crypto for Advisors: The blockchain built to run financial markets",
-      "summary": "",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/11/12/crypto-for-advisors-the-blockchain-built-to-run-financial-markets",
-      "source": "CoinDesk",
-      "published": "2026-11-12T15:34:29+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_b343bbad74",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "The next Congress will write rules for AI and emerging tech. They should use the stuff first.",
-      "summary": "",
-      "url": "https://www.coindesk.com/opinion/2026/11/12/the-next-congress-will-write-rules-for-ai-and-emerging-tech-they-should-use-the-stuff-first",
-      "source": "CoinDesk",
-      "published": "2026-11-12T14:24:51+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_3feb9fe31e",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "Jensen Huang resigns as Nvidia CEO, exits board; shares plunge",
-      "summary": "Colette Kress will remain Nvidia’s chief financial officer while serving as interim CEO as the board searches for a permanent successor.",
-      "url": "https://cointelegraph.com/news/jensen-huang-resigns-nvidia-ceo-board-member?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-11-12T13:59:02+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_eba211a657",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "Nvidia CEO Huang quits company he co-founded, led for 3 decades. Shares slump",
-      "summary": "",
-      "url": "https://www.coindesk.com/markets/2026/11/12/nvidia-shares-plunge-10-as-jensen-huang-resigns",
-      "source": "CoinDesk",
-      "published": "2026-11-12T13:57:53+00:00",
-      "topic": "AI",
-      "importance": "normal",
-      "id": "a_ce179b0eae",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "Thailand proposes $148K daily cap on stablecoin deposits and withdrawals",
-      "summary": "Thailand’s SEC would set separate daily caps for stablecoin deposits and withdrawals and require customers to use wallets they own.",
-      "url": "https://cointelegraph.com/news/thailand-tighter-stablecoin-rules-crypto-exchange?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-11-12T13:44:03+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_0977ca9490",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "Crypto hack losses equal 57 cents per $1 earned onchain: Ark’s Valente",
-      "summary": "Crypto hackers stole $8.7 billion so far in 2026, surpassing the projected annual onchain revenue generated across the industry, according to ARK’s research director.",
-      "url": "https://cointelegraph.com/news/crypto-hackers-stole-57-cents-every-1-earned-ark?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published": "2026-11-12T13:31:59+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "high",
-      "id": "a_56f0dc57c2",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "Bitcoin weakness erases September's bullish signal",
-      "summary": "",
-      "url": "https://www.coindesk.com/daybook-us/2026/11/12/bitcoin-weakness-erases-september-s-bullish-signal",
-      "source": "CoinDesk",
-      "published": "2026-11-12T12:15:00+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_ff040a1678",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "UK bank Griffin raises $20 million to expand into stablecoin payments",
-      "summary": "",
-      "url": "https://www.coindesk.com/business/2026/11/12/uk-bank-griffin-raises-usd20-million-to-expand-into-stablecoin-payments",
-      "source": "CoinDesk",
-      "published": "2026-11-12T12:04:42+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_dc8eda827f",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027",
-      "summary": "",
-      "url": "https://www.coindesk.com/tech/2026/11/12/ethereum-researchers-drop-faster-blocks-to-race-toward-quantum-defenses-in-2027",
-      "source": "CoinDesk",
-      "published": "2026-11-12T11:43:41+00:00",
-      "topic": "Cryptocurrency",
-      "importance": "normal",
-      "id": "a_e871bf9a46",
       "date": "2026-11-12"
     }
   ]
